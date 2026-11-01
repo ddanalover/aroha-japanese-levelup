@@ -18,7 +18,7 @@ function dailyWords(day){
 function openDailyMenu(){
   $('daily-list').replaceChildren();
   $('daily-list').append(makeElement('p','muted','하루 다섯 문장과 전날 복습 세 문제. 날짜에 맞추지 않아도 괜찮아요. 언제든 다시 볼 수 있어요.'));
-  $('daily-list').append(makeElement('p','muted',`현재 ${DAILY_LESSONS.length}일차까지 준비했어요. 이후 내용은 함께 정해 채워갈 예정이에요.`));
+  $('daily-list').append(makeElement('p','muted','30일 동안 150문장을 만나요. 7일차부터는 전날 2문제와 더 이전 내용 1문제를 복습해요.'));
   const records=dailyRecords();
   for(let day=1;day<=30;day++){
     const lesson=DAILY_LESSONS.find(item=>item.day===day);
