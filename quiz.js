@@ -67,13 +67,14 @@ function hideQuizFeedback(){
   document.querySelectorAll('#app > .screen').forEach(screen=>screen.inert=false);
   quizFeedbackAction=null;
 }
-function openQuizFeedback(card,title,action){
+function openQuizFeedback(card,title,action,context=[]){
   quizFeedbackFocus=document.activeElement;
   $('f-title').textContent=title;
   $('f-exp').replaceChildren();
   const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=card.examples[0][0];
   if(CONCERT_SCENES.includes(card.section))$('f-exp').append(makeElement('p','speaker-label',speakerLabel(card)));
   $('f-exp').append(makeElement('strong',null,`정답: ${card.examples[0][2]}`),jp,makeElement('p','reading',card.examples[0][1]),makeElement('p',null,card.note||''));
+  if(card.sourceExamples)appendWordExample($('f-exp'),card,context);
   document.querySelector('.f-scroll').scrollTop=0;
   quizFeedbackAction=action;
   document.querySelectorAll('#app > .screen').forEach(screen=>screen.inert=true);
@@ -118,7 +119,7 @@ function answerQuiz(selected){
   openQuizFeedback(card,isCorrect?'🌟 정답입니다!':'☁️ 아쉬워요!',()=>{
     state.index++;
     if(state.index<state.questions.length)renderQuizQuestion();else renderQuizResult();
-  });
+  },question.reviewSentence?[question.reviewSentence]:[]);
 }
 function renderQuizResult(){
   const state=quizState;
@@ -134,7 +135,7 @@ function renderQuizResult(){
     const answer=makeElement('div',null,`정답: ${card.examples[0][2]}`);answer.style.color=result.isCorrect?'var(--primary)':'#E74C3C';
     if(CONCERT_SCENES.includes(card.section))button.append(makeElement('div','speaker-label',speakerLabel(card)));
     button.append(jp,reading,answer);
-    button.onclick=()=>openQuizFeedback(card,result.isCorrect?'🌟 해설 복습':'☁️ 해설 복습',null);
+    button.onclick=()=>openQuizFeedback(card,result.isCorrect?'🌟 해설 복습':'☁️ 해설 복습',null,result.question.reviewSentence?[result.question.reviewSentence]:[]);
     $('review-list').append(button);
   });
   $('review-list').scrollTop=0;

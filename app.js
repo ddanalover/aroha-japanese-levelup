@@ -16,6 +16,7 @@ function openGroup(key){
   group=key;
   const config=GROUPS[key];
   $('list-title').textContent=config.title;
+  $('list-back').textContent='홈으로';$('list-back').onclick=()=>show('home');
   $('lesson-list').replaceChildren();
   const intro=document.createElement('p');
   intro.className='muted';intro.textContent=config.description;
@@ -28,10 +29,27 @@ function openGroup(key){
     const detail=document.createElement('small');
     const count=letterCards(name).length;
     detail.textContent=category ? `${count}개 ${key==='concert'?'문장':'단어'} · 목표: ${category.goal}` : `${count}개 카드 · 편한 순서로 살펴봐요`;
-    button.append(detail);button.onclick=()=>openSection(name);
+    button.append(detail);button.onclick=()=>category?openCategory(name):openSection(name);
     $('lesson-list').append(button);
   });
   show('list');
+}
+function openCategory(title){
+  const category=LEARNING_CATEGORIES.find(category=>category.title===title);if(!category)return;
+  $('list-title').textContent=GROUPS[group].title;
+  $('lesson-list').replaceChildren();
+  $('lesson-list').append(makeElement('h2',null,category.title),makeElement('p','muted',`목표: ${category.goal}`));
+  category.subcategories.forEach((sub,index)=>{
+    const button=makeElement('button','btn-pixel btn-opt lesson-link',`${String(index+1).padStart(2,'0')} · ${sub.title}`);
+    const count=courseCards(sub.id,group).length;
+    button.append(makeElement('small',null,`${count}개 ${group==='concert'?'문장':'단어'} · 편하게 다시 볼 수 있어요`));
+    button.disabled=count===0;button.onclick=()=>openSection(sub.id);$('lesson-list').append(button);
+  });
+  $('list-back').textContent='큰 분류로';$('list-back').onclick=()=>openGroup(group);show('list');
+}
+function backToLessonList(){
+  const info=courseInfo(selectedSection);
+  if(info&&group!=='letters')openCategory(info.category.title);else openGroup(group);
 }
 function openSection(name){selectedSection=name;stage=0;renderFrame();show('viewer');}
 function renderFrame(){
@@ -62,11 +80,11 @@ function move(delta){
 function letterCards(section){return courseCards(section,group)||[...LESSONS,...KANJI_CARDS].filter(card=>card.section===section);}
 function renderLetters(){
   const cards=letterCards(selectedSection), data=cards[stage];
-  const category=LEARNING_CATEGORIES.find(category=>category.title===selectedSection);
+  const info=courseInfo(selectedSection),category=info?.category;
   $('viewer-title').textContent=category?GROUPS[group].title:selectedSection;
   $('lesson-body').replaceChildren();$('lesson-body').scrollTop=0;
   const card=document.createElement('article');card.className='lesson-card';
-  const count=document.createElement('p');count.className='muted';count.textContent=`${category?category.title:'검토용 초안'} · ${stage+1}/${cards.length}`;
+  const count=document.createElement('p');count.className='muted';count.textContent=`${info?info.title:'검토용 초안'} · ${stage+1}/${cards.length}`;
   const title=document.createElement('h2');title.textContent=data.title;
   const text=document.createElement('p');text.textContent=data.text;
   card.append(count);
@@ -101,18 +119,18 @@ function renderLetters(){
     details.append(summary,example);block.append(jp,meaning,details);card.append(block);
   });
   if(data.sourceExamples){
-    const details=document.createElement('details');
-    const summary=document.createElement('summary');summary.textContent='이 단어가 나온 문장 보기';details.append(summary);
-    const matching=category&&group==='words'?new Set(courseCards(category.title,'concert').map(card=>card.examples[0][0])):null;
-    const sources=matching?data.sourceExamples.filter(source=>matching.has(source.jp)):data.sourceExamples;
-    sources.forEach(source=>{
-      const block=document.createElement('div');block.className='word-example';
-      const jp=document.createElement('p');jp.className='jp';jp.lang='ja';jp.innerHTML=source.jp;
-      const meaning=document.createElement('p');meaning.textContent=source.meaning;
-      const button=document.createElement('button');button.className='btn-pixel btn-opt';button.textContent='문장 카드로 이동';
-      button.onclick=()=>openSentence(source.jp);
-      block.append(jp,meaning,button);details.append(block);
-    });card.append(details);
+    const context=category&&group==='words'?courseCards(selectedSection,'concert'):[];
+    const shown=appendWordExample(card,data,context,true);
+    const matching=context.length?new Set(context.map(sentence=>sentence.examples[0][0])):null;
+    const sources=data.sourceExamples.filter(source=>(!matching||matching.has(source.jp))&&source.jp!==shown?.examples[0][0]);
+    if(sources.length){
+      const details=document.createElement('details');
+      const summary=document.createElement('summary');summary.textContent='다른 예문 보기';details.append(summary);
+      sources.forEach(source=>{
+        const sentence=concertLessons().find(sentence=>sentence.examples[0][0]===source.jp);
+        if(sentence)appendSentenceExample(details,sentence,true);
+      });card.append(details);
+    }
   }
   const note=document.createElement('p');note.className='letter-note';note.textContent=data.note;card.append(note);
   if(data.source){const source=document.createElement('p');source.className='muted';source.textContent=data.source;card.append(source);}
@@ -122,4 +140,23 @@ function renderLetters(){
   }
   $('lesson-body').append(card);
   $('prev').disabled=stage===0;$('next').disabled=stage===cards.length-1;
+}
+
+function appendSentenceExample(container,sentence,withLink=false){
+  const block=makeElement('div','word-example sentence-example');
+  block.dataset.exampleJp=exampleText(sentence.examples[0][0]);
+  const label=makeElement('p','label sum','예문');
+  const role=makeElement('p','speaker-label',speakerLabel(sentence));
+  const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=sentence.examples[0][0];
+  block.append(label,role,jp,makeElement('p','reading',sentence.examples[0][1]),makeElement('p',null,sentence.examples[0][2]));
+  if(withLink){
+    const button=makeElement('button','btn-pixel btn-opt','문장 카드로 이동');
+    button.onclick=()=>openSentence(sentence.examples[0][0]);block.append(button);
+  }
+  container.append(block);
+}
+function appendWordExample(container,word,context=[],withLink=false){
+  const sentence=wordExample(word,context)||wordExample(word);
+  if(sentence)appendSentenceExample(container,sentence,withLink);
+  return sentence;
 }

@@ -58,6 +58,7 @@ function renderDaily(){
       const card=makeElement('article','lesson-card');
       const jp=makeElement('h2','jp');jp.lang='ja';jp.innerHTML=data.examples[0][0];
       card.append(jp,makeElement('p','reading',data.examples[0][1]),makeElement('p',null,data.examples[0][2]));
+      appendWordExample(card,data,dailySentences(lesson));
       $('daily-body').append(card);
     });
   }else{
