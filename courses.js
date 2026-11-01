@@ -11,6 +11,7 @@ function concertLessons(){
   return CONCERT_SCENES.flatMap(section=>LESSONS.filter(card=>card.section===section));
 }
 function sentenceCategory(card){
+  if(card.learningSubcategory){const category=LEARNING_CATEGORIES.find(category=>category.subcategories.some(sub=>sub.id===card.learningSubcategory));if(category)return category.id;}
   const jp=card.examples[0][0].replace(/<rt>.*?<\/rt>/g,'').replace(/<[^>]*>/g,'');
   if(/ありがとう|感謝/.test(jp))return 'greetings';
   if(card.section==='만났을 때')return 'greetings';
@@ -25,6 +26,7 @@ function sentenceCategory(card){
   return 'requests';
 }
 function sentenceSubcategory(card){
+  if(card.learningSubcategory&&LEARNING_CATEGORIES.some(category=>category.subcategories.some(sub=>sub.id===card.learningSubcategory)))return card.learningSubcategory;
   const category=sentenceCategory(card);
   const jp=card.examples[0][0].replace(/<rt>.*?<\/rt>/g,'').replace(/<[^>]*>/g,'');
   if(category==='greetings'){
@@ -73,9 +75,9 @@ function wordMatchesSentence(word,raw){
     'みなさん':/みなさん|皆さん/,'あいさつ':/あいさつ|挨拶/,'一緒に':/一緒/,
     'いる':/(?:^|[にがもはでて])い(?:て|ま|る)/,'会う':/会(?!場)/,
     '知っている':/知って/,'楽しみにする':/楽しみに/,'楽しむ':/楽し(?:ん|みま|む)/,
-    '見る':/見(?:て|ま|る|た)/,'聴く':/聴(?:い|く|きま)/,'届く':/届(?:い|く|き)/,
+    '見る':/見(?:て|ま|る|た|ながら)/,'聴く':/聴(?:い|く|き(?!どころ))/,'届く':/届(?:い|く|き)/,
     '答える':/答え(?:て|ま|る|た)/,'答え':/答え(?:を|は|が)/,
-    '忘れる':/忘れ(?!物)/,'休む':/休(?:み|ん|む|ま)/,'日':/(?<![今毎昨明本])日(?!本)/,'体':/体(?!力)/
+    '忘れる':/忘れ(?!物)/,'休む':/休(?:み|ん|む|ま)/,'日':/(?<![今毎昨明本])日(?!本)/,'体':/体(?!力)/,'思い':/思い(?!出)/,'音':/音(?!色|楽|量|響)/
   };
   if(patterns[word])return patterns[word].test(raw);
   if(raw.includes(word))return true;
@@ -89,4 +91,25 @@ function wordExample(word,context=[]){
   if(exact)return exact;
   const key=exampleText(word.examples[0][0]);
   return candidates.find(sentence=>wordMatchesSentence(key,exampleText(sentence.examples[0][0])))||null;
+}
+
+function exampleSimilarity(left,right){
+  const grams=value=>{const text=exampleText(value),result=new Set();for(let i=0;i<text.length-1;i++)result.add(text.slice(i,i+2));return result;};
+  const a=grams(left),b=grams(right);
+  const common=[...a].filter(value=>b.has(value)).length;
+  return common/Math.max(1,new Set([...a,...b]).size);
+}
+function wordExamples(word,context=[],limit=2,otherContexts=false){
+  const first=wordExample(word,context)||wordExample(word);
+  if(!first)return [];
+  const key=exampleText(word.examples[0][0]),result=[first];
+  const candidates=context.length&&!otherContexts?context:[...new Set([...context,...concertLessons()])];
+  const linked=new Set((word.sourceExamples||[]).map(source=>source.jp));
+  const suitable=candidates.filter(sentence=>sentence!==first&&(linked.has(sentence.examples[0][0])||wordMatchesSentence(key,exampleText(sentence.examples[0][0]))));
+  suitable.sort((a,b)=>exampleSimilarity(first.examples[0][0],a.examples[0][0])-exampleSimilarity(first.examples[0][0],b.examples[0][0]));
+  for(const sentence of suitable){
+    if(result.length>=limit)break;
+    if(result.every(other=>exampleSimilarity(other.examples[0][0],sentence.examples[0][0])<0.72))result.push(sentence);
+  }
+  return result;
 }

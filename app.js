@@ -121,15 +121,13 @@ function renderLetters(){
   if(data.sourceExamples){
     const context=category&&group==='words'?courseCards(selectedSection,'concert'):[];
     const shown=appendWordExample(card,data,context,true);
-    const matching=context.length?new Set(context.map(sentence=>sentence.examples[0][0])):null;
-    const sources=data.sourceExamples.filter(source=>(!matching||matching.has(source.jp))&&source.jp!==shown?.examples[0][0]);
-    if(sources.length){
+    const localExamples=wordExamples(data,context,3);
+    const examples=localExamples.length>1?localExamples:wordExamples(data,context,3,true);
+    const alternatives=examples.filter(sentence=>sentence!==shown);
+    if(alternatives.length){
       const details=document.createElement('details');
-      const summary=document.createElement('summary');summary.textContent='다른 예문 보기';details.append(summary);
-      sources.forEach(source=>{
-        const sentence=concertLessons().find(sentence=>sentence.examples[0][0]===source.jp);
-        if(sentence)appendSentenceExample(details,sentence,true);
-      });card.append(details);
+      const summary=document.createElement('summary');summary.textContent='다른 상황의 예문 보기';details.append(summary);
+      alternatives.forEach(sentence=>appendSentenceExample(details,sentence,true));card.append(details);
     }
   }
   const note=document.createElement('p');note.className='letter-note';note.textContent=data.note;card.append(note);
@@ -146,6 +144,9 @@ function appendSentenceExample(container,sentence,withLink=false){
   const block=makeElement('div','word-example sentence-example');
   block.dataset.exampleJp=exampleText(sentence.examples[0][0]);
   const label=makeElement('p','label sum','예문');
+  if(withLink&&courseInfo(selectedSection)?.sub&&sentenceSubcategory(sentence)!==selectedSection){
+    const info=courseInfo(sentenceSubcategory(sentence));block.append(makeElement('p','muted',`다른 분류: ${info.title}`));
+  }
   const role=makeElement('p','speaker-label',speakerLabel(sentence));
   const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=sentence.examples[0][0];
   block.append(label,role,jp,makeElement('p','reading',sentence.examples[0][1]),makeElement('p',null,sentence.examples[0][2]));
@@ -156,7 +157,11 @@ function appendSentenceExample(container,sentence,withLink=false){
   container.append(block);
 }
 function appendWordExample(container,word,context=[],withLink=false){
-  const sentence=wordExample(word,context)||wordExample(word);
-  if(sentence)appendSentenceExample(container,sentence,withLink);
-  return sentence;
+  const examples=wordExamples(word,context,withLink?1:2,!withLink);
+  if(examples[0])appendSentenceExample(container,examples[0],withLink);
+  if(examples.length>1){
+    const details=makeElement('details','extra-examples');details.append(makeElement('summary',null,'다른 상황의 예문도 보기'));
+    examples.slice(1).forEach(sentence=>appendSentenceExample(details,sentence));container.append(details);
+  }
+  return examples[0]||null;
 }
