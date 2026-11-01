@@ -1,8 +1,8 @@
 "use strict";
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
-  words: {title:'단어로 익혀요', description:'한 공연에서 만난 단어를, 같은 묶음에서 다시 봐요.', sections:CONCERT_COURSES.map(course=>course.title)},
-  concert: {title:'문장으로 외워요', description:'학습 내용과 목표에 맞춰 문장을 모았어요. 어느 주차든 자유롭게 다시 볼 수 있어요.', sections:WEEKLY_SENTENCE_COURSES.map(course=>course.title)}
+  words: {title:'단어로 익혀요', description:'문장과 같은 내용별 분류로 단어·표현을 익혀요.', sections:LEARNING_CATEGORIES.map(category=>category.title)},
+  concert: {title:'문장으로 외워요', description:'인사와 감사, 공연 진행, 소감과 마음을 전하는 말로 문장을 모았어요.', sections:LEARNING_CATEGORIES.map(category=>category.title)}
 };
 let group='letters';
 let selectedSection='';
@@ -23,13 +23,11 @@ function openGroup(key){
   config.sections.forEach((name,i)=>{
     const button=document.createElement('button');
     button.className='btn-pixel btn-opt lesson-link';
-    const week=key==='concert'?WEEKLY_SENTENCE_COURSES.find(week=>week.title===name):null;
-    button.textContent=week?name:`${String(i+1).padStart(2,'0')} · ${name}`;
+    const category=key==='concert'||key==='words'?LEARNING_CATEGORIES.find(category=>category.title===name):null;
+    button.textContent=`${String(i+1).padStart(2,'0')} · ${name}`;
     const detail=document.createElement('small');
     const count=letterCards(name).length;
-    const course=CONCERT_COURSES.find(course=>course.title===name);
-    detail.textContent=week ? `${count}개 문장 · 목표: ${week.goal}` : course ? `${count}개 단어 · ${course.description}` : `${count}개 카드 · 편한 순서로 살펴봐요`;
-    if(week?.label==='4주차'){const note=document.createElement('small');note.textContent='새 내용은 줄이고, 배운 문장을 공연 순서로 다시 봐요.';button.append(note);}
+    detail.textContent=category ? `${count}개 ${key==='concert'?'문장':'단어'} · 목표: ${category.goal}` : `${count}개 카드 · 편한 순서로 살펴봐요`;
     button.append(detail);button.onclick=()=>openSection(name);
     $('lesson-list').append(button);
   });
@@ -64,11 +62,11 @@ function move(delta){
 function letterCards(section){return courseCards(section,group)||[...LESSONS,...KANJI_CARDS].filter(card=>card.section===section);}
 function renderLetters(){
   const cards=letterCards(selectedSection), data=cards[stage];
-  const week=group==='concert'?WEEKLY_SENTENCE_COURSES.find(week=>week.title===selectedSection):null;
-  $('viewer-title').textContent=week?`${week.label} · 문장으로 외워요`:selectedSection;
+  const category=LEARNING_CATEGORIES.find(category=>category.title===selectedSection);
+  $('viewer-title').textContent=category?GROUPS[group].title:selectedSection;
   $('lesson-body').replaceChildren();$('lesson-body').scrollTop=0;
   const card=document.createElement('article');card.className='lesson-card';
-  const count=document.createElement('p');count.className='muted';count.textContent=`검토용 초안 · ${stage+1}/${cards.length}`;
+  const count=document.createElement('p');count.className='muted';count.textContent=`${category?category.title:'검토용 초안'} · ${stage+1}/${cards.length}`;
   const title=document.createElement('h2');title.textContent=data.title;
   const text=document.createElement('p');text.textContent=data.text;
   card.append(count);
@@ -105,7 +103,9 @@ function renderLetters(){
   if(data.sourceExamples){
     const details=document.createElement('details');
     const summary=document.createElement('summary');summary.textContent='이 단어가 나온 문장 보기';details.append(summary);
-    data.sourceExamples.forEach(source=>{
+    const matching=category&&group==='words'?new Set(courseCards(category.title,'concert').map(card=>card.examples[0][0])):null;
+    const sources=matching?data.sourceExamples.filter(source=>matching.has(source.jp)):data.sourceExamples;
+    sources.forEach(source=>{
       const block=document.createElement('div');block.className='word-example';
       const jp=document.createElement('p');jp.className='jp';jp.lang='ja';jp.innerHTML=source.jp;
       const meaning=document.createElement('p');meaning.textContent=source.meaning;
