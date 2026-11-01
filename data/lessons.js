@@ -45,7 +45,6 @@ const LESSONS = [
   {
     "section": "히라가나",
     "title": "あ い う え お",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "あ",
       "い",
@@ -66,13 +65,11 @@ const LESSONS = [
         "아이",
         "사랑"
       ]
-    ],
-    "note": "한 번에 한 줄씩 모양과 소리를 익혀요. 아래 단어는 글자가 실제로 쓰이는 모습이에요."
+    ]
   },
   {
     "section": "히라가나",
     "title": "か き く け こ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "か",
       "き",
@@ -93,13 +90,11 @@ const LESSONS = [
         "코에",
         "목소리"
       ]
-    ],
-    "note": "한 번에 한 줄씩 모양과 소리를 익혀요. 아래 단어는 글자가 실제로 쓰이는 모습이에요."
+    ]
   },
   {
     "section": "히라가나",
     "title": "さ し す せ そ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "さ",
       "し",
@@ -126,7 +121,6 @@ const LESSONS = [
   {
     "section": "히라가나",
     "title": "た ち つ て と",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "た",
       "ち",
@@ -153,7 +147,6 @@ const LESSONS = [
   {
     "section": "히라가나",
     "title": "な に ぬ ね の",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "な",
       "に",
@@ -174,13 +167,11 @@ const LESSONS = [
         "나마에",
         "이름"
       ]
-    ],
-    "note": "한 번에 한 줄씩 모양과 소리를 익혀요. 아래 단어는 글자가 실제로 쓰이는 모습이에요."
+    ]
   },
   {
     "section": "히라가나",
     "title": "は ひ ふ へ ほ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "は",
       "ひ",
@@ -207,7 +198,6 @@ const LESSONS = [
   {
     "section": "히라가나",
     "title": "ま み む め も",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ま",
       "み",
@@ -228,13 +218,11 @@ const LESSONS = [
         "미미",
         "귀"
       ]
-    ],
-    "note": "한 번에 한 줄씩 모양과 소리를 익혀요. 아래 단어는 글자가 실제로 쓰이는 모습이에요."
+    ]
   },
   {
     "section": "히라가나",
     "title": "や ゆ よ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "や",
       "ゆ",
@@ -251,13 +239,11 @@ const LESSONS = [
         "유메",
         "꿈"
       ]
-    ],
-    "note": "한 번에 한 줄씩 모양과 소리를 익혀요. 아래 단어는 글자가 실제로 쓰이는 모습이에요."
+    ]
   },
   {
     "section": "히라가나",
     "title": "ら り る れ ろ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ら",
       "り",
@@ -284,7 +270,6 @@ const LESSONS = [
   {
     "section": "히라가나",
     "title": "わ を ん",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "わ",
       "を",
@@ -307,7 +292,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "ア イ ウ エ オ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ア",
       "イ",
@@ -334,7 +318,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "カ キ ク ケ コ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "カ",
       "キ",
@@ -355,13 +338,11 @@ const LESSONS = [
         "카카오",
         "카카오"
       ]
-    ],
-    "note": "이번 행의 글자와 앞에서 배운 글자를 연결해서 읽어 봐요. 모양과 소리를 천천히 확인해요."
+    ]
   },
   {
     "section": "가타카나",
     "title": "サ シ ス セ ソ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "サ",
       "シ",
@@ -388,7 +369,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "タ チ ツ テ ト",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "タ",
       "チ",
@@ -415,7 +395,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "ナ ニ ヌ ネ ノ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ナ",
       "ニ",
@@ -436,13 +415,11 @@ const LESSONS = [
         "테니스",
         "테니스"
       ]
-    ],
-    "note": "이번 행의 글자와 앞에서 배운 글자를 연결해서 읽어 봐요. 모양과 소리를 천천히 확인해요."
+    ]
   },
   {
     "section": "가타카나",
     "title": "ハ ヒ フ ヘ ホ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ハ",
       "ヒ",
@@ -469,7 +446,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "マ ミ ム メ モ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "マ",
       "ミ",
@@ -490,13 +466,11 @@ const LESSONS = [
         "마이쿠",
         "마이크"
       ]
-    ],
-    "note": "이번 행의 글자와 앞에서 배운 글자를 연결해서 읽어 봐요. 모양과 소리를 천천히 확인해요."
+    ]
   },
   {
     "section": "가타카나",
     "title": "ヤ ユ ヨ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ヤ",
       "ユ",
@@ -519,7 +493,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "ラ リ ル レ ロ",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ラ",
       "リ",
@@ -546,7 +519,6 @@ const LESSONS = [
   {
     "section": "가타카나",
     "title": "ワ ヲ ン",
-    "text": "모양을 보고 소리를 천천히 따라 읽어 보세요.",
     "kana": [
       "ワ",
       "ヲ",
@@ -664,7 +636,6 @@ const LESSONS = [
   {
     "section": "자주 쓰는 단어",
     "title": "공연에서 만나는 단어",
-    "text": "표현 전체를 몰라도, 아는 단어 하나가 들리면 이야기의 주제를 짐작할 수 있어요.",
     "examples": [
       [
         "<ruby>歌<rt>うた</rt></ruby>",
@@ -681,13 +652,11 @@ const LESSONS = [
         "코에",
         "목소리"
       ]
-    ],
-    "note": "단어의 뜻은 문맥에 따라 달라질 수 있어요. 지금은 공연·라이브에서 자주 만나는 뜻으로 익혀요."
+    ]
   },
   {
     "section": "자주 쓰는 단어",
     "title": "무대 주변에서 만나는 단어",
-    "text": "표현 전체를 몰라도, 아는 단어 하나가 들리면 이야기의 주제를 짐작할 수 있어요.",
     "examples": [
       [
         "ステージ",
@@ -704,13 +673,11 @@ const LESSONS = [
         "펜라이토",
         "응원봉"
       ]
-    ],
-    "note": "단어의 뜻은 문맥에 따라 달라질 수 있어요. 지금은 공연·라이브에서 자주 만나는 뜻으로 익혀요."
+    ]
   },
   {
     "section": "자주 쓰는 단어",
     "title": "라이브에서 만나는 단어",
-    "text": "표현 전체를 몰라도, 아는 단어 하나가 들리면 이야기의 주제를 짐작할 수 있어요.",
     "examples": [
       [
         "ライブ",
@@ -727,13 +694,11 @@ const LESSONS = [
         "하이신",
         "온라인 방송"
       ]
-    ],
-    "note": "단어의 뜻은 문맥에 따라 달라질 수 있어요. 지금은 공연·라이브에서 자주 만나는 뜻으로 익혀요."
+    ]
   },
   {
     "section": "자주 쓰는 단어",
     "title": "팬에게 들려주는 단어",
-    "text": "표현 전체를 몰라도, 아는 단어 하나가 들리면 이야기의 주제를 짐작할 수 있어요.",
     "examples": [
       [
         "みんな",
@@ -750,13 +715,11 @@ const LESSONS = [
         "니홍고",
         "일본어"
       ]
-    ],
-    "note": "단어의 뜻은 문맥에 따라 달라질 수 있어요. 지금은 공연·라이브에서 자주 만나는 뜻으로 익혀요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "다음 코너로 넘어가 볼까요",
-    "text": "공연에서 다음 순서를 안내하거나 곡을 소개할 때 들어요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>のコーナーに<ruby>参<rt>まい</rt></ruby>りましょう。",
@@ -769,7 +732,6 @@ const LESSONS = [
   {
     "section": "곡을 소개할 때",
     "title": "다음 곡을 들어 주세요",
-    "text": "공연에서 다음 순서를 안내하거나 곡을 소개할 때 들어요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
@@ -782,7 +744,6 @@ const LESSONS = [
   {
     "section": "곡을 소개할 때",
     "title": "다음은 신곡이에요",
-    "text": "공연에서 다음 순서를 안내하거나 곡을 소개할 때 들어요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>は、<ruby>新曲<rt>しんきょく</rt></ruby>です。",
@@ -795,7 +756,6 @@ const LESSONS = [
   {
     "section": "마지막 인사",
     "title": "다음이 마지막 곡이에요",
-    "text": "공연에서 다음 순서를 안내하거나 곡을 소개할 때 들어요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>が<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>です。",
@@ -1159,7 +1119,6 @@ const LESSONS = [
   {
     "section": "기분과 마음",
     "title": "즐겁다",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>楽しい<rt>たのしい</rt></ruby>",
@@ -1167,7 +1126,6 @@ const LESSONS = [
         "즐겁다"
       ]
     ],
-    "note": "「楽しい」는 ‘즐겁다’라는 뜻이에요. 楽しんでますか・楽しみましょう처럼 모양이 바뀌어도 즐긴다는 흐름을 잡아 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>はあっという<ruby>間<rt>ま</rt></ruby>ですね。",
@@ -1179,7 +1137,6 @@ const LESSONS = [
   {
     "section": "기분과 마음",
     "title": "기쁘다",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>嬉しい<rt>うれしい</rt></ruby>",
@@ -1187,7 +1144,6 @@ const LESSONS = [
         "기쁘다"
       ]
     ],
-    "note": "팬을 만난 기쁨을 전할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>日本<rt>にほん</rt></ruby>のアロハのみなさんに<ruby>会<rt>あ</rt></ruby>えて<ruby>嬉<rt>うれ</rt></ruby>しいです。",
@@ -1199,7 +1155,6 @@ const LESSONS = [
   {
     "section": "기분과 마음",
     "title": "슬프다",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>悲しい<rt>かなしい</rt></ruby>",
@@ -1207,7 +1162,6 @@ const LESSONS = [
         "슬프다"
       ]
     ],
-    "note": "헤어짐이나 공연이 끝나는 아쉬움을 표현할 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>終<rt>お</rt></ruby>わるのは<ruby>少<rt>すこ</rt></ruby>し<ruby>悲<rt>かな</rt></ruby>しいです。",
@@ -1219,7 +1173,6 @@ const LESSONS = [
   {
     "section": "노래와 연습",
     "title": "노래",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>歌<rt>うた</rt></ruby>",
@@ -1239,7 +1192,6 @@ const LESSONS = [
   {
     "section": "노래와 연습",
     "title": "연습",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>練習<rt>れんしゅう</rt></ruby>",
@@ -1247,7 +1199,6 @@ const LESSONS = [
         "연습"
       ]
     ],
-    "note": "「練習しました」는 ‘연습했어요’라는 뜻이에요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>のために、たくさん<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
@@ -1259,7 +1210,6 @@ const LESSONS = [
   {
     "section": "노래와 연습",
     "title": "곡",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>曲<rt>きょく</rt></ruby>",
@@ -1267,7 +1217,6 @@ const LESSONS = [
         "곡"
       ]
     ],
-    "note": "「歌」는 노래, 「曲」는 곡이에요. 「次の曲」는 다음 곡이에요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
@@ -1284,7 +1233,6 @@ const LESSONS = [
   {
     "section": "노래와 연습",
     "title": "신곡",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>新曲<rt>しんきょく</rt></ruby>",
@@ -1292,7 +1240,6 @@ const LESSONS = [
         "신곡"
       ]
     ],
-    "note": "「新曲です」는 ‘신곡이에요’라는 소개예요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は、<ruby>新曲<rt>しんきょく</rt></ruby>です。",
@@ -1304,7 +1251,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "오늘",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>",
@@ -1312,7 +1258,6 @@ const LESSONS = [
         "오늘"
       ]
     ],
-    "note": "공연 당일의 인사와 소감을 이야기할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>来<rt>き</rt></ruby>てくれてありがとうございます。",
@@ -1329,7 +1274,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "다음",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>",
@@ -1337,7 +1281,6 @@ const LESSONS = [
         "다음"
       ]
     ],
-    "note": "다음 곡이나 다음 코너로 넘어가는 단서예요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>のコーナーに<ruby>参<rt>まい</rt></ruby>りましょう。",
@@ -1354,7 +1297,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "마지막",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>最後<rt>さいご</rt></ruby>",
@@ -1362,7 +1304,6 @@ const LESSONS = [
         "마지막"
       ]
     ],
-    "note": "마지막 곡이나 마지막까지라는 말에서 들어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>が<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>です。",
@@ -1379,7 +1320,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "시간",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>時間<rt>じかん</rt></ruby>",
@@ -1387,7 +1327,6 @@ const LESSONS = [
         "시간"
       ]
     ],
-    "note": "게임 시간이나 함께 보낸 시간을 말할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は、ゲームの<ruby>時間<rt>じかん</rt></ruby>です。",
@@ -1404,7 +1343,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "코너",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "コーナー",
@@ -1424,7 +1362,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "앙코르",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "アンコール",
@@ -1432,7 +1369,6 @@ const LESSONS = [
         "앙코르"
       ]
     ],
-    "note": "팬들의 요청을 받고 다시 나오는 무대예요.",
     "sourceExamples": [
       {
         "jp": "アンコール、ありがとうございます！",
@@ -1444,7 +1380,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "끝나다",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>終わる<rt>おわる</rt></ruby>",
@@ -1469,7 +1404,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "함께",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>一緒に<rt>いっしょに</rt></ruby>",
@@ -1477,7 +1411,6 @@ const LESSONS = [
         "함께"
       ]
     ],
-    "note": "함께 부르고 즐기자는 말에 나와요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しみましょう！",
@@ -1494,7 +1427,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "여러분",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "みなさん",
@@ -1502,7 +1434,6 @@ const LESSONS = [
         "여러분"
       ]
     ],
-    "note": "관객 전체를 부를 때 쓰는 말이에요.",
     "sourceExamples": [
       {
         "jp": "みなさん、こんにちは！",
@@ -1519,7 +1450,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "더",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "もっと",
@@ -1527,7 +1457,6 @@ const LESSONS = [
         "더"
       ]
     ],
-    "note": "호응을 더 크게 부탁할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "もっと<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で！",
@@ -1539,7 +1468,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "한 번 더",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>もう一回<rt>もういっかい</rt></ruby>",
@@ -1547,7 +1475,6 @@ const LESSONS = [
         "한 번 더"
       ]
     ],
-    "note": "호응이나 동작을 한 번 더 부탁할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "もう<ruby>一回<rt>いっかい</rt></ruby>、お<ruby>願<rt>ねが</rt></ruby>いします！",
@@ -1559,7 +1486,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "목소리",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>声<rt>こえ</rt></ruby>",
@@ -1567,7 +1493,6 @@ const LESSONS = [
         "목소리"
       ]
     ],
-    "note": "관객의 목소리나 함성을 이야기할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "もっと<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で！",
@@ -1579,7 +1504,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "준비",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>準備<rt>じゅんび</rt></ruby>",
@@ -1587,7 +1511,6 @@ const LESSONS = [
         "준비"
       ]
     ],
-    "note": "「準備はいいですか」는 ‘준비됐나요?’라는 뜻이에요.",
     "sourceExamples": [
       {
         "jp": "<ruby>準備<rt>じゅんび</rt></ruby>はいいですか？",
@@ -1599,7 +1522,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "만나다",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>会う<rt>あう</rt></ruby>",
@@ -1624,7 +1546,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "웃는 얼굴",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>笑顔<rt>えがお</rt></ruby>",
@@ -1632,7 +1553,6 @@ const LESSONS = [
         "웃는 얼굴"
       ]
     ],
-    "note": "팬들의 웃는 얼굴을 이야기할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>元気<rt>げんき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。",
@@ -1644,7 +1564,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "기운 · 활기",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>元気<rt>げんき</rt></ruby>",
@@ -1652,7 +1571,6 @@ const LESSONS = [
         "기운 · 활기"
       ]
     ],
-    "note": "「元気が出ます」는 ‘힘이 나요’라는 뜻이에요.",
     "sourceExamples": [
       {
         "jp": "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>元気<rt>げんき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。",
@@ -1664,7 +1582,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "응원",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>応援<rt>おうえん</rt></ruby>",
@@ -1672,7 +1589,6 @@ const LESSONS = [
         "응원"
       ]
     ],
-    "note": "팬들의 응원에 감사할 때 들어요.",
     "sourceExamples": [
       {
         "jp": "いつも<ruby>応援<rt>おうえん</rt></ruby>してくれてありがとうございます。",
@@ -1684,7 +1600,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "고마워",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "ありがとう",
@@ -1709,7 +1624,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "또 · 다시",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "また",
@@ -1717,7 +1631,6 @@ const LESSONS = [
         "또 · 다시"
       ]
     ],
-    "note": "또 만나자는 마지막 인사에서 들어요.",
     "sourceExamples": [
       {
         "jp": "また<ruby>会<rt>あ</rt></ruby>える<ruby>日<rt>ひ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています。",
@@ -1888,7 +1801,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "박수",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>拍手<rt>はくしゅ</rt></ruby>",
@@ -1896,7 +1808,6 @@ const LESSONS = [
         "박수"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
@@ -1908,7 +1819,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "응원봉",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "ペンライト",
@@ -1916,7 +1826,6 @@ const LESSONS = [
         "응원봉"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>皆<rt>みな</rt></ruby>さんのペンライトを<ruby>見<rt>み</rt></ruby>せてください。",
@@ -1928,7 +1837,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "가운데 구역",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "センター",
@@ -1936,7 +1844,6 @@ const LESSONS = [
         "가운데 구역"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "センターもサイドもありがとう！",
@@ -1948,7 +1855,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "양옆 구역",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "サイド",
@@ -1956,7 +1862,6 @@ const LESSONS = [
         "양옆 구역"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "センターもサイドもありがとう！",
@@ -1968,7 +1873,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "문제",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>問題<rt>もんだい</rt></ruby>",
@@ -1976,7 +1880,6 @@ const LESSONS = [
         "문제"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>、お<ruby>願<rt>ねが</rt></ruby>いします。",
@@ -1988,7 +1891,6 @@ const LESSONS = [
   {
     "section": "공연의 흐름",
     "title": "소개",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>紹介<rt>しょうかい</rt></ruby>",
@@ -1996,7 +1898,6 @@ const LESSONS = [
         "소개"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "ここでバンドメンバーをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
@@ -2008,7 +1909,6 @@ const LESSONS = [
   {
     "section": "노래와 연습",
     "title": "밴드",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "バンド",
@@ -2016,7 +1916,6 @@ const LESSONS = [
         "밴드"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "ここでバンドメンバーをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
@@ -2028,7 +1927,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "멤버",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "メンバー",
@@ -2036,7 +1934,6 @@ const LESSONS = [
         "멤버"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "ここでバンドメンバーをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
@@ -2048,7 +1945,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "곁",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "そば",
@@ -2056,7 +1952,6 @@ const LESSONS = [
         "곁"
       ]
     ],
-    "note": "문장을 펼쳐 이 단어가 어떤 상황에서 들리는지 함께 확인해 봐요.",
     "sourceExamples": [
       {
         "jp": "そばにいてくれてありがとう。",
@@ -2068,7 +1963,6 @@ const LESSONS = [
   {
     "section": "마음을 전하는 말",
     "title": "힘내다 · 노력하다",
-    "text": "공연 멘트에서 만난 단어예요.",
     "examples": [
       [
         "<ruby>頑張る<rt>がんばる</rt></ruby>",
@@ -2088,215 +1982,182 @@ const LESSONS = [
   {
     "section": "만났을 때",
     "title": "아로하 여러분, 안녕하세요!",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "アロハのみなさん、こんにちは！",
         "아로하노 미나상, 콘니치와!",
         "아로하 여러분, 안녕하세요!"
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "함께 즐겨요!",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽し<rt>たのし</rt></ruby>みましょう！",
         "잇쇼니 타노시미마쇼오!",
         "함께 즐겨요!"
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "계속 제 곁에 있어 주세요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "ずっと<ruby>僕<rt>ぼく</rt></ruby>のそばにいてください。",
         "즛토 보쿠노 소바니 이테쿠다사이.",
         "계속 제 곁에 있어 주세요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "보고 싶었어요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>会<rt>あ</rt></ruby>いたかったです。",
         "아이타캇타데스.",
         "보고 싶었어요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "여러분을 만날 수 있어서 기뻐요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "みなさんに<ruby>会<rt>あ</rt></ruby>えて<ruby>嬉<rt>うれ</rt></ruby>しいです。",
         "미나상니 아에테 우레시이데스.",
         "여러분을 만날 수 있어서 기뻐요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "손을 흔들어 주세요!",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ってください！",
         "테오 훗테쿠다사이!",
         "손을 흔들어 주세요!"
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "많이 연습했어요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "たくさん<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
         "타쿠상 렌슈우시마시타.",
         "많이 연습했어요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "항상 응원해 줘서 고마워요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "いつも<ruby>応援<rt>おうえん</rt></ruby>してくれてありがとう。",
         "이츠모 오오엔시테쿠레테 아리가토오.",
         "항상 응원해 줘서 고마워요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘을 기대하고 있었어요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>を<ruby>楽し<rt>たのし</rt></ruby>みにしていました。",
         "쿄오오 타노시미니 시테이마시타.",
         "오늘을 기대하고 있었어요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "목소리를 더 들려주세요!",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "もっと<ruby>声<rt>こえ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かせてください！",
         "못토 코에오 키카세테쿠다사이!",
         "목소리를 더 들려주세요!"
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "오늘은 정말 즐거워요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽し<rt>たのし</rt></ruby>いです。",
         "쿄오와 혼토니 타노시이데스.",
         "오늘은 정말 즐거워요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "앞으로도 함께 있어 주세요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "これからも<ruby>一緒<rt>いっしょ</rt></ruby>にいてください。",
         "코레카라모 잇쇼니 이테쿠다사이.",
         "앞으로도 함께 있어 주세요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "와 주셔서 감사합니다.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>来<rt>き</rt></ruby>てくれてありがとうございます。",
         "키테쿠레테 아리가토오고자이마스.",
         "와 주셔서 감사합니다."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "큰 박수 부탁드립니다!",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "<ruby>大<rt>おお</rt></ruby>きな<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします！",
         "오오키나 하쿠슈오 오네가이시마스!",
         "큰 박수 부탁드립니다!"
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "여러분의 웃는 얼굴을 정말 좋아해요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>が<ruby>大好き<rt>だいすき</rt></ruby>です。",
         "미나상노 에가오가 다이스키데스.",
         "여러분의 웃는 얼굴을 정말 좋아해요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "또 만나러 와 주세요.",
-    "text": "콘서트에서 들을 수 있는 짧은 말을 통째로 익혀 봐요.",
     "examples": [
       [
         "また<ruby>会<rt>あ</rt></ruby>いに<ruby>来<rt>き</rt></ruby>てください。",
         "마타 아이니 키테쿠다사이.",
         "또 만나러 와 주세요."
       ]
-    ],
-    "note": "단어를 하나씩 분석하기 전에 문장 전체의 뜻을 떠올려 보세요. 단어와 표현은 다섯 문장 뒤에 모아서 살펴봐요."
+    ]
   },
   {
     "section": "함께하는 말",
     "title": "계속 · 쭉",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "ずっと",
@@ -2304,7 +2165,6 @@ const LESSONS = [
         "계속 · 쭉"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ずっと<ruby>会<rt>あ</rt></ruby>いたかったです。",
@@ -2321,7 +2181,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "나 · 저",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>僕<rt>ぼく</rt></ruby>",
@@ -2329,7 +2188,6 @@ const LESSONS = [
         "나 · 저"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ずっと<ruby>僕<rt>ぼく</rt></ruby>のそばにいてください。",
@@ -2341,7 +2199,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "있다 · 사람이나 동물",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "いる",
@@ -2349,7 +2206,6 @@ const LESSONS = [
         "있다 · 사람이나 동물"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
@@ -2366,7 +2222,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "듣다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>聴く<rt>きく</rt></ruby>",
@@ -2374,19 +2229,18 @@ const LESSONS = [
         "듣다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
         "meaning": "다음 곡을 들어 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "note": "귀를 기울여 듣는 행동이에요. 「聞こえる」는 ‘들리다’예요."
   },
   {
     "section": "함께하는 말",
     "title": "즐기다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>楽しむ<rt>たのしむ</rt></ruby>",
@@ -2394,7 +2248,6 @@ const LESSONS = [
         "즐기다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しみましょう！",
@@ -2411,7 +2264,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "손",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>手<rt>て</rt></ruby>",
@@ -2419,7 +2271,6 @@ const LESSONS = [
         "손"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
@@ -2436,7 +2287,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "흔들다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>振る<rt>ふる</rt></ruby>",
@@ -2444,7 +2294,6 @@ const LESSONS = [
         "흔들다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ってください！",
@@ -2456,7 +2305,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "오랜만",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>久しぶり<rt>ひさしぶり</rt></ruby>",
@@ -2464,7 +2312,6 @@ const LESSONS = [
         "오랜만"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "お<ruby>久<rt>ひさ</rt></ruby>しぶりです！",
@@ -2476,7 +2323,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "항상",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "いつも",
@@ -2484,7 +2330,6 @@ const LESSONS = [
         "항상"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "いつも<ruby>応援<rt>おうえん</rt></ruby>してくれてありがとうございます。",
@@ -2501,7 +2346,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "알고 있다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>知っている<rt>しっている</rt></ruby>",
@@ -2509,7 +2353,6 @@ const LESSONS = [
         "알고 있다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>曲<rt>きょく</rt></ruby>、<ruby>知<rt>し</rt></ruby>ってますか？",
@@ -2521,7 +2364,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "크다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>大きい<rt>おおきい</rt></ruby>",
@@ -2529,7 +2371,6 @@ const LESSONS = [
         "크다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "もっと<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で！",
@@ -2546,7 +2387,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "정말 좋아함",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>大好き<rt>だいすき</rt></ruby>",
@@ -2554,7 +2394,6 @@ const LESSONS = [
         "정말 좋아함"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>が<ruby>大好き<rt>だいすき</rt></ruby>です。",
@@ -2566,7 +2405,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "조심하다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>気をつける<rt>きをつける</rt></ruby>",
@@ -2574,7 +2412,6 @@ const LESSONS = [
         "조심하다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>気<rt>き</rt></ruby>をつけて<ruby>帰<rt>かえ</rt></ruby>ってください。",
@@ -2586,7 +2423,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "돌아가다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>帰る<rt>かえる</rt></ruby>",
@@ -2594,7 +2430,6 @@ const LESSONS = [
         "돌아가다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>気<rt>き</rt></ruby>をつけて<ruby>帰<rt>かえ</rt></ruby>ってください。",
@@ -2606,7 +2441,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "만나러 오다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>会いに来る<rt>あいにくる</rt></ruby>",
@@ -2614,7 +2448,6 @@ const LESSONS = [
         "만나러 오다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "また<ruby>会<rt>あ</rt></ruby>いに<ruby>来<rt>き</rt></ruby>てください。",
@@ -2626,7 +2459,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "이",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "この",
@@ -2634,7 +2466,6 @@ const LESSONS = [
         "이"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>曲<rt>きょく</rt></ruby>、<ruby>知<rt>し</rt></ruby>ってますか？",
@@ -2646,7 +2477,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "기대하다",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>楽しみにする<rt>たのしみにする</rt></ruby>",
@@ -2654,7 +2484,6 @@ const LESSONS = [
         "기대하다"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "また<ruby>会<rt>あ</rt></ruby>える<ruby>日<rt>ひ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています。",
@@ -2671,7 +2500,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "정말로",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "<ruby>本当に<rt>ほんとうに</rt></ruby>",
@@ -2679,7 +2507,6 @@ const LESSONS = [
         "정말로"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽し<rt>たのし</rt></ruby>いです。",
@@ -2691,7 +2518,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "앞으로도",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "これからも",
@@ -2699,7 +2525,6 @@ const LESSONS = [
         "앞으로도"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "これからも<ruby>頑張<rt>がんば</rt></ruby>っていきます。",
@@ -2716,7 +2541,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "많이",
-    "text": "매일 만나는 공연 문장 속 단어예요.",
     "examples": [
       [
         "たくさん",
@@ -2724,7 +2548,6 @@ const LESSONS = [
         "많이"
       ]
     ],
-    "note": "문장 속에서는 형태가 조금 달라질 수 있어요. 아래 원문과 함께 소리와 뜻을 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>のために、たくさん<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
@@ -2741,7 +2564,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "요즘 근력 운동을 하고 있어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>筋<rt>きん</rt></ruby>トレしてます。",
@@ -2754,7 +2576,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "근육이 붙었어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>筋肉<rt>きんにく</rt></ruby>がつきました。",
@@ -2767,7 +2588,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "근육이 울퉁불퉁해지고 싶어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "ムキムキになりたいです。",
@@ -2780,7 +2600,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "매일 트레이닝하고 있어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>毎日<rt>まいにち</rt></ruby>トレーニングしてます。",
@@ -2793,7 +2612,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "오늘은 팔을 단련했어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>腕<rt>うで</rt></ruby>を<ruby>鍛<rt>きた</rt></ruby>えました。",
@@ -2806,7 +2624,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "아침에 러닝했어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>朝<rt>あさ</rt></ruby>、ランニングしました。",
@@ -2819,7 +2636,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "어제는 5킬로미터를 달렸어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>昨日<rt>きのう</rt></ruby>は5キロ<ruby>走<rt>はし</rt></ruby>りました。",
@@ -2832,7 +2648,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "오늘은 근육통이 있어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>筋肉痛<rt>きんにくつう</rt></ruby>です。",
@@ -2845,7 +2660,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "스트레칭을 꼼꼼히 하고 있어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "ちゃんとストレッチしてます。",
@@ -2858,7 +2672,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "오늘은 푹 쉬겠어요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>みます。",
@@ -2871,7 +2684,6 @@ const LESSONS = [
   {
     "section": "토크할 때",
     "title": "운동을 좋아해요.",
-    "text": "공연 토크에서 운동이나 최근의 관심사를 이야기하는 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>運動<rt>うんどう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
@@ -2884,7 +2696,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "요즘 · 최근",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>最近<rt>さいきん</rt></ruby>",
@@ -2892,7 +2703,6 @@ const LESSONS = [
         "요즘 · 최근"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>筋<rt>きん</rt></ruby>トレしてます。",
@@ -2904,7 +2714,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "근력 운동",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>筋<rt>きん</rt></ruby>トレ",
@@ -2912,7 +2721,6 @@ const LESSONS = [
         "근력 운동"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>筋<rt>きん</rt></ruby>トレしてます。",
@@ -2924,7 +2732,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "근육",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>筋肉<rt>きんにく</rt></ruby>",
@@ -2932,7 +2739,6 @@ const LESSONS = [
         "근육"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>筋肉<rt>きんにく</rt></ruby>がつきました。",
@@ -2944,7 +2750,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "근육이 울퉁불퉁한 모습",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ムキムキ",
@@ -2952,7 +2757,6 @@ const LESSONS = [
         "근육이 울퉁불퉁한 모습"
       ]
     ],
-    "note": "근육이 발달해 울퉁불퉁한 모습을 나타내는 친근한 표현이에요.",
     "sourceExamples": [
       {
         "jp": "ムキムキになりたいです。",
@@ -2964,7 +2768,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "매일",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>毎日<rt>まいにち</rt></ruby>",
@@ -2972,7 +2775,6 @@ const LESSONS = [
         "매일"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>毎日<rt>まいにち</rt></ruby>トレーニングしてます。",
@@ -2984,7 +2786,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "트레이닝 · 훈련",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "トレーニング",
@@ -2992,7 +2793,6 @@ const LESSONS = [
         "트레이닝 · 훈련"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>毎日<rt>まいにち</rt></ruby>トレーニングしてます。",
@@ -3004,7 +2804,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "팔",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>腕<rt>うで</rt></ruby>",
@@ -3012,7 +2811,6 @@ const LESSONS = [
         "팔"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>腕<rt>うで</rt></ruby>を<ruby>鍛<rt>きた</rt></ruby>えました。",
@@ -3024,7 +2822,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "단련하다",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>鍛える<rt>きたえる</rt></ruby>",
@@ -3044,7 +2841,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "아침",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>朝<rt>あさ</rt></ruby>",
@@ -3052,7 +2848,6 @@ const LESSONS = [
         "아침"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>朝<rt>あさ</rt></ruby>、ランニングしました。",
@@ -3064,7 +2859,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "러닝 · 달리기",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ランニング",
@@ -3072,7 +2866,6 @@ const LESSONS = [
         "러닝 · 달리기"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>朝<rt>あさ</rt></ruby>、ランニングしました。",
@@ -3084,7 +2877,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "어제",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>昨日<rt>きのう</rt></ruby>",
@@ -3092,7 +2884,6 @@ const LESSONS = [
         "어제"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>昨日<rt>きのう</rt></ruby>は5キロ<ruby>走<rt>はし</rt></ruby>りました。",
@@ -3103,16 +2894,14 @@ const LESSONS = [
   },
   {
     "section": "함께하는 말",
-    "title": "킬로미터 · 이 문장에서는 거리",
-    "text": "운동 토크에서 만나는 단어예요.",
+    "title": "킬로미터",
     "examples": [
       [
         "キロ",
         "키로",
-        "킬로미터 · 이 문장에서는 거리"
+        "킬로미터"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>昨日<rt>きのう</rt></ruby>は5キロ<ruby>走<rt>はし</rt></ruby>りました。",
@@ -3124,7 +2913,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "달리다",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>走る<rt>はしる</rt></ruby>",
@@ -3144,7 +2932,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "근육통",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>筋肉痛<rt>きんにくつう</rt></ruby>",
@@ -3152,7 +2939,6 @@ const LESSONS = [
         "근육통"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>筋肉痛<rt>きんにくつう</rt></ruby>です。",
@@ -3164,7 +2950,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "스트레칭",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ストレッチ",
@@ -3172,7 +2957,6 @@ const LESSONS = [
         "스트레칭"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ちゃんとストレッチしてます。",
@@ -3184,7 +2968,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "쉬다",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>休む<rt>やすむ</rt></ruby>",
@@ -3192,7 +2975,6 @@ const LESSONS = [
         "쉬다"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>みます。",
@@ -3204,7 +2986,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "운동",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>運動<rt>うんどう</rt></ruby>",
@@ -3212,7 +2993,6 @@ const LESSONS = [
         "운동"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>運動<rt>うんどう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
@@ -3224,7 +3004,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "좋아함",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>好き<rt>すき</rt></ruby>",
@@ -3232,7 +3011,6 @@ const LESSONS = [
         "좋아함"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>運動<rt>うんどう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
@@ -3244,7 +3022,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "제대로 · 꼼꼼히",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ちゃんと",
@@ -3252,7 +3029,6 @@ const LESSONS = [
         "제대로 · 꼼꼼히"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ちゃんとストレッチしてます。",
@@ -3264,7 +3040,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "천천히 · 느긋하게",
-    "text": "운동 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ゆっくり",
@@ -3272,7 +3047,6 @@ const LESSONS = [
         "천천히 · 느긋하게"
       ]
     ],
-    "note": "문장 속에서 어떤 운동과 몸 상태를 이야기하는지 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>みます。",
@@ -3284,1190 +3058,1007 @@ const LESSONS = [
   {
     "section": "만났을 때",
     "title": "안녕하세요! · 저녁 인사",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "こんばんは！",
         "콘방와!",
         "안녕하세요! · 저녁 인사"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "이 곡은 저에게 소중해요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "この<ruby>曲<rt>きょく</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>にとって<ruby>大切<rt>たいせつ</rt></ruby>です。",
         "코노 쿄쿠와 보쿠니 톳테 타이세츠데스.",
         "이 곡은 저에게 소중해요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "잘 지내셨나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "お<ruby>元気<rt>げんき</rt></ruby>でしたか？",
         "오겐키데시타카?",
         "잘 지내셨나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "잘 지내나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>元気<rt>げんき</rt></ruby>ですか？",
         "겐키데스카?",
         "잘 지내나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "춤에도 주목해 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "ダンスにも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
         "단스니모 추우모쿠시테쿠다사이.",
         "춤에도 주목해 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "제 목소리, 잘 전달되고 있나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>届<rt>とど</rt></ruby>いてますか？",
         "보쿠노 코에, 토도이테마스카?",
         "제 목소리, 잘 전달되고 있나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "다음 무대도 즐겨 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>のステージも<ruby>楽し<rt>たのし</rt></ruby>んでください。",
         "츠기노 스테에지모 타노신데쿠다사이.",
         "다음 무대도 즐겨 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "드디어 만났네요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "やっと<ruby>会<rt>あ</rt></ruby>えましたね！",
         "얏토 아에마시타네!",
         "드디어 만났네요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "다음은 제 솔로 무대예요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>のソロステージです。",
         "츠기와 보쿠노 소로스테에지데스.",
         "다음은 제 솔로 무대예요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘 만날 것을 기대하고 있었어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>、<ruby>会<rt>あ</rt></ruby>えるのを<ruby>楽し<rt>たのし</rt></ruby>みにしていました。",
         "쿄오, 아에루노오 타노시미니 시테이마시타.",
         "오늘 만날 것을 기대하고 있었어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "조심히 돌아가요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>気<rt>き</rt></ruby>をつけて<ruby>帰<rt>かえ</rt></ruby>ってね。",
         "키오 츠케테 카엣테네.",
         "조심히 돌아가요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "모두를 만나서 행복해요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みんなに<ruby>会<rt>あ</rt></ruby>えて<ruby>幸せ<rt>しあわせ</rt></ruby>です。",
         "민나니 아에테 시아와세데스.",
         "모두를 만나서 행복해요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "오른쪽 여러분도 고마워요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>右<rt>みぎ</rt></ruby>のみなさんもありがとう！",
         "미기노 미나상모 아리가토오!",
         "오른쪽 여러분도 고마워요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "다음은 발라드예요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>はバラードです。",
         "츠기와 바라아도데스.",
         "다음은 발라드예요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "곧 다시 만나고 싶어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "またすぐ<ruby>会<rt>あ</rt></ruby>いたいです。",
         "마타 스구 아이타이데스.",
         "곧 다시 만나고 싶어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘은 함께 추억을 만들어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>思い出<rt>おもいで</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りましょう。",
         "쿄오와 잇쇼니 오모이데오 츠쿠리마쇼오.",
         "오늘은 함께 추억을 만들어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "왼쪽 여러분도 고마워요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>左<rt>ひだり</rt></ruby>のみんなもありがとう！",
         "히다리노 민나모 아리가토오!",
         "왼쪽 여러분도 고마워요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "만나러 와 줘서 고마워요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>会<rt>あ</rt></ruby>いに<ruby>来て<rt>きて</rt></ruby>くれてありがとう。",
         "아이니 키테쿠레테 아리가토오.",
         "만나러 와 줘서 고마워요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "다시 한 번 들려주세요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>もう一度<rt>もういちど</rt></ruby>、<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
         "모오 이치도, 키카세테쿠다사이!",
         "다시 한 번 들려주세요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "추억이 떠오르는 곡이네요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>懐かしい<rt>なつかしい</rt></ruby><ruby>曲<rt>きょく</rt></ruby>ですね。",
         "나츠카시이 쿄쿠데스네.",
         "추억이 떠오르는 곡이네요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "오늘은 정말 고마워요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当に<rt>ほんとうに</rt></ruby>ありがとう。",
         "쿄오와 혼토니 아리가토오.",
         "오늘은 정말 고마워요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "처음 만나는 분도 계신가요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>初めまして<rt>はじめまして</rt></ruby>の<ruby>方<rt>かた</rt></ruby>もいますか？",
         "하지메마시테노 카타모 이마스카?",
         "처음 만나는 분도 계신가요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "다 같이 노래해요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みんなで<ruby>歌<rt>うた</rt></ruby>いましょう！",
         "민나데 우타이마쇼오!",
         "다 같이 노래해요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "새로운 무대를 준비했어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>新しい<rt>あたらしい</rt></ruby>ステージを<ruby>準備<rt>じゅんび</rt></ruby>しました。",
         "아타라시이 스테에지오 준비시마시타.",
         "새로운 무대를 준비했어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "요즘 체력이 좋아지고 있어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>体力<rt>たいりょく</rt></ruby>がついてきました。",
         "사이킨, 타이료쿠가 츠이테키마시타.",
         "요즘 체력이 좋아지고 있어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "오늘을 잊지 말아 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>のこと、<ruby>忘<rt>わす</rt></ruby>れないでください。",
         "쿄오노 코토, 와스레나이데쿠다사이.",
         "오늘을 잊지 말아 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘도 잘 부탁드려요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>も<ruby>よろしくお願いします<rt>よろしくおねがいします</rt></ruby>。",
         "쿄오모 요로시쿠 오네가이시마스.",
         "오늘도 잘 부탁드려요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "잠시만 기다려 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>少し<rt>すこし</rt></ruby><ruby>待<rt>ま</rt></ruby>ってください。",
         "스코시 맛테쿠다사이.",
         "잠시만 기다려 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "이 곡을 정말 좋아해요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "この<ruby>曲<rt>きょく</rt></ruby>が<ruby>大好き<rt>だいすき</rt></ruby>です。",
         "코노 쿄쿠가 다이스키데스.",
         "이 곡을 정말 좋아해요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "어제는 헬스장에 갔어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>昨日<rt>きのう</rt></ruby>はジムに<ruby>行<rt>い</rt></ruby>きました。",
         "키노오와 지무니 이키마시타.",
         "어제는 헬스장에 갔어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "여러분 덕분이에요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みなさんのおかげです。",
         "미나상노 오카게데스.",
         "여러분 덕분이에요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "일본에 올 수 있어서 기뻐요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>日本<rt>にほん</rt></ruby>に<ruby>来られて<rt>こられて</rt></ruby><ruby>嬉しい<rt>うれしい</rt></ruby>です。",
         "니혼니 코라레테 우레시이데스.",
         "일본에 올 수 있어서 기뻐요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "박자를 맞춰 손뼉을 쳐 주세요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>手拍子<rt>てびょうし</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>！",
         "테뵤오시오 오네가이시마스!",
         "박자를 맞춰 손뼉을 쳐 주세요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "함께 춤춰요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>踊<rt>おど</rt></ruby>りましょう！",
         "잇쇼니 오도리마쇼오!",
         "함께 춤춰요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "땀을 많이 흘렸어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "たくさん<ruby>汗<rt>あせ</rt></ruby>をかきました。",
         "타쿠상 아세오 카키마시타.",
         "땀을 많이 흘렸어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "무리하지 마세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>無理<rt>むり</rt></ruby>しないでくださいね。",
         "무리시나이데쿠다사이네.",
         "무리하지 마세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘은 특별한 날이에요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>です。",
         "쿄오와 토쿠베츠나 히데스.",
         "오늘은 특별한 날이에요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "마지막까지 신나게 즐겨요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>盛り上が<rt>もりあが</rt></ruby>りましょう！",
         "사이고마데 모리아가리마쇼오!",
         "마지막까지 신나게 즐겨요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "멤버 모두가 열심히 했어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "メンバー<ruby>全員<rt>ぜんいん</rt></ruby>で<ruby>頑張<rt>がんば</rt></ruby>りました。",
         "멘바아 젠인데 간바리마시타.",
         "멤버 모두가 열심히 했어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "달리는 게 즐거워요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>走る<rt>はしる</rt></ruby>のが<ruby>楽しい<rt>たのしい</rt></ruby>です。",
         "하시루노가 타노시이데스.",
         "달리는 게 즐거워요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "앞으로도 응원해 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "これからも<ruby>応援<rt>おうえん</rt></ruby>してください。",
         "코레카라모 오오엔시테쿠다사이.",
         "앞으로도 응원해 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "여러분을 만나면 마음이 놓여요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みなさんに<ruby>会う<rt>あう</rt></ruby>と<ruby>安心<rt>あんしん</rt></ruby>します。",
         "미나상니 아우토 안신시마스.",
         "여러분을 만나면 마음이 놓여요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "목소리 낼 수 있나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>声<rt>こえ</rt></ruby>、<ruby>出せ<rt>だせ</rt></ruby>ますか？",
         "코에, 다세마스카?",
         "목소리 낼 수 있나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "이 가사를 잘 들어 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "この<ruby>歌詞<rt>かし</rt></ruby>をよく<ruby>聴<rt>き</rt></ruby>いてください。",
         "코노 카시오 요쿠 키이테쿠다사이.",
         "이 가사를 잘 들어 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "근육, 보여드려도 될까요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>筋肉<rt>きんにく</rt></ruby>、<ruby>見せ<rt>みせ</rt></ruby>てもいいですか？",
         "킨니쿠, 미세테모 이이데스카?",
         "근육, 보여드려도 될까요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "계속 정말 좋아해요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "ずっと<ruby>大好き<rt>だいすき</rt></ruby>です。",
         "즛토 다이스키데스.",
         "계속 정말 좋아해요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "기다려 줘서 고마워요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>待<rt>ま</rt></ruby>っていてくれてありがとう。",
         "맛테이테쿠레테 아리가토오.",
         "기다려 줘서 고마워요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "여러분에게 힘을 받았어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みんなから<ruby>元気<rt>げんき</rt></ruby>をもらいました。",
         "민나카라 겐키오 모라이마시타.",
         "여러분에게 힘을 받았어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "다음 코너를 선보이겠습니다.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>のコーナーをお<ruby>届け<rt>とどけ</rt></ruby>します。",
         "츠기노 코오나아오 오토도케시마스.",
         "다음 코너를 선보이겠습니다."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "오늘은 다리를 단련했어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>足<rt>あし</rt></ruby>を<ruby>鍛<rt>きた</rt></ruby>えました。",
         "쿄오와 아시오 키타에마시타.",
         "오늘은 다리를 단련했어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "또 일본에 올게요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "また<ruby>日本<rt>にほん</rt></ruby>に<ruby>来ます<rt>きます</rt></ruby>。",
         "마타 니혼니 키마스.",
         "또 일본에 올게요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘 최고네요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>最高<rt>さいこう</rt></ruby>ですね！",
         "쿄오와 사이코오데스네!",
         "오늘 최고네요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "손을 크게 흔들어 주세요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>大き<rt>おおき</rt></ruby>く<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ってください！",
         "오오키쿠 테오 훗테쿠다사이!",
         "손을 크게 흔들어 주세요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "소중한 곡을 들려드리겠습니다.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>をお<ruby>届け<rt>とどけ</rt></ruby>します。",
         "타이세츠나 쿄쿠오 오토도케시마스.",
         "소중한 곡을 들려드리겠습니다."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "몸을 푹 쉬게 할게요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "ゆっくり<ruby>体<rt>からだ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>めます。",
         "윳쿠리 카라다오 야스메마스.",
         "몸을 푹 쉬게 할게요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "떨어져 있어도 함께예요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>離<rt>はな</rt></ruby>れていても<ruby>一緒<rt>いっしょ</rt></ruby>です。",
         "하나레테이테모 잇쇼데스.",
         "떨어져 있어도 함께예요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "여러분, 제 이름을 불러 주세요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みなさん、<ruby>僕<rt>ぼく</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでください！",
         "미나상, 보쿠노 나마에오 욘데쿠다사이!",
         "여러분, 제 이름을 불러 주세요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "더 신나게 즐겨요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "もっと<ruby>盛り上が<rt>もりあが</rt></ruby>りましょう！",
         "못토 모리아가리마쇼오!",
         "더 신나게 즐겨요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "다음 곡은 함께 불러 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってください。",
         "츠기노 쿄쿠와 잇쇼니 우탓테쿠다사이.",
         "다음 곡은 함께 불러 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "매일 아침 달리고 있어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>走<rt>はし</rt></ruby>っています。",
         "마이아사 하싯테이마스.",
         "매일 아침 달리고 있어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "행복한 시간을 줘서 고마워요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>幸せ<rt>しあわせ</rt></ruby>な<ruby>時間<rt>じかん</rt></ruby>をありがとう。",
         "시아와세나 지칸오 아리가토오.",
         "행복한 시간을 줘서 고마워요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "제 목소리, 들리나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>聞こえ<rt>きこえ</rt></ruby>ますか？",
         "보쿠노 코에, 키코에마스카?",
         "제 목소리, 들리나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "박수 한 번 더 부탁드립니다!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>拍手<rt>はくしゅ</rt></ruby>を<ruby>もう一度<rt>もういちど</rt></ruby><ruby>お願いします<rt>おねがいします</rt></ruby>！",
         "하쿠슈오 모오 이치도 오네가이시마스!",
         "박수 한 번 더 부탁드립니다!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "이 곡은 오랜만에 불러요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "この<ruby>曲<rt>きょく</rt></ruby>は<ruby>久しぶり<rt>ひさしぶり</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>います。",
         "코노 쿄쿠와 히사시부리니 우타이마스.",
         "이 곡은 오랜만에 불러요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "오늘은 운동을 쉴게요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>運動<rt>うんどう</rt></ruby>を<ruby>休<rt>やす</rt></ruby>みます。",
         "쿄오와 운도오오 야스미마스.",
         "오늘은 운동을 쉴게요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "돌아가면 푹 쉬세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>帰<rt>かえ</rt></ruby>ったらゆっくり<ruby>休<rt>やす</rt></ruby>んでください。",
         "카엣타라 윳쿠리 야슨데쿠다사이.",
         "돌아가면 푹 쉬세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "다시 여기로 돌아올 수 있어서 기뻐요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "またここに<ruby>戻<rt>もど</rt></ruby>って<ruby>来られて<rt>こられて</rt></ruby><ruby>嬉しい<rt>うれしい</rt></ruby>です。",
         "마타 코코니 모돗테 코라레테 우레시이데스.",
         "다시 여기로 돌아올 수 있어서 기뻐요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "여러분 모두 보여요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みなさん、<ruby>全員<rt>ぜんいん</rt></ruby><ruby>見え<rt>みえ</rt></ruby>てますよ！",
         "미나상, 젠인 미에테마스요!",
         "여러분 모두 보여요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "이 안무, 기억하나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "この<ruby>振付<rt>ふりつけ</rt></ruby>、<ruby>覚<rt>おぼ</rt></ruby>えてますか？",
         "코노 후리츠케, 오보에테마스카?",
         "이 안무, 기억하나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "더 강해지고 싶어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "もっと<ruby>強<rt>つよ</rt></ruby>くなりたいです。",
         "못토 츠요쿠 나리타이데스.",
         "더 강해지고 싶어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "저는 여러분 편이에요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>僕<rt>ぼく</rt></ruby>はみなさんの<ruby>味方<rt>みかた</rt></ruby>です。",
         "보쿠와 미나상노 미카타데스.",
         "저는 여러분 편이에요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘은 이야기를 많이 하고 싶어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>はたくさん<ruby>話<rt>はな</rt></ruby>したいです。",
         "쿄오와 타쿠상 하나시타이데스.",
         "오늘은 이야기를 많이 하고 싶어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "맨 뒤까지 잘 전달되고 있나요?",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>一番後ろ<rt>いちばんうしろ</rt></ruby>まで<ruby>届<rt>とど</rt></ruby>いてますか？",
         "이치방 우시로마데 토도이테마스카?",
         "맨 뒤까지 잘 전달되고 있나요?"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "라이브 연주를 즐겨 주세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>生演奏<rt>なまえんそう</rt></ruby>を<ruby>楽し<rt>たのし</rt></ruby>んでください。",
         "나마엔소오오 타노신데쿠다사이.",
         "라이브 연주를 즐겨 주세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "몸을 움직이는 걸 좋아해요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>体<rt>からだ</rt></ruby>を<ruby>動かす<rt>うごかす</rt></ruby>のが<ruby>好き<rt>すき</rt></ruby>です。",
         "카라다오 우고카스노가 스키데스.",
         "몸을 움직이는 걸 좋아해요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "다시 만나기로 약속해요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "また<ruby>会<rt>あ</rt></ruby>う<ruby>約束<rt>やくそく</rt></ruby>ですよ！",
         "마타 아우 야쿠소쿠데스요!",
         "다시 만나기로 약속해요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘은 여러분을 위해 노래할게요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>はみなさんのために<ruby>歌<rt>うた</rt></ruby>います。",
         "쿄오와 미나상노 타메니 우타이마스.",
         "오늘은 여러분을 위해 노래할게요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "공연장이 하나가 됐네요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>会場<rt>かいじょう</rt></ruby>が<ruby>一つ<rt>ひとつ</rt></ruby>になりましたね！",
         "카이조오가 히토츠니 나리마시타네!",
         "공연장이 하나가 됐네요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "앙코르에서",
     "title": "다음이 마지막 앙코르예요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>が<ruby>最後<rt>さいご</rt></ruby>のアンコールです。",
         "츠기가 사이고노 안코오루데스.",
         "다음이 마지막 앙코르예요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "앞으로도 몸을 단련할게요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "これからも<ruby>体<rt>からだ</rt></ruby>を<ruby>鍛<rt>きた</rt></ruby>えます。",
         "코레카라모 카라다오 키타에마스.",
         "앞으로도 몸을 단련할게요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "건강하게 지내세요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>元気<rt>げんき</rt></ruby>でいてください。",
         "겐키데 이테쿠다사이.",
         "건강하게 지내세요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "오늘은 잊을 수 없는 날이에요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby>は<ruby>忘<rt>わす</rt></ruby>れられない<ruby>日<rt>ひ</rt></ruby>です。",
         "쿄오와 와스레라레나이 히데스.",
         "오늘은 잊을 수 없는 날이에요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "여러분의 목소리에 힘이 나요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みんなの<ruby>声<rt>こえ</rt></ruby>で<ruby>元気<rt>げんき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。",
         "민나노 코에데 겐키가 데마스.",
         "여러분의 목소리에 힘이 나요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "밴드 여러분께 큰 박수를 보내 주세요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "バンドのみなさんに<ruby>大き<rt>おおき</rt></ruby>な<ruby>拍手<rt>はくしゅ</rt></ruby>を！",
         "반도노 미나상니 오오키나 하쿠슈오!",
         "밴드 여러분께 큰 박수를 보내 주세요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "트레이닝을 계속하고 싶어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "トレーニングを<ruby>続け<rt>つづけ</rt></ruby>たいです。",
         "토레에닝구오 츠즈케타이데스.",
         "트레이닝을 계속하고 싶어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "다시 만날 날까지 건강하게 지내요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "また<ruby>会う<rt>あう</rt></ruby><ruby>日<rt>ひ</rt></ruby>まで、<ruby>元気<rt>げんき</rt></ruby>でね。",
         "마타 아우 히마데, 겐키데네.",
         "다시 만날 날까지 건강하게 지내요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "만났을 때",
     "title": "여러분을 만날 수 있어서 정말 행복해요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "みなさんに<ruby>会<rt>あ</rt></ruby>えて<ruby>本当に<rt>ほんとうに</rt></ruby><ruby>幸せ<rt>しあわせ</rt></ruby>です。",
         "미나상니 아에테 혼토니 시아와세데스.",
         "여러분을 만날 수 있어서 정말 행복해요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께 즐길 때",
     "title": "오늘 가장 큰 목소리를 들려주세요!",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>今日<rt>きょう</rt></ruby><ruby>一番<rt>いちばん</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
         "쿄오 이치방노 코에오 키카세테쿠다사이!",
         "오늘 가장 큰 목소리를 들려주세요!"
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
     "title": "마지막 곡을 함께 불러요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>いましょう。",
         "사이고노 쿄쿠오 잇쇼니 우타이마쇼오.",
         "마지막 곡을 함께 불러요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "토크할 때",
     "title": "저도 여러분을 응원하고 있어요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "<ruby>僕<rt>ぼく</rt></ruby>もみなさんを<ruby>応援<rt>おうえん</rt></ruby>しています。",
         "보쿠모 미나상오 오오엔시테이마스.",
         "저도 여러분을 응원하고 있어요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "마지막 인사",
     "title": "앞으로도 계속 함께예요.",
-    "text": "콘서트의 흐름에서 만나는 짧은 학습용 예문이에요.",
     "examples": [
       [
         "これからもずっと<ruby>一緒<rt>いっしょ</rt></ruby>です。",
         "코레카라모 즛토 잇쇼데스.",
         "앞으로도 계속 함께예요."
       ]
-    ],
-    "note": "먼저 문장 전체의 뜻을 떠올려 보세요. 같은 단어가 다른 문장에서도 들리는지 찾아봐요."
+    ]
   },
   {
     "section": "함께하는 말",
     "title": "안녕하세요 · 저녁 인사",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "こんばんは",
@@ -4475,7 +4066,6 @@ const LESSONS = [
         "안녕하세요 · 저녁 인사"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "こんばんは！",
@@ -4487,7 +4077,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "일본",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>日本<rt>にほん</rt></ruby>",
@@ -4495,7 +4084,6 @@ const LESSONS = [
         "일본"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>日本<rt>にほん</rt></ruby>のアロハのみなさんに<ruby>会<rt>あ</rt></ruby>えて<ruby>嬉<rt>うれ</rt></ruby>しいです。",
@@ -4512,7 +4100,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "소중함 · 중요함",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>大切<rt>たいせつ</rt></ruby>",
@@ -4520,7 +4107,6 @@ const LESSONS = [
         "소중함 · 중요함"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>曲<rt>きょく</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>にとって<ruby>大切<rt>たいせつ</rt></ruby>です。",
@@ -4537,7 +4123,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "게임",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "ゲーム",
@@ -4545,7 +4130,6 @@ const LESSONS = [
         "게임"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は、ゲームの<ruby>時間<rt>じかん</rt></ruby>です。",
@@ -4557,7 +4141,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "뒤쪽",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>後ろ<rt>うしろ</rt></ruby>",
@@ -4565,7 +4148,6 @@ const LESSONS = [
         "뒤쪽"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>後<rt>うし</rt></ruby>ろのみなさんも、<ruby>見<rt>み</rt></ruby>えてますよ！",
@@ -4582,7 +4164,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "보이다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>見える<rt>みえる</rt></ruby>",
@@ -4590,7 +4171,6 @@ const LESSONS = [
         "보이다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>後<rt>うし</rt></ruby>ろのみなさんも、<ruby>見<rt>み</rt></ruby>えてますよ！",
@@ -4602,12 +4182,12 @@ const LESSONS = [
         "meaning": "여러분 모두 보여요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "note": "눈에 보인다는 뜻이에요. 직접 보는 행동인 「見る」와 구별해요."
   },
   {
     "section": "함께하는 말",
     "title": "춤 · 댄스",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "ダンス",
@@ -4615,7 +4195,6 @@ const LESSONS = [
         "춤 · 댄스"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "ダンスにも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
@@ -4627,7 +4206,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "주목",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>注目<rt>ちゅうもく</rt></ruby>",
@@ -4635,7 +4213,6 @@ const LESSONS = [
         "주목"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "ダンスにも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
@@ -4647,7 +4224,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "오다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>来る<rt>くる</rt></ruby>",
@@ -4655,7 +4231,6 @@ const LESSONS = [
         "오다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>来<rt>き</rt></ruby>てくれてありがとうございます。",
@@ -4672,7 +4247,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "먼저",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "まず",
@@ -4680,7 +4254,6 @@ const LESSONS = [
         "먼저"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "まずごあいさつします。",
@@ -4692,7 +4265,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "인사",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "あいさつ",
@@ -4700,7 +4272,6 @@ const LESSONS = [
         "인사"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "まずごあいさつします。",
@@ -4712,7 +4283,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "전달되다 · 닿다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>届く<rt>とどく</rt></ruby>",
@@ -4720,7 +4290,6 @@ const LESSONS = [
         "전달되다 · 닿다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>届<rt>とど</rt></ruby>いてますか？",
@@ -4737,7 +4306,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "무대",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "ステージ",
@@ -4745,7 +4313,6 @@ const LESSONS = [
         "무대"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージも<ruby>楽し<rt>たのし</rt></ruby>んでください。",
@@ -4762,7 +4329,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "드디어",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "やっと",
@@ -4770,7 +4336,6 @@ const LESSONS = [
         "드디어"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "やっと<ruby>会<rt>あ</rt></ruby>えましたね！",
@@ -4782,7 +4347,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "보여주다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>見せる<rt>みせる</rt></ruby>",
@@ -4790,7 +4354,6 @@ const LESSONS = [
         "보여주다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>皆<rt>みな</rt></ruby>さんのペンライトを<ruby>見<rt>み</rt></ruby>せてください。",
@@ -4807,7 +4370,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "솔로 · 혼자 하는 무대",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "ソロ",
@@ -4815,7 +4377,6 @@ const LESSONS = [
         "솔로 · 혼자 하는 무대"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>のソロステージです。",
@@ -4827,7 +4388,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "모두 · 여러분",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "みんな",
@@ -4835,7 +4395,6 @@ const LESSONS = [
         "모두 · 여러분"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みんなに<ruby>会<rt>あ</rt></ruby>えて<ruby>幸せ<rt>しあわせ</rt></ruby>です。",
@@ -4852,7 +4411,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "행복함",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>幸せ<rt>しあわせ</rt></ruby>",
@@ -4860,7 +4418,6 @@ const LESSONS = [
         "행복함"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みんなに<ruby>会<rt>あ</rt></ruby>えて<ruby>幸せ<rt>しあわせ</rt></ruby>です。",
@@ -4877,7 +4434,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "오른쪽",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>右<rt>みぎ</rt></ruby>",
@@ -4885,7 +4441,6 @@ const LESSONS = [
         "오른쪽"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>右<rt>みぎ</rt></ruby>のみなさんもありがとう！",
@@ -4897,7 +4452,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "발라드",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "バラード",
@@ -4905,7 +4459,6 @@ const LESSONS = [
         "발라드"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>はバラードです。",
@@ -4917,7 +4470,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "곧 · 바로",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "すぐ",
@@ -4925,7 +4477,6 @@ const LESSONS = [
         "곧 · 바로"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "またすぐ<ruby>会<rt>あ</rt></ruby>いたいです。",
@@ -4937,7 +4488,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "추억",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>思い出<rt>おもいで</rt></ruby>",
@@ -4945,7 +4495,6 @@ const LESSONS = [
         "추억"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>思い出<rt>おもいで</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りましょう。",
@@ -4957,7 +4506,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "만들다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>作る<rt>つくる</rt></ruby>",
@@ -4965,7 +4513,6 @@ const LESSONS = [
         "만들다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>思い出<rt>おもいで</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りましょう。",
@@ -4977,7 +4524,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "왼쪽",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>左<rt>ひだり</rt></ruby>",
@@ -4985,7 +4531,6 @@ const LESSONS = [
         "왼쪽"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>左<rt>ひだり</rt></ruby>のみんなもありがとう！",
@@ -4997,7 +4542,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "아직 더 · 아직 한참",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "まだまだ",
@@ -5005,7 +4549,6 @@ const LESSONS = [
         "아직 더 · 아직 한참"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "まだまだ<ruby>終<rt>お</rt></ruby>わりませんよ！",
@@ -5017,7 +4560,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "다시 한 번",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>もう一度<rt>もういちど</rt></ruby>",
@@ -5025,7 +4567,6 @@ const LESSONS = [
         "다시 한 번"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>もう一度<rt>もういちど</rt></ruby>、<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
@@ -5042,7 +4583,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "들려주다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>聞かせる<rt>きかせる</rt></ruby>",
@@ -5050,7 +4590,6 @@ const LESSONS = [
         "들려주다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>皆<rt>みな</rt></ruby>さんの<ruby>声<rt>こえ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>かせてください。",
@@ -5067,7 +4606,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "옛 생각이 나다 · 그립다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>懐かしい<rt>なつかしい</rt></ruby>",
@@ -5075,7 +4613,6 @@ const LESSONS = [
         "옛 생각이 나다 · 그립다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>懐かしい<rt>なつかしい</rt></ruby><ruby>曲<rt>きょく</rt></ruby>ですね。",
@@ -5087,7 +4624,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "처음 뵙겠습니다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>初めまして<rt>はじめまして</rt></ruby>",
@@ -5095,7 +4631,6 @@ const LESSONS = [
         "처음 뵙겠습니다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>初めまして<rt>はじめまして</rt></ruby>の<ruby>方<rt>かた</rt></ruby>もいますか？",
@@ -5107,7 +4642,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "분 · 사람을 높여 부르는 말",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>方<rt>かた</rt></ruby>",
@@ -5115,7 +4649,6 @@ const LESSONS = [
         "분 · 사람을 높여 부르는 말"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>初めまして<rt>はじめまして</rt></ruby>の<ruby>方<rt>かた</rt></ruby>もいますか？",
@@ -5132,7 +4665,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "새롭다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>新しい<rt>あたらしい</rt></ruby>",
@@ -5140,7 +4672,6 @@ const LESSONS = [
         "새롭다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>新しい<rt>あたらしい</rt></ruby>ステージを<ruby>準備<rt>じゅんび</rt></ruby>しました。",
@@ -5152,7 +4683,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "체력",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>体力<rt>たいりょく</rt></ruby>",
@@ -5160,7 +4690,6 @@ const LESSONS = [
         "체력"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>体力<rt>たいりょく</rt></ruby>がついてきました。",
@@ -5172,7 +4701,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "잊다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>忘れる<rt>わすれる</rt></ruby>",
@@ -5180,7 +4708,6 @@ const LESSONS = [
         "잊다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>のこと、<ruby>忘<rt>わす</rt></ruby>れないでください。",
@@ -5197,7 +4724,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "잘 부탁드립니다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>よろしくお願いします<rt>よろしくおねがいします</rt></ruby>",
@@ -5205,7 +4731,6 @@ const LESSONS = [
         "잘 부탁드립니다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>も<ruby>よろしくお願いします<rt>よろしくおねがいします</rt></ruby>。",
@@ -5217,7 +4742,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "조금",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>少し<rt>すこし</rt></ruby>",
@@ -5225,7 +4749,6 @@ const LESSONS = [
         "조금"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "もう<ruby>少<rt>すこ</rt></ruby>し、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しみましょう！",
@@ -5242,7 +4765,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "기다리다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>待つ<rt>まつ</rt></ruby>",
@@ -5250,7 +4772,6 @@ const LESSONS = [
         "기다리다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>少し<rt>すこし</rt></ruby><ruby>待<rt>ま</rt></ruby>ってください。",
@@ -5267,7 +4788,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "헬스장",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "ジム",
@@ -5275,7 +4795,6 @@ const LESSONS = [
         "헬스장"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>昨日<rt>きのう</rt></ruby>はジムに<ruby>行<rt>い</rt></ruby>きました。",
@@ -5287,7 +4806,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "가다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>行く<rt>いく</rt></ruby>",
@@ -5295,7 +4813,6 @@ const LESSONS = [
         "가다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>昨日<rt>きのう</rt></ruby>はジムに<ruby>行<rt>い</rt></ruby>きました。",
@@ -5307,7 +4824,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "덕분",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "おかげ",
@@ -5315,7 +4831,6 @@ const LESSONS = [
         "덕분"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みなさんのおかげです。",
@@ -5327,7 +4842,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "박자를 맞춰 손뼉 치기",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>手拍子<rt>てびょうし</rt></ruby>",
@@ -5335,7 +4849,6 @@ const LESSONS = [
         "박자를 맞춰 손뼉 치기"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>手拍子<rt>てびょうし</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>！",
@@ -5347,7 +4860,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "부탁드립니다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>お願いします<rt>おねがいします</rt></ruby>",
@@ -5355,7 +4867,6 @@ const LESSONS = [
         "부탁드립니다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "もう<ruby>一回<rt>いっかい</rt></ruby>、お<ruby>願<rt>ねが</rt></ruby>いします！",
@@ -5372,7 +4883,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "춤추다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>踊る<rt>おどる</rt></ruby>",
@@ -5380,7 +4890,6 @@ const LESSONS = [
         "춤추다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>踊<rt>おど</rt></ruby>りましょう！",
@@ -5392,7 +4901,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "땀",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>汗<rt>あせ</rt></ruby>",
@@ -5400,7 +4908,6 @@ const LESSONS = [
         "땀"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "たくさん<ruby>汗<rt>あせ</rt></ruby>をかきました。",
@@ -5412,7 +4919,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "무리",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>無理<rt>むり</rt></ruby>",
@@ -5420,7 +4926,6 @@ const LESSONS = [
         "무리"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>無理<rt>むり</rt></ruby>しないでくださいね。",
@@ -5432,7 +4937,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "특별함",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>特別<rt>とくべつ</rt></ruby>",
@@ -5440,7 +4944,6 @@ const LESSONS = [
         "특별함"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>日<rt>ひ</rt></ruby>です。",
@@ -5452,7 +4955,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "날",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>日<rt>ひ</rt></ruby>",
@@ -5460,7 +4962,6 @@ const LESSONS = [
         "날"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "また<ruby>会<rt>あ</rt></ruby>える<ruby>日<rt>ひ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています。",
@@ -5477,7 +4978,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "분위기가 달아오르다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>盛り上がる<rt>もりあがる</rt></ruby>",
@@ -5485,7 +4985,6 @@ const LESSONS = [
         "분위기가 달아오르다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>盛り上が<rt>もりあが</rt></ruby>りましょう！",
@@ -5502,7 +5001,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "전원 · 모두",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>全員<rt>ぜんいん</rt></ruby>",
@@ -5510,7 +5008,6 @@ const LESSONS = [
         "전원 · 모두"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "メンバー<ruby>全員<rt>ぜんいん</rt></ruby>で<ruby>頑張<rt>がんば</rt></ruby>りました。",
@@ -5527,7 +5024,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "안심",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>安心<rt>あんしん</rt></ruby>",
@@ -5535,7 +5031,6 @@ const LESSONS = [
         "안심"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みなさんに<ruby>会う<rt>あう</rt></ruby>と<ruby>安心<rt>あんしん</rt></ruby>します。",
@@ -5546,28 +5041,26 @@ const LESSONS = [
   },
   {
     "section": "함께하는 말",
-    "title": "내다 · 여기서는 목소리를 내다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
+    "title": "내다",
     "examples": [
       [
         "<ruby>出す<rt>だす</rt></ruby>",
         "다스",
-        "내다 · 여기서는 목소리를 내다"
+        "내다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>声<rt>こえ</rt></ruby>、<ruby>出せ<rt>だせ</rt></ruby>ますか？",
         "meaning": "목소리 낼 수 있나요?",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "note": "「声を出す」는 ‘목소리를 내다’라는 뜻이에요."
   },
   {
     "section": "함께하는 말",
     "title": "가사",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>歌詞<rt>かし</rt></ruby>",
@@ -5575,7 +5068,6 @@ const LESSONS = [
         "가사"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>歌詞<rt>かし</rt></ruby>をよく<ruby>聴<rt>き</rt></ruby>いてください。",
@@ -5587,7 +5079,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "받다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "もらう",
@@ -5595,7 +5086,6 @@ const LESSONS = [
         "받다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みんなから<ruby>元気<rt>げんき</rt></ruby>をもらいました。",
@@ -5607,7 +5097,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "전하다 · 전달하다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>届ける<rt>とどける</rt></ruby>",
@@ -5615,7 +5104,6 @@ const LESSONS = [
         "전하다 · 전달하다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>のコーナーをお<ruby>届け<rt>とどけ</rt></ruby>します。",
@@ -5632,7 +5120,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "다리 · 발",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>足<rt>あし</rt></ruby>",
@@ -5640,7 +5127,6 @@ const LESSONS = [
         "다리 · 발"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>足<rt>あし</rt></ruby>を<ruby>鍛<rt>きた</rt></ruby>えました。",
@@ -5652,7 +5138,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "최고",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>最高<rt>さいこう</rt></ruby>",
@@ -5660,7 +5145,6 @@ const LESSONS = [
         "최고"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>最高<rt>さいこう</rt></ruby>ですね！",
@@ -5672,7 +5156,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "몸",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>体<rt>からだ</rt></ruby>",
@@ -5680,7 +5163,6 @@ const LESSONS = [
         "몸"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "ゆっくり<ruby>体<rt>からだ</rt></ruby>を<ruby>休<rt>やす</rt></ruby>めます。",
@@ -5697,7 +5179,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "떨어지다 · 멀어지다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>離れる<rt>はなれる</rt></ruby>",
@@ -5705,7 +5186,6 @@ const LESSONS = [
         "떨어지다 · 멀어지다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>離<rt>はな</rt></ruby>れていても<ruby>一緒<rt>いっしょ</rt></ruby>です。",
@@ -5717,7 +5197,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "이름",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>名前<rt>なまえ</rt></ruby>",
@@ -5725,7 +5204,6 @@ const LESSONS = [
         "이름"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みなさん、<ruby>僕<rt>ぼく</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでください！",
@@ -5737,7 +5215,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "부르다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>呼ぶ<rt>よぶ</rt></ruby>",
@@ -5745,7 +5222,6 @@ const LESSONS = [
         "부르다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "みなさん、<ruby>僕<rt>ぼく</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでください！",
@@ -5757,7 +5233,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "매일 아침",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>毎朝<rt>まいあさ</rt></ruby>",
@@ -5765,7 +5240,6 @@ const LESSONS = [
         "매일 아침"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>走<rt>はし</rt></ruby>っています。",
@@ -5777,7 +5251,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "들리다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>聞こえる<rt>きこえる</rt></ruby>",
@@ -5785,19 +5258,18 @@ const LESSONS = [
         "들리다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>聞こえ<rt>きこえ</rt></ruby>ますか？",
         "meaning": "제 목소리, 들리나요?",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "note": "소리가 들려오는 상태를 말해요. 「聴く」는 ‘듣다’예요."
   },
   {
     "section": "함께하는 말",
     "title": "돌아오다 · 돌아가다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>戻る<rt>もどる</rt></ruby>",
@@ -5805,7 +5277,6 @@ const LESSONS = [
         "돌아오다 · 돌아가다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "またここに<ruby>戻<rt>もど</rt></ruby>って<ruby>来られて<rt>こられて</rt></ruby><ruby>嬉しい<rt>うれしい</rt></ruby>です。",
@@ -5817,7 +5288,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "여기",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "ここ",
@@ -5825,7 +5295,6 @@ const LESSONS = [
         "여기"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "ここでバンドメンバーをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
@@ -5842,7 +5311,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "안무",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>振付<rt>ふりつけ</rt></ruby>",
@@ -5850,7 +5318,6 @@ const LESSONS = [
         "안무"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>振付<rt>ふりつけ</rt></ruby>、<ruby>覚<rt>おぼ</rt></ruby>えてますか？",
@@ -5862,7 +5329,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "기억하다 · 익히다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>覚える<rt>おぼえる</rt></ruby>",
@@ -5870,7 +5336,6 @@ const LESSONS = [
         "기억하다 · 익히다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>振付<rt>ふりつけ</rt></ruby>、<ruby>覚<rt>おぼ</rt></ruby>えてますか？",
@@ -5882,7 +5347,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "강하다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>強い<rt>つよい</rt></ruby>",
@@ -5890,7 +5354,6 @@ const LESSONS = [
         "강하다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "もっと<ruby>強<rt>つよ</rt></ruby>くなりたいです。",
@@ -5902,7 +5365,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "같은 편 · 내 편",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>味方<rt>みかた</rt></ruby>",
@@ -5910,7 +5372,6 @@ const LESSONS = [
         "같은 편 · 내 편"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>僕<rt>ぼく</rt></ruby>はみなさんの<ruby>味方<rt>みかた</rt></ruby>です。",
@@ -5922,7 +5383,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "말하다 · 이야기하다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>話す<rt>はなす</rt></ruby>",
@@ -5930,7 +5390,6 @@ const LESSONS = [
         "말하다 · 이야기하다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はたくさん<ruby>話<rt>はな</rt></ruby>したいです。",
@@ -5942,7 +5401,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "가장 · 제일",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>一番<rt>いちばん</rt></ruby>",
@@ -5950,7 +5408,6 @@ const LESSONS = [
         "가장 · 제일"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>一番後ろ<rt>いちばんうしろ</rt></ruby>まで<ruby>届<rt>とど</rt></ruby>いてますか？",
@@ -5967,7 +5424,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "라이브 연주",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>生演奏<rt>なまえんそう</rt></ruby>",
@@ -5975,7 +5431,6 @@ const LESSONS = [
         "라이브 연주"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>生演奏<rt>なまえんそう</rt></ruby>を<ruby>楽し<rt>たのし</rt></ruby>んでください。",
@@ -5987,7 +5442,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "움직이다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>動かす<rt>うごかす</rt></ruby>",
@@ -5995,7 +5449,6 @@ const LESSONS = [
         "움직이다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>体<rt>からだ</rt></ruby>を<ruby>動かす<rt>うごかす</rt></ruby>のが<ruby>好き<rt>すき</rt></ruby>です。",
@@ -6007,7 +5460,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "약속",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>約束<rt>やくそく</rt></ruby>",
@@ -6015,7 +5467,6 @@ const LESSONS = [
         "약속"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "また<ruby>会<rt>あ</rt></ruby>う<ruby>約束<rt>やくそく</rt></ruby>ですよ！",
@@ -6027,7 +5478,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "공연장 · 행사장",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>会場<rt>かいじょう</rt></ruby>",
@@ -6035,7 +5485,6 @@ const LESSONS = [
         "공연장 · 행사장"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>会場<rt>かいじょう</rt></ruby>が<ruby>一つ<rt>ひとつ</rt></ruby>になりましたね！",
@@ -6047,7 +5496,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "하나",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>一つ<rt>ひとつ</rt></ruby>",
@@ -6055,7 +5503,6 @@ const LESSONS = [
         "하나"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "<ruby>会場<rt>かいじょう</rt></ruby>が<ruby>一つ<rt>ひとつ</rt></ruby>になりましたね！",
@@ -6067,7 +5514,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "계속하다",
-    "text": "콘서트 문장에서 만난 단어·표현이에요.",
     "examples": [
       [
         "<ruby>続ける<rt>つづける</rt></ruby>",
@@ -6075,7 +5521,6 @@ const LESSONS = [
         "계속하다"
       ]
     ],
-    "note": "원문에서 이 단어가 쓰이는 모습을 함께 살펴봐요. 말할 때는 문장 속에서 형태가 달라질 수 있어요.",
     "sourceExamples": [
       {
         "jp": "トレーニングを<ruby>続け<rt>つづけ</rt></ruby>たいです。",
@@ -6095,8 +5540,7 @@ const LESSONS = [
         "오오키나 하쿠슈데 오무카에쿠다사이!",
         "큰 박수로 맞아 주세요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "만났을 때",
@@ -6109,8 +5553,7 @@ const LESSONS = [
         "마즈와 고아이사츠오 오네가이시마스.",
         "먼저 인사 부탁드립니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6123,8 +5566,7 @@ const LESSONS = [
         "사이킨 하맛테이루 코토와 난데스카?",
         "요즘 빠져 있는 것은 무엇인가요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6137,8 +5579,7 @@ const LESSONS = [
         "이츠 토레에닝구시테이마스카?",
         "언제 트레이닝하나요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -6151,8 +5592,7 @@ const LESSONS = [
         "쿄쿠쇼오카이오 오네가이시마스.",
         "곡 소개 부탁드립니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6165,8 +5605,7 @@ const LESSONS = [
         "코노 단스노 포인토오 오시에테쿠다사이.",
         "이 춤의 포인트를 알려 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6179,8 +5618,7 @@ const LESSONS = [
         "루우루오 세츠메이시마스.",
         "규칙을 설명하겠습니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6193,8 +5631,7 @@ const LESSONS = [
         "세이겐지칸와 산주우뵤오데스.",
         "제한 시간은 30초예요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6207,8 +5644,7 @@ const LESSONS = [
         "준비가 데키타라 오시에테쿠다사이.",
         "준비되면 알려 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6221,8 +5657,7 @@ const LESSONS = [
         "소레데와, 스타아토데스!",
         "그럼 시작합니다!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6235,8 +5670,7 @@ const LESSONS = [
         "세이카이데스!",
         "정답입니다!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6249,8 +5683,7 @@ const LESSONS = [
         "오시이데스네!",
         "아깝네요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6263,8 +5696,7 @@ const LESSONS = [
         "힌토오 오네가이시마스.",
         "힌트 부탁드립니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6277,8 +5709,7 @@ const LESSONS = [
         "모오 이치도 초오센시마스카?",
         "다시 한 번 도전하겠어요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6291,8 +5722,7 @@ const LESSONS = [
         "하쿠슈노 오오키사데 키메마쇼오!",
         "박수 크기로 정해요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6305,22 +5735,20 @@ const LESSONS = [
         "다이효오시테 코타에테쿠다사이.",
         "대표로 답해 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
-    "title": "이 곡의 감상 포인트를 알려 주세요.",
+    "title": "이 곡의 포인트를 알려 주세요.",
     "text": "MC가 아티스트에게 곡에서 귀 기울일 부분을 물어요.",
     "speaker": "mc",
     "examples": [
       [
-        "この<ruby>曲<rt>きょく</rt></ruby>の<ruby>聴きどころ<rt>ききどころ</rt></ruby>を<ruby>教え<rt>おしえ</rt></ruby>てください。",
-        "코노 쿄쿠노 키키도코로오 오시에테쿠다사이.",
-        "이 곡의 감상 포인트를 알려 주세요."
+        "この<ruby>曲<rt>きょく</rt></ruby>のポイントを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "코노 쿄쿠노 포인토오 오시에테쿠다사이.",
+        "이 곡의 포인트를 알려 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6333,8 +5761,7 @@ const LESSONS = [
         "도노쿠라이 렌슈우시마시타카?",
         "얼마나 연습했나요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6347,8 +5774,7 @@ const LESSONS = [
         "쿄오노 키분와 이카가데스카?",
         "오늘 기분은 어떤가요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "함께 즐길 때",
@@ -6361,8 +5787,7 @@ const LESSONS = [
         "미나상, 모오 이치도 오오키나 하쿠슈오!",
         "여러분, 다시 한 번 큰 박수 부탁드려요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6375,8 +5800,7 @@ const LESSONS = [
         "오미즈오 논데쿠다사이네.",
         "물 마시세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6389,8 +5813,7 @@ const LESSONS = [
         "니홍고데 히토코토 오네가이시마스.",
         "일본어로 한 말씀 부탁드립니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6403,8 +5826,7 @@ const LESSONS = [
         "캬쿠세키카라 시츠몬오 이타다키마스.",
         "객석에서 질문을 받겠습니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6417,8 +5839,7 @@ const LESSONS = [
         "시츠몬가 아루 카타와 테오 아게테쿠다사이.",
         "질문 있는 분은 손을 들어 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6431,8 +5852,7 @@ const LESSONS = [
         "오나마에오 오시에테쿠다사이.",
         "이름을 알려 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6445,8 +5865,7 @@ const LESSONS = [
         "코타에오 미테미마쇼오.",
         "정답을 확인해 봐요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -6459,8 +5878,7 @@ const LESSONS = [
         "츠기와 돈나 쿄쿠데스카?",
         "다음은 어떤 곡인가요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -6473,8 +5891,7 @@ const LESSONS = [
         "츠즈이테, 츠기노 스테에지데스.",
         "이어서 다음 무대입니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6487,8 +5904,7 @@ const LESSONS = [
         "사이고니 멧세에지오 오네가이시마스.",
         "마지막으로 메시지 부탁드립니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6501,8 +5917,7 @@ const LESSONS = [
         "쿄오노 칸소오오 키카세테쿠다사이.",
         "오늘 소감을 들려 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6515,8 +5930,7 @@ const LESSONS = [
         "마타 니혼니 키테쿠레마스카?",
         "또 일본에 와 줄 건가요?"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6529,8 +5943,7 @@ const LESSONS = [
         "츠기니 아에루 히가 타노시미데스네.",
         "다음에 만날 날이 기대되네요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6543,8 +5956,7 @@ const LESSONS = [
         "혼지츠노 코오엔와 이조오데스.",
         "오늘 공연은 이것으로 마칩니다."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6557,8 +5969,7 @@ const LESSONS = [
         "와스레모노니 오키오 츠케쿠다사이.",
         "두고 가는 물건이 없도록 주의하세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6571,8 +5982,7 @@ const LESSONS = [
         "사이고마데 오오키나 하쿠슈오 오네가이시마스!",
         "마지막까지 큰 박수 부탁드립니다!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "앙코르에서",
@@ -6585,8 +5995,7 @@ const LESSONS = [
         "안코오루노 코에가 키코에마스네!",
         "앙코르를 외치는 소리가 들리네요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6599,8 +6008,7 @@ const LESSONS = [
         "카라다오 우고카스 코토니 하맛테이마스.",
         "몸을 움직이는 데 빠져 있어요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6613,8 +6021,7 @@ const LESSONS = [
         "아사, 토레에닝구시테이마스.",
         "아침에 트레이닝하고 있어요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6627,8 +6034,7 @@ const LESSONS = [
         "사비노 후리츠케오 미테쿠다사이.",
         "후렴의 안무를 봐 주세요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6641,8 +6047,7 @@ const LESSONS = [
         "준비데키마시타!",
         "준비됐어요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6655,8 +6060,7 @@ const LESSONS = [
         "모오 이치도 얏테미타이데스.",
         "다시 한 번 해보고 싶어요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6669,8 +6073,7 @@ const LESSONS = [
         "마이니치, 스코시즈츠 렌슈우시마시타.",
         "매일 조금씩 연습했어요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -6683,8 +6086,7 @@ const LESSONS = [
         "쿄오와 스고쿠 와쿠와쿠시테이마스.",
         "오늘은 정말 설레요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "함께 즐길 때",
@@ -6697,8 +6099,7 @@ const LESSONS = [
         "사이고마데 잇쇼니 타노신데쿠다사이!",
         "마지막까지 함께 즐겨 주세요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6711,8 +6112,7 @@ const LESSONS = [
         "토테모 시아와세나 지칸데시타.",
         "정말 행복한 시간이었어요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -6725,8 +6125,7 @@ const LESSONS = [
         "카나라즈 마타 니혼니 키마스!",
         "꼭 다시 일본에 올게요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -6739,8 +6138,7 @@ const LESSONS = [
         "카시니 보쿠노 키모치오 코메마시타.",
         "가사에 제 마음을 담았어요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -6753,8 +6151,7 @@ const LESSONS = [
         "츠기와 겐키나 쿄쿠데스!",
         "다음은 활기찬 곡이에요!"
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -6767,13 +6164,11 @@ const LESSONS = [
         "힌토와 우타노 나마에데스.",
         "힌트는 노래 제목이에요."
       ]
-    ],
-    "note": "MC의 진행과 아티스트의 반응을 연결해 이해하는 학습용 예문이에요."
+    ]
   },
   {
     "section": "함께하는 말",
     "title": "맞이하다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>迎える<rt>むかえる</rt></ruby>",
@@ -6781,7 +6176,6 @@ const LESSONS = [
         "맞이하다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>大き<rt>おおき</rt></ruby>な<ruby>拍手<rt>はくしゅ</rt></ruby>でお<ruby>迎え<rt>むかえ</rt></ruby>ください！",
@@ -6793,7 +6187,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "푹 빠지다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "ハマる",
@@ -6801,7 +6194,6 @@ const LESSONS = [
         "푹 빠지다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>ハマっていることは<ruby>何です<rt>なんです</rt></ruby>か？",
@@ -6818,7 +6210,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "무엇",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>何<rt>なに</rt></ruby>",
@@ -6838,7 +6229,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "언제",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "いつ",
@@ -6846,7 +6236,6 @@ const LESSONS = [
         "언제"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "いつも<ruby>応援<rt>おうえん</rt></ruby>してくれてありがとうございます。",
@@ -6863,7 +6252,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "포인트 · 핵심",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "ポイント",
@@ -6871,19 +6259,22 @@ const LESSONS = [
         "포인트 · 핵심"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "このダンスのポイントを<ruby>教え<rt>おしえ</rt></ruby>てください。",
         "meaning": "이 춤의 포인트를 알려 주세요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>のポイントを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "meaning": "이 곡의 포인트를 알려 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
   {
     "section": "함께하는 말",
     "title": "알려주다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>教える<rt>おしえる</rt></ruby>",
@@ -6891,7 +6282,6 @@ const LESSONS = [
         "알려주다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "このダンスのポイントを<ruby>教え<rt>おしえ</rt></ruby>てください。",
@@ -6908,7 +6298,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "규칙",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "ルール",
@@ -6916,7 +6305,6 @@ const LESSONS = [
         "규칙"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ルールを<ruby>説明<rt>せつめい</rt></ruby>します。",
@@ -6928,7 +6316,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "설명",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>説明<rt>せつめい</rt></ruby>",
@@ -6936,7 +6323,6 @@ const LESSONS = [
         "설명"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ルールを<ruby>説明<rt>せつめい</rt></ruby>します。",
@@ -6948,7 +6334,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "제한 시간",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>制限時間<rt>せいげんじかん</rt></ruby>",
@@ -6956,7 +6341,6 @@ const LESSONS = [
         "제한 시간"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>制限時間<rt>せいげんじかん</rt></ruby>は30<ruby>秒<rt>びょう</rt></ruby>です。",
@@ -6968,7 +6352,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "초 · 시간 단위",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>秒<rt>びょう</rt></ruby>",
@@ -6976,7 +6359,6 @@ const LESSONS = [
         "초 · 시간 단위"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>制限時間<rt>せいげんじかん</rt></ruby>は30<ruby>秒<rt>びょう</rt></ruby>です。",
@@ -6988,7 +6370,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "그러면 · 그럼",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "それでは",
@@ -6996,7 +6377,6 @@ const LESSONS = [
         "그러면 · 그럼"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "それでは、スタートです！",
@@ -7008,7 +6388,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "시작",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "スタート",
@@ -7016,7 +6395,6 @@ const LESSONS = [
         "시작"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "それでは、スタートです！",
@@ -7028,7 +6406,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "정답",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>正解<rt>せいかい</rt></ruby>",
@@ -7036,7 +6413,6 @@ const LESSONS = [
         "정답"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>正解<rt>せいかい</rt></ruby>です！",
@@ -7048,7 +6424,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "아깝다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>惜しい<rt>おしい</rt></ruby>",
@@ -7056,7 +6431,6 @@ const LESSONS = [
         "아깝다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>惜しい<rt>おしい</rt></ruby>ですね！",
@@ -7068,7 +6442,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "힌트",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "ヒント",
@@ -7076,7 +6449,6 @@ const LESSONS = [
         "힌트"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "ヒントを<ruby>お願いします<rt>おねがいします</rt></ruby>。",
@@ -7093,7 +6465,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "도전",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>挑戦<rt>ちょうせん</rt></ruby>",
@@ -7101,7 +6472,6 @@ const LESSONS = [
         "도전"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>もう一度<rt>もういちど</rt></ruby><ruby>挑戦<rt>ちょうせん</rt></ruby>しますか？",
@@ -7113,7 +6483,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "정하다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>決める<rt>きめる</rt></ruby>",
@@ -7121,7 +6490,6 @@ const LESSONS = [
         "정하다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>拍手<rt>はくしゅ</rt></ruby>の<ruby>大き<rt>おおき</rt></ruby>さで<ruby>決め<rt>きめ</rt></ruby>ましょう！",
@@ -7133,7 +6501,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "대표",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>代表<rt>だいひょう</rt></ruby>",
@@ -7141,7 +6508,6 @@ const LESSONS = [
         "대표"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>代表<rt>だいひょう</rt></ruby>して<ruby>答え<rt>こたえ</rt></ruby>てください。",
@@ -7153,7 +6519,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "답하다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>答える<rt>こたえる</rt></ruby>",
@@ -7161,7 +6526,6 @@ const LESSONS = [
         "답하다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>代表<rt>だいひょう</rt></ruby>して<ruby>答え<rt>こたえ</rt></ruby>てください。",
@@ -7172,28 +6536,7 @@ const LESSONS = [
   },
   {
     "section": "함께하는 말",
-    "title": "감상 포인트 · 귀 기울일 부분",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
-    "examples": [
-      [
-        "<ruby>聴きどころ<rt>ききどころ</rt></ruby>",
-        "키키도코로",
-        "감상 포인트 · 귀 기울일 부분"
-      ]
-    ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
-    "sourceExamples": [
-      {
-        "jp": "この<ruby>曲<rt>きょく</rt></ruby>の<ruby>聴きどころ<rt>ききどころ</rt></ruby>を<ruby>教え<rt>おしえ</rt></ruby>てください。",
-        "meaning": "이 곡의 감상 포인트를 알려 주세요.",
-        "section": "곡을 소개할 때"
-      }
-    ]
-  },
-  {
-    "section": "함께하는 말",
     "title": "얼마나",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "どのくらい",
@@ -7201,7 +6544,6 @@ const LESSONS = [
         "얼마나"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "どのくらい<ruby>練習<rt>れんしゅう</rt></ruby>しましたか？",
@@ -7213,7 +6555,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "기분",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>気分<rt>きぶん</rt></ruby>",
@@ -7221,7 +6562,6 @@ const LESSONS = [
         "기분"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>気分<rt>きぶん</rt></ruby>はいかがですか？",
@@ -7233,7 +6573,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "물",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>水<rt>みず</rt></ruby>",
@@ -7241,7 +6580,6 @@ const LESSONS = [
         "물"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "お<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでくださいね。",
@@ -7253,7 +6591,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "마시다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>飲む<rt>のむ</rt></ruby>",
@@ -7261,7 +6598,6 @@ const LESSONS = [
         "마시다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "お<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでくださいね。",
@@ -7273,7 +6609,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "일본어",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>日本語<rt>にほんご</rt></ruby>",
@@ -7281,7 +6616,6 @@ const LESSONS = [
         "일본어"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>日本語<rt>にほんご</rt></ruby>、<ruby>合<rt>あ</rt></ruby>ってますか？",
@@ -7298,7 +6632,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "한마디",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>一言<rt>ひとこと</rt></ruby>",
@@ -7306,7 +6639,6 @@ const LESSONS = [
         "한마디"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>一言<rt>ひとこと</rt></ruby><ruby>お願いします<rt>おねがいします</rt></ruby>。",
@@ -7318,7 +6650,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "객석",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>客席<rt>きゃくせき</rt></ruby>",
@@ -7326,7 +6657,6 @@ const LESSONS = [
         "객석"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>客席<rt>きゃくせき</rt></ruby>から<ruby>質問<rt>しつもん</rt></ruby>をいただきます。",
@@ -7338,7 +6668,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "질문",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>質問<rt>しつもん</rt></ruby>",
@@ -7346,7 +6675,6 @@ const LESSONS = [
         "질문"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>客席<rt>きゃくせき</rt></ruby>から<ruby>質問<rt>しつもん</rt></ruby>をいただきます。",
@@ -7362,28 +6690,26 @@ const LESSONS = [
   },
   {
     "section": "함께하는 말",
-    "title": "들다 · 여기서는 손을 들다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
+    "title": "들어 올리다",
     "examples": [
       [
         "<ruby>挙げる<rt>あげる</rt></ruby>",
         "아게루",
-        "들다 · 여기서는 손을 들다"
+        "들어 올리다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>質問<rt>しつもん</rt></ruby>がある<ruby>方<rt>かた</rt></ruby>は<ruby>手<rt>て</rt></ruby>を<ruby>挙げ<rt>あげ</rt></ruby>てください。",
         "meaning": "질문 있는 분은 손을 들어 주세요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "note": "「手を挙げる」는 ‘손을 들다’라는 뜻이에요."
   },
   {
     "section": "함께하는 말",
     "title": "답 · 정답",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>答え<rt>こたえ</rt></ruby>",
@@ -7391,7 +6717,6 @@ const LESSONS = [
         "답 · 정답"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>答え<rt>こたえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てみましょう。",
@@ -7403,7 +6728,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "보다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>見る<rt>みる</rt></ruby>",
@@ -7411,7 +6735,6 @@ const LESSONS = [
         "보다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>答え<rt>こたえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てみましょう。",
@@ -7423,12 +6746,12 @@ const LESSONS = [
         "meaning": "후렴의 안무를 봐 주세요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "note": "직접 보는 행동을 말해요. 「見える」는 ‘보이다’예요."
   },
   {
     "section": "함께하는 말",
     "title": "어떤",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "どんな",
@@ -7436,7 +6759,6 @@ const LESSONS = [
         "어떤"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>はどんな<ruby>曲<rt>きょく</rt></ruby>ですか？",
@@ -7448,7 +6770,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "이어서",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>続いて<rt>つづいて</rt></ruby>",
@@ -7456,7 +6777,6 @@ const LESSONS = [
         "이어서"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>続いて<rt>つづいて</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>のステージです。",
@@ -7468,7 +6788,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "메시지",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "メッセージ",
@@ -7476,7 +6795,6 @@ const LESSONS = [
         "메시지"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>最後<rt>さいご</rt></ruby>にメッセージを<ruby>お願いします<rt>おねがいします</rt></ruby>。",
@@ -7488,7 +6806,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "소감",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>感想<rt>かんそう</rt></ruby>",
@@ -7496,7 +6813,6 @@ const LESSONS = [
         "소감"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>感想<rt>かんそう</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください。",
@@ -7508,7 +6824,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "오늘 · 격식 있는 표현",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>本日<rt>ほんじつ</rt></ruby>",
@@ -7516,7 +6831,6 @@ const LESSONS = [
         "오늘 · 격식 있는 표현"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>本日<rt>ほんじつ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>以上<rt>いじょう</rt></ruby>です。",
@@ -7528,7 +6842,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "공연",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>公演<rt>こうえん</rt></ruby>",
@@ -7536,7 +6849,6 @@ const LESSONS = [
         "공연"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>本日<rt>ほんじつ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>以上<rt>いじょう</rt></ruby>です。",
@@ -7547,28 +6859,26 @@ const LESSONS = [
   },
   {
     "section": "함께하는 말",
-    "title": "이것으로 끝 · 이 문맥에서",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
+    "title": "이것으로 끝",
     "examples": [
       [
         "<ruby>以上<rt>いじょう</rt></ruby>",
         "이조오",
-        "이것으로 끝 · 이 문맥에서"
+        "이것으로 끝"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>本日<rt>ほんじつ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>以上<rt>いじょう</rt></ruby>です。",
         "meaning": "오늘 공연은 이것으로 마칩니다.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "note": "「公演は以上です」에서는 공연이 끝났다는 뜻으로 쓰여요."
   },
   {
     "section": "함께하는 말",
     "title": "두고 가는 물건",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>忘れ物<rt>わすれもの</rt></ruby>",
@@ -7576,7 +6886,6 @@ const LESSONS = [
         "두고 가는 물건"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>忘れ物<rt>わすれもの</rt></ruby>にお<ruby>気<rt>き</rt></ruby>をつけください。",
@@ -7588,7 +6897,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "후렴",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "サビ",
@@ -7596,7 +6904,6 @@ const LESSONS = [
         "후렴"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "サビの<ruby>振付<rt>ふりつけ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てください。",
@@ -7608,7 +6915,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "해보다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "やってみる",
@@ -7616,7 +6922,6 @@ const LESSONS = [
         "해보다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>もう一度<rt>もういちど</rt></ruby>やってみたいです。",
@@ -7628,7 +6933,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "조금씩",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>少しずつ<rt>すこしずつ</rt></ruby>",
@@ -7636,7 +6940,6 @@ const LESSONS = [
         "조금씩"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>少しずつ<rt>すこしずつ</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>しました。",
@@ -7648,7 +6951,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "정말 · 매우",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "すごく",
@@ -7656,7 +6958,6 @@ const LESSONS = [
         "정말 · 매우"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はすごくワクワクしています。",
@@ -7668,7 +6969,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "설레는 모습",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "ワクワク",
@@ -7676,7 +6976,6 @@ const LESSONS = [
         "설레는 모습"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はすごくワクワクしています。",
@@ -7688,7 +6987,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "매우 · 정말",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "とても",
@@ -7696,7 +6994,6 @@ const LESSONS = [
         "매우 · 정말"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "とても<ruby>幸せ<rt>しあわせ</rt></ruby>な<ruby>時間<rt>じかん</rt></ruby>でした。",
@@ -7708,7 +7005,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "반드시 · 꼭",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>必ず<rt>かならず</rt></ruby>",
@@ -7716,7 +7012,6 @@ const LESSONS = [
         "반드시 · 꼭"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>必ず<rt>かならず</rt></ruby>また<ruby>日本<rt>にほん</rt></ruby>に<ruby>来ます<rt>きます</rt></ruby>！",
@@ -7728,7 +7023,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "마음 · 기분",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>気持ち<rt>きもち</rt></ruby>",
@@ -7736,7 +7030,6 @@ const LESSONS = [
         "마음 · 기분"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>歌詞<rt>かし</rt></ruby>に<ruby>僕<rt>ぼく</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<ruby>込め<rt>こめ</rt></ruby>ました。",
@@ -7748,7 +7041,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "담다 · 마음을 담다",
-    "text": "MC와 아티스트의 대화에서 만나는 단어·표현이에요.",
     "examples": [
       [
         "<ruby>込める<rt>こめる</rt></ruby>",
@@ -7756,7 +7048,6 @@ const LESSONS = [
         "담다 · 마음을 담다"
       ]
     ],
-    "note": "누가 누구에게 무엇을 부탁하는지 원문과 연결해 봐요.",
     "sourceExamples": [
       {
         "jp": "<ruby>歌詞<rt>かし</rt></ruby>に<ruby>僕<rt>ぼく</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<ruby>込め<rt>こめ</rt></ruby>ました。",
@@ -7777,8 +7068,7 @@ const LESSONS = [
         "사무이 나카, 오아츠마리 이타다키 아리가토오고자이마스.",
         "추운 날씨에도 와 주셔서 감사합니다."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "만났을 때",
@@ -7792,8 +7082,7 @@ const LESSONS = [
         "후유니 미나상니 아에테 우레시이데스.",
         "겨울에 여러분을 만나서 기뻐요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -7807,8 +7096,7 @@ const LESSONS = [
         "후유와 스키데스카?",
         "겨울을 좋아하나요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -7822,8 +7110,7 @@ const LESSONS = [
         "유키오 미루토 와쿠와쿠시마스.",
         "눈을 보면 설레요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -7837,8 +7124,7 @@ const LESSONS = [
         "아타타카쿠 시테 카엣테쿠다사이네.",
         "따뜻하게 하고 돌아가세요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -7852,8 +7138,7 @@ const LESSONS = [
         "카제오 히카나이데쿠다사이네.",
         "감기 걸리지 않게 조심하세요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -7867,8 +7152,7 @@ const LESSONS = [
         "스코시 테오 아타타메마스.",
         "손을 잠깐 녹일게요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -7882,8 +7166,7 @@ const LESSONS = [
         "카이조오노 나카와 아타타카이데스네.",
         "공연장 안은 따뜻하네요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -7897,8 +7180,7 @@ const LESSONS = [
         "아타라시이 아루바무니 츠이테 키카세테쿠다사이.",
         "새 앨범에 대해 들려주세요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -7912,8 +7194,7 @@ const LESSONS = [
         "콘카이와 이로이로나 잔루니 초오센시마시타.",
         "이번에는 다양한 장르에 도전했어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -7927,8 +7208,7 @@ const LESSONS = [
         "타이토루쿄쿠와 돈나 쿄쿠데스카?",
         "타이틀곡은 어떤 곡인가요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -7942,8 +7222,7 @@ const LESSONS = [
         "사비오 잇쇼니 우탓테호시이데스.",
         "후렴을 함께 불러 주면 좋겠어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -7957,8 +7236,7 @@ const LESSONS = [
         "레코오딩구데 타이세츠니 시타 코토와 난데스카?",
         "녹음할 때 중요하게 생각한 것은 무엇인가요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -7972,8 +7250,7 @@ const LESSONS = [
         "코토바 히토츠 히토츠오 타이세츠니 우타이마시타.",
         "말 하나하나를 소중히 생각하며 불렀어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -7987,8 +7264,7 @@ const LESSONS = [
         "아루바무니와 이로이로나 오모이가 코못테이마스.",
         "앨범에는 여러 마음이 담겨 있어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8002,8 +7278,7 @@ const LESSONS = [
         "슈우로쿠쿄쿠니모 추우모쿠시테쿠다사이.",
         "수록곡에도 주목해 주세요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8017,8 +7292,7 @@ const LESSONS = [
         "코노 카바아쿄쿠오 에란다 리유우와 난데스카?",
         "이 커버곡을 고른 이유는 무엇인가요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8032,8 +7306,7 @@ const LESSONS = [
         "무카시카라 스키나 쿄쿠난데스.",
         "예전부터 좋아하던 곡이에요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8047,8 +7320,7 @@ const LESSONS = [
         "지분라시쿠 아렌지시마시타.",
         "저다운 느낌으로 편곡했어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8062,8 +7334,7 @@ const LESSONS = [
         "겐쿄쿠토와 치가우 훈이키데스네.",
         "원곡과는 다른 분위기네요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8077,8 +7348,7 @@ const LESSONS = [
         "후유니 키키타쿠 나루 쿄쿠데스.",
         "겨울에 듣고 싶어지는 곡이에요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8092,8 +7362,7 @@ const LESSONS = [
         "츠기와 카바아쿄쿠오 오네가이시마스.",
         "다음은 커버곡 부탁드립니다."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8107,8 +7376,7 @@ const LESSONS = [
         "쿄오와 기타아모 히쿤데스요네?",
         "오늘은 기타도 연주하는 거죠?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8137,8 +7405,7 @@ const LESSONS = [
         "돈나 아렌지니 시마시타카?",
         "어떤 편곡을 했나요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8152,8 +7419,7 @@ const LESSONS = [
         "기타아다케데 신푸루니 시마시타.",
         "기타만으로 간결하게 편곡했어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "곡을 소개할 때",
@@ -8167,8 +7433,7 @@ const LESSONS = [
         "기타아노 네이로니모 추우모쿠시테쿠다사이.",
         "기타의 음색에도 주목해 주세요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8182,8 +7447,7 @@ const LESSONS = [
         "코노 오토오 키쿠토 오치츠키마스.",
         "이 소리를 들으면 마음이 편안해져요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8197,8 +7461,7 @@ const LESSONS = [
         "마이니치 스코시즈츠 코오도오 렌슈우시마시타.",
         "매일 조금씩 코드를 연습했어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8212,8 +7475,7 @@ const LESSONS = [
         "료코오데 잇테미타이 바쇼와 아리마스카?",
         "여행으로 가보고 싶은 곳이 있나요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8227,8 +7489,7 @@ const LESSONS = [
         "홋카이도오니 잇테미타이데스.",
         "홋카이도에 가보고 싶어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8242,8 +7503,7 @@ const LESSONS = [
         "홋카이도오데 나니오 시타이데스카?",
         "홋카이도에서 무엇을 하고 싶나요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8257,8 +7517,7 @@ const LESSONS = [
         "유키오 미나가라 온센니 하이리타이데스.",
         "눈을 보면서 온천에 들어가고 싶어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8287,8 +7546,7 @@ const LESSONS = [
         "홋카이도오노 후유와 사무소오데스네.",
         "홋카이도의 겨울은 추울 것 같네요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8302,8 +7560,7 @@ const LESSONS = [
         "아타타카이 후쿠오 못테이키타이데스.",
         "따뜻한 옷을 가져가고 싶어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8317,8 +7574,7 @@ const LESSONS = [
         "이츠카 윳쿠리 료코오시타이데스.",
         "언젠가 여유롭게 여행하고 싶어요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8332,8 +7588,7 @@ const LESSONS = [
         "모오 주우니가츠데스네.",
         "벌써 12월이네요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8347,8 +7602,7 @@ const LESSONS = [
         "코토시 이치방노 오모이데와 난데스카?",
         "올해 가장 기억에 남는 일은 무엇인가요?"
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "토크할 때",
@@ -8362,8 +7616,7 @@ const LESSONS = [
         "미나상니 아에타 코토데스.",
         "여러분을 만날 수 있었던 일이에요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -8377,8 +7630,7 @@ const LESSONS = [
         "코토시노 사이고니 히토코토 오네가이시마스.",
         "올해를 마무리하며 한 말씀 부탁드립니다."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -8392,8 +7644,7 @@ const LESSONS = [
         "라이넨모 요로시쿠 오네가이시마스.",
         "내년에도 잘 부탁드려요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "마지막 인사",
@@ -8407,13 +7658,11 @@ const LESSONS = [
         "코토시모 타쿠상 오오엔시테쿠레테 아리가토오.",
         "올해도 많이 응원해 줘서 고마워요."
       ]
-    ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    ]
   },
   {
     "section": "함께하는 말",
     "title": "춥다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>寒い<rt>さむい</rt></ruby>",
@@ -8421,7 +7670,6 @@ const LESSONS = [
         "춥다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>寒い<rt>さむい</rt></ruby><ruby>中<rt>なか</rt></ruby>、お<ruby>集まり<rt>あつまり</rt></ruby>いただきありがとうございます。",
@@ -8438,7 +7686,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "겨울",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>冬<rt>ふゆ</rt></ruby>",
@@ -8446,7 +7693,6 @@ const LESSONS = [
         "겨울"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>冬<rt>ふゆ</rt></ruby>にみなさんに<ruby>会<rt>あ</rt></ruby>えて<ruby>嬉しい<rt>うれしい</rt></ruby>です。",
@@ -8473,7 +7719,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "모이다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>集まる<rt>あつまる</rt></ruby>",
@@ -8481,7 +7726,6 @@ const LESSONS = [
         "모이다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>寒い<rt>さむい</rt></ruby><ruby>中<rt>なか</rt></ruby>、お<ruby>集まり<rt>あつまり</rt></ruby>いただきありがとうございます。",
@@ -8493,7 +7737,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "눈 · 날씨",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>雪<rt>ゆき</rt></ruby>",
@@ -8501,7 +7744,6 @@ const LESSONS = [
         "눈 · 날씨"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>雪<rt>ゆき</rt></ruby>を<ruby>見る<rt>みる</rt></ruby>とワクワクします。",
@@ -8518,7 +7760,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "따뜻하다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>暖かい<rt>あたたかい</rt></ruby>",
@@ -8526,7 +7767,6 @@ const LESSONS = [
         "따뜻하다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>暖かく<rt>あたたかく</rt></ruby>して<ruby>帰<rt>かえ</rt></ruby>ってくださいね。",
@@ -8548,7 +7788,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "감기",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>風邪<rt>かぜ</rt></ruby>",
@@ -8556,7 +7795,6 @@ const LESSONS = [
         "감기"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>風邪<rt>かぜ</rt></ruby>をひかないでくださいね。",
@@ -8568,7 +7806,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "따뜻하게 하다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>温める<rt>あたためる</rt></ruby>",
@@ -8576,7 +7813,6 @@ const LESSONS = [
         "따뜻하게 하다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>少し<rt>すこし</rt></ruby><ruby>手<rt>て</rt></ruby>を<ruby>温め<rt>あたため</rt></ruby>ます。",
@@ -8588,7 +7824,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "앨범",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "アルバム",
@@ -8596,7 +7831,6 @@ const LESSONS = [
         "앨범"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>新しい<rt>あたらしい</rt></ruby>アルバムについて<ruby>聞かせ<rt>きかせ</rt></ruby>てください。",
@@ -8613,7 +7847,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "이번",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>今回<rt>こんかい</rt></ruby>",
@@ -8621,7 +7854,6 @@ const LESSONS = [
         "이번"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今回<rt>こんかい</rt></ruby>はいろいろなジャンルに<ruby>挑戦<rt>ちょうせん</rt></ruby>しました。",
@@ -8633,7 +7865,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "장르",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ジャンル",
@@ -8641,7 +7872,6 @@ const LESSONS = [
         "장르"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今回<rt>こんかい</rt></ruby>はいろいろなジャンルに<ruby>挑戦<rt>ちょうせん</rt></ruby>しました。",
@@ -8653,7 +7883,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "타이틀곡",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>タイトル曲<rt>タイトルきょく</rt></ruby>",
@@ -8661,7 +7890,6 @@ const LESSONS = [
         "타이틀곡"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>タイトル曲<rt>タイトルきょく</rt></ruby>はどんな<ruby>曲<rt>きょく</rt></ruby>ですか？",
@@ -8673,7 +7901,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "녹음",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "レコーディング",
@@ -8681,7 +7908,6 @@ const LESSONS = [
         "녹음"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "レコーディングで<ruby>大切<rt>たいせつ</rt></ruby>にしたことは<ruby>何です<rt>なんです</rt></ruby>か？",
@@ -8693,7 +7919,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "말 · 단어",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>言葉<rt>ことば</rt></ruby>",
@@ -8701,7 +7926,6 @@ const LESSONS = [
         "말 · 단어"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>言葉<rt>ことば</rt></ruby><ruby>一つ一つ<rt>ひとつひとつ</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>いました。",
@@ -8713,7 +7937,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "하나하나",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>一つ一つ<rt>ひとつひとつ</rt></ruby>",
@@ -8721,7 +7944,6 @@ const LESSONS = [
         "하나하나"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>言葉<rt>ことば</rt></ruby><ruby>一つ一つ<rt>ひとつひとつ</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>いました。",
@@ -8733,7 +7955,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "생각 · 마음",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>思い<rt>おもい</rt></ruby>",
@@ -8741,7 +7962,6 @@ const LESSONS = [
         "생각 · 마음"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "アルバムにはいろいろな<ruby>思い<rt>おもい</rt></ruby>がこもっています。",
@@ -8753,7 +7973,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "수록곡",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>収録曲<rt>しゅうろくきょく</rt></ruby>",
@@ -8761,7 +7980,6 @@ const LESSONS = [
         "수록곡"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>収録曲<rt>しゅうろくきょく</rt></ruby>にも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
@@ -8773,7 +7991,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "커버곡",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>カバー曲<rt>カバーきょく</rt></ruby>",
@@ -8781,7 +7998,6 @@ const LESSONS = [
         "커버곡"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>カバー曲<rt>カバーきょく</rt></ruby>を<ruby>選んだ<rt>えらんだ</rt></ruby><ruby>理由<rt>りゆう</rt></ruby>は<ruby>何です<rt>なんです</rt></ruby>か？",
@@ -8798,7 +8014,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "고르다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>選ぶ<rt>えらぶ</rt></ruby>",
@@ -8806,7 +8021,6 @@ const LESSONS = [
         "고르다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>カバー曲<rt>カバーきょく</rt></ruby>を<ruby>選んだ<rt>えらんだ</rt></ruby><ruby>理由<rt>りゆう</rt></ruby>は<ruby>何です<rt>なんです</rt></ruby>か？",
@@ -8818,7 +8032,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "이유",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>理由<rt>りゆう</rt></ruby>",
@@ -8826,7 +8039,6 @@ const LESSONS = [
         "이유"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>カバー曲<rt>カバーきょく</rt></ruby>を<ruby>選んだ<rt>えらんだ</rt></ruby><ruby>理由<rt>りゆう</rt></ruby>は<ruby>何です<rt>なんです</rt></ruby>か？",
@@ -8838,7 +8050,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "예전",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>昔<rt>むかし</rt></ruby>",
@@ -8846,7 +8057,6 @@ const LESSONS = [
         "예전"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>昔<rt>むかし</rt></ruby>から<ruby>好き<rt>すき</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>なんです。",
@@ -8858,7 +8068,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "자기답게",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>自分らしく<rt>じぶんらしく</rt></ruby>",
@@ -8866,7 +8075,6 @@ const LESSONS = [
         "자기답게"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>自分らしく<rt>じぶんらしく</rt></ruby>アレンジしました。",
@@ -8878,7 +8086,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "편곡",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "アレンジ",
@@ -8886,7 +8093,6 @@ const LESSONS = [
         "편곡"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>自分らしく<rt>じぶんらしく</rt></ruby>アレンジしました。",
@@ -8903,7 +8109,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "원곡",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>原曲<rt>げんきょく</rt></ruby>",
@@ -8911,7 +8116,6 @@ const LESSONS = [
         "원곡"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>原曲<rt>げんきょく</rt></ruby>とは<ruby>違う<rt>ちがう</rt></ruby><ruby>雰囲気<rt>ふんいき</rt></ruby>ですね。",
@@ -8923,7 +8127,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "다르다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>違う<rt>ちがう</rt></ruby>",
@@ -8931,7 +8134,6 @@ const LESSONS = [
         "다르다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>原曲<rt>げんきょく</rt></ruby>とは<ruby>違う<rt>ちがう</rt></ruby><ruby>雰囲気<rt>ふんいき</rt></ruby>ですね。",
@@ -8943,7 +8145,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "분위기",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>雰囲気<rt>ふんいき</rt></ruby>",
@@ -8951,7 +8152,6 @@ const LESSONS = [
         "분위기"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>原曲<rt>げんきょく</rt></ruby>とは<ruby>違う<rt>ちがう</rt></ruby><ruby>雰囲気<rt>ふんいき</rt></ruby>ですね。",
@@ -8963,7 +8163,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "기타",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "ギター",
@@ -8971,7 +8170,6 @@ const LESSONS = [
         "기타"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はギターも<ruby>弾く<rt>ひく</rt></ruby>んですよね？",
@@ -8997,16 +8195,14 @@ const LESSONS = [
   },
   {
     "section": "함께하는 말",
-    "title": "연주하다 · 현악기나 건반악기",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
+    "title": "치다 · 연주하다",
     "examples": [
       [
         "<ruby>弾く<rt>ひく</rt></ruby>",
         "히쿠",
-        "연주하다 · 현악기나 건반악기"
+        "치다 · 연주하다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はギターも<ruby>弾く<rt>ひく</rt></ruby>んですよね？",
@@ -9018,12 +8214,12 @@ const LESSONS = [
         "meaning": "기타를 치면서 노래해요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "note": "기타나 피아노를 연주할 때 쓰는 말이에요."
   },
   {
     "section": "함께하는 말",
     "title": "연주하면서",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>弾<rt>ひ</rt></ruby>きながら",
@@ -9043,7 +8239,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "간결함 · 단순함",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "シンプル",
@@ -9051,7 +8246,6 @@ const LESSONS = [
         "간결함 · 단순함"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "ギターだけでシンプルにしました。",
@@ -9063,7 +8257,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "음색",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>音色<rt>ねいろ</rt></ruby>",
@@ -9071,7 +8264,6 @@ const LESSONS = [
         "음색"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "ギターの<ruby>音色<rt>ねいろ</rt></ruby>にも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
@@ -9083,7 +8275,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "소리",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>音<rt>おと</rt></ruby>",
@@ -9091,7 +8282,6 @@ const LESSONS = [
         "소리"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>音<rt>おと</rt></ruby>を<ruby>聴く<rt>きく</rt></ruby>と<ruby>落ち着<rt>おちつ</rt></ruby>きます。",
@@ -9103,7 +8293,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "마음이 편안해지다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>落ち着く<rt>おちつく</rt></ruby>",
@@ -9111,7 +8300,6 @@ const LESSONS = [
         "마음이 편안해지다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "この<ruby>音<rt>おと</rt></ruby>を<ruby>聴く<rt>きく</rt></ruby>と<ruby>落ち着<rt>おちつ</rt></ruby>きます。",
@@ -9123,7 +8311,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "코드 · 화음",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "コード",
@@ -9131,7 +8318,6 @@ const LESSONS = [
         "코드 · 화음"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>少しずつ<rt>すこしずつ</rt></ruby>コードを<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
@@ -9143,7 +8329,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "여행",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>旅行<rt>りょこう</rt></ruby>",
@@ -9151,7 +8336,6 @@ const LESSONS = [
         "여행"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>旅行<rt>りょこう</rt></ruby>で<ruby>行って<rt>いって</rt></ruby>みたい<ruby>場所<rt>ばしょ</rt></ruby>はありますか？",
@@ -9168,7 +8352,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "장소",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>場所<rt>ばしょ</rt></ruby>",
@@ -9176,7 +8359,6 @@ const LESSONS = [
         "장소"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>旅行<rt>りょこう</rt></ruby>で<ruby>行って<rt>いって</rt></ruby>みたい<ruby>場所<rt>ばしょ</rt></ruby>はありますか？",
@@ -9188,7 +8370,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "홋카이도",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>北海道<rt>ほっかいどう</rt></ruby>",
@@ -9196,7 +8377,6 @@ const LESSONS = [
         "홋카이도"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>北海道<rt>ほっかいどう</rt></ruby>に<ruby>行って<rt>いって</rt></ruby>みたいです。",
@@ -9218,7 +8398,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "온천",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>温泉<rt>おんせん</rt></ruby>",
@@ -9226,7 +8405,6 @@ const LESSONS = [
         "온천"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>雪<rt>ゆき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入り<rt>はいり</rt></ruby>たいです。",
@@ -9238,7 +8416,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "들어가다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>入る<rt>はいる</rt></ruby>",
@@ -9246,7 +8423,6 @@ const LESSONS = [
         "들어가다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>雪<rt>ゆき</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入り<rt>はいり</rt></ruby>たいです。",
@@ -9258,7 +8434,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "해산물",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>海鮮<rt>かいせん</rt></ruby>",
@@ -9266,7 +8441,6 @@ const LESSONS = [
         "해산물"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>海鮮<rt>かいせん</rt></ruby>は<ruby>苦手<rt>にがて</rt></ruby>です。",
@@ -9278,7 +8452,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "먹다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>食べる<rt>たべる</rt></ruby>",
@@ -9286,7 +8459,6 @@ const LESSONS = [
         "먹다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>北海道<rt>ほっかいどう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたいですか？",
@@ -9298,7 +8470,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "옷",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>服<rt>ふく</rt></ruby>",
@@ -9306,7 +8477,6 @@ const LESSONS = [
         "옷"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>暖かい<rt>あたたかい</rt></ruby><ruby>服<rt>ふく</rt></ruby>を<ruby>持って行き<rt>もっていき</rt></ruby>たいです。",
@@ -9318,7 +8488,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "가져가다",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>持って行く<rt>もっていく</rt></ruby>",
@@ -9326,7 +8495,6 @@ const LESSONS = [
         "가져가다"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>暖かい<rt>あたたかい</rt></ruby><ruby>服<rt>ふく</rt></ruby>を<ruby>持って行き<rt>もっていき</rt></ruby>たいです。",
@@ -9338,7 +8506,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "언젠가",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "いつか",
@@ -9346,7 +8513,6 @@ const LESSONS = [
         "언젠가"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "いつかゆっくり<ruby>旅行<rt>りょこう</rt></ruby>したいです。",
@@ -9358,7 +8524,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "12월",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>12月<rt>じゅうにがつ</rt></ruby>",
@@ -9366,7 +8531,6 @@ const LESSONS = [
         "12월"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "もう<ruby>12月<rt>じゅうにがつ</rt></ruby>ですね。",
@@ -9378,7 +8542,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "올해",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>今年<rt>ことし</rt></ruby>",
@@ -9386,7 +8549,6 @@ const LESSONS = [
         "올해"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>今年<rt>ことし</rt></ruby><ruby>一番<rt>いちばん</rt></ruby>の<ruby>思い出<rt>おもいで</rt></ruby>は<ruby>何です<rt>なんです</rt></ruby>か？",
@@ -9408,7 +8570,6 @@ const LESSONS = [
   {
     "section": "함께하는 말",
     "title": "내년",
-    "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
         "<ruby>来年<rt>らいねん</rt></ruby>",
@@ -9416,7 +8577,6 @@ const LESSONS = [
         "내년"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
         "jp": "<ruby>来年<rt>らいねん</rt></ruby>も<ruby>よろしくお願いします<rt>よろしくおねがいします</rt></ruby>。",
@@ -9437,13 +8597,11 @@ const LESSONS = [
         "홋카이도오데 나니오 타베타이데스카?",
         "홋카이도에서 무엇을 먹고 싶나요?"
       ]
-    ],
-    "note": "음식 취향을 묻는 질문이에요. 실제로 어떤 음식을 좋아하는지는 별도로 확인해요."
+    ]
   },
   {
     "section": "함께하는 말",
     "title": "잘하지 못함 · 음식이 입에 맞지 않음",
-    "text": "음식 취향을 부드럽게 말하는 표현이에요.",
     "examples": [
       [
         "<ruby>苦手<rt>にがて</rt></ruby>",

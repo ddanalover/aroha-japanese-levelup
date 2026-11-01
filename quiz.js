@@ -73,7 +73,8 @@ function openQuizFeedback(card,title,action,context=[]){
   $('f-exp').replaceChildren();
   const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=card.examples[0][0];
   if(CONCERT_SCENES.includes(card.section))$('f-exp').append(makeElement('p','speaker-label',speakerLabel(card)));
-  $('f-exp').append(makeElement('strong',null,`정답: ${card.examples[0][2]}`),jp,makeElement('p','reading',card.examples[0][1]),makeElement('p',null,card.note||''));
+  $('f-exp').append(makeElement('strong',null,`정답: ${card.examples[0][2]}`),jp,makeElement('p','reading',card.examples[0][1]));
+  if(card.note)$('f-exp').append(makeElement('p',null,card.note));
   if(card.sourceExamples)appendWordExample($('f-exp'),card,context);
   document.querySelector('.f-scroll').scrollTop=0;
   quizFeedbackAction=action;
