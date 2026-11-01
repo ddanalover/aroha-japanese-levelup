@@ -27,7 +27,7 @@ function kanaReading(html){
 }
 function startCheck(){
   quizState=null;
-  $('check-title').textContent='짧게 확인해요';
+  $('check-title').textContent='퀴즈로 확인해요';
   $('check-body').replaceChildren();
   $('check-body').append(makeElement('p','muted','한 번에 5문제씩, 배운 내용을 가볍게 확인해요.'));
   for(const mode of ['word','sentence']){
@@ -44,16 +44,16 @@ function quizPool(mode){
   // Identical phrases must not become competing answers.
   return pool.filter((card,i)=>pool.findIndex(other=>plainJapanese(other.examples[0][0])===plainJapanese(card.examples[0][0]))===i);
 }
+function makeQuizQuestion(card,mode,pool){
+  const jp=plainJapanese(card.examples[0][0]);
+  const candidates=pool.filter(other=>other!==card&&plainJapanese(other.examples[0][0])!==jp&&other.examples[0][2]!==card.examples[0][2]);
+  const preferred=mode==='word'&&jp==='嬉しい'?candidates.find(other=>plainJapanese(other.examples[0][0])==='悲しい'):null;
+  const distractor=preferred||shuffle(candidates)[0];
+  return {card,mode,choices:shuffle([card,distractor])};
+}
 function startQuizMode(mode){
   const pool=quizPool(mode);
-  const questions=shuffle(pool).slice(0,5).map(card=>{
-    const jp=plainJapanese(card.examples[0][0]);
-    const candidates=pool.filter(other=>other!==card&&plainJapanese(other.examples[0][0])!==jp&&other.examples[0][2]!==card.examples[0][2]);
-    // Keep the user's first example's contrast precise.
-    const preferred=mode==='word'&&jp==='嬉しい'?candidates.find(other=>plainJapanese(other.examples[0][0])==='悲しい'):null;
-    const distractor=preferred||shuffle(candidates)[0];
-    return {card,choices:shuffle([card,distractor])};
-  });
+  const questions=shuffle(pool).slice(0,5).map(card=>makeQuizQuestion(card,mode,pool));
   quizState={mode,questions,index:0,correct:0,answered:false};
   $('check-title').textContent=QUIZ_TITLES[mode];
   $('check-back').textContent='문제 선택으로';$('check-back').onclick=startCheck;
@@ -64,7 +64,7 @@ function renderQuizQuestion(){
   state.answered=false;$('check-body').replaceChildren();$('check-body').scrollTop=0;
   $('check-body').append(makeElement('p','quiz-progress',`${state.index+1}/${state.questions.length}`));
   const card=makeElement('article','lesson-card');
-  if(state.mode==='word'){
+  if((question.mode||state.mode)==='word'){
     card.append(makeElement('p','quiz-reading',example[1]));
     const jp=makeElement('h2','jp',plainJapanese(example[0]));jp.lang='ja';
     const kana=makeElement('p','quiz-kana',kanaReading(example[0]));kana.lang='ja';
@@ -76,7 +76,7 @@ function renderQuizQuestion(){
   const choices=makeElement('div','quiz-options');
   question.choices.forEach(option=>{
     const button=makeElement('button','btn-pixel btn-opt');
-    if(state.mode==='word')button.textContent=option.examples[0][2];
+    if((question.mode||state.mode)==='word')button.textContent=option.examples[0][2];
     else{
       const jp=makeElement('span','jp');jp.lang='ja';jp.innerHTML=option.examples[0][0];button.append(jp);
     }
@@ -88,6 +88,7 @@ function answerQuiz(selected,choices){
   const state=quizState;if(state.answered)return;state.answered=true;
   const card=state.questions[state.index].card,isCorrect=selected===card;
   if(isCorrect)state.correct++;
+  if(state.onAnswer)state.onAnswer(state.questions[state.index],isCorrect);
   choices.querySelectorAll('button').forEach(button=>button.disabled=true);
   const feedback=makeElement('div','lesson-card quiz-feedback');feedback.setAttribute('role','status');
   feedback.append(makeElement('strong',null,isCorrect?'🌟 정답이에요!':'다시 기억해 봐요.'));
@@ -99,7 +100,9 @@ function answerQuiz(selected,choices){
   feedback.scrollIntoView({block:'nearest'});
 }
 function renderQuizResult(){
-  const state=quizState;$('check-body').replaceChildren();$('check-body').scrollTop=0;
+  const state=quizState;
+  if(state.onFinish){state.onFinish(state);return;}
+  $('check-body').replaceChildren();$('check-body').scrollTop=0;
   const card=makeElement('article','lesson-card');card.append(makeElement('h2',null,'오늘의 짧은 확인 완료!'),makeElement('p',null,`${state.questions.length}문제 중 ${state.correct}개를 맞혔어요.`));
   const retry=makeElement('button','btn-pixel','다시 풀기');retry.onclick=()=>startQuizMode(state.mode);
   const choose=makeElement('button','btn-pixel btn-opt','다른 문제 선택');choose.onclick=startCheck;

@@ -677,13 +677,16 @@
 </div></section>
 <section id="home" class="screen hidden"><header>아로하의 일본어노트</header><div class="content">
 <p>오늘은 어떤 말을 만나볼까요?<br>편한 순서로 시작해요.</p>
-<button class="btn-pixel" onclick="openGroup('concert')">🎤 문장으로 배워요</button>
-<button class="btn-pixel" style="background:#FF8A80" onclick="openGroup('words')">🌼 단어로 배워요</button>
-<button class="btn-pixel" onclick="openGroup('letters')">🌱 글자 첫걸음</button>
-<button class="btn-pixel" onclick="startCheck()">⭐ 짧게 확인해요</button>
+<button class="btn-pixel" style="background:#FF8A80; color:#21172E" onclick="openGroup('letters')">🌱 글자 첫걸음</button>
+<button class="btn-pixel" style="background:#4FC3F7; color:#21172E" onclick="openDailyMenu()">📅 매일 공부해요</button>
+<button class="btn-pixel" style="background:#BA68C8; color:#21172E" onclick="openGroup('concert')">🎤 문장으로 외워요</button>
+<button class="btn-pixel" style="background:#81C784; color:#21172E" onclick="openGroup('words')">🌼 단어로 익혀요</button>
+<button class="btn-pixel" style="background:#FFD54F; color:#21172E" onclick="startCheck()">⭐ 퀴즈로 확인해요</button>
 <p id="progress" class="muted">구성 미리보기 · 학습 내용은 함께 정해요</p></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('opening')">처음으로</button></nav></section>
 <section id="list" class="screen hidden"><header id="list-title"></header><div class="content" id="lesson-list"></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
 <section id="viewer" class="screen hidden"><header id="viewer-title"></header><div class="content" id="lesson-body"></div><nav class="bottom-nav" aria-label="학습 카드 이동"><button id="prev" class="btn-pixel" onclick="move(-1)">이전</button><button class="btn-pixel" onclick="openGroup(group)">목록</button><button id="next" class="btn-pixel" onclick="move(1)">다음</button></nav></section>
-<section id="check" class="screen hidden"><header id="check-title">짧게 확인해요</header><div class="content" id="check-body"></div><nav class="bottom-nav"><button id="check-back" class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
+<section id="check" class="screen hidden"><header id="check-title">퀴즈로 확인해요</header><div class="content" id="check-body"></div><nav class="bottom-nav"><button id="check-back" class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
+<section id="daily-menu" class="screen hidden"><header>매일 공부해요</header><div class="content" id="daily-list"></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
+<section id="daily" class="screen hidden"><header id="daily-title">매일 공부해요</header><div class="content" id="daily-body"></div><nav class="bottom-nav"><button id="daily-prev" class="btn-pixel" onclick="moveDaily(-1)">이전</button><button class="btn-pixel" onclick="openDailyMenu()">날짜 선택</button><button id="daily-next" class="btn-pixel" onclick="moveDaily(1)">다음</button></nav></section>
 <p id="status" class="hidden" role="status" aria-live="polite"></p>
-</main><script src="data/lessons.js"></script><script src="data/kanji.js"></script><script src="courses.js"></script><script src="app.js"></script><script src="quiz.js"></script></body></html>
+</main><script src="data/lessons.js"></script><script src="data/kanji.js"></script><script src="data/days.js"></script><script src="courses.js"></script><script src="app.js"></script><script src="quiz.js"></script><script src="daily.js"></script></body></html>

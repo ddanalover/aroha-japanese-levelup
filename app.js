@@ -1,8 +1,8 @@
 "use strict";
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
-  words: {title:'단어로 배워요', description:'한 공연에서 만난 단어를, 같은 묶음에서 다시 봐요.', sections:CONCERT_COURSES.map(course=>course.title)},
-  concert: {title:'문장으로 배워요', description:'어느 묶음이든 공연의 시작부터 마지막까지. 익숙해지면 표현을 조금씩 더 만나봐요.', sections:CONCERT_COURSES.map(course=>course.title)}
+  words: {title:'단어로 익혀요', description:'한 공연에서 만난 단어를, 같은 묶음에서 다시 봐요.', sections:CONCERT_COURSES.map(course=>course.title)},
+  concert: {title:'문장으로 외워요', description:'어느 묶음이든 공연의 시작부터 마지막까지. 익숙해지면 표현을 조금씩 더 만나봐요.', sections:CONCERT_COURSES.map(course=>course.title)}
 };
 let group='letters';
 let selectedSection='';
