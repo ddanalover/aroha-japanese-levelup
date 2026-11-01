@@ -1,6 +1,6 @@
 "use strict";
 const GROUPS = {
-  letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
+  letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','받침·조합·장음','한자도 만나봐요']},
   words: {title:'단어로 익혀요', description:'문장과 같은 내용별 분류로 단어·표현을 익혀요.', sections:LEARNING_CATEGORIES.map(category=>category.title)},
   concert: {title:'문장으로 외워요', description:'인사와 감사, 공연 진행, 소감과 마음을 전하는 말로 문장을 모았어요.', sections:LEARNING_CATEGORIES.map(category=>category.title)}
 };
