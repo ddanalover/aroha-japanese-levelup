@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AROHA Japanese Level Up!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Kosugi+Maru&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-body: #E9ECFF;
+      --bg-game: #FFFDF3;
+      --primary: #A889D6;
+      --secondary: #FFD54F;
+      --border: 4px solid #000;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      min-height: 100dvh;
+      background-color: var(--bg-body);
+      font-family: 'Jua', 'Kosugi Maru', sans-serif;
+      image-rendering: pixelated;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    #app {
+      width: 95vw;
+      max-width: 400px;
+      height: min(95dvh, 711px);
+      max-height: 711px;
+      background: var(--bg-game);
+      border: var(--border);
+      border-radius: 12px;
+      box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.12);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      padding-bottom: env(safe-area-inset-bottom);
+      box-sizing: border-box;
+    }
+
+    @supports not (height: 100dvh) {
+
+      html,
+      body {
+        min-height: 100vh;
+      }
+
+      #app {
+        height: min(95vh, 711px);
+      }
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    header {
+      background: var(--primary);
+      padding: 15px;
+      color: #fff;
+      font-size: 1.2rem;
+      text-align: center;
+      border-bottom: var(--border);
+      flex-shrink: 0;
+    }
+
+    .progress-bar {
+      height: 16px;
+      background: #fff;
+      border-bottom: var(--border);
+      flex-shrink: 0;
+    }
+
+    #progress-fill {
+      height: 100%;
+      width: 0%;
+      background: var(--secondary);
+      transition: 0.3s;
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 30px 20px 10px 20px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    /* 하단 버튼 영역 최적화 (선 제거 / 배경 통합) */
+    .nav-footer {
+      padding: 18px 20px 28px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-shrink: 0;
+      background: var(--bg-game);
+    }
+
+    .btn-pixel {
+      padding: 15px;
+      background: var(--primary);
+      color: #fff;
+      border: var(--border);
+      font-family: inherit;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    /* 네비게이션 버튼 사이즈 및 스타일 통일 */
+    .btn-nav {
+      flex: 1;
+      max-width: 160px;
+      padding: 12px 0;
+      font-size: 1rem;
+    }
+
+    .btn-opt {
+      background: #fff;
+      color: #000;
+      box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .spacer {
+      flex: 1;
+      min-height: 5px;
+    }
+
+    ruby {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    ruby rt {
+      font-size: 0.7rem;
+      color: #6c3483;
+      font-family: 'Noto Sans JP', 'Kosugi Maru', sans-serif;
+      font-weight: bold;
+      transform: translateY(-1px);
+    }
+
+    /* 🌟 별 애니메이션 (기존 로직 유지) */
+    .home-star {
+      font-size: 7.5rem;
+      margin-bottom: 5px;
+      animation: starFloat 2.5s infinite ease-in-out;
+      filter: drop-shadow(0 0 20px rgba(253, 216, 53, 0.7));
+    }
+
+    @keyframes starFloat {
+
+      0%,
+      100% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-12px) rotate(15deg);
+      }
+    }
+
+    /* 🏷️ LEVEL UP! 뱃지 */
+    .lvl-tag {
+      font-size: 1rem;
+      background: var(--primary);
+      color: #fff;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+      box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    /* 👑 메인 타이틀: '따나의 일본어노트' (두터운 섀도우 적용) */
+    .main-title {
+      font-size: 2.8rem;
+      color: var(--secondary);
+      text-shadow:
+        -2px -2px 0 #5B4B9A,
+        2px -2px 0 #5B4B9A,
+        -2px 2px 0 #5B4B9A,
+        2px 2px 0 #5B4B9A,
+        3px 3px 0 #5B4B9A,
+        4px 4px 0 #5B4B9A,
+        5px 5px 0 #5B4B9A,
+        7px 7px 0 rgba(0, 0, 0, 0.15);
+      margin-top: 5px;
+      margin-bottom: 12px;
+      line-height: 1.1;
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    /* ✨ 부제목: 일본어 뉘앙스 뽀개기 */
+    .sub-title {
+      font-size: 1.1rem;
+      color: #7D5BA6;
+      margin-bottom: 30px;
+      letter-spacing: 0.5px;
+      text-align: center;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #fff, 2px 2px 0 #fff, 4px 4px 0 rgba(91, 75, 154, 0.16);
+    }
+
+    .quiz-card {
+      background: #fff;
+      border: var(--border);
+      padding: 35px 15px;
+      text-align: center;
+      position: relative;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    #screen-quiz .quiz-card {
+      min-height: 136px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .q-tag {
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--secondary);
+      border: var(--border);
+      padding: 6px 12px;
+      font-size: 0.9rem;
+      z-index: 10;
+    }
+
+    .question {
+      font-size: 1.4rem;
+      line-height: 1.6;
+      color: #333;
+      word-break: keep-all;
+      text-align: center;
+    }
+
+    #screen-quiz .question {
+      width: 100%;
+      margin: 0;
+    }
+
+    .options {
+      display: grid;
+      gap: 15px;
+      width: 100%;
+      flex-shrink: 0;
+      margin-top: 18px;
+    }
+
+    .options .btn-opt {
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+
+    #screen-kanji-cat .btn-opt {
+      width: 100%;
+      padding: 14px 12px;
+      font-size: 1.05rem;
+      white-space: nowrap;
+    }
+
+    #feedback-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #feedback-overlay.show {
+      display: flex !important;
+    }
+
+    .modal {
+      background: #fff;
+      border: var(--border);
+      width: 85%;
+      max-height: 80%;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .f-scroll {
+      flex: 1;
+      overflow-y: auto;
+      background: #FFF9C4;
+      border: 2px dashed var(--primary);
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+
+    .score-box {
+      background: #fff;
+      border: var(--border);
+      padding: 10px 12px;
+      text-align: center;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    .review-list {
+      margin: 15px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overflow-y: auto;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .review-item {
+      background: #fff;
+      border: 2px solid var(--primary);
+      padding: 12px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #screen-result {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: 0;
+      overflow-y: auto;
+    }
+
+    #screen-result .content {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      padding-top: 16px;
+    }
+
+    #screen-result .nav-footer {
+      padding: 4px 20px 16px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-shrink: 0;
+      margin-bottom: 8px;
+    }
+
+    #screen-explain {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    #screen-explain .content {
+      flex: 1;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    #explain-viewer {
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    #explain-nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      flex-shrink: 0;
+    }
+
+    .label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      font-weight: 900;
+      font-size: 0.98rem;
+      margin-top: 2px;
+      margin-bottom: 8px;
+    }
+
+    .label.bad {
+      color: #8E3B2E;
+    }
+
+    .label.why {
+      color: #5B4B9A;
+    }
+
+    .label.good {
+      color: #1E7D4D;
+    }
+
+    .label.sum {
+      color: #8A6A00;
+    }
+
+    .explain-section {
+      margin-top: 0;
+    }
+
+    .explain-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    .explain-table th,
+    .explain-table td {
+      padding: 5px 2px;
+      border-bottom: 1px solid rgba(138, 106, 0, 0.28);
+    }
+
+    .explain-section+.explain-section {
+      margin-top: 18px;
+    }
+
+    .section-block {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.72;
+      text-align: left;
+    }
+
+    .wrong-set {
+      padding-left: 12px;
+      border-left: 2px solid rgba(142, 59, 46, 0.22);
+    }
+
+    .wrong-lead {
+      margin-bottom: 8px;
+    }
+
+    .wrong-choice {
+      padding: 6px 8px;
+      border-radius: 10px;
+    }
+
+    .wrong-choice+.wrong-choice {
+      margin-top: 6px;
+    }
+
+    .wrong-choice.bad {
+      background: rgba(142, 59, 46, 0.08);
+    }
+
+    .wrong-choice.good {
+      background: rgba(30, 125, 77, 0.08);
+    }
+
+    .mark-bad {
+      color: #B23A2E;
+      font-weight: 900;
+    }
+
+    .mark-good {
+      color: #1E7D4D;
+      font-weight: 900;
+    }
+
+    .line-pair {
+      margin: 0 0 12px 0;
+    }
+
+    .line-pair:last-child {
+      margin-bottom: 0;
+    }
+
+    .jp-line,
+    .ko-line {
+      display: block;
+    }
+
+    .ko-line {
+      margin-top: 2px;
+    }
+
+    .section-block ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .section-block li {
+      margin: 0 0 10px 0;
+      line-height: 1.72;
+    }
+
+    .section-block li:last-child {
+      margin-bottom: 0;
+    }
+
+    .fix-item {
+      padding-left: 12px;
+      border-left: 2px solid rgba(44, 138, 75, 0.22);
+    }
+
+    .step-item {
+      padding-left: 12px;
+      border-left: 2px solid rgba(138, 106, 0, 0.28);
+      margin: 0 0 10px 0;
+    }
+
+    .step-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .sum-box {
+      margin-top: 0;
+      padding: 10px 12px;
+      border: 2px dashed #D8B95A;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #FFFDF2 0%, #FFF9DE 100%);
+      line-height: 1.72;
+    }
+
+    .explain-item-title {
+      font-size: 1.08rem;
+      font-weight: 900;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      color: #2c2c2c;
+    }
+
+    .explain-cat-tag {
+      font-weight: 900;
+    }
+
+    /* StarNote-like scrollbar */
+    .review-list,
+    .f-scroll,
+    #screen-result .content,
+    #explain-list {
+      scrollbar-width: thin;
+      scrollbar-color: #a889d6 #efe9ff;
+      overflow-x: hidden;
+    }
+
+    #explain-body-card {
+      height: 100%;
+      padding: 0;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #explain-page-scroll {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-sizing: border-box;
+      padding: 12px 10px 12px 10px;
+      scrollbar-width: thin;
+      scrollbar-color: #a889d6 #efe9ff;
+    }
+
+    .review-list::-webkit-scrollbar,
+    .f-scroll::-webkit-scrollbar,
+    #screen-result .content::-webkit-scrollbar,
+    #explain-list::-webkit-scrollbar,
+    #explain-page-scroll::-webkit-scrollbar {
+      width: 10px;
+      height: 0;
+    }
+
+    .review-list::-webkit-scrollbar-track,
+    .f-scroll::-webkit-scrollbar-track,
+    #screen-result .content::-webkit-scrollbar-track,
+    #explain-list::-webkit-scrollbar-track,
+    #explain-page-scroll::-webkit-scrollbar-track {
+      background: #efe9ff;
+      border-radius: 999px;
+    }
+
+    .review-list::-webkit-scrollbar-thumb,
+    .f-scroll::-webkit-scrollbar-thumb,
+    #screen-result .content::-webkit-scrollbar-thumb,
+    #explain-list::-webkit-scrollbar-thumb,
+    #explain-page-scroll::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #a889d6, #8f74c0);
+      border-radius: 999px;
+      border: 2px solid #efe9ff;
+    }
+
+    #f-exp {
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+    }
+
+    .screen { display:flex; flex-direction:column; flex:1; min-height:0; overflow:hidden; }
+    .screen .content { min-height:0; overflow-y:auto; gap:12px; padding:20px 16px; }
+    .lesson-card { background:white; border:var(--border); border-radius:12px; padding:16px; text-align:left; font-family:'Noto Sans KR',sans-serif; line-height:1.7; }
+    .lesson-card h2 { font-size:1.25rem; margin:0 0 12px; }
+    .lesson-card p { margin:8px 0; }
+    .jp { font-family:'Noto Sans JP',sans-serif; font-size:1.3rem; overflow-wrap:anywhere; }
+    .reading { color:#6c3483; }
+    .muted { color:#555; font-size:.9rem; }
+    .lesson-link { text-align:left; padding:14px; line-height:1.6; }
+    .lesson-link small { display:block; font-family:'Noto Sans KR',sans-serif; font-size:.85rem; }
+    .kana-table { width:100%; border-collapse:collapse; table-layout:fixed; text-align:center; }
+    .kana-table td { border-bottom:1px solid #ddd; padding:8px 1px; }
+    .kana-table strong { display:block; font-size:1.5rem; }
+    .kana-table small { font-size:.85rem; }
+    .card-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:16px; }
+    .card-actions button { flex:1; padding:10px; font-size:1rem; }
+    .bottom-nav { display:flex; gap:8px; padding:12px 16px 20px; flex-shrink:0; }
+    .bottom-nav button { padding:10px 4px; flex:1; font-size:1rem; }
+    button:disabled { opacity:.45; cursor:default; }
+    .btn-pixel:focus-visible { outline:3px solid #5B4B9A; outline-offset:2px; }
+    #status { margin:0; font-size:.9rem; }
+    #home .content { background:radial-gradient(circle,#FFFDE7 0%,#F5F7FF 100%); }
+    #home h1 { font-size:2rem; text-align:center; margin:4px 0; color:#5B4B9A; }
+    #home .home-star { font-size:3rem; text-align:center; }
+    #home p { text-align:center; margin:0; line-height:1.6; }
+    .kana-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin:18px 0; }
+    .kana-cell { border:2px solid #D8C9EF; border-radius:10px; padding:10px 2px; text-align:center; background:#F8F4FF; }
+    .kana-cell strong { display:block; font-family:'Noto Sans JP',sans-serif; font-size:2rem; }
+    .kana-cell span { display:block; font-size:.9rem; overflow-wrap:anywhere; }
+    .word-example { border-left:3px solid var(--primary); padding-left:12px; margin:14px 0 20px; }
+    .word-example p { margin:4px 0; }
+    .word-example .jp { padding-top:8px; }
+    .letter-note { background:#FFF9DE; border-radius:10px; padding:12px; font-size:.9rem; }
+    summary { cursor:pointer; color:#6c3483; font-size:.9rem; }
+    .kanji-example { padding:12px 0; }
+    .kanji-example ruby { line-height:2.2; }
+  </style>
+</head>
+
+<body><main id="app">
+<section id="home" class="screen"><header>AROHA Japanese Level Up!</header><div class="content">
+<div class="home-star" aria-hidden="true">🌟</div><h1>무대 위 일본어가<br>들리는 첫걸음</h1><p>일본어를 처음 만나는 아로하에게<br>글자부터 공연·라이브 멘트까지</p>
+<button class="btn-pixel" onclick="openGroup('letters')">🌱 글자 첫걸음</button>
+<button class="btn-pixel" style="background:#FF8A80" onclick="openGroup('concert')">🎤 공연에서 들어요</button>
+<button class="btn-pixel" style="background:#4FC3F7" onclick="openGroup('live')">💬 라이브에서 들어요</button>
+<button class="btn-pixel" onclick="startCheck()">⭐ 짧게 확인해요</button>
+<p id="progress" class="muted">구성 미리보기 · 학습 내용은 함께 정해요</p></div></section>
+<section id="list" class="screen hidden"><header id="list-title"></header><div class="content" id="lesson-list"></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
+<section id="viewer" class="screen hidden"><header id="viewer-title"></header><div class="content" id="lesson-body"></div><nav class="bottom-nav" aria-label="학습 카드 이동"><button id="prev" class="btn-pixel" onclick="move(-1)">이전</button><button class="btn-pixel" onclick="openGroup(group)">목록</button><button id="next" class="btn-pixel" onclick="move(1)">다음</button></nav></section>
+<section id="check" class="screen hidden"><header>짧게 확인해요</header><div class="content"><article class="lesson-card"><h2>배운 만큼만, 가볍게</h2><p>글자나 표현을 배운 뒤 뜻을 짧게 확인하는 공간이에요.</p><p class="muted">문제와 정답은 학습 내용을 정한 뒤 함께 만들 예정이에요.</p></article></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
+<p id="status" class="hidden" role="status" aria-live="polite"></p>
+</main><script src="data/lessons.js"></script><script src="data/kanji.js"></script><script src="app.js"></script></body></html>
