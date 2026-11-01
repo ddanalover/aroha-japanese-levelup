@@ -73,7 +73,7 @@ function exampleText(html){return html.replace(/<rt>.*?<\/rt>/g,'').replace(/<[^
 function wordMatchesSentence(word,raw){
   const patterns={
     'みなさん':/みなさん|皆さん/,'あいさつ':/あいさつ|挨拶/,'一緒に':/一緒/,
-    'いる':/(?:^|[にがもはでて])い(?:て|ま|る)/,'会う':/会(?!場)/,
+    'いる':/(?:^|[にがもは])い(?:て|ま|る)/,'会う':/会(?!場)/,
     '知っている':/知って/,'楽しみにする':/楽しみに/,'楽しむ':/楽し(?:ん|みま|む)/,
     '見る':/見(?:て|ま|る|た|ながら)/,'聴く':/聴(?:い|く|き(?!どころ))/,'届く':/届(?:い|く|き)/,
     '答える':/答え(?:て|ま|る|た)/,'答え':/答え(?:を|は|が)/,
@@ -86,8 +86,8 @@ function wordMatchesSentence(word,raw){
 }
 function wordExample(word,context=[]){
   const candidates=context.length?context:concertLessons();
-  const linked=new Set((word.sourceExamples||[]).map(source=>source.jp));
-  const exact=candidates.find(sentence=>linked.has(sentence.examples[0][0]));
+  // Use the authored example order within the current learning context.
+  const exact=(word.sourceExamples||[]).map(source=>candidates.find(sentence=>sentence.examples[0][0]===source.jp)).find(Boolean);
   if(exact)return exact;
   const key=exampleText(word.examples[0][0]);
   return candidates.find(sentence=>wordMatchesSentence(key,exampleText(sentence.examples[0][0])))||null;

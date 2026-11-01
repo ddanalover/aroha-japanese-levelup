@@ -2645,9 +2645,9 @@ const LESSONS = [
     ],
     "sourceExamples": [
       {
-        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
-        "meaning": "다음 곡을 들어 주세요.",
-        "section": "곡을 소개할 때"
+        "jp": "ずっと<ruby>僕<rt>ぼく</rt></ruby>のそばにいてください。",
+        "meaning": "계속 제 곁에 있어 주세요.",
+        "section": "마지막 인사"
       },
       {
         "jp": "そばにいてくれてありがとう。",
