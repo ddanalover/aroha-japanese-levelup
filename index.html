@@ -657,6 +657,14 @@
     #opening .main-title { font-size:clamp(2.4rem,10vw,3.2rem); margin:4px 0 16px; }
     #opening .sub-title { font-size:1rem; margin:0 0 16px; }
     #opening button { width:85%; flex-shrink:0; }
+    .quiz-options { display:grid; gap:12px; margin:0; }
+    .quiz-options button { text-align:left; line-height:1.7; overflow-wrap:anywhere; }
+    .quiz-options button ruby { line-height:2; }
+    .quiz-progress { margin:0; color:#555; font-family:'Noto Sans KR',sans-serif; }
+    .quiz-feedback { font-family:'Noto Sans KR',sans-serif; line-height:1.7; }
+    .quiz-feedback p { margin:6px 0; }
+    .quiz-kana { font-family:'Noto Sans JP',sans-serif; color:#6c3483; }
+    .quiz-reading { font-size:1.3rem; font-weight:bold; }
   </style>
 </head>
 
@@ -669,14 +677,13 @@
 </div></section>
 <section id="home" class="screen hidden"><header>아로하의 일본어노트</header><div class="content">
 <p>오늘은 어떤 말을 만나볼까요?<br>편한 순서로 시작해요.</p>
-<button class="btn-pixel" onclick="openGroup('letters')">🌱 글자 첫걸음</button>
-<button class="btn-pixel" style="background:#FF8A80" onclick="openGroup('words')">🌼 단어로 배워요</button>
 <button class="btn-pixel" onclick="openGroup('concert')">🎤 문장으로 배워요</button>
-<button class="btn-pixel" style="background:#4FC3F7" onclick="openGroup('live')">💬 라이브에서 들어요</button>
+<button class="btn-pixel" style="background:#FF8A80" onclick="openGroup('words')">🌼 단어로 배워요</button>
+<button class="btn-pixel" onclick="openGroup('letters')">🌱 글자 첫걸음</button>
 <button class="btn-pixel" onclick="startCheck()">⭐ 짧게 확인해요</button>
 <p id="progress" class="muted">구성 미리보기 · 학습 내용은 함께 정해요</p></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('opening')">처음으로</button></nav></section>
 <section id="list" class="screen hidden"><header id="list-title"></header><div class="content" id="lesson-list"></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
 <section id="viewer" class="screen hidden"><header id="viewer-title"></header><div class="content" id="lesson-body"></div><nav class="bottom-nav" aria-label="학습 카드 이동"><button id="prev" class="btn-pixel" onclick="move(-1)">이전</button><button class="btn-pixel" onclick="openGroup(group)">목록</button><button id="next" class="btn-pixel" onclick="move(1)">다음</button></nav></section>
-<section id="check" class="screen hidden"><header>짧게 확인해요</header><div class="content"><article class="lesson-card"><h2>배운 만큼만, 가볍게</h2><p>글자나 표현을 배운 뒤 뜻을 짧게 확인하는 공간이에요.</p><p class="muted">문제와 정답은 학습 내용을 정한 뒤 함께 만들 예정이에요.</p></article></div><nav class="bottom-nav"><button class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
+<section id="check" class="screen hidden"><header id="check-title">짧게 확인해요</header><div class="content" id="check-body"></div><nav class="bottom-nav"><button id="check-back" class="btn-pixel" onclick="show('home')">홈으로</button></nav></section>
 <p id="status" class="hidden" role="status" aria-live="polite"></p>
-</main><script src="data/lessons.js"></script><script src="data/kanji.js"></script><script src="app.js"></script></body></html>
+</main><script src="data/lessons.js"></script><script src="data/kanji.js"></script><script src="app.js"></script><script src="quiz.js"></script></body></html>
