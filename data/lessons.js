@@ -8114,16 +8114,16 @@ const LESSONS = [
     "section": "곡을 소개할 때",
     "speaker": "artist",
     "learningSubcategory": "requests-song",
-    "title": "기타를 치면서 노래할게요.",
-    "text": "아티스트가 기타 반주와 노래를 함께하는 무대를 예고해요.",
+    "title": "기타를 치면서 노래해요.",
+    "text": "기타를 연주하며 노래하는 무대를 소개해요.",
     "examples": [
       [
-        "ギターの<ruby>弾き語り<rt>ひきがたり</rt></ruby>をします。",
-        "기타아노 히키가타리오 시마스.",
-        "기타를 치면서 노래할게요."
+        "ギターを<ruby>弾<rt>ひ</rt></ruby>きながら<ruby>歌<rt>うた</rt></ruby>います。",
+        "기타아오 히키나가라 우타이마스.",
+        "기타를 치면서 노래해요."
       ]
     ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    "note": "「弾きながら」는 ‘기타를 치면서’, 「歌います」는 ‘노래해요’라는 뜻이에요. 두 동작을 함께 한다는 말이에요."
   },
   {
     "section": "곡을 소개할 때",
@@ -8264,16 +8264,16 @@ const LESSONS = [
     "section": "토크할 때",
     "speaker": "artist",
     "learningSubcategory": "feelings-mood",
-    "title": "해산물도 먹어보고 싶어요.",
-    "text": "홋카이도에서 먹어보고 싶은 음식을 이야기하는 예문이에요.",
+    "title": "해산물은 별로 좋아하지 않아요.",
+    "text": "홋카이도 여행 토크에서 해산물을 좋아하지 않는 취향을 말해요.",
     "examples": [
       [
-        "<ruby>海鮮<rt>かいせん</rt></ruby>も<ruby>食べ<rt>たべ</rt></ruby>てみたいです。",
-        "카이센모 타베테미타이데스.",
-        "해산물도 먹어보고 싶어요."
+        "<ruby>海鮮<rt>かいせん</rt></ruby>は<ruby>苦手<rt>にがて</rt></ruby>です。",
+        "카이센와 니가테데스.",
+        "해산물은 별로 좋아하지 않아요."
       ]
     ],
-    "note": "12월 콘서트·팬미팅을 가정한 학습용 예문이에요. MC의 질문과 아티스트의 답변을 연결해 봐요."
+    "note": "음식에 대해 「苦手です」라고 하면 별로 좋아하지 않거나 입에 맞지 않는다는 뜻이에요."
   },
   {
     "section": "토크할 때",
@@ -8979,8 +8979,8 @@ const LESSONS = [
         "section": "곡을 소개할 때"
       },
       {
-        "jp": "ギターの<ruby>弾き語り<rt>ひきがたり</rt></ruby>をします。",
-        "meaning": "기타를 치면서 노래할게요.",
+        "jp": "ギターを<ruby>弾<rt>ひ</rt></ruby>きながら<ruby>歌<rt>うた</rt></ruby>います。",
+        "meaning": "기타를 치면서 노래해요.",
         "section": "곡을 소개할 때"
       },
       {
@@ -9014,28 +9014,28 @@ const LESSONS = [
         "section": "곡을 소개할 때"
       },
       {
-        "jp": "ギターの<ruby>弾き語り<rt>ひきがたり</rt></ruby>をします。",
-        "meaning": "기타를 치면서 노래할게요.",
+        "jp": "ギターを<ruby>弾<rt>ひ</rt></ruby>きながら<ruby>歌<rt>うた</rt></ruby>います。",
+        "meaning": "기타를 치면서 노래해요.",
         "section": "곡을 소개할 때"
       }
     ]
   },
   {
     "section": "함께하는 말",
-    "title": "악기를 연주하며 노래하기",
+    "title": "연주하면서",
     "text": "겨울 공연·새 앨범·기타 무대·여행 토크에서 만나는 단어예요.",
     "examples": [
       [
-        "<ruby>弾き語り<rt>ひきがたり</rt></ruby>",
-        "히키가타리",
-        "악기를 연주하며 노래하기"
+        "<ruby>弾<rt>ひ</rt></ruby>きながら",
+        "히키나가라",
+        "연주하면서"
       ]
     ],
-    "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
+    "note": "「弾く」는 ‘연주하다’라는 뜻이에요. 「〜ながら」를 붙이면 ‘~하면서’라는 뜻이 돼요.",
     "sourceExamples": [
       {
-        "jp": "ギターの<ruby>弾き語り<rt>ひきがたり</rt></ruby>をします。",
-        "meaning": "기타를 치면서 노래할게요.",
+        "jp": "ギターを<ruby>弾<rt>ひ</rt></ruby>きながら<ruby>歌<rt>うた</rt></ruby>います。",
+        "meaning": "기타를 치면서 노래해요.",
         "section": "곡을 소개할 때"
       }
     ]
@@ -9269,8 +9269,8 @@ const LESSONS = [
     "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
-        "jp": "<ruby>海鮮<rt>かいせん</rt></ruby>も<ruby>食べ<rt>たべ</rt></ruby>てみたいです。",
-        "meaning": "해산물도 먹어보고 싶어요.",
+        "jp": "<ruby>海鮮<rt>かいせん</rt></ruby>は<ruby>苦手<rt>にがて</rt></ruby>です。",
+        "meaning": "해산물은 별로 좋아하지 않아요.",
         "section": "토크할 때"
       }
     ]
@@ -9289,8 +9289,8 @@ const LESSONS = [
     "note": "예문의 뜻과 함께 소리를 익혀 보세요.",
     "sourceExamples": [
       {
-        "jp": "<ruby>海鮮<rt>かいせん</rt></ruby>も<ruby>食べ<rt>たべ</rt></ruby>てみたいです。",
-        "meaning": "해산물도 먹어보고 싶어요.",
+        "jp": "<ruby>北海道<rt>ほっかいどう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたいですか？",
+        "meaning": "홋카이도에서 무엇을 먹고 싶나요?",
         "section": "토크할 때"
       }
     ]
@@ -9422,6 +9422,41 @@ const LESSONS = [
         "jp": "<ruby>来年<rt>らいねん</rt></ruby>も<ruby>よろしくお願いします<rt>よろしくおねがいします</rt></ruby>。",
         "meaning": "내년에도 잘 부탁드려요.",
         "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "토크할 때",
+    "speaker": "mc",
+    "learningSubcategory": "feelings-mood",
+    "title": "홋카이도에서 무엇을 먹고 싶나요?",
+    "text": "MC가 여행지에서 먹어보고 싶은 음식을 물어요.",
+    "examples": [
+      [
+        "<ruby>北海道<rt>ほっかいどう</rt></ruby>で<ruby>何<rt>なに</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたいですか？",
+        "홋카이도오데 나니오 타베타이데스카?",
+        "홋카이도에서 무엇을 먹고 싶나요?"
+      ]
+    ],
+    "note": "음식 취향을 묻는 질문이에요. 실제로 어떤 음식을 좋아하는지는 별도로 확인해요."
+  },
+  {
+    "section": "함께하는 말",
+    "title": "잘하지 못함 · 음식이 입에 맞지 않음",
+    "text": "음식 취향을 부드럽게 말하는 표현이에요.",
+    "examples": [
+      [
+        "<ruby>苦手<rt>にがて</rt></ruby>",
+        "니가테",
+        "잘하지 못함 · 음식이 입에 맞지 않음"
+      ]
+    ],
+    "note": "음식에 쓰면 별로 좋아하지 않는다는 뜻으로 이해해요.",
+    "sourceExamples": [
+      {
+        "jp": "<ruby>海鮮<rt>かいせん</rt></ruby>は<ruby>苦手<rt>にがて</rt></ruby>です。",
+        "meaning": "해산물은 별로 좋아하지 않아요.",
+        "section": "토크할 때"
       }
     ]
   }
