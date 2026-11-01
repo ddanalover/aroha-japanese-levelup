@@ -1,8 +1,8 @@
 "use strict";
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
-  words: {title:'단어로 배워요', description:'짧은 단어부터 소리와 뜻을 연결해요', sections:['기분과 마음','노래와 연습']},
-  concert: {title:'문장으로 배워요', description:'공연의 흐름에 따라 아티스트의 말을 이해하는 공간', sections:['만났을 때','함께 즐길 때','다음 순서로 넘어갈 때','곡을 소개할 때','마지막 인사']},
+  words: {title:'단어로 배워요', description:'짧은 단어부터 소리와 뜻을 연결해요', sections:['기분과 마음','노래와 연습','공연의 흐름','함께하는 말','마음을 전하는 말']},
+  concert: {title:'문장으로 배워요', description:'공연의 흐름에 따라 아티스트의 말을 이해하는 공간', sections:['만났을 때','함께 즐길 때','곡을 소개할 때','다음 순서로 넘어갈 때','토크할 때','앙코르에서','마지막 인사']},
   live: {title:'라이브에서 들어요', description:'라이브 방송에서 자주 만나는 말을 이해하는 공간', sections:['방송을 시작할 때','일상을 이야기할 때','댓글에 반응할 때','방송을 마칠 때']}
 };
 let group='letters';
@@ -97,6 +97,18 @@ function renderLetters(){
     const example=document.createElement('div');example.className='kanji-example';example.innerHTML=word.example;
     details.append(summary,example);block.append(jp,meaning,details);card.append(block);
   });
+  if(data.sourceExamples){
+    const details=document.createElement('details');
+    const summary=document.createElement('summary');summary.textContent='이 단어가 나온 문장 보기';details.append(summary);
+    data.sourceExamples.forEach(source=>{
+      const block=document.createElement('div');block.className='word-example';
+      const jp=document.createElement('p');jp.className='jp';jp.lang='ja';jp.innerHTML=source.jp;
+      const meaning=document.createElement('p');meaning.textContent=source.meaning;
+      const button=document.createElement('button');button.className='btn-pixel btn-opt';button.textContent='문장 카드로 이동';
+      button.onclick=()=>{group='concert';selectedSection=source.section;stage=letterCards(source.section).findIndex(c=>c.examples?.[0]?.[0]===source.jp);renderFrame();};
+      block.append(jp,meaning,button);details.append(block);
+    });card.append(details);
+  }
   const note=document.createElement('p');note.className='letter-note';note.textContent=data.note;card.append(note);
   $('lesson-body').append(card);
   $('prev').disabled=stage===0;$('next').disabled=stage===cards.length-1;
