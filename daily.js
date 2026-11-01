@@ -90,7 +90,8 @@ function startDailyReview(){
     const question=makeQuizQuestion(word||source,word?'word':'sentence',word?wordPool:sentencePool);
     question.reviewSentence=source;return question;
   });
-  quizState={mode:'review',questions,index:0,correct:0,answered:false,
+  quizState={mode:'review',title:`${day}일차 · 복습`,questions,index:0,correct:0,answered:false,
+    onComplete(){const records=dailyRecords();if(!records.completed.includes(day))records.completed.push(day);saveDailyRecords(records);},
     onAnswer(question,correct){
       const records=dailyRecords(),key=plainJapanese(question.reviewSentence.examples[0][0]);
       records.mistakes[key]=correct?Math.max(0,(records.mistakes[key]||0)-1):(records.mistakes[key]||0)+1;

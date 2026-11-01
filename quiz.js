@@ -34,7 +34,7 @@ function startCheck(){
     const button=makeElement('button','btn-pixel',QUIZ_TITLES[mode]);
     button.onclick=()=>startQuizMode(mode);$('check-body').append(button);
   }
-  $('check-body').append(makeElement('p','muted','단어: 일본어를 보고 뜻 고르기 / 문장: 한국어 뜻에 맞는 일본어 문장 고르기'));
+  $('check-body').append(makeElement('p','muted','일본어와 한글 읽는 법을 보고, 한국어 뜻을 골라요.'));
   $('check-back').textContent='홈으로';$('check-back').onclick=()=>show('home');
   show('check');
 }
@@ -46,9 +46,9 @@ function quizPool(mode){
 }
 function makeQuizQuestion(card,mode,pool){
   const jp=plainJapanese(card.examples[0][0]);
-  const candidates=pool.filter(other=>other!==card&&plainJapanese(other.examples[0][0])!==jp&&other.examples[0][2]!==card.examples[0][2]);
-  const preferred=mode==='word'&&jp==='嬉しい'?candidates.find(other=>plainJapanese(other.examples[0][0])==='悲しい'):null;
-  const distractor=preferred||shuffle(candidates)[0];
+  const meaning=QUIZ_DISTRACTORS[mode][jp];
+  if(!meaning||meaning===card.examples[0][2])throw new Error('이 문항의 한국어 보기를 확인해 주세요: '+jp);
+  const distractor={examples:[['','',meaning]]};
   return {card,mode,choices:shuffle([card,distractor])};
 }
 function startQuizMode(mode){
@@ -59,52 +59,94 @@ function startQuizMode(mode){
   $('check-back').textContent='문제 선택으로';$('check-back').onclick=startCheck;
   show('check');renderQuizQuestion();
 }
+let quizFeedbackAction=null;
+let quizFeedbackFocus=null;
+function hideQuizFeedback(){
+  const overlay=$('feedback-overlay');
+  if(overlay)overlay.classList.remove('show');
+  document.querySelectorAll('#app > .screen').forEach(screen=>screen.inert=false);
+  quizFeedbackAction=null;
+}
+function openQuizFeedback(card,title,action){
+  quizFeedbackFocus=document.activeElement;
+  $('f-title').textContent=title;
+  $('f-exp').replaceChildren();
+  const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=card.examples[0][0];
+  $('f-exp').append(makeElement('strong',null,`정답: ${card.examples[0][2]}`),jp,makeElement('p','reading',card.examples[0][1]),makeElement('p',null,card.note||''));
+  document.querySelector('.f-scroll').scrollTop=0;
+  quizFeedbackAction=action;
+  document.querySelectorAll('#app > .screen').forEach(screen=>screen.inert=true);
+  $('feedback-overlay').classList.add('show');$('feedback-continue').focus();
+}
+function continueQuizFeedback(){
+  const action=quizFeedbackAction,focus=quizFeedbackFocus;
+  hideQuizFeedback();
+  if(action)action();else if(focus?.isConnected&&!focus.disabled)focus.focus();
+}
 function renderQuizQuestion(){
   const state=quizState,question=state.questions[state.index],example=question.card.examples[0];
-  state.answered=false;$('check-body').replaceChildren();$('check-body').scrollTop=0;
-  $('check-body').append(makeElement('p','quiz-progress',`${state.index+1}/${state.questions.length}`));
-  const card=makeElement('article','lesson-card');
-  if((question.mode||state.mode)==='word'){
-    card.append(makeElement('p','quiz-reading',example[1]));
-    const jp=makeElement('h2','jp',plainJapanese(example[0]));jp.lang='ja';
+  state.answered=false;state.results=state.results||[];
+  show('screen-quiz');
+  $('quiz-header').textContent=state.title||QUIZ_TITLES[state.mode];
+  $('q-label').textContent=`STEP ${String(state.index+1).padStart(2,'0')}`;
+  $('progress-fill').style.width=`${state.index/state.questions.length*100}%`;
+  $('q-text').replaceChildren();
+  const jp=makeElement('div','jp');jp.lang='ja';jp.innerHTML=example[0];
+  $('q-text').append(jp);
+  if((question.mode||state.mode)==='word'&&!example[0].includes('<ruby>')){
     const kana=makeElement('p','quiz-kana',kanaReading(example[0]));kana.lang='ja';
-    card.append(jp,kana,makeElement('p',null,'의 뜻을 고르세요.'));
-  }else{
-    card.append(makeElement('p','muted','이 뜻에 맞는 문장을 고르세요.'),makeElement('h2',null,example[2]));
+    if(kana.textContent!==plainJapanese(example[0]))$('q-text').append(kana);
   }
-  $('check-body').append(card);
-  const choices=makeElement('div','quiz-options');
-  question.choices.forEach(option=>{
-    const button=makeElement('button','btn-pixel btn-opt');
-    if((question.mode||state.mode)==='word')button.textContent=option.examples[0][2];
-    else{
-      const jp=makeElement('span','jp');jp.lang='ja';jp.innerHTML=option.examples[0][0];button.append(jp);
-    }
-    button.onclick=()=>answerQuiz(option,choices);choices.append(button);
+  $('q-text').append(makeElement('p','quiz-reading',example[1]),makeElement('p','quiz-prompt','한국어 뜻을 고르세요.'));
+  question.choices.forEach((option,i)=>{
+    const button=$(`opt${i}`);button.disabled=false;
+    button.textContent=`${i===0?'A':'B'}. ${option.examples[0][2]}`;
+    button.onclick=()=>answerQuiz(option);
   });
-  $('check-body').append(choices);
+  document.querySelector('#screen-quiz .content').scrollTop=0;
 }
-function answerQuiz(selected,choices){
+function answerQuiz(selected){
   const state=quizState;if(state.answered)return;state.answered=true;
-  const card=state.questions[state.index].card,isCorrect=selected===card;
+  const question=state.questions[state.index],card=question.card,isCorrect=selected===card;
   if(isCorrect)state.correct++;
-  if(state.onAnswer)state.onAnswer(state.questions[state.index],isCorrect);
-  choices.querySelectorAll('button').forEach(button=>button.disabled=true);
-  const feedback=makeElement('div','lesson-card quiz-feedback');feedback.setAttribute('role','status');
-  feedback.append(makeElement('strong',null,isCorrect?'🌟 정답이에요!':'다시 기억해 봐요.'));
-  const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=card.examples[0][0];
-  feedback.append(jp,makeElement('p',null,card.examples[0][1]),makeElement('p',null,card.examples[0][2]));
-  const next=makeElement('button','btn-pixel',state.index===state.questions.length-1?'결과 보기':'다음 문제');
-  next.onclick=()=>{state.index++;if(state.index<state.questions.length)renderQuizQuestion();else renderQuizResult();};
-  $('check-body').append(feedback,next);
-  feedback.scrollIntoView({block:'nearest'});
+  state.results.push({question,isCorrect});
+  if(state.onAnswer)state.onAnswer(question,isCorrect);
+  $('opt0').disabled=true;$('opt1').disabled=true;
+  playSnd(isCorrect?'c':'w');
+  openQuizFeedback(card,isCorrect?'🌟 정답입니다!':'☁️ 아쉬워요!',()=>{
+    state.index++;
+    if(state.index<state.questions.length)renderQuizQuestion();else renderQuizResult();
+  });
 }
 function renderQuizResult(){
   const state=quizState;
-  if(state.onFinish){state.onFinish(state);return;}
-  $('check-body').replaceChildren();$('check-body').scrollTop=0;
-  const card=makeElement('article','lesson-card');card.append(makeElement('h2',null,'오늘의 짧은 확인 완료!'),makeElement('p',null,`${state.questions.length}문제 중 ${state.correct}개를 맞혔어요.`));
-  const retry=makeElement('button','btn-pixel','다시 풀기');retry.onclick=()=>startQuizMode(state.mode);
-  const choose=makeElement('button','btn-pixel btn-opt','다른 문제 선택');choose.onclick=startCheck;
-  $('check-body').append(card,retry,choose);
+  show('screen-result');
+  if(state.onComplete)state.onComplete(state);
+  $('res-c').textContent=state.correct;$('res-total').textContent=state.questions.length;
+  $('review-list').replaceChildren();
+  state.results.forEach((result,i)=>{
+    const card=result.question.card;
+    const button=makeElement('button','review-item');
+    const jp=makeElement('strong');jp.lang='ja';jp.innerHTML=`${i+1}. ${card.examples[0][0]}`;
+    const reading=makeElement('div','reading',card.examples[0][1]);
+    const answer=makeElement('div',null,`정답: ${card.examples[0][2]}`);answer.style.color=result.isCorrect?'var(--primary)':'#E74C3C';
+    button.append(jp,reading,answer);
+    button.onclick=()=>openQuizFeedback(card,result.isCorrect?'🌟 해설 복습':'☁️ 해설 복습',null);
+    $('review-list').append(button);
+  });
+  $('review-list').scrollTop=0;
+  $('quiz-continue').textContent=state.onFinish?'오늘 공부로':'계속 풀기';
+  $('quiz-continue').onclick=()=>state.onFinish?state.onFinish(state):startQuizMode(state.mode);
+}
+function retryQuiz(){
+  const state=quizState;
+  state.index=0;state.correct=0;state.answered=false;state.results=[];
+  renderQuizQuestion();
+}
+function leaveQuiz(){
+  const state=quizState;
+  if(state?.mode==='review'){
+    if(state.index===state.questions.length)state.onFinish(state);
+    else{renderDaily();show('daily');}
+  }else startCheck();
 }

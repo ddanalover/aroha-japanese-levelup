@@ -9,6 +9,7 @@ let selectedSection='';
 let stage=0;
 const $=id=>document.getElementById(id);
 function show(id){
+  if(typeof hideQuizFeedback==='function')hideQuizFeedback();
   document.querySelectorAll('.screen').forEach(el=>el.classList.toggle('hidden',el.id!==id));
 }
 function openGroup(key){
