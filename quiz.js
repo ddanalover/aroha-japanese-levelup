@@ -39,7 +39,7 @@ function startCheck(){
   show('check');
 }
 function quizPool(mode){
-  const sections=GROUPS[mode==='word'?'words':'concert'].sections;
+  const sections=mode==='word'?WORD_TOPICS:CONCERT_SCENES;
   const pool=LESSONS.filter(card=>sections.includes(card.section)&&card.examples?.length);
   // Identical phrases must not become competing answers.
   return pool.filter((card,i)=>pool.findIndex(other=>plainJapanese(other.examples[0][0])===plainJapanese(card.examples[0][0]))===i);

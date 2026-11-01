@@ -1,8 +1,8 @@
 "use strict";
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
-  words: {title:'단어로 배워요', description:'짧은 단어부터 소리와 뜻을 연결해요', sections:['기분과 마음','노래와 연습','공연의 흐름','함께하는 말','마음을 전하는 말']},
-  concert: {title:'문장으로 배워요', description:'공연의 흐름에 따라 아티스트의 말을 이해하는 공간', sections:['만났을 때','함께 즐길 때','곡을 소개할 때','다음 순서로 넘어갈 때','토크할 때','앙코르에서','마지막 인사']}
+  words: {title:'단어로 배워요', description:'한 공연에서 만난 단어를, 같은 묶음에서 다시 봐요.', sections:CONCERT_COURSES.map(course=>course.title)},
+  concert: {title:'문장으로 배워요', description:'어느 묶음이든 공연의 시작부터 마지막까지. 익숙해지면 표현을 조금씩 더 만나봐요.', sections:CONCERT_COURSES.map(course=>course.title)}
 };
 let group='letters';
 let selectedSection='';
@@ -25,7 +25,8 @@ function openGroup(key){
     button.textContent=`${String(i+1).padStart(2,'0')} · ${name}`;
     const detail=document.createElement('small');
     const count=letterCards(name).length;
-    detail.textContent=count ? `${count}개 카드 · 편한 순서로 살펴봐요` : '내용 준비 중 · 화면 구성 보기';
+    const course=CONCERT_COURSES.find(course=>course.title===name);
+    detail.textContent=course ? `${count}개 ${key==='concert'?'문장':'단어'} · ${course.description}` : `${count}개 카드 · 편한 순서로 살펴봐요`;
     button.append(detail);button.onclick=()=>openSection(name);
     $('lesson-list').append(button);
   });
@@ -57,7 +58,7 @@ function move(delta){
   stage=Math.max(0,Math.min(last,stage+delta));renderFrame();
 }
 
-function letterCards(section){return [...LESSONS,...KANJI_CARDS].filter(card=>card.section===section);}
+function letterCards(section){return courseCards(section,group)||[...LESSONS,...KANJI_CARDS].filter(card=>card.section===section);}
 function renderLetters(){
   const cards=letterCards(selectedSection), data=cards[stage];
   $('viewer-title').textContent=selectedSection;
@@ -103,12 +104,16 @@ function renderLetters(){
       const jp=document.createElement('p');jp.className='jp';jp.lang='ja';jp.innerHTML=source.jp;
       const meaning=document.createElement('p');meaning.textContent=source.meaning;
       const button=document.createElement('button');button.className='btn-pixel btn-opt';button.textContent='문장 카드로 이동';
-      button.onclick=()=>{group='concert';selectedSection=source.section;stage=letterCards(source.section).findIndex(c=>c.examples?.[0]?.[0]===source.jp);renderFrame();};
+      button.onclick=()=>openSentence(source.jp);
       block.append(jp,meaning,button);details.append(block);
     });card.append(details);
   }
   const note=document.createElement('p');note.className='letter-note';note.textContent=data.note;card.append(note);
   if(data.source){const source=document.createElement('p');source.className='muted';source.textContent=data.source;card.append(source);}
+  if((group==='concert'||group==='words')&&stage===cards.length-1){
+    const repeat=document.createElement('button');repeat.className='btn-pixel';repeat.textContent='처음부터 다시 보기';
+    repeat.onclick=()=>{stage=0;renderFrame();};card.append(repeat);
+  }
   $('lesson-body').append(card);
   $('prev').disabled=stage===0;$('next').disabled=stage===cards.length-1;
 }
