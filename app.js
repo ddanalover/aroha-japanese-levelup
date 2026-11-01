@@ -110,6 +110,7 @@ function renderLetters(){
     });card.append(details);
   }
   const note=document.createElement('p');note.className='letter-note';note.textContent=data.note;card.append(note);
+  if(data.source){const source=document.createElement('p');source.className='muted';source.textContent=data.source;card.append(source);}
   $('lesson-body').append(card);
   $('prev').disabled=stage===0;$('next').disabled=stage===cards.length-1;
 }
