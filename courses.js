@@ -7,6 +7,28 @@ const CONCERT_COURSES = [
   {title:'더 다양한 말도 알아들어요', level:3, description:'익숙한 문장에 다른 소개·호응·마음 표현을 더해요.'},
   {title:'모든 표현으로 다시 한 공연', level:4, description:'지금까지의 표현을 공연 순서대로 편하게 반복해요.'}
 ];
+const WEEKLY_SENTENCE_COURSES = [
+  {title:'1주차 · 인사·감사·함께하자는 말', label:'1주차', goal:'익숙한 문장의 뜻을 바로 떠올리기'},
+  {title:'2주차 · 호응·곡 소개·코너 진행', label:'2주차', goal:'관객에게 무엇을 부탁하는지 알기'},
+  {title:'3주차 · 소감·연습 이야기·팬에게 전하는 마음', label:'3주차', goal:'단어가 조금 달라져도 핵심 잡기'},
+  {title:'4주차 · 공연 순서로 종합 복습', label:'4주차', goal:'시작부터 마지막 인사까지 흐름 따라가기'}
+];
+function sentenceWeek(card){
+  const jp=card.examples[0][0].replace(/<rt>.*?<\/rt>/g,'').replace(/<[^>]*>/g,'');
+  if(card.section==='토크할 때'||/楽しい時間|元気をもら/.test(jp))return 3;
+  if(card.section==='마지막 인사'){
+    return /そば|ずっと|応援|味方|大好き|笑顔|頑張|おかげ|約束|幸せ|忘れ|悲し|楽しみに/.test(jp)?3:1;
+  }
+  if(card.section==='만났을 때')return 1;
+  if(card.section==='함께 즐길 때'&&/一緒に|みんなで/.test(jp))return 1;
+  return 2;
+}
+function weeklySentenceCards(title){
+  const index=WEEKLY_SENTENCE_COURSES.findIndex(course=>course.title===title);
+  if(index<0)return null;
+  // The fourth week revisits existing sentences in concert order; no new set is required.
+  return index===3?concertLessons():concertLessons().filter(card=>sentenceWeek(card)===index+1);
+}
 const COURSE_INTRODUCTIONS = [
   [
     "여러분, 안녕하세요!",
@@ -72,6 +94,7 @@ function wordLevel(card){
   return levels.length?Math.min(...levels):4;
 }
 function courseCards(title,kind){
+  if(kind==='concert'){const weekly=weeklySentenceCards(title);if(weekly)return weekly;}
   const course=CONCERT_COURSES.find(c=>c.title===title);
   if(!course)return null;
   if(kind==='concert')return concertLessons().filter(c=>sentenceLevel(c)<=course.level);
@@ -87,6 +110,6 @@ function courseCards(title,kind){
 function openSentence(jp){
   const sentence=concertLessons().find(card=>card.examples[0][0]===jp);
   if(!sentence)return;
-  group='concert';selectedSection=CONCERT_COURSES[sentenceLevel(sentence)-1].title;
+  group='concert';selectedSection=WEEKLY_SENTENCE_COURSES[sentenceWeek(sentence)-1].title;
   stage=letterCards(selectedSection).indexOf(sentence);renderFrame();show('viewer');
 }

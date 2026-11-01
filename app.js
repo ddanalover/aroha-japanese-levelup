@@ -2,7 +2,7 @@
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
   words: {title:'단어로 익혀요', description:'한 공연에서 만난 단어를, 같은 묶음에서 다시 봐요.', sections:CONCERT_COURSES.map(course=>course.title)},
-  concert: {title:'문장으로 외워요', description:'어느 묶음이든 공연의 시작부터 마지막까지. 익숙해지면 표현을 조금씩 더 만나봐요.', sections:CONCERT_COURSES.map(course=>course.title)}
+  concert: {title:'문장으로 외워요', description:'학습 내용과 목표에 맞춰 문장을 모았어요. 어느 주차든 자유롭게 다시 볼 수 있어요.', sections:WEEKLY_SENTENCE_COURSES.map(course=>course.title)}
 };
 let group='letters';
 let selectedSection='';
@@ -23,11 +23,13 @@ function openGroup(key){
   config.sections.forEach((name,i)=>{
     const button=document.createElement('button');
     button.className='btn-pixel btn-opt lesson-link';
-    button.textContent=`${String(i+1).padStart(2,'0')} · ${name}`;
+    const week=key==='concert'?WEEKLY_SENTENCE_COURSES.find(week=>week.title===name):null;
+    button.textContent=week?name:`${String(i+1).padStart(2,'0')} · ${name}`;
     const detail=document.createElement('small');
     const count=letterCards(name).length;
     const course=CONCERT_COURSES.find(course=>course.title===name);
-    detail.textContent=course ? `${count}개 ${key==='concert'?'문장':'단어'} · ${course.description}` : `${count}개 카드 · 편한 순서로 살펴봐요`;
+    detail.textContent=week ? `${count}개 문장 · 목표: ${week.goal}` : course ? `${count}개 단어 · ${course.description}` : `${count}개 카드 · 편한 순서로 살펴봐요`;
+    if(week?.label==='4주차'){const note=document.createElement('small');note.textContent='새 내용은 줄이고, 배운 문장을 공연 순서로 다시 봐요.';button.append(note);}
     button.append(detail);button.onclick=()=>openSection(name);
     $('lesson-list').append(button);
   });
@@ -62,7 +64,8 @@ function move(delta){
 function letterCards(section){return courseCards(section,group)||[...LESSONS,...KANJI_CARDS].filter(card=>card.section===section);}
 function renderLetters(){
   const cards=letterCards(selectedSection), data=cards[stage];
-  $('viewer-title').textContent=selectedSection;
+  const week=group==='concert'?WEEKLY_SENTENCE_COURSES.find(week=>week.title===selectedSection):null;
+  $('viewer-title').textContent=week?`${week.label} · 문장으로 외워요`:selectedSection;
   $('lesson-body').replaceChildren();$('lesson-body').scrollTop=0;
   const card=document.createElement('article');card.className='lesson-card';
   const count=document.createElement('p');count.className='muted';count.textContent=`검토용 초안 · ${stage+1}/${cards.length}`;
