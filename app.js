@@ -71,7 +71,9 @@ function renderLetters(){
   const count=document.createElement('p');count.className='muted';count.textContent=`검토용 초안 · ${stage+1}/${cards.length}`;
   const title=document.createElement('h2');title.textContent=data.title;
   const text=document.createElement('p');text.textContent=data.text;
-  card.append(count,title,text);
+  card.append(count);
+  if(group==='concert')card.append(makeElement('p','speaker-label',speakerLabel(data)));
+  card.append(title,text);
   if(data.kana){
     const grid=document.createElement('div');grid.className='kana-grid';
     data.kana.forEach((char,i)=>{

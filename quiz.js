@@ -72,6 +72,7 @@ function openQuizFeedback(card,title,action){
   $('f-title').textContent=title;
   $('f-exp').replaceChildren();
   const jp=makeElement('p','jp');jp.lang='ja';jp.innerHTML=card.examples[0][0];
+  if(CONCERT_SCENES.includes(card.section))$('f-exp').append(makeElement('p','speaker-label',speakerLabel(card)));
   $('f-exp').append(makeElement('strong',null,`정답: ${card.examples[0][2]}`),jp,makeElement('p','reading',card.examples[0][1]),makeElement('p',null,card.note||''));
   document.querySelector('.f-scroll').scrollTop=0;
   quizFeedbackAction=action;
@@ -92,6 +93,7 @@ function renderQuizQuestion(){
   $('progress-fill').style.width=`${state.index/state.questions.length*100}%`;
   $('q-text').replaceChildren();
   const jp=makeElement('div','jp');jp.lang='ja';jp.innerHTML=example[0];
+  if((question.mode||state.mode)==='sentence')$('q-text').append(makeElement('p','speaker-label',speakerLabel(question.card)));
   $('q-text').append(jp);
   if((question.mode||state.mode)==='word'&&!example[0].includes('<ruby>')){
     const kana=makeElement('p','quiz-kana',kanaReading(example[0]));kana.lang='ja';
@@ -130,6 +132,7 @@ function renderQuizResult(){
     const jp=makeElement('strong');jp.lang='ja';jp.innerHTML=`${i+1}. ${card.examples[0][0]}`;
     const reading=makeElement('div','reading',card.examples[0][1]);
     const answer=makeElement('div',null,`정답: ${card.examples[0][2]}`);answer.style.color=result.isCorrect?'var(--primary)':'#E74C3C';
+    if(CONCERT_SCENES.includes(card.section))button.append(makeElement('div','speaker-label',speakerLabel(card)));
     button.append(jp,reading,answer);
     button.onclick=()=>openQuizFeedback(card,result.isCorrect?'🌟 해설 복습':'☁️ 해설 복습',null);
     $('review-list').append(button);

@@ -46,9 +46,10 @@ function renderDaily(){
     const data=dailySentences(lesson)[step];
     $('daily-body').append(makeElement('p','quiz-progress',`오늘의 문장 ${step+1}/5`));
     const card=makeElement('article','lesson-card');
+    card.append(makeElement('p','speaker-label',speakerLabel(data)));
     card.append(makeElement('p','muted','먼저 문장 전체와 뜻을 익혀 봐요.'));
     const jp=makeElement('h2','jp');jp.lang='ja';jp.innerHTML=data.examples[0][0];
-    card.append(jp,makeElement('p','reading',data.examples[0][1]),makeElement('p',null,data.examples[0][2]));
+    card.append(jp,makeElement('p','reading',data.examples[0][1]),makeElement('p',null,data.examples[0][2]),makeElement('p','muted',data.text));
     $('daily-body').append(card);
   }else if(step===5){
     $('daily-body').append(makeElement('h2',null,'문장 속 단어·표현'));

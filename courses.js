@@ -13,8 +13,14 @@ const WEEKLY_SENTENCE_COURSES = [
   {title:'3주차 · 소감·연습 이야기·팬에게 전하는 마음', label:'3주차', goal:'단어가 조금 달라져도 핵심 잡기'},
   {title:'4주차 · 공연 순서로 종합 복습', label:'4주차', goal:'시작부터 마지막 인사까지 흐름 따라가기'}
 ];
+function speakerLabel(card){return card.speaker==='mc'?'MC':'아티스트';}
 function sentenceWeek(card){
   const jp=card.examples[0][0].replace(/<rt>.*?<\/rt>/g,'').replace(/<[^>]*>/g,'');
+  if(card.speaker==='mc'){
+    if(card.section==='만났을 때')return 1;
+    if(/最近|トレーニング|気分|感想|メッセージ|どのくらい|また日本|会える日/.test(jp))return 3;
+    return 2;
+  }
   if(card.section==='토크할 때'||/楽しい時間|元気をもら/.test(jp))return 3;
   if(card.section==='마지막 인사'){
     return /そば|ずっと|応援|味方|大好き|笑顔|頑張|おかげ|約束|幸せ|忘れ|悲し|楽しみに/.test(jp)?3:1;
