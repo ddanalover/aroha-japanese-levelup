@@ -2,7 +2,7 @@
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','작은 글자와 긴 소리','자주 쓰는 단어','한자도 만나봐요']},
   words: {title:'단어로 배워요', description:'짧은 단어부터 소리와 뜻을 연결해요', sections:['기분과 마음','노래와 연습']},
-  concert: {title:'문장으로 배워요', description:'공연의 흐름에 따라 아티스트의 말을 이해하는 공간', sections:['만났을 때','함께 즐길 때','곡을 소개할 때','마지막 인사']},
+  concert: {title:'문장으로 배워요', description:'공연의 흐름에 따라 아티스트의 말을 이해하는 공간', sections:['만났을 때','함께 즐길 때','다음 순서로 넘어갈 때','곡을 소개할 때','마지막 인사']},
   live: {title:'라이브에서 들어요', description:'라이브 방송에서 자주 만나는 말을 이해하는 공간', sections:['방송을 시작할 때','일상을 이야기할 때','댓글에 반응할 때','방송을 마칠 때']}
 };
 let group='letters';
@@ -25,7 +25,7 @@ function openGroup(key){
     button.className='btn-pixel btn-opt lesson-link';
     button.textContent=`${String(i+1).padStart(2,'0')} · ${name}`;
     const detail=document.createElement('small');
-    const count=(key==='letters'||key==='words')?letterCards(name).length:0;
+    const count=letterCards(name).length;
     detail.textContent=count ? `${count}개 카드 · 편한 순서로 살펴봐요` : '내용 준비 중 · 화면 구성 보기';
     button.append(detail);button.onclick=()=>openSection(name);
     $('lesson-list').append(button);
@@ -34,7 +34,7 @@ function openGroup(key){
 }
 function openSection(name){selectedSection=name;stage=0;renderFrame();show('viewer');}
 function renderFrame(){
-  if(group==='letters'||group==='words'){renderLetters();return;}
+  if(letterCards(selectedSection).length){renderLetters();return;}
   $('lesson-body').scrollTop=0;
   const steps=group==='letters'
     ? ['모양과 소리를 만나요','한 번 더 살펴봐요','짧게 확인해요']
@@ -53,7 +53,8 @@ function renderFrame(){
   $('prev').disabled=stage===0;$('next').disabled=stage===steps.length-1;
 }
 function move(delta){
-  const last=(group==='letters'||group==='words')?letterCards(selectedSection).length-1:2;
+  const count=letterCards(selectedSection).length;
+  const last=count?count-1:2;
   stage=Math.max(0,Math.min(last,stage+delta));renderFrame();
 }
 function startCheck(){show('check');}
