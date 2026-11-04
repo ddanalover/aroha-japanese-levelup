@@ -1,6 +1,5 @@
 "use strict";
 let quizState = null;
-let quizLevel='basic';
 const QUIZ_TITLES = {word:'알맞은 단어를 골라요',sentence:'알맞은 문장을 골라요'};
 function makeElement(tag, className, text){
   const element=document.createElement(tag);
@@ -26,14 +25,11 @@ function kanaReading(html){
   });
   return template.content.textContent;
 }
-function startCheck(level='basic'){
-  if(typeof level!=='string')level=quizLevel;
-  quizLevel=level;
+function startCheck(){
   quizState=null;
   $('check-title').textContent='퀴즈로 확인해요';
   $('check-body').replaceChildren();
-  $('check-body').append(makeLevelControls(quizLevel,value=>startCheck(value)));
-  $('check-body').append(makeElement('p','muted',quizLevel==='basic'?'짧은 기본 문장과 핵심 단어만 확인해요. 한 번에 5문제씩 풀어요.':'긴 공지와 추가 토크 표현을 선택해서 확인해요. 한 번에 5문제씩 풀어요.'));
+  $('check-body').append(makeElement('p','muted','한 번에 5문제씩, 배운 내용을 가볍게 확인해요.'));
   for(const mode of ['word','sentence']){
     const button=makeElement('button','btn-pixel',QUIZ_TITLES[mode]);
     button.onclick=()=>startQuizMode(mode);$('check-body').append(button);
@@ -44,10 +40,9 @@ function startCheck(level='basic'){
 }
 function quizPool(mode){
   const sections=mode==='word'?WORD_TOPICS:CONCERT_SCENES;
-  const pool=LESSONS.filter(card=>sections.includes(card.section)&&card.examples?.length&&card.level===quizLevel);
+  const pool=LESSONS.filter(card=>sections.includes(card.section)&&card.examples?.length);
   // Identical phrases must not become competing answers.
-  const seen=new Set();
-  return pool.filter(card=>{const jp=plainJapanese(card.examples[0][0]);if(seen.has(jp))return false;seen.add(jp);return true;});
+  return pool.filter((card,i)=>pool.findIndex(other=>plainJapanese(other.examples[0][0])===plainJapanese(card.examples[0][0]))===i);
 }
 function makeQuizQuestion(card,mode,pool){
   const jp=plainJapanese(card.examples[0][0]);
@@ -57,10 +52,9 @@ function makeQuizQuestion(card,mode,pool){
   return {card,mode,choices:shuffle([card,distractor])};
 }
 function startQuizMode(mode){
-  sentenceLevel=quizLevel;
   const pool=quizPool(mode);
   const questions=shuffle(pool).slice(0,5).map(card=>makeQuizQuestion(card,mode,pool));
-  quizState={mode,title:`${quizLevel==='basic'?'기본':'심화·추가'} · ${QUIZ_TITLES[mode]}`,questions,index:0,correct:0,answered:false};
+  quizState={mode,questions,index:0,correct:0,answered:false};
   $('check-title').textContent=QUIZ_TITLES[mode];
   $('check-back').textContent='문제 선택으로';$('check-back').onclick=startCheck;
   show('check');renderQuizQuestion();
