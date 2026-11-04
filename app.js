@@ -87,6 +87,7 @@ function renderLetters(){
   const count=document.createElement('p');count.className='muted';count.textContent=`${info?info.title:selectedSection} · ${stage+1}/${cards.length}`;
   const title=document.createElement('h2');title.textContent=data.title;
   card.append(count);
+  if(group==='concert'&&!DAILY_LESSONS.some(day=>day.sentences.includes(exampleText(data.examples[0][0]))))card.append(makeElement('p','muted','선택 예문 · 30일 필수 과정 외'));
   if(group==='concert')card.append(makeElement('p','speaker-label',speakerLabel(data)));
   card.append(title);
   if(data.text)card.append(makeElement('p',null,data.text));

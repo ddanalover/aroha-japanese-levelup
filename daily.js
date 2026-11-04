@@ -1,6 +1,8 @@
 "use strict";
 let dailyState=null;
-const DAILY_STORAGE='aroha-daily-v1';
+const DAILY_STORAGE='concert-japanese-daily-v2';
+const DAILY_SENTENCE_CARDS=new Map(concertLessons().map(card=>[plainJapanese(card.examples[0][0]),card]));
+const DAILY_WORD_CARDS=new Map(LESSONS.filter(card=>WORD_TOPICS.includes(card.section)).map(card=>[plainJapanese(card.examples[0][0]),card]));
 function dailyRecords(){
   try{
     const saved=JSON.parse(localStorage.getItem(DAILY_STORAGE)||'{}');
@@ -9,21 +11,23 @@ function dailyRecords(){
 }
 function saveDailyRecords(record){try{localStorage.setItem(DAILY_STORAGE,JSON.stringify(record));}catch{/* Learning remains available without storage. */}}
 function dailySentences(day){
-  return day.sentences.map(jp=>concertLessons().find(card=>plainJapanese(card.examples[0][0])===jp));
+  return day.sentences.map(jp=>DAILY_SENTENCE_CARDS.get(jp));
 }
 function dailyWords(day){
-  const words=LESSONS.filter(card=>WORD_TOPICS.includes(card.section));
-  return day.words.map(jp=>words.find(card=>plainJapanese(card.examples[0][0])===jp));
+  return day.words.map(jp=>DAILY_WORD_CARDS.get(jp));
 }
 function openDailyMenu(){
   $('daily-list').replaceChildren();
-  $('daily-list').append(makeElement('p','muted','하루 다섯 문장과 전날 복습 세 문제. 날짜에 맞추지 않아도 괜찮아요. 언제든 다시 볼 수 있어요.'));
-  $('daily-list').append(makeElement('p','muted','30일 동안 150문장을 만나요. 7일차부터는 전날 2문제와 더 이전 내용 1문제를 복습해요.'));
+  $('daily-list').append(makeElement('p','muted','하루 한 상황, 다섯 문장. 곡 소개·관객 호응·토크·공연 안내를 흐름에 따라 익혀요. 날짜에 맞추지 않아도 언제든 열어 볼 수 있어요.'));
+  $('daily-list').append(makeElement('p','muted','30일 동안 필수 150문장을 만나요. 2일차부터 복습 3문제, 7일차부터는 전날 2문제와 더 이전 내용 1문제를 복습해요. 음성 듣기 훈련은 아직 제공하지 않아요.'));
+  try{
+    if(localStorage.getItem('aroha-daily-v1'))$('daily-list').append(makeElement('p','muted','학습 순서가 바뀌어 새 과정의 완료 기록은 별도로 저장해요. 이전 과정의 기록은 이 브라우저에 그대로 보관되어 있어요.'));
+  }catch{/* Storage may be unavailable. */}
   const records=dailyRecords();
   for(let day=1;day<=30;day++){
     const lesson=DAILY_LESSONS.find(item=>item.day===day);
     const button=makeElement('button','btn-pixel btn-opt lesson-link',`${day}일차${records.completed.includes(day)?' · 다시 보기':''}`);
-    const detail=makeElement('small',null,lesson?`새 문장 5개 · ${day===1?'첫날은 복습 없이 시작해요':'복습 3문제'}`:'내용 준비 중');
+    const detail=makeElement('small',null,lesson?`${lesson.title} · ${day===1?'첫날은 복습 없이 시작해요':'복습 3문제'}`:'내용 준비 중');
     button.append(detail);button.disabled=!lesson;
     if(lesson)button.onclick=()=>openDaily(day);
     $('daily-list').append(button);
@@ -45,11 +49,20 @@ function renderDaily(){
   if(step<5){
     const data=dailySentences(lesson)[step];
     $('daily-body').append(makeElement('p','quiz-progress',`오늘의 문장 ${step+1}/5`));
+    $('daily-body').append(makeElement('h2','daily-theme',lesson.title));
+    const flow=document.createElement('ol');flow.className='daily-flow';flow.setAttribute('aria-label','오늘의 학습 흐름');
+    lesson.flow.forEach((label,index)=>{
+      const item=makeElement('li',null,label);
+      if(index===step)item.setAttribute('aria-current','step');
+      flow.append(item);
+    });
+    $('daily-body').append(flow);
     const card=makeElement('article','lesson-card');
     card.append(makeElement('p','speaker-label',speakerLabel(data)));
     const jp=makeElement('h2','jp');jp.lang='ja';jp.innerHTML=data.examples[0][0];
     card.append(jp,makeElement('p','reading',data.examples[0][1]),makeElement('p',null,data.examples[0][2]));
     if(data.text)card.append(makeElement('p','muted',data.text));
+    if(data.note)card.append(makeElement('p','muted',data.note));
     $('daily-body').append(card);
   }else if(step===5){
     $('daily-body').append(makeElement('h2',null,'문장 속 단어·표현'));

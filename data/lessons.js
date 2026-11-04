@@ -1,5 +1,5 @@
 "use strict";
-// 학습용 초안: 글자 첫걸음, 공연 멘트와 멘트에서 뽑은 단어. 실제 아티스트 발언의 인용이 아닙니다.
+// 학습용 예문: 실제 아티스트 발언·일정·촬영 규칙의 인용이 아닙니다.
 const LESSONS = [
   {
     "section": "일본어 글자와 소리",
@@ -2246,6 +2246,36 @@ const LESSONS = [
         "jp": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>ってください！",
         "meaning": "함께 불러 주세요!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>は<ruby>久しぶり<rt>ひさしぶり</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>います。",
+        "meaning": "이 곡은 오랜만에 불러요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "サビを<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってほしいです。",
+        "meaning": "후렴을 함께 불러 주면 좋겠어요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>言葉<rt>ことば</rt></ruby><ruby>一つ一つ<rt>ひとつひとつ</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>いました。",
+        "meaning": "말 하나하나를 소중히 생각하며 불렀어요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "ヒントは<ruby>歌<rt>うた</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>です。",
+        "meaning": "힌트는 노래 제목이에요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>いましょう。",
+        "meaning": "마지막 곡을 함께 불러요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってください。",
+        "meaning": "다음 곡은 함께 불러 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -2287,6 +2317,36 @@ const LESSONS = [
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は、<ruby>新曲<rt>しんきょく</rt></ruby>です。",
         "meaning": "다음은 신곡이에요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>はいかがでしたか？",
+        "meaning": "첫 곡은 어떠셨나요?",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>に、アンコール<ruby>曲<rt>きょく</rt></ruby>をお<ruby>聞<rt>き</rt></ruby>かせします。",
+        "meaning": "마지막으로 앙코르 곡을 들려드리겠습니다.",
+        "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>が<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>です。",
+        "meaning": "다음이 마지막 곡이에요.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってください。",
+        "meaning": "다음 곡은 함께 불러 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>のポイントを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "meaning": "이 곡의 포인트를 알려 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>をお<ruby>聞<rt>き</rt></ruby>かせします。",
+        "meaning": "다음 곡을 들려드리겠습니다.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -2304,6 +2364,11 @@ const LESSONS = [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は、<ruby>新曲<rt>しんきょく</rt></ruby>です。",
         "meaning": "다음은 신곡이에요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>新曲<rt>しんきょく</rt></ruby>を<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "meaning": "신곡을 소개하겠습니다.",
         "section": "곡을 소개할 때"
       }
     ]
@@ -2328,6 +2393,21 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>のために、たくさん<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
         "meaning": "오늘을 위해 많이 연습했어요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当に<rt>ほんとうに</rt></ruby>ありがとう。",
+        "meaning": "오늘은 정말 고마워요.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby><ruby>一番<rt>いちばん</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
+        "meaning": "오늘 가장 큰 목소리를 들려주세요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>感想<rt>かんそう</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください。",
+        "meaning": "오늘 소감을 들려 주세요.",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -2351,6 +2431,46 @@ const LESSONS = [
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
         "meaning": "다음 곡을 들어 주세요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>はバラードです。",
+        "meaning": "다음은 발라드예요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>は、ゲームの<ruby>時間<rt>じかん</rt></ruby>です。",
+        "meaning": "다음은 게임 시간이에요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>、お<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "다음 문제 부탁드립니다.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
+        "meaning": "다음 무대까지 앞으로 5분 남았어요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>はどんな<ruby>曲<rt>きょく</rt></ruby>ですか？",
+        "meaning": "다음은 어떤 곡인가요?",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>が<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>です。",
+        "meaning": "다음이 마지막 곡이에요.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってください。",
+        "meaning": "다음 곡은 함께 불러 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby>です。",
+        "meaning": "다음 공연은 다음 달이에요.",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -2374,6 +2494,26 @@ const LESSONS = [
         "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しみましょう！",
         "meaning": "마지막까지 함께 즐겨요!",
         "section": "만났을 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>に、アンコール<ruby>曲<rt>きょく</rt></ruby>をお<ruby>聞<rt>き</rt></ruby>かせします。",
+        "meaning": "마지막으로 앙코르 곡을 들려드리겠습니다.",
+        "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>盛り上が<rt>もりあが</rt></ruby>りましょう！",
+        "meaning": "마지막까지 신나게 즐겨요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>にお<ruby>知<rt>し</rt></ruby>らせがあります。",
+        "meaning": "마지막으로 안내드릴 소식이 있어요.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>楽し<rt>たのし</rt></ruby>んでください！",
+        "meaning": "마지막까지 함께 즐겨 주세요!",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -2397,6 +2537,11 @@ const LESSONS = [
         "jp": "<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>はあっという<ruby>間<rt>ま</rt></ruby>ですね。",
         "meaning": "즐거운 시간은 순식간이네요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "ここからはトークの<ruby>時間<rt>じかん</rt></ruby>です。",
+        "meaning": "지금부터는 토크 시간이에요.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -2481,6 +2626,41 @@ const LESSONS = [
         "jp": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>ってください！",
         "meaning": "함께 불러 주세요!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽し<rt>たのし</rt></ruby>みましょう！",
+        "meaning": "함께 즐겨요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>踊<rt>おど</rt></ruby>りましょう！",
+        "meaning": "함께 춤춰요!",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>一緒<rt>いっしょ</rt></ruby>にやってみましょう。",
+        "meaning": "함께 해 봐요.",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "もう<ruby>少<rt>すこ</rt></ruby>し、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しみましょう！",
+        "meaning": "조금 더 함께 즐겨요!",
+        "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>いましょう。",
+        "meaning": "마지막 곡을 함께 불러요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>は<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってください。",
+        "meaning": "다음 곡은 함께 불러 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>楽し<rt>たのし</rt></ruby>んでください！",
+        "meaning": "마지막까지 함께 즐겨 주세요!",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -2504,6 +2684,11 @@ const LESSONS = [
         "jp": "<ruby>日本<rt>にほん</rt></ruby>のみなさんに<ruby>会<rt>あ</rt></ruby>えて<ruby>嬉<rt>うれ</rt></ruby>しいです。",
         "meaning": "일본 여러분을 만날 수 있어서 기뻐요.",
         "section": "만났을 때"
+      },
+      {
+        "jp": "<ruby>前<rt>まえ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>のみなさん！",
+        "meaning": "앞쪽에 계신 여러분!",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -2558,6 +2743,21 @@ const LESSONS = [
         "jp": "もっと<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で！",
         "meaning": "더 큰 목소리로!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>聞こえ<rt>きこえ</rt></ruby>ますか？",
+        "meaning": "제 목소리, 들리나요?",
+        "section": "만났을 때"
+      },
+      {
+        "jp": "アンコールの<ruby>声<rt>こえ</rt></ruby>が<ruby>聞こえ<rt>きこえ</rt></ruby>ますね！",
+        "meaning": "앙코르를 외치는 소리가 들리네요!",
+        "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby><ruby>一番<rt>いちばん</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
+        "meaning": "오늘 가장 큰 목소리를 들려주세요!",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -2576,6 +2776,16 @@ const LESSONS = [
         "jp": "<ruby>準備<rt>じゅんび</rt></ruby>はいいですか？",
         "meaning": "준비됐나요?",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>準備<rt>じゅんび</rt></ruby>ができたら<ruby>教え<rt>おしえ</rt></ruby>てください。",
+        "meaning": "준비되면 알려 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>新しい<rt>あたらしい</rt></ruby>ステージを<ruby>準備<rt>じゅんび</rt></ruby>しました。",
+        "meaning": "새로운 무대를 준비했어요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -2599,6 +2809,11 @@ const LESSONS = [
       {
         "jp": "また<ruby>会<rt>あ</rt></ruby>える<ruby>日<rt>ひ</rt></ruby>を<ruby>楽<rt>たの</rt></ruby>しみにしています。",
         "meaning": "다시 만날 날을 기대하고 있어요.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "また<ruby>会<rt>あ</rt></ruby>いましょう！",
+        "meaning": "또 만나요!",
         "section": "마지막 인사"
       }
     ]
@@ -2636,6 +2851,11 @@ const LESSONS = [
         "jp": "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>元気<rt>げんき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。",
         "meaning": "여러분의 웃는 얼굴을 보면 힘이 나요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>です！",
+        "meaning": "다음은 활기찬 곡이에요!",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -2653,6 +2873,11 @@ const LESSONS = [
       {
         "jp": "いつも<ruby>応援<rt>おうえん</rt></ruby>してくれてありがとうございます。",
         "meaning": "항상 응원해 주셔서 감사합니다.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "これからも<ruby>応援<rt>おうえん</rt></ruby>してください。",
+        "meaning": "앞으로도 응원해 주세요.",
         "section": "마지막 인사"
       }
     ]
@@ -2678,6 +2903,21 @@ const LESSONS = [
         "jp": "アンコール、ありがとうございます！",
         "meaning": "앙코르 감사합니다!",
         "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>来<rt>き</rt></ruby>てくれてありがとうございます。",
+        "meaning": "와 주셔서 감사합니다.",
+        "section": "만났을 때"
+      },
+      {
+        "jp": "センターもサイドもありがとう！",
+        "meaning": "센터도 사이드도 고마워요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当に<rt>ほんとうに</rt></ruby>ありがとう。",
+        "meaning": "오늘은 정말 고마워요.",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -2873,6 +3113,21 @@ const LESSONS = [
         "jp": "<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
         "meaning": "박수 부탁드립니다.",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>大<rt>おお</rt></ruby>きな<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします！",
+        "meaning": "큰 박수 부탁드립니다!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>大き<rt>おおき</rt></ruby>な<ruby>拍手<rt>はくしゅ</rt></ruby>でお<ruby>迎え<rt>むかえ</rt></ruby>ください！",
+        "meaning": "큰 박수로 맞아 주세요!",
+        "section": "만났을 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>大き<rt>おおき</rt></ruby>な<ruby>拍手<rt>はくしゅ</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>！",
+        "meaning": "마지막까지 큰 박수 부탁드립니다!",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -2963,6 +3218,16 @@ const LESSONS = [
         "jp": "ここでバンドメンバーをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
         "meaning": "여기서 밴드 멤버를 소개하겠습니다.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>新曲<rt>しんきょく</rt></ruby>を<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "meaning": "신곡을 소개하겠습니다.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>曲紹介<rt>きょくしょうかい</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>。",
+        "meaning": "곡 소개 부탁드립니다.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -3253,6 +3518,16 @@ const LESSONS = [
         "jp": "ずっと<ruby>僕<rt>ぼく</rt></ruby>のそばにいてください。",
         "meaning": "계속 제 곁에 있어 주세요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>歌詞<rt>かし</rt></ruby>に<ruby>僕<rt>ぼく</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<ruby>込め<rt>こめ</rt></ruby>ました。",
+        "meaning": "가사에 제 마음을 담았어요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>聞こえ<rt>きこえ</rt></ruby>ますか？",
+        "meaning": "제 목소리, 들리나요?",
+        "section": "만났을 때"
       }
     ]
   },
@@ -3294,6 +3569,26 @@ const LESSONS = [
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いてください。",
         "meaning": "다음 곡을 들어 주세요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "それでは、<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "그럼 들어 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "この<ruby>歌詞<rt>かし</rt></ruby>をよく<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "이 가사를 잘 들어 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "ここは<ruby>静<rt>しず</rt></ruby>かに<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "이 부분은 조용히 들어 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>最近<rt>さいきん</rt></ruby>はよく<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いています。",
+        "meaning": "요즘은 음악을 자주 듣고 있어요.",
+        "section": "토크할 때"
       }
     ],
     "note": "귀를 기울여 듣는 행동이에요. 「聞こえる」는 ‘들리다’예요."
@@ -3318,6 +3613,36 @@ const LESSONS = [
         "jp": "みなさん、<ruby>楽<rt>たの</rt></ruby>しんでますか？",
         "meaning": "여러분, 즐기고 있나요?",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽し<rt>たのし</rt></ruby>みましょう！",
+        "meaning": "함께 즐겨요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>座<rt>すわ</rt></ruby>ったままで<ruby>楽<rt>たの</rt></ruby>しんでください。",
+        "meaning": "앉은 채로 즐겨 주세요.",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>生演奏<rt>なまえんそう</rt></ruby>を<ruby>楽し<rt>たのし</rt></ruby>んでください。",
+        "meaning": "라이브 연주를 즐겨 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージも<ruby>楽し<rt>たのし</rt></ruby>んでください。",
+        "meaning": "다음 무대도 즐겨 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "もう<ruby>少<rt>すこ</rt></ruby>し、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>楽<rt>たの</rt></ruby>しみましょう！",
+        "meaning": "조금 더 함께 즐겨요!",
+        "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>楽し<rt>たのし</rt></ruby>んでください！",
+        "meaning": "마지막까지 함께 즐겨 주세요!",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -3341,6 +3666,11 @@ const LESSONS = [
         "jp": "<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ってください！",
         "meaning": "손을 흔들어 주세요!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>質問<rt>しつもん</rt></ruby>がある<ruby>方<rt>かた</rt></ruby>は<ruby>手<rt>て</rt></ruby>を<ruby>挙げ<rt>あげ</rt></ruby>てください。",
+        "meaning": "질문 있는 분은 손을 들어 주세요.",
+        "section": "토크할 때"
       }
     ]
   },
@@ -3358,6 +3688,11 @@ const LESSONS = [
       {
         "jp": "<ruby>手<rt>て</rt></ruby>を<ruby>振<rt>ふ</rt></ruby>ってください！",
         "meaning": "손을 흔들어 주세요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>左右<rt>さゆう</rt></ruby>に<ruby>振<rt>ふ</rt></ruby>ってください。",
+        "meaning": "좌우로 흔들어 주세요.",
         "section": "함께 즐길 때"
       }
     ]
@@ -3377,6 +3712,11 @@ const LESSONS = [
         "jp": "お<ruby>久<rt>ひさ</rt></ruby>しぶりです！",
         "meaning": "오랜만이에요!",
         "section": "만났을 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>は<ruby>久しぶり<rt>ひさしぶり</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>います。",
+        "meaning": "이 곡은 오랜만에 불러요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -3441,6 +3781,21 @@ const LESSONS = [
         "jp": "<ruby>大<rt>おお</rt></ruby>きな<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします！",
         "meaning": "큰 박수 부탁드립니다!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>大き<rt>おおき</rt></ruby>な<ruby>拍手<rt>はくしゅ</rt></ruby>でお<ruby>迎え<rt>むかえ</rt></ruby>ください！",
+        "meaning": "큰 박수로 맞아 주세요!",
+        "section": "만났을 때"
+      },
+      {
+        "jp": "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますね。",
+        "meaning": "조금 더 큰 목소리로 말할게요.",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>大き<rt>おおき</rt></ruby>な<ruby>拍手<rt>はくしゅ</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>！",
+        "meaning": "마지막까지 큰 박수 부탁드립니다!",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -3459,6 +3814,11 @@ const LESSONS = [
         "jp": "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>が<ruby>大好き<rt>だいすき</rt></ruby>です。",
         "meaning": "여러분의 웃는 얼굴을 정말 좋아해요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>が<ruby>大好き<rt>だいすき</rt></ruby>です。",
+        "meaning": "이 곡을 정말 좋아해요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -3531,6 +3891,16 @@ const LESSONS = [
         "jp": "この<ruby>曲<rt>きょく</rt></ruby>、<ruby>知<rt>し</rt></ruby>ってますか？",
         "meaning": "이 곡, 알고 있나요?",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "このダンスのポイントを<ruby>教え<rt>おしえ</rt></ruby>てください。",
+        "meaning": "이 춤의 포인트를 알려 주세요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>のポイントを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "meaning": "이 곡의 포인트를 알려 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -3572,6 +3942,11 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>楽し<rt>たのし</rt></ruby>いです。",
         "meaning": "오늘은 정말 즐거워요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当に<rt>ほんとうに</rt></ruby>ありがとう。",
+        "meaning": "오늘은 정말 고마워요.",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -3594,6 +3969,11 @@ const LESSONS = [
       {
         "jp": "これからも<ruby>一緒<rt>いっしょ</rt></ruby>にいてください。",
         "meaning": "앞으로도 함께 있어 주세요.",
+        "section": "마지막 인사"
+      },
+      {
+        "jp": "これからも<ruby>応援<rt>おうえん</rt></ruby>してください。",
+        "meaning": "앞으로도 응원해 주세요.",
         "section": "마지막 인사"
       }
     ]
@@ -3768,6 +4148,11 @@ const LESSONS = [
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>筋<rt>きん</rt></ruby>トレしてます。",
         "meaning": "요즘 근력 운동을 하고 있어요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>最近<rt>さいきん</rt></ruby>ハマっていることは<ruby>何です<rt>なんです</rt></ruby>か？",
+        "meaning": "요즘 빠져 있는 것은 무엇인가요?",
+        "section": "토크할 때"
       }
     ]
   },
@@ -3839,6 +4224,11 @@ const LESSONS = [
       {
         "jp": "<ruby>毎日<rt>まいにち</rt></ruby>トレーニングしてます。",
         "meaning": "매일 트레이닝하고 있어요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>少しずつ<rt>すこしずつ</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>しました。",
+        "meaning": "매일 조금씩 연습했어요.",
         "section": "토크할 때"
       }
     ]
@@ -4076,6 +4466,11 @@ const LESSONS = [
         "jp": "<ruby>運動<rt>うんどう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。",
         "meaning": "운동을 좋아해요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>昔<rt>むかし</rt></ruby>から<ruby>好き<rt>すき</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>なんです。",
+        "meaning": "예전부터 좋아하던 곡이에요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -4111,6 +4506,11 @@ const LESSONS = [
       {
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>みます。",
         "meaning": "오늘은 푹 쉬겠어요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "もう<ruby>一度<rt>いちど</rt></ruby>ゆっくりお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "다시 한번 천천히 부탁드려요.",
         "section": "토크할 때"
       }
     ]
@@ -5177,6 +5577,11 @@ const LESSONS = [
         "jp": "<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>をお<ruby>届け<rt>とどけ</rt></ruby>します。",
         "meaning": "소중한 곡을 들려드리겠습니다.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "レコーディングで<ruby>大切<rt>たいせつ</rt></ruby>にしたことは<ruby>何です<rt>なんです</rt></ruby>か？",
+        "meaning": "녹음할 때 중요하게 생각한 것은 무엇인가요?",
+        "section": "토크할 때"
       }
     ]
   },
@@ -5217,6 +5622,11 @@ const LESSONS = [
       {
         "jp": "<ruby>一番後ろ<rt>いちばんうしろ</rt></ruby>まで<ruby>届<rt>とど</rt></ruby>いてますか？",
         "meaning": "맨 뒤까지 잘 전달되고 있나요?",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>後<rt>うし</rt></ruby>ろの<ruby>方<rt>ほう</rt></ruby>にも<ruby>聞<rt>き</rt></ruby>いてみましょう。",
+        "meaning": "뒤쪽에도 물어봐요.",
         "section": "함께 즐길 때"
       }
     ]
@@ -5278,6 +5688,21 @@ const LESSONS = [
         "jp": "ダンスにも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
         "meaning": "춤에도 주목해 주세요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>歌詞<rt>かし</rt></ruby>にも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "가사에도 주목해 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>収録曲<rt>しゅうろくきょく</rt></ruby>にも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "수록곡에도 주목해 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "후렴의 화음에 주목해 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -5319,6 +5744,11 @@ const LESSONS = [
         "jp": "まずごあいさつします。",
         "meaning": "먼저 인사드리겠습니다.",
         "section": "만났을 때"
+      },
+      {
+        "jp": "まずはご<ruby>挨拶<rt>あいさつ</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>。",
+        "meaning": "먼저 인사 부탁드립니다.",
+        "section": "만났을 때"
       }
     ]
   },
@@ -5336,6 +5766,11 @@ const LESSONS = [
       {
         "jp": "まずごあいさつします。",
         "meaning": "먼저 인사드리겠습니다.",
+        "section": "만났을 때"
+      },
+      {
+        "jp": "まずはご<ruby>挨拶<rt>あいさつ</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>。",
+        "meaning": "먼저 인사 부탁드립니다.",
         "section": "만났을 때"
       }
     ]
@@ -5383,6 +5818,16 @@ const LESSONS = [
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は<ruby>僕<rt>ぼく</rt></ruby>のソロステージです。",
         "meaning": "다음은 제 솔로 무대예요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>続いて<rt>つづいて</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>のステージです。",
+        "meaning": "이어서 다음 무대입니다.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
+        "meaning": "다음 무대까지 앞으로 5분 남았어요.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -5464,6 +5909,11 @@ const LESSONS = [
       {
         "jp": "<ruby>左<rt>ひだり</rt></ruby>のみんなもありがとう！",
         "meaning": "왼쪽 여러분도 고마워요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "みんなで<ruby>歌<rt>うた</rt></ruby>いましょう！",
+        "meaning": "다 같이 노래해요!",
         "section": "함께 즐길 때"
       }
     ]
@@ -5637,6 +6087,16 @@ const LESSONS = [
         "jp": "<ruby>拍手<rt>はくしゅ</rt></ruby>を<ruby>もう一度<rt>もういちど</rt></ruby><ruby>お願いします<rt>おねがいします</rt></ruby>！",
         "meaning": "박수 한 번 더 부탁드립니다!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "もう<ruby>一度<rt>いちど</rt></ruby>ゆっくりお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "다시 한번 천천히 부탁드려요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>もう一度<rt>もういちど</rt></ruby><ruby>挑戦<rt>ちょうせん</rt></ruby>しますか？",
+        "meaning": "다시 한 번 도전하겠어요?",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -5660,6 +6120,21 @@ const LESSONS = [
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>をお<ruby>聞<rt>き</rt></ruby>かせします。",
         "meaning": "다음 곡을 들려드리겠습니다.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>もう一度<rt>もういちど</rt></ruby>、<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
+        "meaning": "다시 한 번 들려주세요!",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>新しい<rt>あたらしい</rt></ruby>アルバムについて<ruby>聞かせ<rt>きかせ</rt></ruby>てください。",
+        "meaning": "새 앨범에 대해 들려주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>今日<rt>きょう</rt></ruby><ruby>一番<rt>いちばん</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
+        "meaning": "오늘 가장 큰 목소리를 들려주세요!",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -5719,6 +6194,11 @@ const LESSONS = [
         "jp": "<ruby>僕<rt>ぼく</rt></ruby>はみなさんの<ruby>味方<rt>みかた</rt></ruby>です。",
         "meaning": "저는 여러분 편이에요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>質問<rt>しつもん</rt></ruby>がある<ruby>方<rt>かた</rt></ruby>は<ruby>手<rt>て</rt></ruby>を<ruby>挙げ<rt>あげ</rt></ruby>てください。",
+        "meaning": "질문 있는 분은 손을 들어 주세요.",
+        "section": "토크할 때"
       }
     ]
   },
@@ -5736,6 +6216,11 @@ const LESSONS = [
       {
         "jp": "<ruby>新しい<rt>あたらしい</rt></ruby>ステージを<ruby>準備<rt>じゅんび</rt></ruby>しました。",
         "meaning": "새로운 무대를 준비했어요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>新しい<rt>あたらしい</rt></ruby>アルバムについて<ruby>聞かせ<rt>きかせ</rt></ruby>てください。",
+        "meaning": "새 앨범에 대해 들려주세요.",
         "section": "곡을 소개할 때"
       }
     ]
@@ -5819,6 +6304,26 @@ const LESSONS = [
         "jp": "<ruby>終<rt>お</rt></ruby>わるのは<ruby>少<rt>すこ</rt></ruby>し<ruby>悲<rt>かな</rt></ruby>しいです。",
         "meaning": "끝나는 건 조금 슬퍼요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>少し<rt>すこし</rt></ruby><ruby>待<rt>ま</rt></ruby>ってください。",
+        "meaning": "잠시만 기다려 주세요.",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
+        "meaning": "여기서 잠깐 쉬어 가요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますね。",
+        "meaning": "조금 더 큰 목소리로 말할게요.",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>少しずつ<rt>すこしずつ</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>しました。",
+        "meaning": "매일 조금씩 연습했어요.",
+        "section": "토크할 때"
       }
     ]
   },
@@ -5842,6 +6347,11 @@ const LESSONS = [
         "jp": "<ruby>待<rt>ま</rt></ruby>っていてくれてありがとう。",
         "meaning": "기다려 줘서 고마워요.",
         "section": "만났을 때"
+      },
+      {
+        "jp": "お<ruby>待<rt>ま</rt></ruby>たせしました。",
+        "meaning": "기다리게 해서 죄송합니다.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -5937,6 +6447,21 @@ const LESSONS = [
         "jp": "<ruby>拍手<rt>はくしゅ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
         "meaning": "박수 부탁드립니다.",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>質問<rt>しつもん</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "질문해 주세요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>、お<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "다음 문제 부탁드립니다.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>曲紹介<rt>きょくしょうかい</rt></ruby>を<ruby>お願いします<rt>おねがいします</rt></ruby>。",
+        "meaning": "곡 소개 부탁드립니다.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -6133,6 +6658,11 @@ const LESSONS = [
         "jp": "この<ruby>歌詞<rt>かし</rt></ruby>をよく<ruby>聴<rt>き</rt></ruby>いてください。",
         "meaning": "이 가사를 잘 들어 주세요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>歌詞<rt>かし</rt></ruby>にも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "가사에도 주목해 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -6269,6 +6799,16 @@ const LESSONS = [
         "jp": "みなさん、<ruby>僕<rt>ぼく</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>んでください！",
         "meaning": "여러분, 제 이름을 불러 주세요!",
         "section": "만났을 때"
+      },
+      {
+        "jp": "お<ruby>名前<rt>なまえ</rt></ruby>を<ruby>教え<rt>おしえ</rt></ruby>てください。",
+        "meaning": "이름을 알려 주세요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "ヒントは<ruby>歌<rt>うた</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>です。",
+        "meaning": "힌트는 노래 제목이에요.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -6323,6 +6863,16 @@ const LESSONS = [
         "jp": "<ruby>僕<rt>ぼく</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>、<ruby>聞こえ<rt>きこえ</rt></ruby>ますか？",
         "meaning": "제 목소리, 들리나요?",
         "section": "만났을 때"
+      },
+      {
+        "jp": "<ruby>三階席<rt>さんがいせき</rt></ruby>まで<ruby>聞<rt>き</rt></ruby>こえますか？",
+        "meaning": "3층 좌석까지 들리나요?",
+        "section": "함께 즐길 때"
+      },
+      {
+        "jp": "アンコールの<ruby>声<rt>こえ</rt></ruby>が<ruby>聞こえ<rt>きこえ</rt></ruby>ますね！",
+        "meaning": "앙코르를 외치는 소리가 들리네요!",
+        "section": "앙코르에서"
       }
     ],
     "note": "소리가 들려오는 상태를 말해요. 「聴く」는 ‘듣다’예요."
@@ -6365,6 +6915,26 @@ const LESSONS = [
         "jp": "またここに<ruby>戻<rt>もど</rt></ruby>って<ruby>来られて<rt>こられて</rt></ruby><ruby>嬉しい<rt>うれしい</rt></ruby>です。",
         "meaning": "다시 여기로 돌아올 수 있어서 기뻐요.",
         "section": "만났을 때"
+      },
+      {
+        "jp": "ここからはトークの<ruby>時間<rt>じかん</rt></ruby>です。",
+        "meaning": "지금부터는 토크 시간이에요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "ここは<ruby>静<rt>しず</rt></ruby>かに<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "이 부분은 조용히 들어 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "ここからは<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
+        "meaning": "지금부터는 촬영하셔도 돼요.",
+        "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
+        "meaning": "여기서 잠깐 쉬어 가요.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -6455,6 +7025,11 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はたくさん<ruby>話<rt>はな</rt></ruby>したいです。",
         "meaning": "오늘은 이야기를 많이 하고 싶어요.",
         "section": "만났을 때"
+      },
+      {
+        "jp": "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますね。",
+        "meaning": "조금 더 큰 목소리로 말할게요.",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -7283,6 +7858,11 @@ const LESSONS = [
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>ハマっていることは<ruby>何です<rt>なんです</rt></ruby>か？",
         "meaning": "요즘 빠져 있는 것은 무엇인가요?",
         "section": "토크할 때"
+      },
+      {
+        "jp": "この<ruby>カバー曲<rt>カバーきょく</rt></ruby>を<ruby>選んだ<rt>えらんだ</rt></ruby><ruby>理由<rt>りゆう</rt></ruby>は<ruby>何です<rt>なんです</rt></ruby>か？",
+        "meaning": "이 커버곡을 고른 이유는 무엇인가요?",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -7352,6 +7932,16 @@ const LESSONS = [
         "jp": "<ruby>準備<rt>じゅんび</rt></ruby>ができたら<ruby>教え<rt>おしえ</rt></ruby>てください。",
         "meaning": "준비되면 알려 주세요.",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "お<ruby>名前<rt>なまえ</rt></ruby>を<ruby>教え<rt>おしえ</rt></ruby>てください。",
+        "meaning": "이름을 알려 주세요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>のポイントを<ruby>教<rt>おし</rt></ruby>えてください。",
+        "meaning": "이 곡의 포인트를 알려 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -7442,6 +8032,16 @@ const LESSONS = [
         "jp": "それでは、スタートです！",
         "meaning": "그럼 시작합니다!",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "それでは、<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "그럼 들어 주세요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "それでは、お<ruby>座<rt>すわ</rt></ruby>りください。",
+        "meaning": "그럼 앉아 주세요.",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -7537,6 +8137,11 @@ const LESSONS = [
         "jp": "<ruby>もう一度<rt>もういちど</rt></ruby><ruby>挑戦<rt>ちょうせん</rt></ruby>しますか？",
         "meaning": "다시 한 번 도전하겠어요?",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>今回<rt>こんかい</rt></ruby>はいろいろなジャンルに<ruby>挑戦<rt>ちょうせん</rt></ruby>しました。",
+        "meaning": "이번에는 다양한 장르에 도전했어요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -7805,6 +8410,11 @@ const LESSONS = [
         "jp": "サビの<ruby>振付<rt>ふりつけ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てください。",
         "meaning": "후렴의 안무를 봐 주세요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "みなさんの<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>見<rt>み</rt></ruby>ると、<ruby>元気<rt>げんき</rt></ruby>が<ruby>出<rt>で</rt></ruby>ます。",
+        "meaning": "여러분의 웃는 얼굴을 보면 힘이 나요.",
+        "section": "토크할 때"
       }
     ],
     "note": "직접 보는 행동을 말해요. 「見える」는 ‘보이다’예요."
@@ -7823,6 +8433,11 @@ const LESSONS = [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>はどんな<ruby>曲<rt>きょく</rt></ruby>ですか？",
         "meaning": "다음은 어떤 곡인가요?",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "<ruby>タイトル曲<rt>タイトルきょく</rt></ruby>はどんな<ruby>曲<rt>きょく</rt></ruby>ですか？",
+        "meaning": "타이틀곡은 어떤 곡인가요?",
         "section": "곡을 소개할 때"
       }
     ]
@@ -7914,6 +8529,11 @@ const LESSONS = [
         "jp": "<ruby>本日<rt>ほんじつ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>以上<rt>いじょう</rt></ruby>です。",
         "meaning": "오늘 공연은 이것으로 마칩니다.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby>です。",
+        "meaning": "다음 공연은 다음 달이에요.",
+        "section": "마지막 인사"
       }
     ]
   },
@@ -7969,6 +8589,16 @@ const LESSONS = [
         "jp": "サビの<ruby>振付<rt>ふりつけ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てください。",
         "meaning": "후렴의 안무를 봐 주세요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "サビを<ruby>一緒に<rt>いっしょに</rt></ruby><ruby>歌<rt>うた</rt></ruby>ってほしいです。",
+        "meaning": "후렴을 함께 불러 주면 좋겠어요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "후렴의 화음에 주목해 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -7987,6 +8617,11 @@ const LESSONS = [
         "jp": "<ruby>もう一度<rt>もういちど</rt></ruby>やってみたいです。",
         "meaning": "다시 한 번 해보고 싶어요.",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>一緒<rt>いっしょ</rt></ruby>にやってみましょう。",
+        "meaning": "함께 해 봐요.",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -8095,6 +8730,11 @@ const LESSONS = [
         "jp": "<ruby>歌詞<rt>かし</rt></ruby>に<ruby>僕<rt>ぼく</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<ruby>込め<rt>こめ</rt></ruby>ました。",
         "meaning": "가사에 제 마음을 담았어요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>には、<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちを<ruby>込<rt>こ</rt></ruby>めました。",
+        "meaning": "이 곡에는 감사하는 마음을 담았어요.",
+        "section": "곡을 소개할 때"
       }
     ]
   },
@@ -8112,6 +8752,11 @@ const LESSONS = [
       {
         "jp": "<ruby>歌詞<rt>かし</rt></ruby>に<ruby>僕<rt>ぼく</rt></ruby>の<ruby>気持ち<rt>きもち</rt></ruby>を<ruby>込め<rt>こめ</rt></ruby>ました。",
         "meaning": "가사에 제 마음을 담았어요.",
+        "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>には、<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちを<ruby>込<rt>こ</rt></ruby>めました。",
+        "meaning": "이 곡에는 감사하는 마음을 담았어요.",
         "section": "곡을 소개할 때"
       }
     ]
@@ -8991,6 +9636,11 @@ const LESSONS = [
         "jp": "<ruby>言葉<rt>ことば</rt></ruby><ruby>一つ一つ<rt>ひとつひとつ</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>いました。",
         "meaning": "말 하나하나를 소중히 생각하며 불렀어요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>今<rt>いま</rt></ruby>から<ruby>言<rt>い</rt></ruby>う<ruby>言葉<rt>ことば</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>してください。",
+        "meaning": "지금부터 하는 말을 따라 해 주세요.",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -9347,6 +9997,11 @@ const LESSONS = [
         "jp": "この<ruby>音<rt>おと</rt></ruby>を<ruby>聴く<rt>きく</rt></ruby>と<ruby>落ち着<rt>おちつ</rt></ruby>きます。",
         "meaning": "이 소리를 들으면 마음이 편안해져요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>音<rt>おと</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さかったですか？",
+        "meaning": "소리가 작았나요?",
+        "section": "함께 즐길 때"
       }
     ]
   },
@@ -9675,6 +10330,1310 @@ const LESSONS = [
         "jp": "<ruby>海鮮<rt>かいせん</rt></ruby>は<ruby>苦手<rt>にがて</rt></ruby>です。",
         "meaning": "해산물은 별로 좋아하지 않아요.",
         "section": "토크할 때"
+      }
+    ]
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "신곡을 소개하겠습니다.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "<ruby>新曲<rt>しんきょく</rt></ruby>を<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "신쿄쿠오 쇼오카이시마스.",
+        "신곡을 소개하겠습니다."
+      ]
+    ],
+    "note": "「紹介します」는 소개하겠다는 말이에요. 「新曲」를 들으면 새 곡을 선보인다는 뜻을 잡아요."
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "처음 선보이는 곡이에요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "<ruby>初<rt>はじ</rt></ruby>めて<ruby>披露<rt>ひろう</rt></ruby>する<ruby>曲<rt>きょく</rt></ruby>です。",
+        "하지메테 히로오스루 쿄쿠데스.",
+        "처음 선보이는 곡이에요."
+      ]
+    ],
+    "note": "「披露する」는 관객 앞에 선보인다는 뜻이에요. 「初めて」는 처음이라는 단서예요."
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "이 곡에는 감사하는 마음을 담았어요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "この<ruby>曲<rt>きょく</rt></ruby>には、<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちを<ruby>込<rt>こ</rt></ruby>めました。",
+        "코노 쿄쿠니와, 칸샤노 키모치오 코메마시타.",
+        "이 곡에는 감사하는 마음을 담았어요."
+      ]
+    ],
+    "note": "「気持ちを込める」는 마음을 담는다는 표현이에요. 어떤 마음인지 「感謝」를 찾아요."
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "가사에도 주목해 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "<ruby>歌詞<rt>かし</rt></ruby>にも<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "카시니모 추우모쿠시테쿠다사이.",
+        "가사에도 주목해 주세요."
+      ]
+    ],
+    "note": "「歌詞にも」의 「も」는 가사도 함께 살펴봐 달라는 뜻이에요."
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "그럼 들어 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "それでは、<ruby>聴<rt>き</rt></ruby>いてください。",
+        "소레데와, 키이테쿠다사이.",
+        "그럼 들어 주세요."
+      ]
+    ],
+    "note": "곡 설명을 마치고 노래를 시작할 때 쓰는 연결 멘트예요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "지금부터는 토크 시간이에요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "ここからはトークの<ruby>時間<rt>じかん</rt></ruby>です。",
+        "코코카라와 토오쿠노 지칸데스.",
+        "지금부터는 토크 시간이에요."
+      ]
+    ],
+    "note": "「ここからは」는 지금부터 이어지는 순서를 알리는 말이에요."
+  },
+  {
+    "section": "토크할 때",
+    "title": "첫 곡은 어떠셨나요?",
+    "speaker": "artist",
+    "learningSubcategory": "feelings-mood",
+    "examples": [
+      [
+        "<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>はいかがでしたか？",
+        "사이쇼노 쿄쿠와 이카가데시타카?",
+        "첫 곡은 어떠셨나요?"
+      ]
+    ],
+    "note": "「最初」는 처음, 「いかがでしたか」는 어땠는지 묻는 정중한 표현이에요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "일어나셔도 돼요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>立<rt>た</rt></ruby>ってもいいですよ。",
+        "탓테모 이이데스요.",
+        "일어나셔도 돼요."
+      ]
+    ],
+    "note": "「〜てもいい」는 허용이에요. 반드시 일어나라는 명령과는 달라요. 현장 직원의 안내도 따라요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "그럼 앉아 주세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "それでは、お<ruby>座<rt>すわ</rt></ruby>りください。",
+        "소레데와, 오스와리쿠다사이.",
+        "그럼 앉아 주세요."
+      ]
+    ],
+    "note": "「お座りください」는 앉아 달라는 정중한 안내예요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "앉은 채로 즐겨 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>座<rt>すわ</rt></ruby>ったままで<ruby>楽<rt>たの</rt></ruby>しんでください。",
+        "스왓타 마마데 타노신데쿠다사이.",
+        "앉은 채로 즐겨 주세요."
+      ]
+    ],
+    "note": "「〜たままで」는 그 상태를 유지한다는 말이에요. 여기서는 앉아 있는 상태예요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "앞쪽에 계신 여러분!",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>前<rt>まえ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>のみなさん！",
+        "마에노 호오노 미나상!",
+        "앞쪽에 계신 여러분!"
+      ]
+    ],
+    "note": "위치를 뜻하는 「前の方」는 마에노 호오예요. 사람을 뜻하는 「方（かた）」와 읽는 법이 달라요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "2층 좌석에 계신 여러분!",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>二階席<rt>にかいせき</rt></ruby>のみなさん！",
+        "니카이세키노 미나상!",
+        "2층 좌석에 계신 여러분!"
+      ]
+    ],
+    "note": "「二階席」는 2층 객석이에요. 층수와 위치를 듣고 누구를 부르는지 구분해요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "3층 좌석까지 들리나요?",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>三階席<rt>さんがいせき</rt></ruby>まで<ruby>聞<rt>き</rt></ruby>こえますか？",
+        "산가이세키마데 키코에마스카?",
+        "3층 좌석까지 들리나요?"
+      ]
+    ],
+    "note": "「三階」는 さんがい로 읽어요. 「まで」는 여기서 소리가 닿는 범위를 나타내요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "응원봉을 높이 들어 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "ペンライトを<ruby>高<rt>たか</rt></ruby>く<ruby>上<rt>あ</rt></ruby>げてください。",
+        "펜라이토오 타카쿠 아게테쿠다사이.",
+        "응원봉을 높이 들어 주세요."
+      ]
+    ],
+    "note": "「高く上げる」는 높이 드는 행동이에요. 주변 시야와 현장 규칙을 지켜요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "좌우로 흔들어 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>左右<rt>さゆう</rt></ruby>に<ruby>振<rt>ふ</rt></ruby>ってください。",
+        "사유우니 훗테쿠다사이.",
+        "좌우로 흔들어 주세요."
+      ]
+    ],
+    "note": "「左右」는 왼쪽과 오른쪽이에요. 앞 문장의 응원봉을 어떻게 움직일지 이어서 안내해요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "이 리듬에 맞춰 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "このリズムに<ruby>合<rt>あ</rt></ruby>わせてください。",
+        "코노 리즈무니 아와세테쿠다사이.",
+        "이 리듬에 맞춰 주세요."
+      ]
+    ],
+    "note": "「〜に合わせる」는 기준에 맞춘다는 말이에요. 손뼉을 치는 속도를 맞출 때도 써요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "지금부터 하는 말을 따라 해 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>今<rt>いま</rt></ruby>から<ruby>言<rt>い</rt></ruby>う<ruby>言葉<rt>ことば</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>してください。",
+        "이마카라 이우 코토바오 쿠리카에시테쿠다사이.",
+        "지금부터 하는 말을 따라 해 주세요."
+      ]
+    ],
+    "note": "「繰り返す」는 반복한다는 말이에요. 구호를 따라 해 달라는 상황이에요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "하나, 둘! (함께 시작하는 구호)",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "せーの！",
+        "세에노!",
+        "하나, 둘! (함께 시작하는 구호)"
+      ]
+    ],
+    "note": "함께 소리를 내거나 동작을 시작하기 직전의 구호예요. 숫자를 그대로 세는 표현은 아니에요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "함께 해 봐요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>一緒<rt>いっしょ</rt></ruby>にやってみましょう。",
+        "잇쇼니 얏테미마쇼오.",
+        "함께 해 봐요."
+      ]
+    ],
+    "note": "「〜てみましょう」는 한번 해 보자는 제안이에요. 앞서 보여 준 안무를 따라 하는 흐름이에요."
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "이 부분은 조용히 들어 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "ここは<ruby>静<rt>しず</rt></ruby>かに<ruby>聴<rt>き</rt></ruby>いてください。",
+        "코코와 시즈카니 키이테쿠다사이.",
+        "이 부분은 조용히 들어 주세요."
+      ]
+    ],
+    "note": "「ここ」는 이 상황에서 곡의 특정 부분을 가리켜요. 호응 요청과 조용히 듣는 요청을 구별해요."
+  },
+  {
+    "section": "토크할 때",
+    "title": "질문해 주세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>質問<rt>しつもん</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "시츠몬오 오네가이시마스.",
+        "질문해 주세요."
+      ]
+    ],
+    "note": "관객에게 발언 순서를 주면서 질문을 부탁하는 말이에요."
+  },
+  {
+    "section": "토크할 때",
+    "title": "다시 한번 천천히 부탁드려요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "もう<ruby>一度<rt>いちど</rt></ruby>ゆっくりお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "모오 이치도 윳쿠리 오네가이시마스.",
+        "다시 한번 천천히 부탁드려요."
+      ]
+    ],
+    "note": "못 알아들었을 때 다시 천천히 말해 달라고 요청할 수 있어요. 「もう一度」와 「ゆっくり」를 함께 들어요."
+  },
+  {
+    "section": "토크할 때",
+    "title": "여기서 게스트를 소개하겠습니다.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "ここでゲストをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "코코데 게스토오 고쇼오카이시마스.",
+        "여기서 게스트를 소개하겠습니다."
+      ]
+    ],
+    "note": "「ゲスト」를 들으면 곡이 아니라 사람을 소개하는 순서임을 알 수 있어요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "지금부터는 촬영하셔도 돼요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "ここからは<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
+        "코코카라와 사츠에이시테모 이이데스요.",
+        "지금부터는 촬영하셔도 돼요."
+      ]
+    ],
+    "note": "「〜てもいい」는 허용이에요. 실제 공연에서 촬영이 가능한지는 현장 안내로 확인해요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "사진만 찍으셔도 괜찮아요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>写真<rt>しゃしん</rt></ruby>だけ<ruby>撮<rt>と</rt></ruby>っても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+        "샤신다케 톳테모 다이조오부데스.",
+        "사진만 찍으셔도 괜찮아요."
+      ]
+    ],
+    "note": "「だけ」는 범위를 사진으로 제한해요. 영상까지 허용한다는 뜻이 아니에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "동영상 촬영은 금지예요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>動画<rt>どうが</rt></ruby>の<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
+        "도오가노 사츠에이와 킨시데스.",
+        "동영상 촬영은 금지예요."
+      ]
+    ],
+    "note": "「禁止」는 금지예요. 사진 촬영 허용과 동영상 촬영 금지는 함께 안내될 수 있어요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "플래시는 사용하지 마세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "フラッシュは<ruby>使<rt>つか</rt></ruby>わないでください。",
+        "후랏슈와 츠카와나이데쿠다사이.",
+        "플래시는 사용하지 마세요."
+      ]
+    ],
+    "note": "「〜ないでください」는 하지 말라는 부탁이에요. 「使ってください」와 반대예요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "촬영은 여기까지예요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>撮影<rt>さつえい</rt></ruby>はここまでです。",
+        "사츠에이와 코코마데데스.",
+        "촬영은 여기까지예요."
+      ]
+    ],
+    "note": "촬영 가능한 시간이 끝났다는 안내예요. 허용 시작과 종료를 구별해요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "여기서 잠깐 쉬어 가요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
+        "코코데 스코시 큐우케에시마쇼오.",
+        "여기서 잠깐 쉬어 가요."
+      ]
+    ],
+    "note": "「休憩」는 잠깐 쉬는 시간이에요. 공연 종료와는 달라요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "쉬는 시간은 10분이에요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>休憩<rt>きゅうけい</rt></ruby>は<ruby>10分間<rt>じゅっぷんかん</rt></ruby>です。",
+        "큐우케에와 쥿푼칸데스.",
+        "쉬는 시간은 10분이에요."
+      ]
+    ],
+    "note": "「分間」은 분 단위의 길이를 나타내요. 게임의 「秒」와 구별해요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "다음 무대까지 앞으로 5분 남았어요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
+        "츠기노 스테에지마데, 아토 고훈데스.",
+        "다음 무대까지 앞으로 5분 남았어요."
+      ]
+    ],
+    "note": "「あと5分」은 앞으로 남은 시간이에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "곧 다시 시작합니다.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "まもなく<ruby>再開<rt>さいかい</rt></ruby>します。",
+        "마모나쿠 사이카이시마스.",
+        "곧 다시 시작합니다."
+      ]
+    ],
+    "note": "「再開」는 쉬거나 멈췄던 것을 다시 시작하는 말이에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "기다리게 해서 죄송합니다.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "お<ruby>待<rt>ま</rt></ruby>たせしました。",
+        "오마타세시마시타.",
+        "기다리게 해서 죄송합니다."
+      ]
+    ],
+    "note": "기다림이 끝나고 다시 등장할 때 쓰는 관용 표현이에요. 사과뿐 아니라 ‘오래 기다리셨죠’라는 뜻으로도 써요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "소리가 작았나요?",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>音<rt>おと</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さかったですか？",
+        "오토가 치이사캇타데스카?",
+        "소리가 작았나요?"
+      ]
+    ],
+    "note": "「音が小さい」는 음량이 작다는 뜻이에요. 물체의 크기를 묻는 말이 아니에요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "조금 더 큰 목소리로 말할게요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますね。",
+        "모오 스코시 오오키나 코에데 하나시마스네.",
+        "조금 더 큰 목소리로 말할게요."
+      ]
+    ],
+    "note": "화자가 자기 목소리를 키우겠다는 말이에요. 관객에게 소리를 내라는 요청과 구별해요."
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "뒤쪽에도 물어봐요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>後<rt>うし</rt></ruby>ろの<ruby>方<rt>ほう</rt></ruby>にも<ruby>聞<rt>き</rt></ruby>いてみましょう。",
+        "우시로노 호오니모 키이테미마쇼오.",
+        "뒤쪽에도 물어봐요."
+      ]
+    ],
+    "note": "여기서 「聞く」는 듣기가 아니라 물어본다는 뜻이에요. 「後ろの方」는 뒤쪽 위치를 가리켜요."
+  },
+  {
+    "section": "토크할 때",
+    "title": "요즘은 음악을 자주 듣고 있어요.",
+    "speaker": "artist",
+    "learningSubcategory": "feelings-mood",
+    "examples": [
+      [
+        "<ruby>最近<rt>さいきん</rt></ruby>はよく<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いています。",
+        "사이킨와 요쿠 온가쿠오 키이테이마스.",
+        "요즘은 음악을 자주 듣고 있어요."
+      ]
+    ],
+    "note": "「最近」는 요즘, 「よく」는 여기서 자주라는 뜻이에요. 특정인의 실제 취미를 단정하는 예문이 아니에요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "마지막으로 안내드릴 소식이 있어요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>最後<rt>さいご</rt></ruby>にお<ruby>知<rt>し</rt></ruby>らせがあります。",
+        "사이고니 오시라세가 아리마스.",
+        "마지막으로 안내드릴 소식이 있어요."
+      ]
+    ],
+    "note": "「お知らせ」는 소식이나 공지예요. 다음 공연 안내로 이어질 수 있어요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "다음 공연은 다음 달이에요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>次<rt>つぎ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby>です。",
+        "츠기노 코오엔와 라이게츠데스.",
+        "다음 공연은 다음 달이에요."
+      ]
+    ],
+    "note": "「来月」는 다음 달이에요. 학습용 일정 예문으로 실제 공연 날짜를 안내하는 것이 아니에요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "자세한 내용은 공식 사이트를 확인해 주세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>詳<rt>くわ</rt></ruby>しくは<ruby>公式<rt>こうしき</rt></ruby>サイトをご<ruby>覧<rt>らん</rt></ruby>ください。",
+        "쿠와시쿠와 코오시키 사이토오 고란쿠다사이.",
+        "자세한 내용은 공식 사이트를 확인해 주세요."
+      ]
+    ],
+    "note": "「ご覧ください」는 보아 달라는 정중한 안내예요. 소식의 자세한 내용을 어디서 확인할지 들어요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "직원의 안내에 따라 주세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>係員<rt>かかりいん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。",
+        "카카리인노 안나이니 시타갓테쿠다사이.",
+        "직원의 안내에 따라 주세요."
+      ]
+    ],
+    "note": "「係員」은 현장 담당 직원이에요. 이동 방법은 실제 현장의 안내를 따라요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "차례대로 퇴장해 주세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>順番<rt>じゅんばん</rt></ruby>にご<ruby>退場<rt>たいじょう</rt></ruby>ください。",
+        "준반니 고타이조오쿠다사이.",
+        "차례대로 퇴장해 주세요."
+      ]
+    ],
+    "note": "「退場」는 공연장에서 나가는 것, 「順番に」는 차례대로라는 뜻이에요."
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "후렴의 화음에 주목해 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "사비노 하아모니이니 추우모쿠시테쿠다사이.",
+        "후렴의 화음에 주목해 주세요."
+      ]
+    ],
+    "note": "「ハーモニー」는 화음이에요. 곡의 어떤 부분을 주의해서 들을지 알려 주는 답변이에요."
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "관객 앞에 선보임",
+    "examples": [
+      [
+        "<ruby>披露<rt>ひろう</rt></ruby>",
+        "히로오",
+        "관객 앞에 선보임"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>初<rt>はじ</rt></ruby>めて<ruby>披露<rt>ひろう</rt></ruby>する<ruby>曲<rt>きょく</rt></ruby>です。",
+        "meaning": "처음 선보이는 곡이에요.",
+        "section": "곡을 소개할 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "처음으로",
+    "examples": [
+      [
+        "<ruby>初<rt>はじ</rt></ruby>めて",
+        "하지메테",
+        "처음으로"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>初<rt>はじ</rt></ruby>めて<ruby>披露<rt>ひろう</rt></ruby>する<ruby>曲<rt>きょく</rt></ruby>です。",
+        "meaning": "처음 선보이는 곡이에요.",
+        "section": "곡을 소개할 때"
+      }
+    ]
+  },
+  {
+    "section": "마음을 전하는 말",
+    "title": "감사",
+    "examples": [
+      [
+        "<ruby>感謝<rt>かんしゃ</rt></ruby>",
+        "칸샤",
+        "감사"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "この<ruby>曲<rt>きょく</rt></ruby>には、<ruby>感謝<rt>かんしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちを<ruby>込<rt>こ</rt></ruby>めました。",
+        "meaning": "이 곡에는 감사하는 마음을 담았어요.",
+        "section": "곡을 소개할 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "처음",
+    "examples": [
+      [
+        "<ruby>最初<rt>さいしょ</rt></ruby>",
+        "사이쇼",
+        "처음"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>はいかがでしたか？",
+        "meaning": "첫 곡은 어떠셨나요?",
+        "section": "토크할 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "일어서다",
+    "examples": [
+      [
+        "<ruby>立<rt>た</rt></ruby>つ",
+        "타츠",
+        "일어서다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>立<rt>た</rt></ruby>ってもいいですよ。",
+        "meaning": "일어나셔도 돼요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "앉다",
+    "examples": [
+      [
+        "<ruby>座<rt>すわ</rt></ruby>る",
+        "스와루",
+        "앉다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "それでは、お<ruby>座<rt>すわ</rt></ruby>りください。",
+        "meaning": "그럼 앉아 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "앞",
+    "examples": [
+      [
+        "<ruby>前<rt>まえ</rt></ruby>",
+        "마에",
+        "앞"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>前<rt>まえ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>のみなさん！",
+        "meaning": "앞쪽에 계신 여러분!",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "2층 좌석",
+    "examples": [
+      [
+        "<ruby>二階席<rt>にかいせき</rt></ruby>",
+        "니카이세키",
+        "2층 좌석"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>二階席<rt>にかいせき</rt></ruby>のみなさん！",
+        "meaning": "2층 좌석에 계신 여러분!",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "3층 좌석",
+    "examples": [
+      [
+        "<ruby>三階席<rt>さんがいせき</rt></ruby>",
+        "산가이세키",
+        "3층 좌석"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>三階席<rt>さんがいせき</rt></ruby>まで<ruby>聞<rt>き</rt></ruby>こえますか？",
+        "meaning": "3층 좌석까지 들리나요?",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "높다",
+    "examples": [
+      [
+        "<ruby>高<rt>たか</rt></ruby>い",
+        "타카이",
+        "높다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ペンライトを<ruby>高<rt>たか</rt></ruby>く<ruby>上<rt>あ</rt></ruby>げてください。",
+        "meaning": "응원봉을 높이 들어 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "위로 올리다",
+    "examples": [
+      [
+        "<ruby>上<rt>あ</rt></ruby>げる",
+        "아게루",
+        "위로 올리다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ペンライトを<ruby>高<rt>たか</rt></ruby>く<ruby>上<rt>あ</rt></ruby>げてください。",
+        "meaning": "응원봉을 높이 들어 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "좌우",
+    "examples": [
+      [
+        "<ruby>左右<rt>さゆう</rt></ruby>",
+        "사유우",
+        "좌우"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>左右<rt>さゆう</rt></ruby>に<ruby>振<rt>ふ</rt></ruby>ってください。",
+        "meaning": "좌우로 흔들어 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "노래와 연습",
+    "title": "리듬",
+    "examples": [
+      [
+        "リズム",
+        "리즈무",
+        "리듬"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "このリズムに<ruby>合<rt>あ</rt></ruby>わせてください。",
+        "meaning": "이 리듬에 맞춰 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "맞추다",
+    "examples": [
+      [
+        "<ruby>合<rt>あ</rt></ruby>わせる",
+        "아와세루",
+        "맞추다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "このリズムに<ruby>合<rt>あ</rt></ruby>わせてください。",
+        "meaning": "이 리듬에 맞춰 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "반복하다",
+    "examples": [
+      [
+        "<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>す",
+        "쿠리카에스",
+        "반복하다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>今<rt>いま</rt></ruby>から<ruby>言<rt>い</rt></ruby>う<ruby>言葉<rt>ことば</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>してください。",
+        "meaning": "지금부터 하는 말을 따라 해 주세요.",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "함께 시작하는 구호",
+    "examples": [
+      [
+        "せーの",
+        "세에노",
+        "함께 시작하는 구호"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "せーの！",
+        "meaning": "하나, 둘! (함께 시작하는 구호)",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "조용함",
+    "examples": [
+      [
+        "<ruby>静<rt>しず</rt></ruby>か",
+        "시즈카",
+        "조용함"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ここは<ruby>静<rt>しず</rt></ruby>かに<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "이 부분은 조용히 들어 주세요.",
+        "section": "곡을 소개할 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "초대 출연자",
+    "examples": [
+      [
+        "ゲスト",
+        "게스토",
+        "초대 출연자"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ここでゲストをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "meaning": "여기서 게스트를 소개하겠습니다.",
+        "section": "토크할 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "촬영",
+    "examples": [
+      [
+        "<ruby>撮影<rt>さつえい</rt></ruby>",
+        "사츠에이",
+        "촬영"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ここからは<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
+        "meaning": "지금부터는 촬영하셔도 돼요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "사진",
+    "examples": [
+      [
+        "<ruby>写真<rt>しゃしん</rt></ruby>",
+        "샤신",
+        "사진"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>写真<rt>しゃしん</rt></ruby>だけ<ruby>撮<rt>と</rt></ruby>っても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
+        "meaning": "사진만 찍으셔도 괜찮아요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "동영상",
+    "examples": [
+      [
+        "<ruby>動画<rt>どうが</rt></ruby>",
+        "도오가",
+        "동영상"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>動画<rt>どうが</rt></ruby>の<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
+        "meaning": "동영상 촬영은 금지예요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "금지",
+    "examples": [
+      [
+        "<ruby>禁止<rt>きんし</rt></ruby>",
+        "킨시",
+        "금지"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>動画<rt>どうが</rt></ruby>の<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
+        "meaning": "동영상 촬영은 금지예요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "플래시",
+    "examples": [
+      [
+        "フラッシュ",
+        "후랏슈",
+        "플래시"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "フラッシュは<ruby>使<rt>つか</rt></ruby>わないでください。",
+        "meaning": "플래시는 사용하지 마세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "사용하다",
+    "examples": [
+      [
+        "<ruby>使<rt>つか</rt></ruby>う",
+        "츠카우",
+        "사용하다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "フラッシュは<ruby>使<rt>つか</rt></ruby>わないでください。",
+        "meaning": "플래시는 사용하지 마세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "휴식 시간",
+    "examples": [
+      [
+        "<ruby>休憩<rt>きゅうけい</rt></ruby>",
+        "큐우케에",
+        "휴식 시간"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
+        "meaning": "여기서 잠깐 쉬어 가요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "10분 동안",
+    "examples": [
+      [
+        "<ruby>10分間<rt>じゅっぷんかん</rt></ruby>",
+        "쥿푼칸",
+        "10분 동안"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>休憩<rt>きゅうけい</rt></ruby>は<ruby>10分間<rt>じゅっぷんかん</rt></ruby>です。",
+        "meaning": "쉬는 시간은 10분이에요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "5분",
+    "examples": [
+      [
+        "<ruby>5分<rt>ごふん</rt></ruby>",
+        "고훈",
+        "5분"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
+        "meaning": "다음 무대까지 앞으로 5분 남았어요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "다시 시작함",
+    "examples": [
+      [
+        "<ruby>再開<rt>さいかい</rt></ruby>",
+        "사이카이",
+        "다시 시작함"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "まもなく<ruby>再開<rt>さいかい</rt></ruby>します。",
+        "meaning": "곧 다시 시작합니다.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "작다",
+    "examples": [
+      [
+        "<ruby>小<rt>ちい</rt></ruby>さい",
+        "치이사이",
+        "작다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>音<rt>おと</rt></ruby>が<ruby>小<rt>ちい</rt></ruby>さかったですか？",
+        "meaning": "소리가 작았나요?",
+        "section": "함께 즐길 때"
+      }
+    ]
+  },
+  {
+    "section": "노래와 연습",
+    "title": "음악",
+    "examples": [
+      [
+        "<ruby>音楽<rt>おんがく</rt></ruby>",
+        "온가쿠",
+        "음악"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>最近<rt>さいきん</rt></ruby>はよく<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いています。",
+        "meaning": "요즘은 음악을 자주 듣고 있어요.",
+        "section": "토크할 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "안내 소식",
+    "examples": [
+      [
+        "お<ruby>知<rt>し</rt></ruby>らせ",
+        "오시라세",
+        "안내 소식"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>にお<ruby>知<rt>し</rt></ruby>らせがあります。",
+        "meaning": "마지막으로 안내드릴 소식이 있어요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "다음 달",
+    "examples": [
+      [
+        "<ruby>来月<rt>らいげつ</rt></ruby>",
+        "라이게츠",
+        "다음 달"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby>です。",
+        "meaning": "다음 공연은 다음 달이에요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "공식 사이트",
+    "examples": [
+      [
+        "<ruby>公式<rt>こうしき</rt></ruby>サイト",
+        "코오시키 사이토",
+        "공식 사이트"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>詳<rt>くわ</rt></ruby>しくは<ruby>公式<rt>こうしき</rt></ruby>サイトをご<ruby>覧<rt>らん</rt></ruby>ください。",
+        "meaning": "자세한 내용은 공식 사이트를 확인해 주세요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "현장 담당 직원",
+    "examples": [
+      [
+        "<ruby>係員<rt>かかりいん</rt></ruby>",
+        "카카리인",
+        "현장 담당 직원"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>係員<rt>かかりいん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。",
+        "meaning": "직원의 안내에 따라 주세요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "안내",
+    "examples": [
+      [
+        "<ruby>案内<rt>あんない</rt></ruby>",
+        "안나이",
+        "안내"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>係員<rt>かかりいん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。",
+        "meaning": "직원의 안내에 따라 주세요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "함께하는 말",
+    "title": "따르다",
+    "examples": [
+      [
+        "<ruby>従<rt>したが</rt></ruby>う",
+        "시타가우",
+        "따르다"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>係員<rt>かかりいん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。",
+        "meaning": "직원의 안내에 따라 주세요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "순서",
+    "examples": [
+      [
+        "<ruby>順番<rt>じゅんばん</rt></ruby>",
+        "준반",
+        "순서"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>順番<rt>じゅんばん</rt></ruby>にご<ruby>退場<rt>たいじょう</rt></ruby>ください。",
+        "meaning": "차례대로 퇴장해 주세요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "퇴장",
+    "examples": [
+      [
+        "<ruby>退場<rt>たいじょう</rt></ruby>",
+        "타이조오",
+        "퇴장"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>順番<rt>じゅんばん</rt></ruby>にご<ruby>退場<rt>たいじょう</rt></ruby>ください。",
+        "meaning": "차례대로 퇴장해 주세요.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "노래와 연습",
+    "title": "화음",
+    "examples": [
+      [
+        "ハーモニー",
+        "하아모니이",
+        "화음"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "후렴의 화음에 주목해 주세요.",
+        "section": "곡을 소개할 때"
       }
     ]
   }
