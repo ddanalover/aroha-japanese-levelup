@@ -4,9 +4,10 @@ const WORD_TOPICS = ['기분과 마음','노래와 연습','공연의 흐름','�
 const LEARNING_CATEGORIES = [
   {id:'greetings',title:'인사·감사·함께하자는 말',goal:'익숙한 문장의 뜻을 바로 떠올리기',subcategories:[{id:'greetings-meet',title:'만남과 인사'},{id:'greetings-thanks',title:'감사'},{id:'greetings-together',title:'함께하자는 말'}]},
   {id:'requests',title:'호응·곡 소개·코너 진행',goal:'관객에게 무엇을 부탁하는지 알기',subcategories:[{id:'requests-cheer',title:'관객 호응'},{id:'requests-song',title:'곡·무대 소개'},{id:'requests-mc',title:'MC 질문·게임 진행'}]},
-  {id:'feelings',title:'소감·연습 이야기·팬에게 전하는 마음',goal:'단어가 조금 달라져도 핵심 잡기',subcategories:[{id:'feelings-mood',title:'기분과 소감'},{id:'feelings-practice',title:'연습·운동'},{id:'feelings-fans',title:'팬에게 전하는 마음'}]}
+  {id:'feelings',title:'소감·연습 이야기·팬에게 전하는 마음',goal:'단어가 조금 달라져도 핵심 잡기',subcategories:[{id:'feelings-mood',title:'기분과 소감'},{id:'feelings-practice',title:'연습·운동'},{id:'feelings-fans',title:'팬에게 전하는 마음'}]},
+  {id:'announcements',title:'공연 전·현장 공지',goal:'입장·금지·안전·퇴장 안내를 구별하기',subcategories:[{id:'announcements-entry',title:'입장·좌석·공연 시작'},{id:'announcements-rules',title:'촬영·녹음·휴대전화'},{id:'announcements-safety',title:'객석 배려·안전'},{id:'announcements-exit',title:'공연 종료·퇴장'},{id:'announcements-news',title:'다음 공연 소식'}]}
 ];
-function speakerLabel(card){return card.speaker==='mc'?'MC':'아티스트';}
+function speakerLabel(card){return card.speaker==='announcement'?'공연 공지':card.speaker==='mc'?'MC':'아티스트';}
 function concertLessons(){
   return CONCERT_SCENES.flatMap(section=>LESSONS.filter(card=>card.section===section));
 }
@@ -16,7 +17,7 @@ function sentenceCategory(card){
   if(/ありがとう|感謝/.test(jp))return 'greetings';
   if(card.section==='만났을 때')return 'greetings';
   if(/一緒に(?:楽|歌|踊)|みんなで歌|一緒にいて/.test(jp))return 'greetings';
-  if(card.speaker==='mc'){
+  if(card.speaker==='mc'||card.speaker==='announcement'){
     return /最近|トレーニング|気分|感想|メッセージ|どのくらい|また日本|会える日/.test(jp)?'feelings':'requests';
   }
   if(card.section==='토크할 때'||/楽しい時間|元気をもら/.test(jp))return 'feelings';

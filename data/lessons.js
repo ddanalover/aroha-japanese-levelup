@@ -2148,7 +2148,9 @@ const LESSONS = [
         "조심히 돌아가세요."
       ]
     ],
-    "note": "「気をつけて」는 조심해서, 「帰って」는 돌아가라는 말에 쓰여요."
+    "note": "「気をつけて」는 조심해서, 「帰って」는 돌아가라는 말에 쓰여요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-exit"
   },
   {
     "section": "마지막 인사",
@@ -2445,11 +2447,6 @@ const LESSONS = [
       {
         "jp": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>、お<ruby>願<rt>ねが</rt></ruby>いします。",
         "meaning": "다음 문제 부탁드립니다.",
-        "section": "다음 순서로 넘어갈 때"
-      },
-      {
-        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
-        "meaning": "다음 무대까지 앞으로 5분 남았어요.",
         "section": "다음 순서로 넘어갈 때"
       },
       {
@@ -5823,11 +5820,6 @@ const LESSONS = [
         "jp": "<ruby>続いて<rt>つづいて</rt></ruby>、<ruby>次<rt>つぎ</rt></ruby>のステージです。",
         "meaning": "이어서 다음 무대입니다.",
         "section": "곡을 소개할 때"
-      },
-      {
-        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
-        "meaning": "다음 무대까지 앞으로 5분 남았어요.",
-        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -6311,11 +6303,6 @@ const LESSONS = [
         "section": "함께 즐길 때"
       },
       {
-        "jp": "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
-        "meaning": "여기서 잠깐 쉬어 가요.",
-        "section": "다음 순서로 넘어갈 때"
-      },
-      {
         "jp": "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しますね。",
         "meaning": "조금 더 큰 목소리로 말할게요.",
         "section": "함께 즐길 때"
@@ -6347,11 +6334,6 @@ const LESSONS = [
         "jp": "<ruby>待<rt>ま</rt></ruby>っていてくれてありがとう。",
         "meaning": "기다려 줘서 고마워요.",
         "section": "만났을 때"
-      },
-      {
-        "jp": "お<ruby>待<rt>ま</rt></ruby>たせしました。",
-        "meaning": "기다리게 해서 죄송합니다.",
-        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -6929,11 +6911,6 @@ const LESSONS = [
       {
         "jp": "ここからは<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
         "meaning": "지금부터는 촬영하셔도 돼요.",
-        "section": "다음 순서로 넘어갈 때"
-      },
-      {
-        "jp": "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
-        "meaning": "여기서 잠깐 쉬어 가요.",
         "section": "다음 순서로 넘어갈 때"
       }
     ]
@@ -7584,27 +7561,29 @@ const LESSONS = [
     "section": "마지막 인사",
     "title": "오늘 공연은 이것으로 마칩니다.",
     "text": "마지막 인사가 끝나고 MC가 공연 종료를 안내해요.",
-    "speaker": "mc",
+    "speaker": "announcement",
     "examples": [
       [
         "<ruby>本日<rt>ほんじつ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>以上<rt>いじょう</rt></ruby>です。",
         "혼지츠노 코오엔와 이조오데스.",
         "오늘 공연은 이것으로 마칩니다."
       ]
-    ]
+    ],
+    "learningSubcategory": "announcements-exit"
   },
   {
     "section": "마지막 인사",
     "title": "두고 가는 물건이 없도록 주의하세요.",
     "text": "공연을 마칠 때 MC가 소지품을 챙기라고 안내해요.",
-    "speaker": "mc",
+    "speaker": "announcement",
     "examples": [
       [
         "<ruby>忘れ物<rt>わすれもの</rt></ruby>にお<ruby>気<rt>き</rt></ruby>をつけください。",
         "와스레모노니 오키오 츠케쿠다사이.",
         "두고 가는 물건이 없도록 주의하세요."
       ]
-    ]
+    ],
+    "learningSubcategory": "announcements-exit"
   },
   {
     "section": "마지막 인사",
@@ -10658,8 +10637,8 @@ const LESSONS = [
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "지금부터는 촬영하셔도 돼요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
     "examples": [
       [
         "ここからは<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
@@ -10672,8 +10651,8 @@ const LESSONS = [
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "사진만 찍으셔도 괜찮아요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
     "examples": [
       [
         "<ruby>写真<rt>しゃしん</rt></ruby>だけ<ruby>撮<rt>と</rt></ruby>っても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。",
@@ -10686,8 +10665,8 @@ const LESSONS = [
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "동영상 촬영은 금지예요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
     "examples": [
       [
         "<ruby>動画<rt>どうが</rt></ruby>の<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
@@ -10700,8 +10679,8 @@ const LESSONS = [
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "플래시는 사용하지 마세요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
     "examples": [
       [
         "フラッシュは<ruby>使<rt>つか</rt></ruby>わないでください。",
@@ -10714,8 +10693,8 @@ const LESSONS = [
   {
     "section": "다음 순서로 넘어갈 때",
     "title": "촬영은 여기까지예요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
     "examples": [
       [
         "<ruby>撮影<rt>さつえい</rt></ruby>はここまでです。",
@@ -10727,73 +10706,73 @@ const LESSONS = [
   },
   {
     "section": "다음 순서로 넘어갈 때",
-    "title": "여기서 잠깐 쉬어 가요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "title": "공연 시작 전 안내입니다.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
     "examples": [
       [
-        "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
-        "코코데 스코시 큐우케에시마쇼오.",
-        "여기서 잠깐 쉬어 가요."
+        "<ruby>開演前<rt>かいえんまえ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby>です。",
+        "카이엔마에노 고안나이데스.",
+        "공연 시작 전 안내입니다."
       ]
     ],
-    "note": "「休憩」는 잠깐 쉬는 시간이에요. 공연 종료와는 달라요."
+    "note": "「開演」는 공연 시작이에요. 개장·입장을 뜻하는 「開場」와 구별해요."
   },
   {
     "section": "다음 순서로 넘어갈 때",
-    "title": "쉬는 시간은 10분이에요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "title": "공연 시작까지 10분 남았습니다.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
     "examples": [
       [
-        "<ruby>休憩<rt>きゅうけい</rt></ruby>は<ruby>10分間<rt>じゅっぷんかん</rt></ruby>です。",
-        "큐우케에와 쥿푼칸데스.",
-        "쉬는 시간은 10분이에요."
+        "<ruby>開演<rt>かいえん</rt></ruby>まで、あと<ruby>10分<rt>じゅっぷん</rt></ruby>です。",
+        "카이엔마데, 아토 쥿푼데스.",
+        "공연 시작까지 10분 남았습니다."
       ]
     ],
-    "note": "「分間」은 분 단위의 길이를 나타내요. 게임의 「秒」와 구별해요."
+    "note": "「開演まで」는 공연이 시작하기까지, 「あと10分」은 남은 시간이에요."
   },
   {
     "section": "다음 순서로 넘어갈 때",
-    "title": "다음 무대까지 앞으로 5분 남았어요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "title": "공연 시작까지 5분 남았습니다.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
     "examples": [
       [
-        "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
-        "츠기노 스테에지마데, 아토 고훈데스.",
-        "다음 무대까지 앞으로 5분 남았어요."
+        "<ruby>開演<rt>かいえん</rt></ruby>まで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
+        "카이엔마데, 아토 고훈데스.",
+        "공연 시작까지 5분 남았습니다."
       ]
     ],
-    "note": "「あと5分」은 앞으로 남은 시간이에요."
+    "note": "「分」은 분이에요. 「秒」와 구별하며 공연 시작까지 남은 시간을 들어요."
   },
   {
     "section": "다음 순서로 넘어갈 때",
-    "title": "곧 다시 시작합니다.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "title": "곧 공연을 시작합니다.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
     "examples": [
       [
-        "まもなく<ruby>再開<rt>さいかい</rt></ruby>します。",
-        "마모나쿠 사이카이시마스.",
-        "곧 다시 시작합니다."
+        "まもなく<ruby>開演<rt>かいえん</rt></ruby>します。",
+        "마모나쿠 카이엔시마스.",
+        "곧 공연을 시작합니다."
       ]
     ],
-    "note": "「再開」는 쉬거나 멈췄던 것을 다시 시작하는 말이에요."
+    "note": "「開演」는 공연 시작, 「再開」는 중단한 것을 다시 시작함이에요. 여기서는 공연 시작 공지예요."
   },
   {
     "section": "다음 순서로 넘어갈 때",
-    "title": "기다리게 해서 죄송합니다.",
-    "speaker": "artist",
-    "learningSubcategory": "requests-mc",
+    "title": "휴대전화는 진동 모드로 설정해 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
     "examples": [
       [
-        "お<ruby>待<rt>ま</rt></ruby>たせしました。",
-        "오마타세시마시타.",
-        "기다리게 해서 죄송합니다."
+        "<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>はマナーモードにしてください。",
+        "케에타이덴와와 마나아모오도니 시테쿠다사이.",
+        "휴대전화는 진동 모드로 설정해 주세요."
       ]
     ],
-    "note": "기다림이 끝나고 다시 등장할 때 쓰는 관용 표현이에요. 사과뿐 아니라 ‘오래 기다리셨죠’라는 뜻으로도 써요."
+    "note": "「マナーモード」는 보통 벨소리 대신 진동을 사용하는 모드예요. 전원을 끄라는 안내와는 달라요."
   },
   {
     "section": "함께 즐길 때",
@@ -10854,8 +10833,8 @@ const LESSONS = [
   {
     "section": "마지막 인사",
     "title": "마지막으로 안내드릴 소식이 있어요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-news",
     "examples": [
       [
         "<ruby>最後<rt>さいご</rt></ruby>にお<ruby>知<rt>し</rt></ruby>らせがあります。",
@@ -10868,8 +10847,8 @@ const LESSONS = [
   {
     "section": "마지막 인사",
     "title": "다음 공연은 다음 달이에요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-news",
     "examples": [
       [
         "<ruby>次<rt>つぎ</rt></ruby>の<ruby>公演<rt>こうえん</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby>です。",
@@ -10882,8 +10861,8 @@ const LESSONS = [
   {
     "section": "마지막 인사",
     "title": "자세한 내용은 공식 사이트를 확인해 주세요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-news",
     "examples": [
       [
         "<ruby>詳<rt>くわ</rt></ruby>しくは<ruby>公式<rt>こうしき</rt></ruby>サイトをご<ruby>覧<rt>らん</rt></ruby>ください。",
@@ -10896,8 +10875,8 @@ const LESSONS = [
   {
     "section": "마지막 인사",
     "title": "직원의 안내에 따라 주세요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-exit",
     "examples": [
       [
         "<ruby>係員<rt>かかりいん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。",
@@ -10910,8 +10889,8 @@ const LESSONS = [
   {
     "section": "마지막 인사",
     "title": "차례대로 퇴장해 주세요.",
-    "speaker": "mc",
-    "learningSubcategory": "requests-mc",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-exit",
     "examples": [
       [
         "<ruby>順番<rt>じゅんばん</rt></ruby>にご<ruby>退場<rt>たいじょう</rt></ruby>ください。",
@@ -11058,6 +11037,11 @@ const LESSONS = [
         "jp": "<ruby>前<rt>まえ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>のみなさん！",
         "meaning": "앞쪽에 계신 여러분!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>開演前<rt>かいえんまえ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby>です。",
+        "meaning": "공연 시작 전 안내입니다.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -11369,36 +11353,36 @@ const LESSONS = [
   },
   {
     "section": "공연의 흐름",
-    "title": "휴식 시간",
+    "title": "공연 시작",
     "examples": [
       [
-        "<ruby>休憩<rt>きゅうけい</rt></ruby>",
-        "큐우케에",
-        "휴식 시간"
+        "<ruby>開演<rt>かいえん</rt></ruby>",
+        "카이엔",
+        "공연 시작"
       ]
     ],
     "sourceExamples": [
       {
-        "jp": "ここで<ruby>少<rt>すこ</rt></ruby>し<ruby>休憩<rt>きゅうけい</rt></ruby>しましょう。",
-        "meaning": "여기서 잠깐 쉬어 가요.",
+        "jp": "<ruby>開演前<rt>かいえんまえ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby>です。",
+        "meaning": "공연 시작 전 안내입니다.",
         "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
   {
     "section": "공연의 흐름",
-    "title": "10분 동안",
+    "title": "10분",
     "examples": [
       [
-        "<ruby>10分間<rt>じゅっぷんかん</rt></ruby>",
-        "쥿푼칸",
-        "10분 동안"
+        "<ruby>10分<rt>じゅっぷん</rt></ruby>",
+        "쥿푼",
+        "10분"
       ]
     ],
     "sourceExamples": [
       {
-        "jp": "<ruby>休憩<rt>きゅうけい</rt></ruby>は<ruby>10分間<rt>じゅっぷんかん</rt></ruby>です。",
-        "meaning": "쉬는 시간은 10분이에요.",
+        "jp": "<ruby>開演<rt>かいえん</rt></ruby>まで、あと<ruby>10分<rt>じゅっぷん</rt></ruby>です。",
+        "meaning": "공연 시작까지 10분 남았습니다.",
         "section": "다음 순서로 넘어갈 때"
       }
     ]
@@ -11415,26 +11399,26 @@ const LESSONS = [
     ],
     "sourceExamples": [
       {
-        "jp": "<ruby>次<rt>つぎ</rt></ruby>のステージまで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
-        "meaning": "다음 무대까지 앞으로 5분 남았어요.",
+        "jp": "<ruby>開演<rt>かいえん</rt></ruby>まで、あと<ruby>5分<rt>ごふん</rt></ruby>です。",
+        "meaning": "공연 시작까지 5분 남았습니다.",
         "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
   {
     "section": "공연의 흐름",
-    "title": "다시 시작함",
+    "title": "곧",
     "examples": [
       [
-        "<ruby>再開<rt>さいかい</rt></ruby>",
-        "사이카이",
-        "다시 시작함"
+        "まもなく",
+        "마모나쿠",
+        "곧"
       ]
     ],
     "sourceExamples": [
       {
-        "jp": "まもなく<ruby>再開<rt>さいかい</rt></ruby>します。",
-        "meaning": "곧 다시 시작합니다.",
+        "jp": "まもなく<ruby>開演<rt>かいえん</rt></ruby>します。",
+        "meaning": "곧 공연을 시작합니다.",
         "section": "다음 순서로 넘어갈 때"
       }
     ]
@@ -11562,6 +11546,11 @@ const LESSONS = [
         "jp": "<ruby>係員<rt>かかりいん</rt></ruby>の<ruby>案内<rt>あんない</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。",
         "meaning": "직원의 안내에 따라 주세요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>開演前<rt>かいえんまえ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby>です。",
+        "meaning": "공연 시작 전 안내입니다.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   },
@@ -11634,6 +11623,436 @@ const LESSONS = [
         "jp": "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
         "meaning": "후렴의 화음에 주목해 주세요.",
         "section": "곡을 소개할 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "휴대전화",
+    "examples": [
+      [
+        "<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>",
+        "케에타이덴와",
+        "휴대전화"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>はマナーモードにしてください。",
+        "meaning": "휴대전화는 진동 모드로 설정해 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "진동 모드",
+    "examples": [
+      [
+        "マナーモード",
+        "마나아모오도",
+        "진동 모드"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>はマナーモードにしてください。",
+        "meaning": "휴대전화는 진동 모드로 설정해 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "곧 입장을 시작합니다.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
+    "examples": [
+      [
+        "まもなく<ruby>開場<rt>かいじょう</rt></ruby>します。",
+        "마모나쿠 카이조오시마스.",
+        "곧 입장을 시작합니다."
+      ]
+    ],
+    "note": "「開場」는 관객 입장 시작, 「開演」는 공연 시작이에요. 소리가 비슷해도 다른 안내예요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "티켓을 준비해 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
+    "examples": [
+      [
+        "チケットをご<ruby>用意<rt>ようい</rt></ruby>ください。",
+        "치켓토오 고요오이쿠다사이.",
+        "티켓을 준비해 주세요."
+      ]
+    ],
+    "note": "입구에서 제시할 티켓을 준비하라는 말이에요. 종이·전자 티켓 여부는 실제 안내를 확인해요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "좌석 번호를 확인해 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
+    "examples": [
+      [
+        "お<ruby>席<rt>せき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>をご<ruby>確認<rt>かくにん</rt></ruby>ください。",
+        "오세키노 방고오오 고카쿠닌쿠다사이.",
+        "좌석 번호를 확인해 주세요."
+      ]
+    ],
+    "note": "「席の番号」는 좌석 번호예요. 무엇을 확인하는지 「番号」 앞의 말을 들어요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "지정된 좌석에 앉아 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-entry",
+    "examples": [
+      [
+        "<ruby>指定<rt>してい</rt></ruby>された<ruby>席<rt>せき</rt></ruby>にお<ruby>座<rt>すわ</rt></ruby>りください。",
+        "시테에사레타 세키니 오스와리쿠다사이.",
+        "지정된 좌석에 앉아 주세요."
+      ]
+    ],
+    "note": "지정석 공연의 안내 예문이에요. 모든 공연이 지정석이라는 뜻은 아니에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "통로에는 멈춰 서지 마세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-safety",
+    "examples": [
+      [
+        "<ruby>通路<rt>つうろ</rt></ruby>には<ruby>立<rt>た</rt></ruby>ち<ruby>止<rt>ど</rt></ruby>まらないでください。",
+        "츠우로니와 타치도마라나이데쿠다사이.",
+        "통로에는 멈춰 서지 마세요."
+      ]
+    ],
+    "note": "「立ち止まらないで」는 멈춰 서지 말라는 말이에요. 통로와 이동 공간을 비워 두라는 안내예요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "공연 중에는 휴대전화 전원을 꺼 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
+    "examples": [
+      [
+        "<ruby>公演中<rt>こうえんちゅう</rt></ruby>は<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>の<ruby>電源<rt>でんげん</rt></ruby>をお<ruby>切<rt>き</rt></ruby>りください。",
+        "코오엔추우와 케에타이덴와노 덴겐오 오키리쿠다사이.",
+        "공연 중에는 휴대전화 전원을 꺼 주세요."
+      ]
+    ],
+    "note": "「電源を切る」는 전원을 끄는 것이에요. 진동 모드 안내와는 다른 규칙의 예문이에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "녹음은 삼가 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
+    "examples": [
+      [
+        "<ruby>録音<rt>ろくおん</rt></ruby>はご<ruby>遠慮<rt>えんりょ</rt></ruby>ください。",
+        "로쿠온와 고엔료쿠다사이.",
+        "녹음은 삼가 주세요."
+      ]
+    ],
+    "note": "「ご遠慮ください」는 정중하지만 하지 말라는 요청이에요. 녹음할지 자유롭게 선택하라는 뜻이 아니에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "촬영은 허용된 시간에만 가능해요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
+    "examples": [
+      [
+        "<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>許可<rt>きょか</rt></ruby>された<ruby>時間<rt>じかん</rt></ruby>のみ<ruby>可能<rt>かのう</rt></ruby>です。",
+        "사츠에이와 쿄카사레타 지칸노미 카노오데스.",
+        "촬영은 허용된 시간에만 가능해요."
+      ]
+    ],
+    "note": "「のみ」는 ~만이라는 제한이에요. 촬영 허용 시간을 공연 전체로 넓혀 이해하지 않도록 해요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "응원봉은 가슴 높이로 들어 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-safety",
+    "examples": [
+      [
+        "ペンライトは<ruby>胸<rt>むね</rt></ruby>の<ruby>高<rt>たか</rt></ruby>さでお<ruby>持<rt>も</rt></ruby>ちください。",
+        "펜라이토와 무네노 타카사데 오모치쿠다사이.",
+        "응원봉은 가슴 높이로 들어 주세요."
+      ]
+    ],
+    "note": "높이 들어 달라는 무대 멘트와 구별해요. 이 예문은 시야를 배려해 높이를 제한하는 현장 규칙이에요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "몸이 불편해진 분은 직원에게 알려 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-safety",
+    "examples": [
+      [
+        "<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなった<ruby>方<rt>かた</rt></ruby>は<ruby>係員<rt>かかりいん</rt></ruby>にお<ruby>知<rt>し</rt></ruby>らせください。",
+        "키분가 와루쿠낫타 카타와 카카리인니 오시라세쿠다사이.",
+        "몸이 불편해진 분은 직원에게 알려 주세요."
+      ]
+    ],
+    "note": "이 상황의 「気分が悪い」는 몸이 메스껍거나 불편하다는 뜻이에요. 기분이 나쁘다는 감정 표현으로만 해석하지 않아요."
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "비상구 위치를 확인해 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-safety",
+    "examples": [
+      [
+        "<ruby>非常口<rt>ひじょうぐち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>をご<ruby>確認<rt>かくにん</rt></ruby>ください。",
+        "히조오구치노 바쇼오 고카쿠닌쿠다사이.",
+        "비상구 위치를 확인해 주세요."
+      ]
+    ],
+    "note": "미리 비상구 위치를 확인하라는 안내예요. 이 문장만으로 지금 대피하라는 뜻은 아니에요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "밀지 말고 천천히 이동해 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-exit",
+    "examples": [
+      [
+        "<ruby>押<rt>お</rt></ruby>さずに、ゆっくりお<ruby>進<rt>すす</rt></ruby>みください。",
+        "오사즈니, 윳쿠리 오스스미쿠다사이.",
+        "밀지 말고 천천히 이동해 주세요."
+      ]
+    ],
+    "note": "「押さずに」는 밀지 않고라는 뜻이에요. 「ゆっくり」는 천천히라는 단서예요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "오늘은 구역별 순차 퇴장을 실시합니다.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-exit",
+    "examples": [
+      [
+        "<ruby>本日<rt>ほんじつ</rt></ruby>は<ruby>規制退場<rt>きせいたいじょう</rt></ruby>となります。",
+        "혼지츠와 키세에타이조오토 나리마스.",
+        "오늘은 구역별 순차 퇴장을 실시합니다."
+      ]
+    ],
+    "note": "「規制退場」는 직원이 구역 등을 나눠 순서대로 내보내는 방식이에요. 호출 전 이동 여부는 현장 안내를 따라요."
+  },
+  {
+    "section": "마지막 인사",
+    "title": "직원이 부를 때까지 좌석에서 기다려 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-exit",
+    "examples": [
+      [
+        "<ruby>係員<rt>かかりいん</rt></ruby>がお<ruby>呼<rt>よ</rt></ruby>びするまで、お<ruby>席<rt>せき</rt></ruby>でお<ruby>待<rt>ま</rt></ruby>ちください。",
+        "카카리인가 오요비스루마데, 오세키데 오마치쿠다사이.",
+        "직원이 부를 때까지 좌석에서 기다려 주세요."
+      ]
+    ],
+    "note": "「〜まで」는 기다림이 끝나는 기준이에요. 여기서는 직원의 호출까지 자리에서 기다려요."
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "입장 시작",
+    "examples": [
+      [
+        "<ruby>開場<rt>かいじょう</rt></ruby>",
+        "카이조오",
+        "입장 시작"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "まもなく<ruby>開場<rt>かいじょう</rt></ruby>します。",
+        "meaning": "곧 입장을 시작합니다.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "티켓",
+    "examples": [
+      [
+        "チケット",
+        "치켓토",
+        "티켓"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "チケットをご<ruby>用意<rt>ようい</rt></ruby>ください。",
+        "meaning": "티켓을 준비해 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "좌석",
+    "examples": [
+      [
+        "<ruby>席<rt>せき</rt></ruby>",
+        "세키",
+        "좌석"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "お<ruby>席<rt>せき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>をご<ruby>確認<rt>かくにん</rt></ruby>ください。",
+        "meaning": "좌석 번호를 확인해 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "번호",
+    "examples": [
+      [
+        "<ruby>番号<rt>ばんごう</rt></ruby>",
+        "방고오",
+        "번호"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "お<ruby>席<rt>せき</rt></ruby>の<ruby>番号<rt>ばんごう</rt></ruby>をご<ruby>確認<rt>かくにん</rt></ruby>ください。",
+        "meaning": "좌석 번호를 확인해 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "통로",
+    "examples": [
+      [
+        "<ruby>通路<rt>つうろ</rt></ruby>",
+        "츠우로",
+        "통로"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>通路<rt>つうろ</rt></ruby>には<ruby>立<rt>た</rt></ruby>ち<ruby>止<rt>ど</rt></ruby>まらないでください。",
+        "meaning": "통로에는 멈춰 서지 마세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "녹음",
+    "examples": [
+      [
+        "<ruby>録音<rt>ろくおん</rt></ruby>",
+        "로쿠온",
+        "녹음"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>録音<rt>ろくおん</rt></ruby>はご<ruby>遠慮<rt>えんりょ</rt></ruby>ください。",
+        "meaning": "녹음은 삼가 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "전원",
+    "examples": [
+      [
+        "<ruby>電源<rt>でんげん</rt></ruby>",
+        "덴겐",
+        "전원"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>公演中<rt>こうえんちゅう</rt></ruby>は<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>の<ruby>電源<rt>でんげん</rt></ruby>をお<ruby>切<rt>き</rt></ruby>りください。",
+        "meaning": "공연 중에는 휴대전화 전원을 꺼 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "비상구",
+    "examples": [
+      [
+        "<ruby>非常口<rt>ひじょうぐち</rt></ruby>",
+        "히조오구치",
+        "비상구"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>非常口<rt>ひじょうぐち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>をご<ruby>確認<rt>かくにん</rt></ruby>ください。",
+        "meaning": "비상구 위치를 확인해 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "구역별 순차 퇴장",
+    "examples": [
+      [
+        "<ruby>規制退場<rt>きせいたいじょう</rt></ruby>",
+        "키세에타이조오",
+        "구역별 순차 퇴장"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>本日<rt>ほんじつ</rt></ruby>は<ruby>規制退場<rt>きせいたいじょう</rt></ruby>となります。",
+        "meaning": "오늘은 구역별 순차 퇴장을 실시합니다.",
+        "section": "마지막 인사"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "가슴",
+    "examples": [
+      [
+        "<ruby>胸<rt>むね</rt></ruby>",
+        "무네",
+        "가슴"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ペンライトは<ruby>胸<rt>むね</rt></ruby>の<ruby>高<rt>たか</rt></ruby>さでお<ruby>持<rt>も</rt></ruby>ちください。",
+        "meaning": "응원봉은 가슴 높이로 들어 주세요.",
+        "section": "다음 순서로 넘어갈 때"
+      }
+    ]
+  },
+  {
+    "section": "공연의 흐름",
+    "title": "허용",
+    "examples": [
+      [
+        "<ruby>許可<rt>きょか</rt></ruby>",
+        "쿄카",
+        "허용"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>許可<rt>きょか</rt></ruby>された<ruby>時間<rt>じかん</rt></ruby>のみ<ruby>可能<rt>かのう</rt></ruby>です。",
+        "meaning": "촬영은 허용된 시간에만 가능해요.",
+        "section": "다음 순서로 넘어갈 때"
       }
     ]
   }

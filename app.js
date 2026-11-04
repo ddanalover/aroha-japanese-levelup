@@ -2,7 +2,7 @@
 const GROUPS = {
   letters: {title:'글자 첫걸음', description:'히라가나·가타카나와 기본 발음을 만나는 공간', sections:['일본어 글자와 소리','히라가나','가타카나','탁음·반탁음','받침 소리 · っ·ん','조합','장음','한자도 만나봐요']},
   words: {title:'단어로 익혀요', description:'문장과 같은 내용별 분류로 단어·표현을 익혀요.', sections:LEARNING_CATEGORIES.map(category=>category.title)},
-  concert: {title:'문장으로 외워요', description:'인사와 감사, 공연 진행, 소감과 마음을 전하는 말로 문장을 모았어요.', sections:LEARNING_CATEGORIES.map(category=>category.title)}
+  concert: {title:'문장으로 외워요', description:'인사와 감사, 무대 멘트, 소감과 공연 공지를 상황별로 모았어요.', sections:LEARNING_CATEGORIES.map(category=>category.title)}
 };
 let group='letters';
 let selectedSection='';
@@ -34,11 +34,13 @@ function openGroup(key){
   });
   show('list');
 }
+function openAnnouncements(){group='concert';openCategory('공연 전·현장 공지');}
 function openCategory(title){
   const category=LEARNING_CATEGORIES.find(category=>category.title===title);if(!category)return;
   $('list-title').textContent=GROUPS[group].title;
   $('lesson-list').replaceChildren();
   $('lesson-list').append(makeElement('h2',null,category.title),makeElement('p','muted',`목표: ${category.goal}`));
+  if(category.id==='announcements')$('lesson-list').append(makeElement('p','muted','학습용 공지 예문입니다. 촬영·휴대전화·응원봉 규칙은 공연마다 달라요. 허용·금지를 구별해 듣고 실제 현장 안내를 따라 주세요.'));
   category.subcategories.forEach((sub,index)=>{
     const button=makeElement('button','btn-pixel btn-opt lesson-link',`${String(index+1).padStart(2,'0')} · ${sub.title}`);
     const count=courseCards(sub.id,group).length;

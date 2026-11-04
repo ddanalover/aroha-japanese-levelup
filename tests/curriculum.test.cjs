@@ -67,3 +67,28 @@ test('core includes song introduction and contrasting permissions, not seasonal 
   assert.ok(greetings.length <= 30, 'Greetings and endings should not dominate the core');
   assert.ok(sentenceMap.has('北海道に行ってみたいです。'), 'Optional examples must remain available');
 });
+
+test('announcements have their own speaker and category, with opening distinct from admission', () => {
+  const notices = sentences.filter(card => card.speaker === 'announcement');
+  assert.equal(notices.length, 32);
+  for (const card of notices) {
+    context.notice = card;
+    assert.equal(vm.runInContext('speakerLabel(notice)', context), '공연 공지');
+    assert.equal(vm.runInContext('sentenceCategory(notice)', context), 'announcements');
+    assert.ok(vm.runInContext('courseInfo(sentenceSubcategory(notice))', context));
+  }
+  assert.equal(sentenceMap.get('動画の撮影は禁止です。').speaker, 'announcement');
+  assert.equal(sentenceMap.get('まもなく開演します。').examples[0][2], '곧 공연을 시작합니다.');
+  assert.equal(sentenceMap.get('まもなく開場します。').examples[0][2], '곧 입장을 시작합니다.');
+  assert.ok(data.days[19].sentences.includes('まもなく開演します。'));
+  assert.ok(data.days[19].sentences.every(jp => !jp.includes('再開')));
+  for (const card of words) {
+    for (const source of card.sourceExamples || []) {
+      if (data.days[19].sentences.includes(plain(source.jp))) {
+        context.wordKey = plain(card.examples[0][0]);
+        context.sourceText = plain(source.jp);
+        assert.ok(vm.runInContext('wordMatchesSentence(wordKey, sourceText)', context), `Unrelated opening example for ${context.wordKey}`);
+      }
+    }
+  }
+});
