@@ -1787,7 +1787,8 @@ const LESSONS = [
         "다음 코너로 넘어가 볼까요."
       ]
     ],
-    "note": "「次」는 다음, 「コーナー」는 코너예요. 「参りましょう」는 여기서 다음 순서로 넘어가자는 정중한 진행 표현이에요. 코너는 コーナー처럼 길게 읽어요."
+    "note": "「次」는 다음, 「コーナー」는 코너예요. 「参りましょう」는 여기서 다음 순서로 넘어가자는 정중한 진행 표현이에요. 코너는 コーナー처럼 길게 읽어요.",
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -1799,7 +1800,14 @@ const LESSONS = [
         "다음 곡을 들어 주세요."
       ]
     ],
-    "note": "「次の曲」는 다음 곡이에요. 「聴いてください」는 들어 달라는 부탁이에요. 「を」는 오로 읽어요."
+    "note": "「次の曲」는 다음 곡이에요. 「聴いてください」는 들어 달라는 부탁이에요. 「を」는 오로 읽어요.",
+    "basicCue": {
+      "word": "次",
+      "heard": "次",
+      "meaning": "다음",
+      "action": "이제 다음 곡으로 넘어가요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -1811,7 +1819,14 @@ const LESSONS = [
         "다음은 신곡이에요."
       ]
     ],
-    "note": "「次」는 다음, 「新曲」는 신곡이에요. 문장에서 조사로 쓰인 「は」는 와로 읽어요."
+    "note": "「次」는 다음, 「新曲」는 신곡이에요. 문장에서 조사로 쓰인 「は」는 와로 읽어요.",
+    "basicCue": {
+      "word": "新曲",
+      "heard": "新曲",
+      "meaning": "신곡",
+      "action": "다음에 부를 곡이 새 곡이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -1823,7 +1838,14 @@ const LESSONS = [
         "다음이 마지막 곡이에요."
       ]
     ],
-    "note": "「最後」는 마지막이에요. 「次・最後・曲」를 알아들으면 다음 곡이 마지막이라는 흐름을 잡을 수 있어요."
+    "note": "「最後」는 마지막이에요. 「次・最後・曲」를 알아들으면 다음 곡이 마지막이라는 흐름을 잡을 수 있어요.",
+    "basicCue": {
+      "word": "最後",
+      "heard": "最後",
+      "meaning": "마지막",
+      "action": "다음 곡이 마지막 곡이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -1836,7 +1858,14 @@ const LESSONS = [
         "여러분, 안녕하세요!"
       ]
     ],
-    "note": "「みなさん」은 여러분이에요. 「こんにちは」는 낮 인사예요. 저녁에는 こんばんは（콘방와, 안녕하세요）라고 해요."
+    "note": "「みなさん」은 여러분이에요. 「こんにちは」는 낮 인사예요. 저녁에는 こんばんは（콘방와, 안녕하세요）라고 해요.",
+    "level": "basic",
+    "basicCue": {
+      "word": "みなさん",
+      "heard": "みなさん",
+      "meaning": "여러분",
+      "action": "관객 모두에게 인사하는 말이에요."
+    }
   },
   {
     "section": "만났을 때",
@@ -1849,7 +1878,8 @@ const LESSONS = [
         "일본 여러분을 만날 수 있어서 기뻐요."
       ]
     ],
-    "note": "「会えて」는 만날 수 있어서, 「嬉しい」는 ‘기쁘다’라는 뜻이에요. 먼저 배운 우레시이를 찾아 들어 봐요."
+    "note": "「会えて」는 만날 수 있어서, 「嬉しい」는 ‘기쁘다’라는 뜻이에요. 먼저 배운 우레시이를 찾아 들어 봐요.",
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -1862,7 +1892,8 @@ const LESSONS = [
         "오랜만이에요!"
       ]
     ],
-    "note": "「久しぶり」는 오랜만이에요. 만난 적 없는 상대에게 하는 첫인사와는 달라요."
+    "note": "「久しぶり」는 오랜만이에요. 만난 적 없는 상대에게 하는 첫인사와는 달라요.",
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -1875,7 +1906,8 @@ const LESSONS = [
         "계속 보고 싶었어요."
       ]
     ],
-    "note": "「ずっと」는 계속, 「会いたかった」는 만나고 싶었다는 뜻이에요."
+    "note": "「ずっと」는 계속, 「会いたかった」는 만나고 싶었다는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -1888,7 +1920,8 @@ const LESSONS = [
         "오늘 와 주셔서 감사합니다."
       ]
     ],
-    "note": "「今日」는 오늘, 「来てくれて」는 와 줘서예요. 「ありがとうございます」가 들리면 감사하는 말이에요."
+    "note": "「今日」는 오늘, 「来てくれて」는 와 줘서예요. 「ありがとうございます」가 들리면 감사하는 말이에요.",
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -1901,7 +1934,8 @@ const LESSONS = [
         "마지막까지 함께 즐겨요!"
       ]
     ],
-    "note": "「最後まで」는 마지막까지, 「一緒に」는 함께예요. 「楽しみましょう」는 즐기자는 말이에요."
+    "note": "「最後まで」는 마지막까지, 「一緒に」는 함께예요. 「楽しみましょう」는 즐기자는 말이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -1914,7 +1948,8 @@ const LESSONS = [
         "여러분, 즐기고 있나요?"
       ]
     ],
-    "note": "「楽しんでいますか」가 말할 때 짧아진 형태예요. はーい！（네!）라고 답할 수 있어요."
+    "note": "「楽しんでいますか」가 말할 때 짧아진 형태예요. はーい！（네!）라고 답할 수 있어요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -1927,7 +1962,14 @@ const LESSONS = [
         "준비됐나요?"
       ]
     ],
-    "note": "「準備」는 준비예요. 「いいですか」는 여기서 준비가 됐는지 확인하는 말이에요."
+    "note": "「準備」는 준비예요. 「いいですか」는 여기서 준비가 됐는지 확인하는 말이에요.",
+    "basicCue": {
+      "word": "準備",
+      "heard": "準備",
+      "meaning": "준비",
+      "action": "즐길 준비가 됐는지 물어요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -1940,7 +1982,14 @@ const LESSONS = [
         "더 큰 목소리로!"
       ]
     ],
-    "note": "「もっと」는 더, 「大きな声」는 큰 목소리예요."
+    "note": "「もっと」는 더, 「大きな声」는 큰 목소리예요.",
+    "basicCue": {
+      "word": "もっと",
+      "heard": "もっと",
+      "meaning": "더",
+      "action": "지금보다 더 크게 호응해 달래요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -1953,7 +2002,14 @@ const LESSONS = [
         "함께 불러 주세요!"
       ]
     ],
-    "note": "「歌」는 노래, 「歌って」는 노래해 달라는 표현에 쓰여요. 「ください」는 부탁의 단서예요."
+    "note": "「歌」는 노래, 「歌って」는 노래해 달라는 표현에 쓰여요. 「ください」는 부탁의 단서예요.",
+    "basicCue": {
+      "word": "歌",
+      "heard": "歌",
+      "meaning": "노래",
+      "action": "함께 노래해 달라는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -1966,7 +2022,8 @@ const LESSONS = [
         "뒤쪽에 계신 여러분도 보여요!"
       ]
     ],
-    "note": "「後ろ」는 뒤쪽, 「見えてます」는 보인다는 뜻이에요. 「も」는 여기도 포함한다는 단서예요."
+    "note": "「後ろ」는 뒤쪽, 「見えてます」는 보인다는 뜻이에요. 「も」는 여기도 포함한다는 단서예요.",
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -1979,7 +2036,14 @@ const LESSONS = [
         "이 곡, 알고 있나요?"
       ]
     ],
-    "note": "「この曲」는 이 곡이에요. 「知ってますか」는 ‘알고 있나요?’라는 질문이에요."
+    "note": "「この曲」는 이 곡이에요. 「知ってますか」는 ‘알고 있나요?’라는 질문이에요.",
+    "basicCue": {
+      "word": "知っている",
+      "heard": "知ってます",
+      "meaning": "알고 있다",
+      "action": "이 곡을 알고 있는지 물어요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -1992,7 +2056,14 @@ const LESSONS = [
         "다음은 게임 시간이에요."
       ]
     ],
-    "note": "「次」는 다음, 「時間」은 시간이에요. 「ゲーム」가 들리면 게임 코너라는 단서가 돼요."
+    "note": "「次」는 다음, 「時間」은 시간이에요. 「ゲーム」가 들리면 게임 코너라는 단서가 돼요.",
+    "basicCue": {
+      "word": "ゲーム",
+      "heard": "ゲーム",
+      "meaning": "게임",
+      "action": "이제 게임 순서예요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -2005,7 +2076,14 @@ const LESSONS = [
         "한 번 더 부탁해요!"
       ]
     ],
-    "note": "「もう一回」는 한 번 더예요. 「お願いします」는 ‘부탁합니다’라는 뜻이에요."
+    "note": "「もう一回」는 한 번 더예요. 「お願いします」는 ‘부탁합니다’라는 뜻이에요.",
+    "basicCue": {
+      "word": "もう一回",
+      "heard": "もう一回",
+      "meaning": "한 번 더",
+      "action": "방금 한 것을 한 번 더 해요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -2018,7 +2096,8 @@ const LESSONS = [
         "오늘을 위해 많이 연습했어요."
       ]
     ],
-    "note": "「たくさん」은 많이, 「練習」는 연습이에요. 「しました」는 이미 한 일을 말하는 단서예요."
+    "note": "「たくさん」은 많이, 「練習」는 연습이에요. 「しました」는 이미 한 일을 말하는 단서예요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -2031,7 +2110,14 @@ const LESSONS = [
         "조금 긴장하고 있어요."
       ]
     ],
-    "note": "「ちょっと」는 조금, 「緊張」는 긴장이에요."
+    "note": "「ちょっと」는 조금, 「緊張」는 긴장이에요.",
+    "basicCue": {
+      "word": "緊張",
+      "heard": "緊張",
+      "meaning": "긴장",
+      "action": "조금 긴장하고 있다는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -2044,7 +2130,8 @@ const LESSONS = [
         "여러분의 웃는 얼굴을 보면 힘이 나요."
       ]
     ],
-    "note": "「笑顔」는 웃는 얼굴, 「元気が出ます」는 ‘힘이 나요’라는 뜻이에요."
+    "note": "「笑顔」는 웃는 얼굴, 「元気が出ます」는 ‘힘이 나요’라는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -2057,7 +2144,8 @@ const LESSONS = [
         "일본어, 맞게 말하고 있나요?"
       ]
     ],
-    "note": "「日本語」는 일본어, 「合ってますか」는 ‘맞나요?’라는 뜻이에요. 문법 전체보다 무엇을 묻는지 먼저 알아봐요."
+    "note": "「日本語」는 일본어, 「合ってますか」는 ‘맞나요?’라는 뜻이에요. 문법 전체보다 무엇을 묻는지 먼저 알아봐요.",
+    "level": "advanced"
   },
   {
     "section": "앙코르에서",
@@ -2070,7 +2158,14 @@ const LESSONS = [
         "앙코르 감사합니다!"
       ]
     ],
-    "note": "「アンコール」는 앙코르예요. 팬들의 요청에 감사하는 말이에요."
+    "note": "「アンコール」는 앙코르예요. 팬들의 요청에 감사하는 말이에요.",
+    "basicCue": {
+      "word": "アンコール",
+      "heard": "アンコール",
+      "meaning": "앙코르",
+      "action": "앙코르 요청에 고마움을 전해요."
+    },
+    "level": "basic"
   },
   {
     "section": "앙코르에서",
@@ -2083,7 +2178,14 @@ const LESSONS = [
         "아직 끝나지 않았어요!"
       ]
     ],
-    "note": "「まだまだ」는 아직 더 남았다는 느낌이에요. 「終わりません」은 끝나지 않는다는 뜻이에요."
+    "note": "「まだまだ」는 아직 더 남았다는 느낌이에요. 「終わりません」은 끝나지 않는다는 뜻이에요.",
+    "basicCue": {
+      "word": "終わる",
+      "heard": "終わり",
+      "meaning": "끝나다",
+      "action": "아직 공연이 끝난 게 아니에요."
+    },
+    "level": "basic"
   },
   {
     "section": "앙코르에서",
@@ -2096,7 +2198,14 @@ const LESSONS = [
         "조금 더 함께 즐겨요!"
       ]
     ],
-    "note": "「もう少し」는 조금 더, 「一緒に」는 함께예요. 시작 때 들었던 「楽しみましょう」를 다시 만나요."
+    "note": "「もう少し」는 조금 더, 「一緒に」는 함께예요. 시작 때 들었던 「楽しみましょう」를 다시 만나요.",
+    "basicCue": {
+      "word": "一緒に",
+      "heard": "一緒に",
+      "meaning": "함께",
+      "action": "조금 더 함께 즐기자는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -2109,7 +2218,8 @@ const LESSONS = [
         "즐거운 시간은 순식간이네요."
       ]
     ],
-    "note": "「楽しい」는 ‘즐겁다’라는 뜻이에요. 「あっという間」는 순식간이라는 표현이에요."
+    "note": "「楽しい」는 ‘즐겁다’라는 뜻이에요. 「あっという間」는 순식간이라는 표현이에요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -2122,7 +2232,8 @@ const LESSONS = [
         "항상 응원해 주셔서 감사합니다."
       ]
     ],
-    "note": "「いつも」는 항상, 「応援」은 응원이에요."
+    "note": "「いつも」는 항상, 「応援」은 응원이에요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -2135,7 +2246,8 @@ const LESSONS = [
         "다시 만날 날을 기대하고 있어요."
       ]
     ],
-    "note": "「また」는 또, 「会える日」는 만날 수 있는 날이에요. 「楽しみにしています」는 기대하고 있다는 말이에요."
+    "note": "「また」는 또, 「会える日」는 만날 수 있는 날이에요. 「楽しみにしています」는 기대하고 있다는 말이에요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -2150,7 +2262,14 @@ const LESSONS = [
     ],
     "note": "「気をつけて」는 조심해서, 「帰って」는 돌아가라는 말에 쓰여요.",
     "speaker": "announcement",
-    "learningSubcategory": "announcements-exit"
+    "learningSubcategory": "announcements-exit",
+    "basicCue": {
+      "word": "気をつける",
+      "heard": "気をつけて",
+      "meaning": "조심하다",
+      "action": "조심히 돌아가라는 인사예요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -2163,7 +2282,14 @@ const LESSONS = [
         "또 만나요!"
       ]
     ],
-    "note": "「また」는 또, 「会いましょう」는 ‘만나요’라는 뜻이에요."
+    "note": "「また」는 또, 「会いましょう」는 ‘만나요’라는 뜻이에요.",
+    "basicCue": {
+      "word": "また",
+      "heard": "また",
+      "meaning": "또 · 다시",
+      "action": "다음에 또 만나자는 인사예요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -2176,7 +2302,8 @@ const LESSONS = [
         "끝나는 건 조금 슬퍼요."
       ]
     ],
-    "note": "「終わる」는 끝나다, 「少し」는 조금, 「悲しい」는 ‘슬프다’라는 뜻이에요. 마지막 인사에서는 寂しい（さびしい, 쓸쓸하다·섭섭하다）도 만날 수 있어요."
+    "note": "「終わる」는 끝나다, 「少し」는 조금, 「悲しい」는 ‘슬프다’라는 뜻이에요. 마지막 인사에서는 寂しい（さびしい, 쓸쓸하다·섭섭하다）도 만날 수 있어요.",
+    "level": "advanced"
   },
   {
     "section": "기분과 마음",
@@ -2193,8 +2320,14 @@ const LESSONS = [
         "jp": "<ruby>楽<rt>たの</rt></ruby>しい<ruby>時間<rt>じかん</rt></ruby>はあっという<ruby>間<rt>ま</rt></ruby>ですね。",
         "meaning": "즐거운 시간은 순식간이네요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>楽<rt>たの</rt></ruby>しいです。",
+        "meaning": "즐거워요.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "기분과 마음",
@@ -2212,7 +2345,8 @@ const LESSONS = [
         "meaning": "일본 여러분을 만날 수 있어서 기뻐요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "기분과 마음",
@@ -2230,7 +2364,8 @@ const LESSONS = [
         "meaning": "끝나는 건 조금 슬퍼요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "노래와 연습",
@@ -2279,7 +2414,8 @@ const LESSONS = [
         "meaning": "다음 곡은 함께 불러 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "노래와 연습",
@@ -2296,8 +2432,19 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>のために、たくさん<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
         "meaning": "오늘을 위해 많이 연습했어요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
+        "meaning": "연습했어요.",
+        "section": "토크할 때"
+      },
+      {
+        "jp": "たくさん<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
+        "meaning": "많이 연습했어요.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "노래와 연습",
@@ -2350,7 +2497,8 @@ const LESSONS = [
         "meaning": "다음 곡을 들려드리겠습니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "노래와 연습",
@@ -2373,7 +2521,8 @@ const LESSONS = [
         "meaning": "신곡을 소개하겠습니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -2411,7 +2560,8 @@ const LESSONS = [
         "meaning": "오늘 소감을 들려 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -2469,7 +2619,8 @@ const LESSONS = [
         "meaning": "다음 공연은 다음 달이에요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -2512,7 +2663,8 @@ const LESSONS = [
         "meaning": "마지막까지 함께 즐겨 주세요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -2540,7 +2692,8 @@ const LESSONS = [
         "meaning": "지금부터는 토크 시간이에요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -2559,7 +2712,8 @@ const LESSONS = [
         "meaning": "다음 코너로 넘어가 볼까요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -2577,7 +2731,8 @@ const LESSONS = [
         "meaning": "앙코르 감사합니다!",
         "section": "앙코르에서"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -2601,7 +2756,8 @@ const LESSONS = [
         "meaning": "끝나는 건 조금 슬퍼요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -2659,7 +2815,8 @@ const LESSONS = [
         "meaning": "마지막까지 함께 즐겨 주세요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -2687,7 +2844,8 @@ const LESSONS = [
         "meaning": "앞쪽에 계신 여러분!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -2705,7 +2863,8 @@ const LESSONS = [
         "meaning": "더 큰 목소리로!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -2723,7 +2882,8 @@ const LESSONS = [
         "meaning": "한 번 더 부탁해요!",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -2755,8 +2915,14 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby><ruby>一番<rt>いちばん</rt></ruby>の<ruby>声<rt>こえ</rt></ruby>を<ruby>聞かせ<rt>きかせ</rt></ruby>てください！",
         "meaning": "오늘 가장 큰 목소리를 들려주세요!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>声<rt>こえ</rt></ruby>、<ruby>出せ<rt>だせ</rt></ruby>ますか？",
+        "meaning": "목소리 낼 수 있나요?",
+        "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -2784,7 +2950,8 @@ const LESSONS = [
         "meaning": "새로운 무대를 준비했어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "마음을 전하는 말",
@@ -2813,7 +2980,8 @@ const LESSONS = [
         "meaning": "또 만나요!",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마음을 전하는 말",
@@ -2831,7 +2999,8 @@ const LESSONS = [
         "meaning": "여러분의 웃는 얼굴을 보면 힘이 나요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마음을 전하는 말",
@@ -2853,8 +3022,14 @@ const LESSONS = [
         "jp": "<ruby>次<rt>つぎ</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>な<ruby>曲<rt>きょく</rt></ruby>です！",
         "meaning": "다음은 활기찬 곡이에요!",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "お<ruby>元気<rt>げんき</rt></ruby>でしたか？",
+        "meaning": "잘 지내셨나요?",
+        "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "마음을 전하는 말",
@@ -2877,7 +3052,8 @@ const LESSONS = [
         "meaning": "앞으로도 응원해 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마음을 전하는 말",
@@ -2915,8 +3091,14 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>本当に<rt>ほんとうに</rt></ruby>ありがとう。",
         "meaning": "오늘은 정말 고마워요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>来<rt>き</rt></ruby>てくれてありがとう。",
+        "meaning": "와 줘서 고마워요.",
+        "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "마음을 전하는 말",
@@ -2939,7 +3121,8 @@ const LESSONS = [
         "meaning": "또 만나요!",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -2953,7 +3136,8 @@ const LESSONS = [
       ]
     ],
     "note": "「まず」는 먼저, 「あいさつ」는 인사예요. 곧 인사가 시작된다는 뜻으로 들어요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -2967,7 +3151,8 @@ const LESSONS = [
       ]
     ],
     "note": "「声」는 목소리예요. 「聞かせてください」가 들리면 소리를 들려 달라는 부탁으로 이해해요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -2981,7 +3166,14 @@ const LESSONS = [
       ]
     ],
     "note": "「拍手」는 박수예요. 「お願いします」는 ‘부탁합니다’라는 뜻이에요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "basicCue": {
+      "word": "拍手",
+      "heard": "拍手",
+      "meaning": "박수",
+      "action": "박수를 부탁해요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -2995,7 +3187,8 @@ const LESSONS = [
       ]
     ],
     "note": "「ペンライト」는 응원봉이에요. 「見せてください」는 보여 달라는 부탁이에요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -3009,7 +3202,8 @@ const LESSONS = [
       ]
     ],
     "note": "「センター」는 가운데, 「サイド」는 양옆 구역이에요. 「も」는 여기도 포함한다는 단서예요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -3023,7 +3217,8 @@ const LESSONS = [
       ]
     ],
     "note": "「次」는 다음, 「問題」는 문제예요. 관객에게 답을 요구하는 말이 아니라 진행 요청이라는 상황을 떠올려요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -3037,7 +3232,8 @@ const LESSONS = [
       ]
     ],
     "note": "「ここで」는 여기서, 「紹介」는 소개예요. 곧 누군가의 이름이나 역할을 듣게 돼요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -3051,7 +3247,8 @@ const LESSONS = [
       ]
     ],
     "note": "「次の曲」는 다음 곡이에요. 「お聞かせします」는 들려드리겠다는 뜻으로 들어요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "앙코르에서",
@@ -3065,7 +3262,8 @@ const LESSONS = [
       ]
     ],
     "note": "「最後に」는 마지막으로, 「アンコール曲」는 앙코르 곡이에요. 이제 어떤 무대가 이어질지 잡아 봐요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -3079,7 +3277,8 @@ const LESSONS = [
       ]
     ],
     "note": "「そば」는 곁이에요. 「いてくれてありがとう」는 있어 줘서 고맙다는 말이에요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -3093,7 +3292,8 @@ const LESSONS = [
       ]
     ],
     "note": "「これからも」는 앞으로도, 「頑張っていきます」는 계속 힘내서 노력하겠다는 말이에요.",
-    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요."
+    "source": "따나노트의 표현을 바탕으로 만든 학습용 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3126,7 +3326,8 @@ const LESSONS = [
         "meaning": "마지막까지 큰 박수 부탁드립니다!",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3143,8 +3344,14 @@ const LESSONS = [
         "jp": "<ruby>皆<rt>みな</rt></ruby>さんのペンライトを<ruby>見<rt>み</rt></ruby>せてください。",
         "meaning": "여러분의 응원봉을 보여주세요!",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "ペンライトを<ruby>見<rt>み</rt></ruby>せてください。",
+        "meaning": "응원봉을 보여 주세요.",
+        "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -3162,7 +3369,8 @@ const LESSONS = [
         "meaning": "센터도 사이드도 고마워요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -3180,7 +3388,8 @@ const LESSONS = [
         "meaning": "센터도 사이드도 고마워요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -3198,7 +3407,8 @@ const LESSONS = [
         "meaning": "다음 문제 부탁드립니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -3226,7 +3436,8 @@ const LESSONS = [
         "meaning": "곡 소개 부탁드립니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "노래와 연습",
@@ -3243,8 +3454,14 @@ const LESSONS = [
         "jp": "ここでバンドメンバーをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
         "meaning": "여기서 밴드 멤버를 소개하겠습니다.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "バンドをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "meaning": "밴드를 소개하겠습니다.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3262,7 +3479,8 @@ const LESSONS = [
         "meaning": "여기서 밴드 멤버를 소개하겠습니다.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마음을 전하는 말",
@@ -3280,7 +3498,8 @@ const LESSONS = [
         "meaning": "곁에 있어 줘서 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마음을 전하는 말",
@@ -3299,7 +3518,8 @@ const LESSONS = [
         "meaning": "앞으로도 계속 노력하겠습니다.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -3310,7 +3530,14 @@ const LESSONS = [
         "미나상, 콘니치와!",
         "여러분, 안녕하세요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "みなさん",
+      "heard": "みなさん",
+      "meaning": "여러분",
+      "action": "관객 모두에게 인사하는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -3321,7 +3548,14 @@ const LESSONS = [
         "잇쇼니 타노시미마쇼오!",
         "함께 즐겨요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "一緒に",
+      "heard": "一緒に",
+      "meaning": "함께",
+      "action": "같이 즐기자는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -3332,7 +3566,8 @@ const LESSONS = [
         "즛토 보쿠노 소바니 이테쿠다사이.",
         "계속 제 곁에 있어 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -3343,7 +3578,8 @@ const LESSONS = [
         "아이타캇타데스.",
         "보고 싶었어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -3354,7 +3590,8 @@ const LESSONS = [
         "미나상니 아에테 우레시이데스.",
         "여러분을 만날 수 있어서 기뻐요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -3365,7 +3602,14 @@ const LESSONS = [
         "테오 훗테쿠다사이!",
         "손을 흔들어 주세요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "手",
+      "heard": "手",
+      "meaning": "손",
+      "action": "손을 흔들어 호응해요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -3376,7 +3620,14 @@ const LESSONS = [
         "타쿠상 렌슈우시마시타.",
         "많이 연습했어요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "練習",
+      "heard": "練習",
+      "meaning": "연습",
+      "action": "연습을 많이 했다는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -3387,7 +3638,8 @@ const LESSONS = [
         "이츠모 오오엔시테쿠레테 아리가토오.",
         "항상 응원해 줘서 고마워요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -3398,7 +3650,8 @@ const LESSONS = [
         "쿄오오 타노시미니 시테이마시타.",
         "오늘을 기대하고 있었어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -3409,7 +3662,8 @@ const LESSONS = [
         "못토 코에오 키카세테쿠다사이!",
         "목소리를 더 들려주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -3420,7 +3674,14 @@ const LESSONS = [
         "쿄오와 혼토니 타노시이데스.",
         "오늘은 정말 즐거워요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "本当に",
+      "heard": "本当に",
+      "meaning": "정말로",
+      "action": "정말 즐겁다고 강조해요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -3431,7 +3692,8 @@ const LESSONS = [
         "코레카라모 잇쇼니 이테쿠다사이.",
         "앞으로도 함께 있어 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -3442,7 +3704,8 @@ const LESSONS = [
         "키테쿠레테 아리가토오고자이마스.",
         "와 주셔서 감사합니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -3453,7 +3716,8 @@ const LESSONS = [
         "오오키나 하쿠슈오 오네가이시마스!",
         "큰 박수 부탁드립니다!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -3464,7 +3728,8 @@ const LESSONS = [
         "미나상노 에가오가 다이스키데스.",
         "여러분의 웃는 얼굴을 정말 좋아해요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -3475,7 +3740,8 @@ const LESSONS = [
         "마타 아이니 키테쿠다사이.",
         "또 만나러 와 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3498,7 +3764,8 @@ const LESSONS = [
         "meaning": "계속 제 곁에 있어 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3526,7 +3793,8 @@ const LESSONS = [
         "meaning": "제 목소리, 들리나요?",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3549,7 +3817,8 @@ const LESSONS = [
         "meaning": "곁에 있어 줘서 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3586,9 +3855,15 @@ const LESSONS = [
         "jp": "<ruby>最近<rt>さいきん</rt></ruby>はよく<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>いています。",
         "meaning": "요즘은 음악을 자주 듣고 있어요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>聴<rt>き</rt></ruby>いてください。",
+        "meaning": "들어 주세요.",
+        "section": "곡을 소개할 때"
       }
     ],
-    "note": "귀를 기울여 듣는 행동이에요. 「聞こえる」는 ‘들리다’예요."
+    "note": "귀를 기울여 듣는 행동이에요. 「聞こえる」는 ‘들리다’예요.",
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3641,7 +3916,8 @@ const LESSONS = [
         "meaning": "마지막까지 함께 즐겨 주세요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3669,7 +3945,8 @@ const LESSONS = [
         "meaning": "질문 있는 분은 손을 들어 주세요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3692,7 +3969,8 @@ const LESSONS = [
         "meaning": "좌우로 흔들어 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3715,7 +3993,8 @@ const LESSONS = [
         "meaning": "이 곡은 오랜만에 불러요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3738,7 +4017,8 @@ const LESSONS = [
         "meaning": "항상 응원해 줘서 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3756,7 +4036,8 @@ const LESSONS = [
         "meaning": "이 곡, 알고 있나요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3794,7 +4075,8 @@ const LESSONS = [
         "meaning": "마지막까지 큰 박수 부탁드립니다!",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3817,7 +4099,8 @@ const LESSONS = [
         "meaning": "이 곡을 정말 좋아해요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3835,7 +4118,8 @@ const LESSONS = [
         "meaning": "조심히 돌아가세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3853,7 +4137,8 @@ const LESSONS = [
         "meaning": "조심히 돌아가세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3871,7 +4156,8 @@ const LESSONS = [
         "meaning": "또 만나러 와 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3899,7 +4185,8 @@ const LESSONS = [
         "meaning": "이 곡의 포인트를 알려 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3922,7 +4209,8 @@ const LESSONS = [
         "meaning": "오늘을 기대하고 있었어요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3945,7 +4233,8 @@ const LESSONS = [
         "meaning": "오늘은 정말 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -3973,7 +4262,8 @@ const LESSONS = [
         "meaning": "앞으로도 응원해 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -3996,7 +4286,8 @@ const LESSONS = [
         "meaning": "많이 연습했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4008,7 +4299,8 @@ const LESSONS = [
         "요즘 근력 운동을 하고 있어요."
       ]
     ],
-    "note": "「最近」은 요즘, 「筋トレ」는 근력 운동이에요. 「してます」는 「しています」를 짧게 말한 형태예요."
+    "note": "「最近」은 요즘, 「筋トレ」는 근력 운동이에요. 「してます」는 「しています」를 짧게 말한 형태예요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4020,7 +4312,8 @@ const LESSONS = [
         "근육이 붙었어요."
       ]
     ],
-    "note": "「筋肉」는 근육이에요. 「つきました」와 함께 들리면 근육이 붙었다는 뜻이에요."
+    "note": "「筋肉」는 근육이에요. 「つきました」와 함께 들리면 근육이 붙었다는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4032,7 +4325,8 @@ const LESSONS = [
         "근육이 울퉁불퉁해지고 싶어요."
       ]
     ],
-    "note": "「ムキムキ」는 근육이 울퉁불퉁한 모습을 나타내는 말이에요. 「なりたい」는 그렇게 되고 싶다는 뜻이에요."
+    "note": "「ムキムキ」는 근육이 울퉁불퉁한 모습을 나타내는 말이에요. 「なりたい」는 그렇게 되고 싶다는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4044,7 +4338,8 @@ const LESSONS = [
         "매일 트레이닝하고 있어요."
       ]
     ],
-    "note": "「毎日」는 ‘매일’, 「トレーニング」는 ‘트레이닝·훈련’이라는 뜻이에요. 여기서는 운동 이야기로 들어요."
+    "note": "「毎日」는 ‘매일’, 「トレーニング」는 ‘트레이닝·훈련’이라는 뜻이에요. 여기서는 운동 이야기로 들어요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4056,7 +4351,8 @@ const LESSONS = [
         "오늘은 팔을 단련했어요."
       ]
     ],
-    "note": "「腕」는 팔, 「鍛える」는 ‘단련하다’라는 뜻이에요. 오늘 어느 부위를 운동했는지 이야기해요."
+    "note": "「腕」는 팔, 「鍛える」는 ‘단련하다’라는 뜻이에요. 오늘 어느 부위를 운동했는지 이야기해요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4068,7 +4364,8 @@ const LESSONS = [
         "아침에 러닝했어요."
       ]
     ],
-    "note": "「朝」는 아침, 「ランニング」는 달리기·러닝이에요."
+    "note": "「朝」는 아침, 「ランニング」는 달리기·러닝이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4080,7 +4377,8 @@ const LESSONS = [
         "어제는 5킬로미터를 달렸어요."
       ]
     ],
-    "note": "「昨日」는 어제, 「走る」는 ‘달리다’라는 뜻이에요. 여기서 「5キロ」는 달린 거리 5킬로미터를 말해요."
+    "note": "「昨日」는 어제, 「走る」는 ‘달리다’라는 뜻이에요. 여기서 「5キロ」는 달린 거리 5킬로미터를 말해요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4092,7 +4390,8 @@ const LESSONS = [
         "오늘은 근육통이 있어요."
       ]
     ],
-    "note": "「筋肉痛」는 근육통이에요. 운동한 다음 몸 상태를 이야기할 때 들을 수 있어요."
+    "note": "「筋肉痛」는 근육통이에요. 운동한 다음 몸 상태를 이야기할 때 들을 수 있어요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4104,7 +4403,8 @@ const LESSONS = [
         "스트레칭을 꼼꼼히 하고 있어요."
       ]
     ],
-    "note": "「ちゃんと」는 ‘제대로·꼼꼼히’, 「ストレッチ」는 ‘스트레칭’이라는 뜻이에요."
+    "note": "「ちゃんと」는 ‘제대로·꼼꼼히’, 「ストレッチ」는 ‘스트레칭’이라는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4116,7 +4416,8 @@ const LESSONS = [
         "오늘은 푹 쉬겠어요."
       ]
     ],
-    "note": "「ゆっくり」는 여기서 편히·느긋하게예요. 「休む」와 함께면 푹 쉬겠다는 말로 들어요."
+    "note": "「ゆっくり」는 여기서 편히·느긋하게예요. 「休む」와 함께면 푹 쉬겠다는 말로 들어요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4128,7 +4429,8 @@ const LESSONS = [
         "운동을 좋아해요."
       ]
     ],
-    "note": "「運動」는 운동, 「好き」는 좋아한다는 뜻이에요."
+    "note": "「運動」는 운동, 「好き」는 좋아한다는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4151,7 +4453,8 @@ const LESSONS = [
         "meaning": "요즘 빠져 있는 것은 무엇인가요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4169,7 +4472,8 @@ const LESSONS = [
         "meaning": "요즘 근력 운동을 하고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4187,7 +4491,8 @@ const LESSONS = [
         "meaning": "근육이 붙었어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4205,7 +4510,8 @@ const LESSONS = [
         "meaning": "근육이 울퉁불퉁해지고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4228,7 +4534,8 @@ const LESSONS = [
         "meaning": "매일 조금씩 연습했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4246,7 +4553,8 @@ const LESSONS = [
         "meaning": "매일 트레이닝하고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4264,7 +4572,8 @@ const LESSONS = [
         "meaning": "오늘은 팔을 단련했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4283,7 +4592,8 @@ const LESSONS = [
         "meaning": "오늘은 팔을 단련했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4301,7 +4611,8 @@ const LESSONS = [
         "meaning": "아침에 러닝했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4319,7 +4630,8 @@ const LESSONS = [
         "meaning": "아침에 러닝했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4337,7 +4649,8 @@ const LESSONS = [
         "meaning": "어제는 5킬로미터를 달렸어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4355,7 +4668,8 @@ const LESSONS = [
         "meaning": "어제는 5킬로미터를 달렸어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4374,7 +4688,8 @@ const LESSONS = [
         "meaning": "어제는 5킬로미터를 달렸어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4392,7 +4707,8 @@ const LESSONS = [
         "meaning": "오늘은 근육통이 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4410,7 +4726,8 @@ const LESSONS = [
         "meaning": "스트레칭을 꼼꼼히 하고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4427,8 +4744,14 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>みます。",
         "meaning": "오늘은 푹 쉬겠어요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>みましょう。",
+        "meaning": "잠깐 쉬어 가요.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -4446,7 +4769,8 @@ const LESSONS = [
         "meaning": "운동을 좋아해요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4469,7 +4793,8 @@ const LESSONS = [
         "meaning": "예전부터 좋아하던 곡이에요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4487,7 +4812,8 @@ const LESSONS = [
         "meaning": "스트레칭을 꼼꼼히 하고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -4509,8 +4835,14 @@ const LESSONS = [
         "jp": "もう<ruby>一度<rt>いちど</rt></ruby>ゆっくりお<ruby>願<rt>ねが</rt></ruby>いします。",
         "meaning": "다시 한번 천천히 부탁드려요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>押<rt>お</rt></ruby>さずに、ゆっくりお<ruby>進<rt>すす</rt></ruby>みください。",
+        "meaning": "밀지 말고 천천히 이동해 주세요.",
+        "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -4521,7 +4853,14 @@ const LESSONS = [
         "콘방와!",
         "안녕하세요! · 저녁 인사"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "こんばんは",
+      "heard": "こんばんは",
+      "meaning": "안녕하세요 · 저녁 인사",
+      "action": "저녁에 만났을 때 하는 인사예요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -4532,7 +4871,8 @@ const LESSONS = [
         "코노 쿄쿠와 보쿠니 톳테 타이세츠데스.",
         "이 곡은 저에게 소중해요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4543,7 +4883,14 @@ const LESSONS = [
         "오겐키데시타카?",
         "잘 지내셨나요?"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "元気",
+      "heard": "元気",
+      "meaning": "기운 · 활기",
+      "action": "그동안 잘 지냈는지 물어요."
+    },
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -4554,7 +4901,8 @@ const LESSONS = [
         "겐키데스카?",
         "잘 지내나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4565,7 +4913,14 @@ const LESSONS = [
         "단스니모 추우모쿠시테쿠다사이.",
         "춤에도 주목해 주세요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "ダンス",
+      "heard": "ダンス",
+      "meaning": "춤 · 댄스",
+      "action": "안무도 잘 봐 달라는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -4576,7 +4931,8 @@ const LESSONS = [
         "보쿠노 코에, 토도이테마스카?",
         "제 목소리, 잘 전달되고 있나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4587,7 +4943,8 @@ const LESSONS = [
         "츠기노 스테에지모 타노신데쿠다사이.",
         "다음 무대도 즐겨 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4598,7 +4955,8 @@ const LESSONS = [
         "얏토 아에마시타네!",
         "드디어 만났네요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4609,7 +4967,8 @@ const LESSONS = [
         "츠기와 보쿠노 소로스테에지데스.",
         "다음은 제 솔로 무대예요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4620,7 +4979,8 @@ const LESSONS = [
         "쿄오, 아에루노오 타노시미니 시테이마시타.",
         "오늘 만날 것을 기대하고 있었어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -4631,7 +4991,8 @@ const LESSONS = [
         "키오 츠케테 카엣테네.",
         "조심히 돌아가요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4642,7 +5003,8 @@ const LESSONS = [
         "민나니 아에테 시아와세데스.",
         "모두를 만나서 행복해요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4653,7 +5015,8 @@ const LESSONS = [
         "미기노 미나상모 아리가토오!",
         "오른쪽 여러분도 고마워요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4664,7 +5027,14 @@ const LESSONS = [
         "츠기와 바라아도데스.",
         "다음은 발라드예요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "バラード",
+      "heard": "バラード",
+      "meaning": "발라드",
+      "action": "다음 곡은 발라드예요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -4675,7 +5045,8 @@ const LESSONS = [
         "마타 스구 아이타이데스.",
         "곧 다시 만나고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4686,7 +5057,8 @@ const LESSONS = [
         "쿄오와 잇쇼니 오모이데오 츠쿠리마쇼오.",
         "오늘은 함께 추억을 만들어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4697,7 +5069,8 @@ const LESSONS = [
         "히다리노 민나모 아리가토오!",
         "왼쪽 여러분도 고마워요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4708,7 +5081,8 @@ const LESSONS = [
         "아이니 키테쿠레테 아리가토오.",
         "만나러 와 줘서 고마워요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4719,7 +5093,8 @@ const LESSONS = [
         "모오 이치도, 키카세테쿠다사이!",
         "다시 한 번 들려주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4730,7 +5105,14 @@ const LESSONS = [
         "나츠카시이 쿄쿠데스네.",
         "추억이 떠오르는 곡이네요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "懐かしい",
+      "heard": "懐かしい",
+      "meaning": "옛 생각이 나다 · 그립다",
+      "action": "예전 생각이 나는 곡이라는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -4741,7 +5123,14 @@ const LESSONS = [
         "쿄오와 혼토니 아리가토오.",
         "오늘은 정말 고마워요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "ありがとう",
+      "heard": "ありがとう",
+      "meaning": "고마워",
+      "action": "오늘 함께해 준 것에 감사해요."
+    },
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -4752,7 +5141,8 @@ const LESSONS = [
         "하지메마시테노 카타모 이마스카?",
         "처음 만나는 분도 계신가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4763,7 +5153,14 @@ const LESSONS = [
         "민나데 우타이마쇼오!",
         "다 같이 노래해요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "みんな",
+      "heard": "みんな",
+      "meaning": "모두 · 여러분",
+      "action": "관객 모두 함께 노래해요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -4774,7 +5171,8 @@ const LESSONS = [
         "아타라시이 스테에지오 준비시마시타.",
         "새로운 무대를 준비했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4785,7 +5183,8 @@ const LESSONS = [
         "사이킨, 타이료쿠가 츠이테키마시타.",
         "요즘 체력이 좋아지고 있어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -4796,7 +5195,8 @@ const LESSONS = [
         "쿄오노 코토, 와스레나이데쿠다사이.",
         "오늘을 잊지 말아 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4807,7 +5207,8 @@ const LESSONS = [
         "쿄오모 요로시쿠 오네가이시마스.",
         "오늘도 잘 부탁드려요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4818,7 +5219,14 @@ const LESSONS = [
         "스코시 맛테쿠다사이.",
         "잠시만 기다려 주세요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "待つ",
+      "heard": "待って",
+      "meaning": "기다리다",
+      "action": "조금 기다려 달라는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -4829,7 +5237,14 @@ const LESSONS = [
         "코노 쿄쿠가 다이스키데스.",
         "이 곡을 정말 좋아해요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "大好き",
+      "heard": "大好き",
+      "meaning": "정말 좋아함",
+      "action": "이 곡을 무척 좋아한다는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -4840,7 +5255,8 @@ const LESSONS = [
         "키노오와 지무니 이키마시타.",
         "어제는 헬스장에 갔어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -4851,7 +5267,8 @@ const LESSONS = [
         "미나상노 오카게데스.",
         "여러분 덕분이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4862,7 +5279,8 @@ const LESSONS = [
         "니혼니 코라레테 우레시이데스.",
         "일본에 올 수 있어서 기뻐요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4873,7 +5291,8 @@ const LESSONS = [
         "테뵤오시오 오네가이시마스!",
         "박자를 맞춰 손뼉을 쳐 주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4884,7 +5303,14 @@ const LESSONS = [
         "잇쇼니 오도리마쇼오!",
         "함께 춤춰요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "踊る",
+      "heard": "踊り",
+      "meaning": "춤추다",
+      "action": "함께 춤추자는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -4895,7 +5321,8 @@ const LESSONS = [
         "타쿠상 아세오 카키마시타.",
         "땀을 많이 흘렸어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -4906,7 +5333,14 @@ const LESSONS = [
         "무리시나이데쿠다사이네.",
         "무리하지 마세요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "無理",
+      "heard": "無理",
+      "meaning": "무리",
+      "action": "힘들면 무리하지 않아도 돼요."
+    },
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -4917,7 +5351,8 @@ const LESSONS = [
         "쿄오와 토쿠베츠나 히데스.",
         "오늘은 특별한 날이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4928,7 +5363,8 @@ const LESSONS = [
         "사이고마데 모리아가리마쇼오!",
         "마지막까지 신나게 즐겨요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -4939,7 +5375,8 @@ const LESSONS = [
         "멘바아 젠인데 간바리마시타.",
         "멤버 모두가 열심히 했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -4950,7 +5387,8 @@ const LESSONS = [
         "하시루노가 타노시이데스.",
         "달리는 게 즐거워요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -4961,7 +5399,8 @@ const LESSONS = [
         "코레카라모 오오엔시테쿠다사이.",
         "앞으로도 응원해 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -4972,7 +5411,8 @@ const LESSONS = [
         "미나상니 아우토 안신시마스.",
         "여러분을 만나면 마음이 놓여요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -4983,7 +5423,14 @@ const LESSONS = [
         "코에, 다세마스카?",
         "목소리 낼 수 있나요?"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "声",
+      "heard": "声",
+      "meaning": "목소리",
+      "action": "목소리로 호응할 수 있는지 물어요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -4994,7 +5441,8 @@ const LESSONS = [
         "코노 카시오 요쿠 키이테쿠다사이.",
         "이 가사를 잘 들어 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5005,7 +5453,8 @@ const LESSONS = [
         "킨니쿠, 미세테모 이이데스카?",
         "근육, 보여드려도 될까요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5016,7 +5465,8 @@ const LESSONS = [
         "즛토 다이스키데스.",
         "계속 정말 좋아해요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5027,7 +5477,8 @@ const LESSONS = [
         "맛테이테쿠레테 아리가토오.",
         "기다려 줘서 고마워요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5038,7 +5489,8 @@ const LESSONS = [
         "민나카라 겐키오 모라이마시타.",
         "여러분에게 힘을 받았어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -5049,7 +5501,8 @@ const LESSONS = [
         "츠기노 코오나아오 오토도케시마스.",
         "다음 코너를 선보이겠습니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5060,7 +5513,8 @@ const LESSONS = [
         "쿄오와 아시오 키타에마시타.",
         "오늘은 다리를 단련했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5071,7 +5525,8 @@ const LESSONS = [
         "마타 니혼니 키마스.",
         "또 일본에 올게요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5082,7 +5537,8 @@ const LESSONS = [
         "쿄오와 사이코오데스네!",
         "오늘 최고네요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5093,7 +5549,8 @@ const LESSONS = [
         "오오키쿠 테오 훗테쿠다사이!",
         "손을 크게 흔들어 주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -5104,7 +5561,8 @@ const LESSONS = [
         "타이세츠나 쿄쿠오 오토도케시마스.",
         "소중한 곡을 들려드리겠습니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5115,7 +5573,8 @@ const LESSONS = [
         "윳쿠리 카라다오 야스메마스.",
         "몸을 푹 쉬게 할게요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5126,7 +5585,8 @@ const LESSONS = [
         "하나레테이테모 잇쇼데스.",
         "떨어져 있어도 함께예요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5137,7 +5597,8 @@ const LESSONS = [
         "미나상, 보쿠노 나마에오 욘데쿠다사이!",
         "여러분, 제 이름을 불러 주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5148,7 +5609,8 @@ const LESSONS = [
         "못토 모리아가리마쇼오!",
         "더 신나게 즐겨요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -5159,7 +5621,8 @@ const LESSONS = [
         "츠기노 쿄쿠와 잇쇼니 우탓테쿠다사이.",
         "다음 곡은 함께 불러 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5170,7 +5633,8 @@ const LESSONS = [
         "마이아사 하싯테이마스.",
         "매일 아침 달리고 있어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5181,7 +5645,8 @@ const LESSONS = [
         "시아와세나 지칸오 아리가토오.",
         "행복한 시간을 줘서 고마워요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5192,7 +5657,8 @@ const LESSONS = [
         "보쿠노 코에, 키코에마스카?",
         "제 목소리, 들리나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5203,7 +5669,8 @@ const LESSONS = [
         "하쿠슈오 모오 이치도 오네가이시마스!",
         "박수 한 번 더 부탁드립니다!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -5214,7 +5681,14 @@ const LESSONS = [
         "코노 쿄쿠와 히사시부리니 우타이마스.",
         "이 곡은 오랜만에 불러요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "久しぶり",
+      "heard": "久しぶり",
+      "meaning": "오랜만",
+      "action": "이 곡을 오랜만에 부른대요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -5225,7 +5699,8 @@ const LESSONS = [
         "쿄오와 운도오오 야스미마스.",
         "오늘은 운동을 쉴게요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5236,7 +5711,8 @@ const LESSONS = [
         "카엣타라 윳쿠리 야슨데쿠다사이.",
         "돌아가면 푹 쉬세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5247,7 +5723,8 @@ const LESSONS = [
         "마타 코코니 모돗테 코라레테 우레시이데스.",
         "다시 여기로 돌아올 수 있어서 기뻐요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5258,7 +5735,8 @@ const LESSONS = [
         "미나상, 젠인 미에테마스요!",
         "여러분 모두 보여요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -5269,7 +5747,8 @@ const LESSONS = [
         "코노 후리츠케, 오보에테마스카?",
         "이 안무, 기억하나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5280,7 +5759,8 @@ const LESSONS = [
         "못토 츠요쿠 나리타이데스.",
         "더 강해지고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5291,7 +5771,8 @@ const LESSONS = [
         "보쿠와 미나상노 미카타데스.",
         "저는 여러분 편이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5302,7 +5783,8 @@ const LESSONS = [
         "쿄오와 타쿠상 하나시타이데스.",
         "오늘은 이야기를 많이 하고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5313,7 +5795,8 @@ const LESSONS = [
         "이치방 우시로마데 토도이테마스카?",
         "맨 뒤까지 잘 전달되고 있나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -5324,7 +5807,14 @@ const LESSONS = [
         "나마엔소오오 타노신데쿠다사이.",
         "라이브 연주를 즐겨 주세요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "生演奏",
+      "heard": "生演奏",
+      "meaning": "라이브 연주",
+      "action": "라이브 연주를 즐겨요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -5335,7 +5825,8 @@ const LESSONS = [
         "카라다오 우고카스노가 스키데스.",
         "몸을 움직이는 걸 좋아해요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5346,7 +5837,8 @@ const LESSONS = [
         "마타 아우 야쿠소쿠데스요!",
         "다시 만나기로 약속해요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5357,7 +5849,8 @@ const LESSONS = [
         "쿄오와 미나상노 타메니 우타이마스.",
         "오늘은 여러분을 위해 노래할게요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5368,7 +5861,14 @@ const LESSONS = [
         "카이조오가 히토츠니 나리마시타네!",
         "공연장이 하나가 됐네요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "会場",
+      "heard": "会場",
+      "meaning": "공연장 · 행사장",
+      "action": "공연장 모두가 하나가 됐다는 소감이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "앙코르에서",
@@ -5379,7 +5879,8 @@ const LESSONS = [
         "츠기가 사이고노 안코오루데스.",
         "다음이 마지막 앙코르예요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5390,7 +5891,8 @@ const LESSONS = [
         "코레카라모 카라다오 키타에마스.",
         "앞으로도 몸을 단련할게요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5401,7 +5903,8 @@ const LESSONS = [
         "겐키데 이테쿠다사이.",
         "건강하게 지내세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5412,7 +5915,8 @@ const LESSONS = [
         "쿄오와 와스레라레나이 히데스.",
         "오늘은 잊을 수 없는 날이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5423,7 +5927,8 @@ const LESSONS = [
         "민나노 코에데 겐키가 데마스.",
         "여러분의 목소리에 힘이 나요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5434,7 +5939,8 @@ const LESSONS = [
         "반도노 미나상니 오오키나 하쿠슈오!",
         "밴드 여러분께 큰 박수를 보내 주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -5445,7 +5951,8 @@ const LESSONS = [
         "토레에닝구오 츠즈케타이데스.",
         "트레이닝을 계속하고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5456,7 +5963,8 @@ const LESSONS = [
         "마타 아우 히마데, 겐키데네.",
         "다시 만날 날까지 건강하게 지내요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -5467,7 +5975,8 @@ const LESSONS = [
         "미나상니 아에테 혼토니 시아와세데스.",
         "여러분을 만날 수 있어서 정말 행복해요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -5478,7 +5987,8 @@ const LESSONS = [
         "쿄오 이치방노 코에오 키카세테쿠다사이!",
         "오늘 가장 큰 목소리를 들려주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -5489,7 +5999,14 @@ const LESSONS = [
         "사이고노 쿄쿠오 잇쇼니 우타이마쇼오.",
         "마지막 곡을 함께 불러요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "歌",
+      "heard": "歌",
+      "meaning": "노래",
+      "action": "마지막 곡을 함께 불러요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -5500,7 +6017,8 @@ const LESSONS = [
         "보쿠모 미나상오 오오엔시테이마스.",
         "저도 여러분을 응원하고 있어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -5511,7 +6029,8 @@ const LESSONS = [
         "코레카라모 즛토 잇쇼데스.",
         "앞으로도 계속 함께예요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5529,7 +6048,8 @@ const LESSONS = [
         "meaning": "안녕하세요! · 저녁 인사",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5552,7 +6072,8 @@ const LESSONS = [
         "meaning": "일본어, 맞게 말하고 있나요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5580,7 +6101,8 @@ const LESSONS = [
         "meaning": "녹음할 때 중요하게 생각한 것은 무엇인가요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5598,7 +6120,8 @@ const LESSONS = [
         "meaning": "다음은 게임 시간이에요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5625,8 +6148,14 @@ const LESSONS = [
         "jp": "<ruby>後<rt>うし</rt></ruby>ろの<ruby>方<rt>ほう</rt></ruby>にも<ruby>聞<rt>き</rt></ruby>いてみましょう。",
         "meaning": "뒤쪽에도 물어봐요.",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>後<rt>うし</rt></ruby>ろのみなさん！",
+        "meaning": "뒤쪽에 계신 여러분!",
+        "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5650,7 +6179,8 @@ const LESSONS = [
         "section": "함께 즐길 때"
       }
     ],
-    "note": "눈에 보인다는 뜻이에요. 직접 보는 행동인 「見る」와 구별해요."
+    "note": "눈에 보인다는 뜻이에요. 직접 보는 행동인 「見る」와 구별해요.",
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5668,7 +6198,8 @@ const LESSONS = [
         "meaning": "춤에도 주목해 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5700,8 +6231,14 @@ const LESSONS = [
         "jp": "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
         "meaning": "후렴의 화음에 주목해 주세요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "サビに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "meaning": "후렴에 주목해 주세요.",
+        "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5724,7 +6261,8 @@ const LESSONS = [
         "meaning": "와 주셔서 감사합니다.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5747,7 +6285,8 @@ const LESSONS = [
         "meaning": "먼저 인사 부탁드립니다.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5770,7 +6309,8 @@ const LESSONS = [
         "meaning": "먼저 인사 부탁드립니다.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5793,7 +6333,8 @@ const LESSONS = [
         "meaning": "맨 뒤까지 잘 전달되고 있나요?",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5821,7 +6362,8 @@ const LESSONS = [
         "meaning": "이어서 다음 무대입니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5839,7 +6381,8 @@ const LESSONS = [
         "meaning": "드디어 만났네요!",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5862,7 +6405,8 @@ const LESSONS = [
         "meaning": "근육, 보여드려도 될까요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5880,7 +6424,8 @@ const LESSONS = [
         "meaning": "다음은 제 솔로 무대예요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5908,7 +6453,8 @@ const LESSONS = [
         "meaning": "다 같이 노래해요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5931,7 +6477,8 @@ const LESSONS = [
         "meaning": "행복한 시간을 줘서 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5949,7 +6496,8 @@ const LESSONS = [
         "meaning": "오른쪽 여러분도 고마워요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -5967,7 +6515,8 @@ const LESSONS = [
         "meaning": "다음은 발라드예요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -5985,7 +6534,8 @@ const LESSONS = [
         "meaning": "곧 다시 만나고 싶어요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6003,7 +6553,8 @@ const LESSONS = [
         "meaning": "오늘은 함께 추억을 만들어요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6021,7 +6572,8 @@ const LESSONS = [
         "meaning": "오늘은 함께 추억을 만들어요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6039,7 +6591,8 @@ const LESSONS = [
         "meaning": "왼쪽 여러분도 고마워요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6057,7 +6610,8 @@ const LESSONS = [
         "meaning": "아직 끝나지 않았어요!",
         "section": "앙코르에서"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6090,7 +6644,8 @@ const LESSONS = [
         "meaning": "다시 한 번 도전하겠어요?",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6128,7 +6683,8 @@ const LESSONS = [
         "meaning": "오늘 가장 큰 목소리를 들려주세요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6146,7 +6702,8 @@ const LESSONS = [
         "meaning": "추억이 떠오르는 곡이네요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6163,8 +6720,14 @@ const LESSONS = [
         "jp": "<ruby>初めまして<rt>はじめまして</rt></ruby>の<ruby>方<rt>かた</rt></ruby>もいますか？",
         "meaning": "처음 만나는 분도 계신가요?",
         "section": "만났을 때"
+      },
+      {
+        "jp": "<ruby>初<rt>はじ</rt></ruby>めまして。",
+        "meaning": "처음 뵙겠습니다.",
+        "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6192,7 +6755,8 @@ const LESSONS = [
         "meaning": "질문 있는 분은 손을 들어 주세요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6215,7 +6779,8 @@ const LESSONS = [
         "meaning": "새 앨범에 대해 들려주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6233,7 +6798,8 @@ const LESSONS = [
         "meaning": "요즘 체력이 좋아지고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6256,7 +6822,8 @@ const LESSONS = [
         "meaning": "오늘은 잊을 수 없는 날이에요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6273,8 +6840,14 @@ const LESSONS = [
         "jp": "<ruby>今日<rt>きょう</rt></ruby>も<ruby>よろしくお願いします<rt>よろしくおねがいします</rt></ruby>。",
         "meaning": "오늘도 잘 부탁드려요.",
         "section": "만났을 때"
+      },
+      {
+        "jp": "よろしくお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "잘 부탁드려요.",
+        "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6312,7 +6885,8 @@ const LESSONS = [
         "meaning": "매일 조금씩 연습했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6335,7 +6909,8 @@ const LESSONS = [
         "meaning": "기다려 줘서 고마워요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6353,7 +6928,8 @@ const LESSONS = [
         "meaning": "어제는 헬스장에 갔어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6371,7 +6947,8 @@ const LESSONS = [
         "meaning": "어제는 헬스장에 갔어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6389,7 +6966,8 @@ const LESSONS = [
         "meaning": "여러분 덕분이에요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6407,7 +6985,8 @@ const LESSONS = [
         "meaning": "박자를 맞춰 손뼉을 쳐 주세요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6445,7 +7024,8 @@ const LESSONS = [
         "meaning": "곡 소개 부탁드립니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6463,7 +7043,8 @@ const LESSONS = [
         "meaning": "함께 춤춰요!",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6481,7 +7062,8 @@ const LESSONS = [
         "meaning": "땀을 많이 흘렸어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6499,7 +7081,8 @@ const LESSONS = [
         "meaning": "무리하지 마세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6517,7 +7100,8 @@ const LESSONS = [
         "meaning": "오늘은 특별한 날이에요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6540,7 +7124,8 @@ const LESSONS = [
         "meaning": "오늘은 특별한 날이에요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6563,7 +7148,8 @@ const LESSONS = [
         "meaning": "더 신나게 즐겨요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6586,7 +7172,8 @@ const LESSONS = [
         "meaning": "여러분 모두 보여요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6604,7 +7191,8 @@ const LESSONS = [
         "meaning": "여러분을 만나면 마음이 놓여요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6623,7 +7211,8 @@ const LESSONS = [
         "section": "함께 즐길 때"
       }
     ],
-    "note": "「声を出す」는 ‘목소리를 내다’라는 뜻이에요."
+    "note": "「声を出す」는 ‘목소리를 내다’라는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6646,7 +7235,8 @@ const LESSONS = [
         "meaning": "가사에도 주목해 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6664,7 +7254,8 @@ const LESSONS = [
         "meaning": "여러분에게 힘을 받았어요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6687,7 +7278,8 @@ const LESSONS = [
         "meaning": "소중한 곡을 들려드리겠습니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6705,7 +7297,8 @@ const LESSONS = [
         "meaning": "오늘은 다리를 단련했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6723,7 +7316,8 @@ const LESSONS = [
         "meaning": "오늘 최고네요!",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6746,7 +7340,8 @@ const LESSONS = [
         "meaning": "몸을 움직이는 걸 좋아해요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6764,7 +7359,8 @@ const LESSONS = [
         "meaning": "떨어져 있어도 함께예요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6792,7 +7388,8 @@ const LESSONS = [
         "meaning": "힌트는 노래 제목이에요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6810,7 +7407,8 @@ const LESSONS = [
         "meaning": "여러분, 제 이름을 불러 주세요!",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6828,7 +7426,8 @@ const LESSONS = [
         "meaning": "매일 아침 달리고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6855,9 +7454,15 @@ const LESSONS = [
         "jp": "アンコールの<ruby>声<rt>こえ</rt></ruby>が<ruby>聞こえ<rt>きこえ</rt></ruby>ますね！",
         "meaning": "앙코르를 외치는 소리가 들리네요!",
         "section": "앙코르에서"
+      },
+      {
+        "jp": "<ruby>声<rt>こえ</rt></ruby>、<ruby>聞<rt>き</rt></ruby>こえますか？",
+        "meaning": "목소리, 들리나요?",
+        "section": "함께 즐길 때"
       }
     ],
-    "note": "소리가 들려오는 상태를 말해요. 「聴く」는 ‘듣다’예요."
+    "note": "소리가 들려오는 상태를 말해요. 「聴く」는 ‘듣다’예요.",
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -6875,7 +7480,8 @@ const LESSONS = [
         "meaning": "다시 여기로 돌아올 수 있어서 기뻐요.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6913,7 +7519,8 @@ const LESSONS = [
         "meaning": "지금부터는 촬영하셔도 돼요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6931,7 +7538,8 @@ const LESSONS = [
         "meaning": "이 안무, 기억하나요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6949,7 +7557,8 @@ const LESSONS = [
         "meaning": "이 안무, 기억하나요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6967,7 +7576,8 @@ const LESSONS = [
         "meaning": "더 강해지고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -6985,7 +7595,8 @@ const LESSONS = [
         "meaning": "저는 여러분 편이에요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7008,7 +7619,8 @@ const LESSONS = [
         "meaning": "조금 더 큰 목소리로 말할게요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7031,7 +7643,8 @@ const LESSONS = [
         "meaning": "오늘 가장 큰 목소리를 들려주세요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7049,7 +7662,8 @@ const LESSONS = [
         "meaning": "라이브 연주를 즐겨 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -7067,7 +7681,8 @@ const LESSONS = [
         "meaning": "몸을 움직이는 걸 좋아해요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7085,7 +7700,8 @@ const LESSONS = [
         "meaning": "다시 만나기로 약속해요!",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7103,7 +7719,8 @@ const LESSONS = [
         "meaning": "공연장이 하나가 됐네요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -7121,7 +7738,8 @@ const LESSONS = [
         "meaning": "공연장이 하나가 됐네요!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7139,7 +7757,8 @@ const LESSONS = [
         "meaning": "트레이닝을 계속하고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -7152,7 +7771,14 @@ const LESSONS = [
         "오오키나 하쿠슈데 오무카에쿠다사이!",
         "큰 박수로 맞아 주세요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "迎える",
+      "heard": "迎え",
+      "meaning": "맞이하다",
+      "action": "등장하는 사람을 박수로 맞이해요."
+    },
+    "level": "basic"
   },
   {
     "section": "만났을 때",
@@ -7165,7 +7791,8 @@ const LESSONS = [
         "마즈와 고아이사츠오 오네가이시마스.",
         "먼저 인사 부탁드립니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7178,7 +7805,8 @@ const LESSONS = [
         "사이킨 하맛테이루 코토와 난데스카?",
         "요즘 빠져 있는 것은 무엇인가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7191,7 +7819,8 @@ const LESSONS = [
         "이츠 토레에닝구시테이마스카?",
         "언제 트레이닝하나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -7204,7 +7833,8 @@ const LESSONS = [
         "쿄쿠쇼오카이오 오네가이시마스.",
         "곡 소개 부탁드립니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7217,7 +7847,8 @@ const LESSONS = [
         "코노 단스노 포인토오 오시에테쿠다사이.",
         "이 춤의 포인트를 알려 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7230,7 +7861,14 @@ const LESSONS = [
         "루우루오 세츠메이시마스.",
         "규칙을 설명하겠습니다."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "ルール",
+      "heard": "ルール",
+      "meaning": "규칙",
+      "action": "게임 방법을 설명해요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7243,7 +7881,14 @@ const LESSONS = [
         "세이겐지칸와 산주우뵤오데스.",
         "제한 시간은 30초예요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "制限時間",
+      "heard": "制限時間",
+      "meaning": "제한 시간",
+      "action": "답하거나 도전할 수 있는 시간은 30초예요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7256,7 +7901,8 @@ const LESSONS = [
         "준비가 데키타라 오시에테쿠다사이.",
         "준비되면 알려 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7269,7 +7915,8 @@ const LESSONS = [
         "소레데와, 스타아토데스!",
         "그럼 시작합니다!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7282,7 +7929,14 @@ const LESSONS = [
         "세이카이데스!",
         "정답입니다!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "正解",
+      "heard": "正解",
+      "meaning": "정답",
+      "action": "답을 맞혔다는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7295,7 +7949,14 @@ const LESSONS = [
         "오시이데스네!",
         "아깝네요!"
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "惜しい",
+      "heard": "惜しい",
+      "meaning": "아깝다",
+      "action": "아쉽지만 정답은 아니라는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7308,7 +7969,14 @@ const LESSONS = [
         "힌토오 오네가이시마스.",
         "힌트 부탁드립니다."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "ヒント",
+      "heard": "ヒント",
+      "meaning": "힌트",
+      "action": "문제를 풀 단서를 부탁해요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7321,7 +7989,8 @@ const LESSONS = [
         "모오 이치도 초오센시마스카?",
         "다시 한 번 도전하겠어요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7334,7 +8003,8 @@ const LESSONS = [
         "하쿠슈노 오오키사데 키메마쇼오!",
         "박수 크기로 정해요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7347,7 +8017,8 @@ const LESSONS = [
         "다이효오시테 코타에테쿠다사이.",
         "대표로 답해 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -7360,7 +8031,8 @@ const LESSONS = [
         "코노 쿄쿠노 포인토오 오시에테쿠다사이.",
         "이 곡의 포인트를 알려 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7373,7 +8045,8 @@ const LESSONS = [
         "도노쿠라이 렌슈우시마시타카?",
         "얼마나 연습했나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7386,7 +8059,8 @@ const LESSONS = [
         "쿄오노 키분와 이카가데스카?",
         "오늘 기분은 어떤가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -7399,7 +8073,8 @@ const LESSONS = [
         "미나상, 모오 이치도 오오키나 하쿠슈오!",
         "여러분, 다시 한 번 큰 박수 부탁드려요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7412,7 +8087,8 @@ const LESSONS = [
         "오미즈오 논데쿠다사이네.",
         "물 마시세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7425,7 +8101,8 @@ const LESSONS = [
         "니홍고데 히토코토 오네가이시마스.",
         "일본어로 한 말씀 부탁드립니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7438,7 +8115,8 @@ const LESSONS = [
         "캬쿠세키카라 시츠몬오 이타다키마스.",
         "객석에서 질문을 받겠습니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7451,7 +8129,8 @@ const LESSONS = [
         "시츠몬가 아루 카타와 테오 아게테쿠다사이.",
         "질문 있는 분은 손을 들어 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7464,7 +8143,8 @@ const LESSONS = [
         "오나마에오 오시에테쿠다사이.",
         "이름을 알려 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7477,7 +8157,8 @@ const LESSONS = [
         "코타에오 미테미마쇼오.",
         "정답을 확인해 봐요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -7490,7 +8171,8 @@ const LESSONS = [
         "츠기와 돈나 쿄쿠데스카?",
         "다음은 어떤 곡인가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -7503,7 +8185,8 @@ const LESSONS = [
         "츠즈이테, 츠기노 스테에지데스.",
         "이어서 다음 무대입니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7516,7 +8199,8 @@ const LESSONS = [
         "사이고니 멧세에지오 오네가이시마스.",
         "마지막으로 메시지 부탁드립니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7529,7 +8213,8 @@ const LESSONS = [
         "쿄오노 칸소오오 키카세테쿠다사이.",
         "오늘 소감을 들려 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7542,7 +8227,8 @@ const LESSONS = [
         "마타 니혼니 키테쿠레마스카?",
         "또 일본에 와 줄 건가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7555,7 +8241,8 @@ const LESSONS = [
         "츠기니 아에루 히가 타노시미데스네.",
         "다음에 만날 날이 기대되네요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7569,7 +8256,14 @@ const LESSONS = [
         "오늘 공연은 이것으로 마칩니다."
       ]
     ],
-    "learningSubcategory": "announcements-exit"
+    "learningSubcategory": "announcements-exit",
+    "basicCue": {
+      "word": "以上",
+      "heard": "以上",
+      "meaning": "이것으로 끝",
+      "action": "오늘 공연이 끝났다는 공식 안내예요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -7583,7 +8277,14 @@ const LESSONS = [
         "두고 가는 물건이 없도록 주의하세요."
       ]
     ],
-    "learningSubcategory": "announcements-exit"
+    "learningSubcategory": "announcements-exit",
+    "basicCue": {
+      "word": "忘れ物",
+      "heard": "忘れ物",
+      "meaning": "두고 가는 물건",
+      "action": "두고 가는 물건이 없는지 확인해요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -7596,7 +8297,8 @@ const LESSONS = [
         "사이고마데 오오키나 하쿠슈오 오네가이시마스!",
         "마지막까지 큰 박수 부탁드립니다!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "앙코르에서",
@@ -7609,7 +8311,8 @@ const LESSONS = [
         "안코오루노 코에가 키코에마스네!",
         "앙코르를 외치는 소리가 들리네요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7622,7 +8325,8 @@ const LESSONS = [
         "카라다오 우고카스 코토니 하맛테이마스.",
         "몸을 움직이는 데 빠져 있어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7635,7 +8339,8 @@ const LESSONS = [
         "아사, 토레에닝구시테이마스.",
         "아침에 트레이닝하고 있어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7648,7 +8353,8 @@ const LESSONS = [
         "사비노 후리츠케오 미테쿠다사이.",
         "후렴의 안무를 봐 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7661,7 +8367,8 @@ const LESSONS = [
         "준비데키마시타!",
         "준비됐어요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7674,7 +8381,8 @@ const LESSONS = [
         "모오 이치도 얏테미타이데스.",
         "다시 한 번 해보고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7687,7 +8395,8 @@ const LESSONS = [
         "마이니치, 스코시즈츠 렌슈우시마시타.",
         "매일 조금씩 연습했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -7700,7 +8409,8 @@ const LESSONS = [
         "쿄오와 스고쿠 와쿠와쿠시테이마스.",
         "오늘은 정말 설레요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -7713,7 +8423,8 @@ const LESSONS = [
         "사이고마데 잇쇼니 타노신데쿠다사이!",
         "마지막까지 함께 즐겨 주세요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7726,7 +8437,8 @@ const LESSONS = [
         "토테모 시아와세나 지칸데시타.",
         "정말 행복한 시간이었어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -7739,7 +8451,8 @@ const LESSONS = [
         "카나라즈 마타 니혼니 키마스!",
         "꼭 다시 일본에 올게요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -7752,7 +8465,8 @@ const LESSONS = [
         "카시니 보쿠노 키모치오 코메마시타.",
         "가사에 제 마음을 담았어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -7765,7 +8479,8 @@ const LESSONS = [
         "츠기와 겐키나 쿄쿠데스!",
         "다음은 활기찬 곡이에요!"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -7778,7 +8493,8 @@ const LESSONS = [
         "힌토와 우타노 나마에데스.",
         "힌트는 노래 제목이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7796,7 +8512,8 @@ const LESSONS = [
         "meaning": "큰 박수로 맞아 주세요!",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -7819,7 +8536,8 @@ const LESSONS = [
         "meaning": "몸을 움직이는 데 빠져 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7843,7 +8561,8 @@ const LESSONS = [
         "meaning": "이 커버곡을 고른 이유는 무엇인가요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7866,7 +8585,8 @@ const LESSONS = [
         "meaning": "항상 응원해 줘서 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7889,7 +8609,8 @@ const LESSONS = [
         "meaning": "이 곡의 포인트를 알려 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7922,7 +8643,8 @@ const LESSONS = [
         "meaning": "이 곡의 포인트를 알려 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7940,7 +8662,8 @@ const LESSONS = [
         "meaning": "규칙을 설명하겠습니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -7958,7 +8681,8 @@ const LESSONS = [
         "meaning": "규칙을 설명하겠습니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -7976,7 +8700,8 @@ const LESSONS = [
         "meaning": "제한 시간은 30초예요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -7994,7 +8719,8 @@ const LESSONS = [
         "meaning": "제한 시간은 30초예요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8022,7 +8748,8 @@ const LESSONS = [
         "meaning": "그럼 앉아 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8040,7 +8767,8 @@ const LESSONS = [
         "meaning": "그럼 시작합니다!",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8058,7 +8786,8 @@ const LESSONS = [
         "meaning": "정답입니다!",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8076,7 +8805,8 @@ const LESSONS = [
         "meaning": "아깝네요!",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8099,7 +8829,8 @@ const LESSONS = [
         "meaning": "힌트는 노래 제목이에요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8122,7 +8853,8 @@ const LESSONS = [
         "meaning": "이번에는 다양한 장르에 도전했어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8140,7 +8872,8 @@ const LESSONS = [
         "meaning": "박수 크기로 정해요!",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8158,7 +8891,8 @@ const LESSONS = [
         "meaning": "대표로 답해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8176,7 +8910,8 @@ const LESSONS = [
         "meaning": "대표로 답해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8194,7 +8929,8 @@ const LESSONS = [
         "meaning": "얼마나 연습했나요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8212,7 +8948,8 @@ const LESSONS = [
         "meaning": "오늘 기분은 어떤가요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8229,8 +8966,14 @@ const LESSONS = [
         "jp": "お<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでくださいね。",
         "meaning": "물 마시세요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。",
+        "meaning": "물 마시세요.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8248,7 +8991,8 @@ const LESSONS = [
         "meaning": "물 마시세요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8271,7 +9015,8 @@ const LESSONS = [
         "meaning": "일본어로 한 말씀 부탁드립니다.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8289,7 +9034,8 @@ const LESSONS = [
         "meaning": "일본어로 한 말씀 부탁드립니다.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8307,7 +9053,8 @@ const LESSONS = [
         "meaning": "객석에서 질문을 받겠습니다.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8329,8 +9076,14 @@ const LESSONS = [
         "jp": "<ruby>質問<rt>しつもん</rt></ruby>がある<ruby>方<rt>かた</rt></ruby>は<ruby>手<rt>て</rt></ruby>を<ruby>挙げ<rt>あげ</rt></ruby>てください。",
         "meaning": "질문 있는 분은 손을 들어 주세요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>質問<rt>しつもん</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "meaning": "질문해 주세요.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8347,9 +9100,15 @@ const LESSONS = [
         "jp": "<ruby>質問<rt>しつもん</rt></ruby>がある<ruby>方<rt>かた</rt></ruby>は<ruby>手<rt>て</rt></ruby>を<ruby>挙げ<rt>あげ</rt></ruby>てください。",
         "meaning": "질문 있는 분은 손을 들어 주세요.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "<ruby>手<rt>て</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げてください。",
+        "meaning": "손을 들어 주세요.",
+        "section": "토크할 때"
       }
     ],
-    "note": "「手を挙げる」는 ‘손을 들다’라는 뜻이에요."
+    "note": "「手を挙げる」는 ‘손을 들다’라는 뜻이에요.",
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8367,7 +9126,8 @@ const LESSONS = [
         "meaning": "정답을 확인해 봐요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8396,7 +9156,8 @@ const LESSONS = [
         "section": "토크할 때"
       }
     ],
-    "note": "직접 보는 행동을 말해요. 「見える」는 ‘보이다’예요."
+    "note": "직접 보는 행동을 말해요. 「見える」는 ‘보이다’예요.",
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8419,7 +9180,8 @@ const LESSONS = [
         "meaning": "타이틀곡은 어떤 곡인가요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8437,7 +9199,8 @@ const LESSONS = [
         "meaning": "이어서 다음 무대입니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8455,7 +9218,8 @@ const LESSONS = [
         "meaning": "마지막으로 메시지 부탁드립니다.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8473,7 +9237,8 @@ const LESSONS = [
         "meaning": "오늘 소감을 들려 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8491,7 +9256,8 @@ const LESSONS = [
         "meaning": "오늘 공연은 이것으로 마칩니다.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8514,7 +9280,8 @@ const LESSONS = [
         "meaning": "다음 공연은 다음 달이에요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8533,7 +9300,8 @@ const LESSONS = [
         "section": "마지막 인사"
       }
     ],
-    "note": "「公演は以上です」에서는 공연이 끝났다는 뜻으로 쓰여요."
+    "note": "「公演は以上です」에서는 공연이 끝났다는 뜻으로 쓰여요.",
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8551,7 +9319,8 @@ const LESSONS = [
         "meaning": "두고 가는 물건이 없도록 주의하세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8578,8 +9347,14 @@ const LESSONS = [
         "jp": "サビのハーモニーに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
         "meaning": "후렴의 화음에 주목해 주세요.",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "サビを<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>ってください。",
+        "meaning": "후렴을 함께 불러 주세요.",
+        "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -8602,7 +9377,8 @@ const LESSONS = [
         "meaning": "함께 해 봐요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8620,7 +9396,8 @@ const LESSONS = [
         "meaning": "매일 조금씩 연습했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8638,7 +9415,8 @@ const LESSONS = [
         "meaning": "오늘은 정말 설레요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8656,7 +9434,8 @@ const LESSONS = [
         "meaning": "오늘은 정말 설레요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8674,7 +9453,8 @@ const LESSONS = [
         "meaning": "정말 행복한 시간이었어요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8692,7 +9472,8 @@ const LESSONS = [
         "meaning": "꼭 다시 일본에 올게요!",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8715,7 +9496,8 @@ const LESSONS = [
         "meaning": "이 곡에는 감사하는 마음을 담았어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -8738,7 +9520,8 @@ const LESSONS = [
         "meaning": "이 곡에는 감사하는 마음을 담았어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -8752,7 +9535,8 @@ const LESSONS = [
         "사무이 나카, 오아츠마리 이타다키 아리가토오고자이마스.",
         "추운 날씨에도 와 주셔서 감사합니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "만났을 때",
@@ -8766,7 +9550,8 @@ const LESSONS = [
         "후유니 미나상니 아에테 우레시이데스.",
         "겨울에 여러분을 만나서 기뻐요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -8780,7 +9565,8 @@ const LESSONS = [
         "후유와 스키데스카?",
         "겨울을 좋아하나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -8794,7 +9580,8 @@ const LESSONS = [
         "유키오 미루토 와쿠와쿠시마스.",
         "눈을 보면 설레요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -8808,7 +9595,8 @@ const LESSONS = [
         "아타타카쿠 시테 카엣테쿠다사이네.",
         "따뜻하게 하고 돌아가세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -8822,7 +9610,8 @@ const LESSONS = [
         "카제오 히카나이데쿠다사이네.",
         "감기 걸리지 않게 조심하세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -8836,7 +9625,8 @@ const LESSONS = [
         "스코시 테오 아타타메마스.",
         "손을 잠깐 녹일게요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -8850,7 +9640,8 @@ const LESSONS = [
         "카이조오노 나카와 아타타카이데스네.",
         "공연장 안은 따뜻하네요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8864,7 +9655,8 @@ const LESSONS = [
         "아타라시이 아루바무니 츠이테 키카세테쿠다사이.",
         "새 앨범에 대해 들려주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8878,7 +9670,8 @@ const LESSONS = [
         "콘카이와 이로이로나 잔루니 초오센시마시타.",
         "이번에는 다양한 장르에 도전했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8892,7 +9685,8 @@ const LESSONS = [
         "타이토루쿄쿠와 돈나 쿄쿠데스카?",
         "타이틀곡은 어떤 곡인가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8906,7 +9700,8 @@ const LESSONS = [
         "사비오 잇쇼니 우탓테호시이데스.",
         "후렴을 함께 불러 주면 좋겠어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -8920,7 +9715,8 @@ const LESSONS = [
         "레코오딩구데 타이세츠니 시타 코토와 난데스카?",
         "녹음할 때 중요하게 생각한 것은 무엇인가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -8934,7 +9730,8 @@ const LESSONS = [
         "코토바 히토츠 히토츠오 타이세츠니 우타이마시타.",
         "말 하나하나를 소중히 생각하며 불렀어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8948,7 +9745,8 @@ const LESSONS = [
         "아루바무니와 이로이로나 오모이가 코못테이마스.",
         "앨범에는 여러 마음이 담겨 있어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8962,7 +9760,8 @@ const LESSONS = [
         "슈우로쿠쿄쿠니모 추우모쿠시테쿠다사이.",
         "수록곡에도 주목해 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8976,7 +9775,8 @@ const LESSONS = [
         "코노 카바아쿄쿠오 에란다 리유우와 난데스카?",
         "이 커버곡을 고른 이유는 무엇인가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -8990,7 +9790,14 @@ const LESSONS = [
         "무카시카라 스키나 쿄쿠난데스.",
         "예전부터 좋아하던 곡이에요."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "昔",
+      "heard": "昔",
+      "meaning": "예전",
+      "action": "예전부터 좋아한 곡이라고 해요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -9004,7 +9811,8 @@ const LESSONS = [
         "지분라시쿠 아렌지시마시타.",
         "저다운 느낌으로 편곡했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9018,7 +9826,8 @@ const LESSONS = [
         "겐쿄쿠토와 치가우 훈이키데스네.",
         "원곡과는 다른 분위기네요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9032,7 +9841,8 @@ const LESSONS = [
         "후유니 키키타쿠 나루 쿄쿠데스.",
         "겨울에 듣고 싶어지는 곡이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9046,7 +9856,14 @@ const LESSONS = [
         "츠기와 카바아쿄쿠오 오네가이시마스.",
         "다음은 커버곡 부탁드립니다."
       ]
-    ]
+    ],
+    "basicCue": {
+      "word": "カバー曲",
+      "heard": "カバー曲",
+      "meaning": "커버곡",
+      "action": "다른 가수의 곡을 부르는 무대를 소개해요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -9060,7 +9877,8 @@ const LESSONS = [
         "쿄오와 기타아모 히쿤데스요네?",
         "오늘은 기타도 연주하는 거죠?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9075,7 +9893,8 @@ const LESSONS = [
         "기타를 치면서 노래해요."
       ]
     ],
-    "note": "「弾きながら」는 ‘기타를 치면서’, 「歌います」는 ‘노래해요’라는 뜻이에요. 두 동작을 함께 한다는 말이에요."
+    "note": "「弾きながら」는 ‘기타를 치면서’, 「歌います」는 ‘노래해요’라는 뜻이에요. 두 동작을 함께 한다는 말이에요.",
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9089,7 +9908,8 @@ const LESSONS = [
         "돈나 아렌지니 시마시타카?",
         "어떤 편곡을 했나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9103,7 +9923,8 @@ const LESSONS = [
         "기타아다케데 신푸루니 시마시타.",
         "기타만으로 간결하게 편곡했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -9117,7 +9938,8 @@ const LESSONS = [
         "기타아노 네이로니모 추우모쿠시테쿠다사이.",
         "기타의 음색에도 주목해 주세요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9131,7 +9953,8 @@ const LESSONS = [
         "코노 오토오 키쿠토 오치츠키마스.",
         "이 소리를 들으면 마음이 편안해져요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9145,7 +9968,8 @@ const LESSONS = [
         "마이니치 스코시즈츠 코오도오 렌슈우시마시타.",
         "매일 조금씩 코드를 연습했어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9159,7 +9983,8 @@ const LESSONS = [
         "료코오데 잇테미타이 바쇼와 아리마스카?",
         "여행으로 가보고 싶은 곳이 있나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9173,7 +9998,8 @@ const LESSONS = [
         "홋카이도오니 잇테미타이데스.",
         "홋카이도에 가보고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9187,7 +10013,8 @@ const LESSONS = [
         "홋카이도오데 나니오 시타이데스카?",
         "홋카이도에서 무엇을 하고 싶나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9201,7 +10028,8 @@ const LESSONS = [
         "유키오 미나가라 온센니 하이리타이데스.",
         "눈을 보면서 온천에 들어가고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9216,7 +10044,8 @@ const LESSONS = [
         "해산물은 별로 좋아하지 않아요."
       ]
     ],
-    "note": "음식에 대해 「苦手です」라고 하면 별로 좋아하지 않거나 입에 맞지 않는다는 뜻이에요."
+    "note": "음식에 대해 「苦手です」라고 하면 별로 좋아하지 않거나 입에 맞지 않는다는 뜻이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9230,7 +10059,8 @@ const LESSONS = [
         "홋카이도오노 후유와 사무소오데스네.",
         "홋카이도의 겨울은 추울 것 같네요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9244,7 +10074,8 @@ const LESSONS = [
         "아타타카이 후쿠오 못테이키타이데스.",
         "따뜻한 옷을 가져가고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9258,7 +10089,8 @@ const LESSONS = [
         "이츠카 윳쿠리 료코오시타이데스.",
         "언젠가 여유롭게 여행하고 싶어요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9272,7 +10104,8 @@ const LESSONS = [
         "모오 주우니가츠데스네.",
         "벌써 12월이네요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9286,7 +10119,8 @@ const LESSONS = [
         "코토시 이치방노 오모이데와 난데스카?",
         "올해 가장 기억에 남는 일은 무엇인가요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -9300,7 +10134,8 @@ const LESSONS = [
         "미나상니 아에타 코토데스.",
         "여러분을 만날 수 있었던 일이에요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -9314,7 +10149,8 @@ const LESSONS = [
         "코토시노 사이고니 히토코토 오네가이시마스.",
         "올해를 마무리하며 한 말씀 부탁드립니다."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -9328,7 +10164,8 @@ const LESSONS = [
         "라이넨모 요로시쿠 오네가이시마스.",
         "내년에도 잘 부탁드려요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -9342,7 +10179,8 @@ const LESSONS = [
         "코토시모 타쿠상 오오엔시테쿠레테 아리가토오.",
         "올해도 많이 응원해 줘서 고마워요."
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9365,7 +10203,8 @@ const LESSONS = [
         "meaning": "홋카이도의 겨울은 추울 것 같네요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9398,7 +10237,8 @@ const LESSONS = [
         "meaning": "홋카이도의 겨울은 추울 것 같네요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9416,7 +10256,8 @@ const LESSONS = [
         "meaning": "추운 날씨에도 와 주셔서 감사합니다.",
         "section": "만났을 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9439,7 +10280,8 @@ const LESSONS = [
         "meaning": "눈을 보면서 온천에 들어가고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9467,7 +10309,8 @@ const LESSONS = [
         "meaning": "따뜻한 옷을 가져가고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9485,7 +10328,8 @@ const LESSONS = [
         "meaning": "감기 걸리지 않게 조심하세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9503,7 +10347,8 @@ const LESSONS = [
         "meaning": "손을 잠깐 녹일게요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9526,7 +10371,8 @@ const LESSONS = [
         "meaning": "앨범에는 여러 마음이 담겨 있어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9544,7 +10390,8 @@ const LESSONS = [
         "meaning": "이번에는 다양한 장르에 도전했어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9562,7 +10409,8 @@ const LESSONS = [
         "meaning": "이번에는 다양한 장르에 도전했어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9579,8 +10427,14 @@ const LESSONS = [
         "jp": "<ruby>タイトル曲<rt>タイトルきょく</rt></ruby>はどんな<ruby>曲<rt>きょく</rt></ruby>ですか？",
         "meaning": "타이틀곡은 어떤 곡인가요?",
         "section": "곡을 소개할 때"
+      },
+      {
+        "jp": "タイトル<ruby>曲<rt>きょく</rt></ruby>です。",
+        "meaning": "타이틀곡이에요.",
+        "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -9598,7 +10452,8 @@ const LESSONS = [
         "meaning": "녹음할 때 중요하게 생각한 것은 무엇인가요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9621,7 +10476,8 @@ const LESSONS = [
         "meaning": "지금부터 하는 말을 따라 해 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9639,7 +10495,8 @@ const LESSONS = [
         "meaning": "말 하나하나를 소중히 생각하며 불렀어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9657,7 +10514,8 @@ const LESSONS = [
         "meaning": "앨범에는 여러 마음이 담겨 있어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9675,7 +10533,8 @@ const LESSONS = [
         "meaning": "수록곡에도 주목해 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9698,7 +10557,8 @@ const LESSONS = [
         "meaning": "다음은 커버곡 부탁드립니다.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -9716,7 +10576,8 @@ const LESSONS = [
         "meaning": "이 커버곡을 고른 이유는 무엇인가요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9734,7 +10595,8 @@ const LESSONS = [
         "meaning": "이 커버곡을 고른 이유는 무엇인가요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9752,7 +10614,8 @@ const LESSONS = [
         "meaning": "예전부터 좋아하던 곡이에요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -9770,7 +10633,8 @@ const LESSONS = [
         "meaning": "저다운 느낌으로 편곡했어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9793,7 +10657,8 @@ const LESSONS = [
         "meaning": "어떤 편곡을 했나요?",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9811,7 +10676,8 @@ const LESSONS = [
         "meaning": "원곡과는 다른 분위기네요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9829,7 +10695,8 @@ const LESSONS = [
         "meaning": "원곡과는 다른 분위기네요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9847,7 +10714,8 @@ const LESSONS = [
         "meaning": "원곡과는 다른 분위기네요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9880,7 +10748,8 @@ const LESSONS = [
         "meaning": "기타의 음색에도 주목해 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9904,7 +10773,8 @@ const LESSONS = [
         "section": "곡을 소개할 때"
       }
     ],
-    "note": "기타나 피아노를 연주할 때 쓰는 말이에요."
+    "note": "기타나 피아노를 연주할 때 쓰는 말이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9923,7 +10793,8 @@ const LESSONS = [
         "meaning": "기타를 치면서 노래해요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9941,7 +10812,8 @@ const LESSONS = [
         "meaning": "기타만으로 간결하게 편곡했어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9959,7 +10831,8 @@ const LESSONS = [
         "meaning": "기타의 음색에도 주목해 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -9982,7 +10855,8 @@ const LESSONS = [
         "meaning": "소리가 작았나요?",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10000,7 +10874,8 @@ const LESSONS = [
         "meaning": "이 소리를 들으면 마음이 편안해져요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10018,7 +10893,8 @@ const LESSONS = [
         "meaning": "매일 조금씩 코드를 연습했어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10041,7 +10917,8 @@ const LESSONS = [
         "meaning": "언젠가 여유롭게 여행하고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10059,7 +10936,8 @@ const LESSONS = [
         "meaning": "여행으로 가보고 싶은 곳이 있나요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10087,7 +10965,8 @@ const LESSONS = [
         "meaning": "홋카이도의 겨울은 추울 것 같네요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10105,7 +10984,8 @@ const LESSONS = [
         "meaning": "눈을 보면서 온천에 들어가고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10123,7 +11003,8 @@ const LESSONS = [
         "meaning": "눈을 보면서 온천에 들어가고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10141,7 +11022,8 @@ const LESSONS = [
         "meaning": "해산물은 별로 좋아하지 않아요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10159,7 +11041,8 @@ const LESSONS = [
         "meaning": "홋카이도에서 무엇을 먹고 싶나요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10177,7 +11060,8 @@ const LESSONS = [
         "meaning": "따뜻한 옷을 가져가고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10195,7 +11079,8 @@ const LESSONS = [
         "meaning": "따뜻한 옷을 가져가고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10213,7 +11098,8 @@ const LESSONS = [
         "meaning": "언젠가 여유롭게 여행하고 싶어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10231,7 +11117,8 @@ const LESSONS = [
         "meaning": "벌써 12월이네요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10259,7 +11146,8 @@ const LESSONS = [
         "meaning": "올해도 많이 응원해 줘서 고마워요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10277,7 +11165,8 @@ const LESSONS = [
         "meaning": "내년에도 잘 부탁드려요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -10291,7 +11180,8 @@ const LESSONS = [
         "홋카이도오데 나니오 타베타이데스카?",
         "홋카이도에서 무엇을 먹고 싶나요?"
       ]
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -10310,7 +11200,8 @@ const LESSONS = [
         "meaning": "해산물은 별로 좋아하지 않아요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -10324,7 +11215,14 @@ const LESSONS = [
         "신곡을 소개하겠습니다."
       ]
     ],
-    "note": "「紹介します」는 소개하겠다는 말이에요. 「新曲」를 들으면 새 곡을 선보인다는 뜻을 잡아요."
+    "note": "「紹介します」는 소개하겠다는 말이에요. 「新曲」를 들으면 새 곡을 선보인다는 뜻을 잡아요.",
+    "basicCue": {
+      "word": "紹介",
+      "heard": "紹介",
+      "meaning": "소개",
+      "action": "이제 곡을 소개해요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -10338,7 +11236,14 @@ const LESSONS = [
         "처음 선보이는 곡이에요."
       ]
     ],
-    "note": "「披露する」는 관객 앞에 선보인다는 뜻이에요. 「初めて」는 처음이라는 단서예요."
+    "note": "「披露する」는 관객 앞에 선보인다는 뜻이에요. 「初めて」는 처음이라는 단서예요.",
+    "basicCue": {
+      "word": "披露",
+      "heard": "披露",
+      "meaning": "관객 앞에 선보임",
+      "action": "관객 앞에서 처음 선보이는 곡이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -10352,7 +11257,8 @@ const LESSONS = [
         "이 곡에는 감사하는 마음을 담았어요."
       ]
     ],
-    "note": "「気持ちを込める」는 마음을 담는다는 표현이에요. 어떤 마음인지 「感謝」를 찾아요."
+    "note": "「気持ちを込める」는 마음을 담는다는 표현이에요. 어떤 마음인지 「感謝」를 찾아요.",
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -10366,7 +11272,14 @@ const LESSONS = [
         "가사에도 주목해 주세요."
       ]
     ],
-    "note": "「歌詞にも」의 「も」는 가사도 함께 살펴봐 달라는 뜻이에요."
+    "note": "「歌詞にも」의 「も」는 가사도 함께 살펴봐 달라는 뜻이에요.",
+    "basicCue": {
+      "word": "歌詞",
+      "heard": "歌詞",
+      "meaning": "가사",
+      "action": "가사의 내용에도 주목해 달래요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -10380,7 +11293,8 @@ const LESSONS = [
         "그럼 들어 주세요."
       ]
     ],
-    "note": "곡 설명을 마치고 노래를 시작할 때 쓰는 연결 멘트예요."
+    "note": "곡 설명을 마치고 노래를 시작할 때 쓰는 연결 멘트예요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10394,7 +11308,8 @@ const LESSONS = [
         "지금부터는 토크 시간이에요."
       ]
     ],
-    "note": "「ここからは」는 지금부터 이어지는 순서를 알리는 말이에요."
+    "note": "「ここからは」는 지금부터 이어지는 순서를 알리는 말이에요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -10408,7 +11323,8 @@ const LESSONS = [
         "첫 곡은 어떠셨나요?"
       ]
     ],
-    "note": "「最初」는 처음, 「いかがでしたか」는 어땠는지 묻는 정중한 표현이에요."
+    "note": "「最初」는 처음, 「いかがでしたか」는 어땠는지 묻는 정중한 표현이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10422,7 +11338,14 @@ const LESSONS = [
         "일어나셔도 돼요."
       ]
     ],
-    "note": "「〜てもいい」는 허용이에요. 반드시 일어나라는 명령과는 달라요. 현장 직원의 안내도 따라요."
+    "note": "「〜てもいい」는 허용이에요. 반드시 일어나라는 명령과는 달라요. 현장 직원의 안내도 따라요.",
+    "basicCue": {
+      "word": "立つ",
+      "heard": "立って",
+      "meaning": "일어서다",
+      "action": "일어나도 된다는 허용이에요. 반드시 일어나라는 명령은 아니에요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -10436,7 +11359,8 @@ const LESSONS = [
         "그럼 앉아 주세요."
       ]
     ],
-    "note": "「お座りください」는 앉아 달라는 정중한 안내예요."
+    "note": "「お座りください」는 앉아 달라는 정중한 안내예요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10450,7 +11374,8 @@ const LESSONS = [
         "앉은 채로 즐겨 주세요."
       ]
     ],
-    "note": "「〜たままで」는 그 상태를 유지한다는 말이에요. 여기서는 앉아 있는 상태예요."
+    "note": "「〜たままで」는 그 상태를 유지한다는 말이에요. 여기서는 앉아 있는 상태예요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10464,7 +11389,8 @@ const LESSONS = [
         "앞쪽에 계신 여러분!"
       ]
     ],
-    "note": "위치를 뜻하는 「前の方」는 마에노 호오예요. 사람을 뜻하는 「方（かた）」와 읽는 법이 달라요."
+    "note": "위치를 뜻하는 「前の方」는 마에노 호오예요. 사람을 뜻하는 「方（かた）」와 읽는 법이 달라요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10478,7 +11404,14 @@ const LESSONS = [
         "2층 좌석에 계신 여러분!"
       ]
     ],
-    "note": "「二階席」는 2층 객석이에요. 층수와 위치를 듣고 누구를 부르는지 구분해요."
+    "note": "「二階席」는 2층 객석이에요. 층수와 위치를 듣고 누구를 부르는지 구분해요.",
+    "basicCue": {
+      "word": "二階席",
+      "heard": "二階席",
+      "meaning": "2층 좌석",
+      "action": "2층 관객을 부르고 있어요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -10492,7 +11425,8 @@ const LESSONS = [
         "3층 좌석까지 들리나요?"
       ]
     ],
-    "note": "「三階」는 さんがい로 읽어요. 「まで」는 여기서 소리가 닿는 범위를 나타내요."
+    "note": "「三階」는 さんがい로 읽어요. 「まで」는 여기서 소리가 닿는 범위를 나타내요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10506,7 +11440,8 @@ const LESSONS = [
         "응원봉을 높이 들어 주세요."
       ]
     ],
-    "note": "「高く上げる」는 높이 드는 행동이에요. 주변 시야와 현장 규칙을 지켜요."
+    "note": "「高く上げる」는 높이 드는 행동이에요. 주변 시야와 현장 규칙을 지켜요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10520,7 +11455,14 @@ const LESSONS = [
         "좌우로 흔들어 주세요."
       ]
     ],
-    "note": "「左右」는 왼쪽과 오른쪽이에요. 앞 문장의 응원봉을 어떻게 움직일지 이어서 안내해요."
+    "note": "「左右」는 왼쪽과 오른쪽이에요. 앞 문장의 응원봉을 어떻게 움직일지 이어서 안내해요.",
+    "basicCue": {
+      "word": "左右",
+      "heard": "左右",
+      "meaning": "좌우",
+      "action": "응원봉을 왼쪽과 오른쪽으로 흔들어요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -10534,7 +11476,8 @@ const LESSONS = [
         "이 리듬에 맞춰 주세요."
       ]
     ],
-    "note": "「〜に合わせる」는 기준에 맞춘다는 말이에요. 손뼉을 치는 속도를 맞출 때도 써요."
+    "note": "「〜に合わせる」는 기준에 맞춘다는 말이에요. 손뼉을 치는 속도를 맞출 때도 써요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10548,7 +11491,8 @@ const LESSONS = [
         "지금부터 하는 말을 따라 해 주세요."
       ]
     ],
-    "note": "「繰り返す」는 반복한다는 말이에요. 구호를 따라 해 달라는 상황이에요."
+    "note": "「繰り返す」는 반복한다는 말이에요. 구호를 따라 해 달라는 상황이에요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10562,7 +11506,14 @@ const LESSONS = [
         "하나, 둘! (함께 시작하는 구호)"
       ]
     ],
-    "note": "함께 소리를 내거나 동작을 시작하기 직전의 구호예요. 숫자를 그대로 세는 표현은 아니에요."
+    "note": "함께 소리를 내거나 동작을 시작하기 직전의 구호예요. 숫자를 그대로 세는 표현은 아니에요.",
+    "basicCue": {
+      "word": "せーの",
+      "heard": "せーの",
+      "meaning": "함께 시작하는 구호",
+      "action": "다 같이 소리를 내거나 동작을 시작하는 신호예요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -10576,7 +11527,8 @@ const LESSONS = [
         "함께 해 봐요."
       ]
     ],
-    "note": "「〜てみましょう」는 한번 해 보자는 제안이에요. 앞서 보여 준 안무를 따라 하는 흐름이에요."
+    "note": "「〜てみましょう」는 한번 해 보자는 제안이에요. 앞서 보여 준 안무를 따라 하는 흐름이에요.",
+    "level": "advanced"
   },
   {
     "section": "곡을 소개할 때",
@@ -10590,7 +11542,8 @@ const LESSONS = [
         "이 부분은 조용히 들어 주세요."
       ]
     ],
-    "note": "「ここ」는 이 상황에서 곡의 특정 부분을 가리켜요. 호응 요청과 조용히 듣는 요청을 구별해요."
+    "note": "「ここ」는 이 상황에서 곡의 특정 부분을 가리켜요. 호응 요청과 조용히 듣는 요청을 구별해요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -10604,7 +11557,14 @@ const LESSONS = [
         "질문해 주세요."
       ]
     ],
-    "note": "관객에게 발언 순서를 주면서 질문을 부탁하는 말이에요."
+    "note": "관객에게 발언 순서를 주면서 질문을 부탁하는 말이에요.",
+    "basicCue": {
+      "word": "質問",
+      "heard": "質問",
+      "meaning": "질문",
+      "action": "질문할 차례예요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -10618,7 +11578,14 @@ const LESSONS = [
         "다시 한번 천천히 부탁드려요."
       ]
     ],
-    "note": "못 알아들었을 때 다시 천천히 말해 달라고 요청할 수 있어요. 「もう一度」와 「ゆっくり」를 함께 들어요."
+    "note": "못 알아들었을 때 다시 천천히 말해 달라고 요청할 수 있어요. 「もう一度」와 「ゆっくり」를 함께 들어요.",
+    "basicCue": {
+      "word": "ゆっくり",
+      "heard": "ゆっくり",
+      "meaning": "천천히 · 느긋하게",
+      "action": "다시 천천히 말해 달라는 요청이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "토크할 때",
@@ -10632,7 +11599,8 @@ const LESSONS = [
         "여기서 게스트를 소개하겠습니다."
       ]
     ],
-    "note": "「ゲスト」를 들으면 곡이 아니라 사람을 소개하는 순서임을 알 수 있어요."
+    "note": "「ゲスト」를 들으면 곡이 아니라 사람을 소개하는 순서임을 알 수 있어요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10646,7 +11614,8 @@ const LESSONS = [
         "지금부터는 촬영하셔도 돼요."
       ]
     ],
-    "note": "「〜てもいい」는 허용이에요. 실제 공연에서 촬영이 가능한지는 현장 안내로 확인해요."
+    "note": "「〜てもいい」는 허용이에요. 실제 공연에서 촬영이 가능한지는 현장 안내로 확인해요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10660,7 +11629,8 @@ const LESSONS = [
         "사진만 찍으셔도 괜찮아요."
       ]
     ],
-    "note": "「だけ」는 범위를 사진으로 제한해요. 영상까지 허용한다는 뜻이 아니에요."
+    "note": "「だけ」는 범위를 사진으로 제한해요. 영상까지 허용한다는 뜻이 아니에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10674,7 +11644,14 @@ const LESSONS = [
         "동영상 촬영은 금지예요."
       ]
     ],
-    "note": "「禁止」는 금지예요. 사진 촬영 허용과 동영상 촬영 금지는 함께 안내될 수 있어요."
+    "note": "「禁止」는 금지예요. 사진 촬영 허용과 동영상 촬영 금지는 함께 안내될 수 있어요.",
+    "basicCue": {
+      "word": "動画",
+      "heard": "動画",
+      "meaning": "동영상",
+      "action": "금지 대상이 동영상 촬영이라는 점을 들어요. 사진 허용 여부는 별도 안내를 확인해요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10688,7 +11665,8 @@ const LESSONS = [
         "플래시는 사용하지 마세요."
       ]
     ],
-    "note": "「〜ないでください」는 하지 말라는 부탁이에요. 「使ってください」와 반대예요."
+    "note": "「〜ないでください」는 하지 말라는 부탁이에요. 「使ってください」와 반대예요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10702,7 +11680,8 @@ const LESSONS = [
         "촬영은 여기까지예요."
       ]
     ],
-    "note": "촬영 가능한 시간이 끝났다는 안내예요. 허용 시작과 종료를 구별해요."
+    "note": "촬영 가능한 시간이 끝났다는 안내예요. 허용 시작과 종료를 구별해요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10716,7 +11695,8 @@ const LESSONS = [
         "공연 시작 전 안내입니다."
       ]
     ],
-    "note": "「開演」는 공연 시작이에요. 개장·입장을 뜻하는 「開場」와 구별해요."
+    "note": "「開演」는 공연 시작이에요. 개장·입장을 뜻하는 「開場」와 구별해요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10730,7 +11710,8 @@ const LESSONS = [
         "공연 시작까지 10분 남았습니다."
       ]
     ],
-    "note": "「開演まで」는 공연이 시작하기까지, 「あと10分」은 남은 시간이에요."
+    "note": "「開演まで」는 공연이 시작하기까지, 「あと10分」은 남은 시간이에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10744,7 +11725,14 @@ const LESSONS = [
         "공연 시작까지 5분 남았습니다."
       ]
     ],
-    "note": "「分」은 분이에요. 「秒」와 구별하며 공연 시작까지 남은 시간을 들어요."
+    "note": "「分」은 분이에요. 「秒」와 구별하며 공연 시작까지 남은 시간을 들어요.",
+    "basicCue": {
+      "word": "5分",
+      "heard": "5分",
+      "meaning": "5분",
+      "action": "공연 시작까지 5분 남았다는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10758,7 +11746,14 @@ const LESSONS = [
         "곧 공연을 시작합니다."
       ]
     ],
-    "note": "「開演」는 공연 시작, 「再開」는 중단한 것을 다시 시작함이에요. 여기서는 공연 시작 공지예요."
+    "note": "「開演」는 공연 시작, 「再開」는 중단한 것을 다시 시작함이에요. 여기서는 공연 시작 공지예요.",
+    "basicCue": {
+      "word": "開演",
+      "heard": "開演",
+      "meaning": "공연 시작",
+      "action": "이제 공연이 시작된다는 안내예요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -10772,7 +11767,8 @@ const LESSONS = [
         "휴대전화는 진동 모드로 설정해 주세요."
       ]
     ],
-    "note": "「マナーモード」는 보통 벨소리 대신 진동을 사용하는 모드예요. 전원을 끄라는 안내와는 달라요."
+    "note": "「マナーモード」는 보통 벨소리 대신 진동을 사용하는 모드예요. 전원을 끄라는 안내와는 달라요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10786,7 +11782,14 @@ const LESSONS = [
         "소리가 작았나요?"
       ]
     ],
-    "note": "「音が小さい」는 음량이 작다는 뜻이에요. 물체의 크기를 묻는 말이 아니에요."
+    "note": "「音が小さい」는 음량이 작다는 뜻이에요. 물체의 크기를 묻는 말이 아니에요.",
+    "basicCue": {
+      "word": "小さい",
+      "heard": "小さ",
+      "meaning": "작다",
+      "action": "음량이 작았는지 물어요."
+    },
+    "level": "basic"
   },
   {
     "section": "함께 즐길 때",
@@ -10800,7 +11803,8 @@ const LESSONS = [
         "조금 더 큰 목소리로 말할게요."
       ]
     ],
-    "note": "화자가 자기 목소리를 키우겠다는 말이에요. 관객에게 소리를 내라는 요청과 구별해요."
+    "note": "화자가 자기 목소리를 키우겠다는 말이에요. 관객에게 소리를 내라는 요청과 구별해요.",
+    "level": "advanced"
   },
   {
     "section": "함께 즐길 때",
@@ -10814,7 +11818,8 @@ const LESSONS = [
         "뒤쪽에도 물어봐요."
       ]
     ],
-    "note": "여기서 「聞く」는 듣기가 아니라 물어본다는 뜻이에요. 「後ろの方」는 뒤쪽 위치를 가리켜요."
+    "note": "여기서 「聞く」는 듣기가 아니라 물어본다는 뜻이에요. 「後ろの方」는 뒤쪽 위치를 가리켜요.",
+    "level": "advanced"
   },
   {
     "section": "토크할 때",
@@ -10828,7 +11833,14 @@ const LESSONS = [
         "요즘은 음악을 자주 듣고 있어요."
       ]
     ],
-    "note": "「最近」는 요즘, 「よく」는 여기서 자주라는 뜻이에요. 특정인의 실제 취미를 단정하는 예문이 아니에요."
+    "note": "「最近」는 요즘, 「よく」는 여기서 자주라는 뜻이에요. 특정인의 실제 취미를 단정하는 예문이 아니에요.",
+    "basicCue": {
+      "word": "音楽",
+      "heard": "音楽",
+      "meaning": "음악",
+      "action": "요즘 음악을 자주 듣는다는 말이에요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -10842,7 +11854,8 @@ const LESSONS = [
         "마지막으로 안내드릴 소식이 있어요."
       ]
     ],
-    "note": "「お知らせ」는 소식이나 공지예요. 다음 공연 안내로 이어질 수 있어요."
+    "note": "「お知らせ」는 소식이나 공지예요. 다음 공연 안내로 이어질 수 있어요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -10856,7 +11869,14 @@ const LESSONS = [
         "다음 공연은 다음 달이에요."
       ]
     ],
-    "note": "「来月」는 다음 달이에요. 학습용 일정 예문으로 실제 공연 날짜를 안내하는 것이 아니에요."
+    "note": "「来月」는 다음 달이에요. 학습용 일정 예문으로 실제 공연 날짜를 안내하는 것이 아니에요.",
+    "basicCue": {
+      "word": "来月",
+      "heard": "来月",
+      "meaning": "다음 달",
+      "action": "다음 공연은 다음 달이라는 예문이에요. 실제 일정은 공식 공지를 확인해요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -10870,7 +11890,8 @@ const LESSONS = [
         "자세한 내용은 공식 사이트를 확인해 주세요."
       ]
     ],
-    "note": "「ご覧ください」는 보아 달라는 정중한 안내예요. 소식의 자세한 내용을 어디서 확인할지 들어요."
+    "note": "「ご覧ください」는 보아 달라는 정중한 안내예요. 소식의 자세한 내용을 어디서 확인할지 들어요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -10884,7 +11905,8 @@ const LESSONS = [
         "직원의 안내에 따라 주세요."
       ]
     ],
-    "note": "「係員」은 현장 담당 직원이에요. 이동 방법은 실제 현장의 안내를 따라요."
+    "note": "「係員」은 현장 담당 직원이에요. 이동 방법은 실제 현장의 안내를 따라요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -10898,7 +11920,14 @@ const LESSONS = [
         "차례대로 퇴장해 주세요."
       ]
     ],
-    "note": "「退場」는 공연장에서 나가는 것, 「順番に」는 차례대로라는 뜻이에요."
+    "note": "「退場」는 공연장에서 나가는 것, 「順番に」는 차례대로라는 뜻이에요.",
+    "basicCue": {
+      "word": "退場",
+      "heard": "退場",
+      "meaning": "퇴장",
+      "action": "차례대로 공연장을 나가요."
+    },
+    "level": "basic"
   },
   {
     "section": "곡을 소개할 때",
@@ -10912,7 +11941,8 @@ const LESSONS = [
         "후렴의 화음에 주목해 주세요."
       ]
     ],
-    "note": "「ハーモニー」는 화음이에요. 곡의 어떤 부분을 주의해서 들을지 알려 주는 답변이에요."
+    "note": "「ハーモニー」는 화음이에요. 곡의 어떤 부분을 주의해서 들을지 알려 주는 답변이에요.",
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -10930,7 +11960,8 @@ const LESSONS = [
         "meaning": "처음 선보이는 곡이에요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -10948,7 +11979,8 @@ const LESSONS = [
         "meaning": "처음 선보이는 곡이에요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "마음을 전하는 말",
@@ -10966,7 +11998,8 @@ const LESSONS = [
         "meaning": "이 곡에는 감사하는 마음을 담았어요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -10984,7 +12017,8 @@ const LESSONS = [
         "meaning": "첫 곡은 어떠셨나요?",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11002,7 +12036,8 @@ const LESSONS = [
         "meaning": "일어나셔도 돼요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -11019,8 +12054,14 @@ const LESSONS = [
         "jp": "それでは、お<ruby>座<rt>すわ</rt></ruby>りください。",
         "meaning": "그럼 앉아 주세요.",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "お<ruby>座<rt>すわ</rt></ruby>りください。",
+        "meaning": "앉아 주세요.",
+        "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -11042,8 +12083,14 @@ const LESSONS = [
         "jp": "<ruby>開演前<rt>かいえんまえ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby>です。",
         "meaning": "공연 시작 전 안내입니다.",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>前<rt>まえ</rt></ruby>のみなさん！",
+        "meaning": "앞쪽에 계신 여러분!",
+        "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11061,7 +12108,8 @@ const LESSONS = [
         "meaning": "2층 좌석에 계신 여러분!",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11079,7 +12127,8 @@ const LESSONS = [
         "meaning": "3층 좌석까지 들리나요?",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11097,7 +12146,8 @@ const LESSONS = [
         "meaning": "응원봉을 높이 들어 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11114,8 +12164,14 @@ const LESSONS = [
         "jp": "ペンライトを<ruby>高<rt>たか</rt></ruby>く<ruby>上<rt>あ</rt></ruby>げてください。",
         "meaning": "응원봉을 높이 들어 주세요.",
         "section": "함께 즐길 때"
+      },
+      {
+        "jp": "<ruby>高<rt>たか</rt></ruby>く<ruby>上<rt>あ</rt></ruby>げてください。",
+        "meaning": "높이 들어 주세요.",
+        "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -11133,7 +12189,8 @@ const LESSONS = [
         "meaning": "좌우로 흔들어 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "노래와 연습",
@@ -11151,7 +12208,8 @@ const LESSONS = [
         "meaning": "이 리듬에 맞춰 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11169,7 +12227,8 @@ const LESSONS = [
         "meaning": "이 리듬에 맞춰 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11187,7 +12246,8 @@ const LESSONS = [
         "meaning": "지금부터 하는 말을 따라 해 주세요.",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11205,7 +12265,8 @@ const LESSONS = [
         "meaning": "하나, 둘! (함께 시작하는 구호)",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "함께하는 말",
@@ -11223,7 +12284,8 @@ const LESSONS = [
         "meaning": "이 부분은 조용히 들어 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11240,8 +12302,14 @@ const LESSONS = [
         "jp": "ここでゲストをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
         "meaning": "여기서 게스트를 소개하겠습니다.",
         "section": "토크할 때"
+      },
+      {
+        "jp": "ゲストをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "meaning": "게스트를 소개하겠습니다.",
+        "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11258,8 +12326,14 @@ const LESSONS = [
         "jp": "ここからは<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
         "meaning": "지금부터는 촬영하셔도 돼요.",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
+        "meaning": "촬영하셔도 돼요.",
+        "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11277,7 +12351,8 @@ const LESSONS = [
         "meaning": "사진만 찍으셔도 괜찮아요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11295,7 +12370,8 @@ const LESSONS = [
         "meaning": "동영상 촬영은 금지예요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11312,8 +12388,14 @@ const LESSONS = [
         "jp": "<ruby>動画<rt>どうが</rt></ruby>の<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
         "meaning": "동영상 촬영은 금지예요.",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
+        "meaning": "촬영은 금지예요.",
+        "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11331,7 +12413,8 @@ const LESSONS = [
         "meaning": "플래시는 사용하지 마세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11349,7 +12432,8 @@ const LESSONS = [
         "meaning": "플래시는 사용하지 마세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11366,8 +12450,14 @@ const LESSONS = [
         "jp": "<ruby>開演前<rt>かいえんまえ</rt></ruby>のご<ruby>案内<rt>あんない</rt></ruby>です。",
         "meaning": "공연 시작 전 안내입니다.",
         "section": "다음 순서로 넘어갈 때"
+      },
+      {
+        "jp": "まもなく<ruby>開演<rt>かいえん</rt></ruby>します。",
+        "meaning": "곧 공연을 시작합니다.",
+        "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11385,7 +12475,8 @@ const LESSONS = [
         "meaning": "공연 시작까지 10분 남았습니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11403,7 +12494,8 @@ const LESSONS = [
         "meaning": "공연 시작까지 5분 남았습니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11421,7 +12513,8 @@ const LESSONS = [
         "meaning": "곧 공연을 시작합니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11439,7 +12532,8 @@ const LESSONS = [
         "meaning": "소리가 작았나요?",
         "section": "함께 즐길 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "노래와 연습",
@@ -11457,7 +12551,8 @@ const LESSONS = [
         "meaning": "요즘은 음악을 자주 듣고 있어요.",
         "section": "토크할 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11474,8 +12569,14 @@ const LESSONS = [
         "jp": "<ruby>最後<rt>さいご</rt></ruby>にお<ruby>知<rt>し</rt></ruby>らせがあります。",
         "meaning": "마지막으로 안내드릴 소식이 있어요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "お<ruby>知<rt>し</rt></ruby>らせがあります。",
+        "meaning": "안내드릴 소식이 있어요.",
+        "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11493,7 +12594,8 @@ const LESSONS = [
         "meaning": "다음 공연은 다음 달이에요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11510,8 +12612,14 @@ const LESSONS = [
         "jp": "<ruby>詳<rt>くわ</rt></ruby>しくは<ruby>公式<rt>こうしき</rt></ruby>サイトをご<ruby>覧<rt>らん</rt></ruby>ください。",
         "meaning": "자세한 내용은 공식 사이트를 확인해 주세요.",
         "section": "마지막 인사"
+      },
+      {
+        "jp": "<ruby>公式<rt>こうしき</rt></ruby>サイトを<ruby>見<rt>み</rt></ruby>てください。",
+        "meaning": "공식 사이트를 봐 주세요.",
+        "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11529,7 +12637,8 @@ const LESSONS = [
         "meaning": "직원의 안내에 따라 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11552,7 +12661,8 @@ const LESSONS = [
         "meaning": "공연 시작 전 안내입니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "함께하는 말",
@@ -11570,7 +12680,8 @@ const LESSONS = [
         "meaning": "직원의 안내에 따라 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11588,7 +12699,8 @@ const LESSONS = [
         "meaning": "차례대로 퇴장해 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11606,7 +12718,8 @@ const LESSONS = [
         "meaning": "차례대로 퇴장해 주세요.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "노래와 연습",
@@ -11624,7 +12737,8 @@ const LESSONS = [
         "meaning": "후렴의 화음에 주목해 주세요.",
         "section": "곡을 소개할 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11642,7 +12756,8 @@ const LESSONS = [
         "meaning": "휴대전화는 진동 모드로 설정해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11660,7 +12775,8 @@ const LESSONS = [
         "meaning": "휴대전화는 진동 모드로 설정해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11674,7 +12790,14 @@ const LESSONS = [
         "곧 입장을 시작합니다."
       ]
     ],
-    "note": "「開場」는 관객 입장 시작, 「開演」는 공연 시작이에요. 소리가 비슷해도 다른 안내예요."
+    "note": "「開場」는 관객 입장 시작, 「開演」는 공연 시작이에요. 소리가 비슷해도 다른 안내예요.",
+    "basicCue": {
+      "word": "開場",
+      "heard": "開場",
+      "meaning": "입장 시작",
+      "action": "관객 입장을 시작한다는 안내예요. 공연 시작과 달라요."
+    },
+    "level": "basic"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11688,7 +12811,8 @@ const LESSONS = [
         "티켓을 준비해 주세요."
       ]
     ],
-    "note": "입구에서 제시할 티켓을 준비하라는 말이에요. 종이·전자 티켓 여부는 실제 안내를 확인해요."
+    "note": "입구에서 제시할 티켓을 준비하라는 말이에요. 종이·전자 티켓 여부는 실제 안내를 확인해요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11702,7 +12826,8 @@ const LESSONS = [
         "좌석 번호를 확인해 주세요."
       ]
     ],
-    "note": "「席の番号」는 좌석 번호예요. 무엇을 확인하는지 「番号」 앞의 말을 들어요."
+    "note": "「席の番号」는 좌석 번호예요. 무엇을 확인하는지 「番号」 앞의 말을 들어요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11716,7 +12841,8 @@ const LESSONS = [
         "지정된 좌석에 앉아 주세요."
       ]
     ],
-    "note": "지정석 공연의 안내 예문이에요. 모든 공연이 지정석이라는 뜻은 아니에요."
+    "note": "지정석 공연의 안내 예문이에요. 모든 공연이 지정석이라는 뜻은 아니에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11730,7 +12856,8 @@ const LESSONS = [
         "통로에는 멈춰 서지 마세요."
       ]
     ],
-    "note": "「立ち止まらないで」는 멈춰 서지 말라는 말이에요. 통로와 이동 공간을 비워 두라는 안내예요."
+    "note": "「立ち止まらないで」는 멈춰 서지 말라는 말이에요. 통로와 이동 공간을 비워 두라는 안내예요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11744,7 +12871,8 @@ const LESSONS = [
         "공연 중에는 휴대전화 전원을 꺼 주세요."
       ]
     ],
-    "note": "「電源を切る」는 전원을 끄는 것이에요. 진동 모드 안내와는 다른 규칙의 예문이에요."
+    "note": "「電源を切る」는 전원을 끄는 것이에요. 진동 모드 안내와는 다른 규칙의 예문이에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11758,7 +12886,8 @@ const LESSONS = [
         "녹음은 삼가 주세요."
       ]
     ],
-    "note": "「ご遠慮ください」는 정중하지만 하지 말라는 요청이에요. 녹음할지 자유롭게 선택하라는 뜻이 아니에요."
+    "note": "「ご遠慮ください」는 정중하지만 하지 말라는 요청이에요. 녹음할지 자유롭게 선택하라는 뜻이 아니에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11772,7 +12901,8 @@ const LESSONS = [
         "촬영은 허용된 시간에만 가능해요."
       ]
     ],
-    "note": "「のみ」는 ~만이라는 제한이에요. 촬영 허용 시간을 공연 전체로 넓혀 이해하지 않도록 해요."
+    "note": "「のみ」는 ~만이라는 제한이에요. 촬영 허용 시간을 공연 전체로 넓혀 이해하지 않도록 해요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11786,7 +12916,8 @@ const LESSONS = [
         "응원봉은 가슴 높이로 들어 주세요."
       ]
     ],
-    "note": "높이 들어 달라는 무대 멘트와 구별해요. 이 예문은 시야를 배려해 높이를 제한하는 현장 규칙이에요."
+    "note": "높이 들어 달라는 무대 멘트와 구별해요. 이 예문은 시야를 배려해 높이를 제한하는 현장 규칙이에요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11800,7 +12931,8 @@ const LESSONS = [
         "몸이 불편해진 분은 직원에게 알려 주세요."
       ]
     ],
-    "note": "이 상황의 「気分が悪い」는 몸이 메스껍거나 불편하다는 뜻이에요. 기분이 나쁘다는 감정 표현으로만 해석하지 않아요."
+    "note": "이 상황의 「気分が悪い」는 몸이 메스껍거나 불편하다는 뜻이에요. 기분이 나쁘다는 감정 표현으로만 해석하지 않아요.",
+    "level": "advanced"
   },
   {
     "section": "다음 순서로 넘어갈 때",
@@ -11814,7 +12946,8 @@ const LESSONS = [
         "비상구 위치를 확인해 주세요."
       ]
     ],
-    "note": "미리 비상구 위치를 확인하라는 안내예요. 이 문장만으로 지금 대피하라는 뜻은 아니에요."
+    "note": "미리 비상구 위치를 확인하라는 안내예요. 이 문장만으로 지금 대피하라는 뜻은 아니에요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -11828,7 +12961,14 @@ const LESSONS = [
         "밀지 말고 천천히 이동해 주세요."
       ]
     ],
-    "note": "「押さずに」는 밀지 않고라는 뜻이에요. 「ゆっくり」는 천천히라는 단서예요."
+    "note": "「押さずに」는 밀지 않고라는 뜻이에요. 「ゆっくり」는 천천히라는 단서예요.",
+    "basicCue": {
+      "word": "ゆっくり",
+      "heard": "ゆっくり",
+      "meaning": "천천히 · 느긋하게",
+      "action": "밀지 말고 천천히 이동해요."
+    },
+    "level": "basic"
   },
   {
     "section": "마지막 인사",
@@ -11842,7 +12982,8 @@ const LESSONS = [
         "오늘은 구역별 순차 퇴장을 실시합니다."
       ]
     ],
-    "note": "「規制退場」는 직원이 구역 등을 나눠 순서대로 내보내는 방식이에요. 호출 전 이동 여부는 현장 안내를 따라요."
+    "note": "「規制退場」는 직원이 구역 등을 나눠 순서대로 내보내는 방식이에요. 호출 전 이동 여부는 현장 안내를 따라요.",
+    "level": "advanced"
   },
   {
     "section": "마지막 인사",
@@ -11856,7 +12997,8 @@ const LESSONS = [
         "직원이 부를 때까지 좌석에서 기다려 주세요."
       ]
     ],
-    "note": "「〜まで」는 기다림이 끝나는 기준이에요. 여기서는 직원의 호출까지 자리에서 기다려요."
+    "note": "「〜まで」는 기다림이 끝나는 기준이에요. 여기서는 직원의 호출까지 자리에서 기다려요.",
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11874,7 +13016,8 @@ const LESSONS = [
         "meaning": "곧 입장을 시작합니다.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "basic"
   },
   {
     "section": "공연의 흐름",
@@ -11892,7 +13035,8 @@ const LESSONS = [
         "meaning": "티켓을 준비해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11910,7 +13054,8 @@ const LESSONS = [
         "meaning": "좌석 번호를 확인해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11928,7 +13073,8 @@ const LESSONS = [
         "meaning": "좌석 번호를 확인해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11946,7 +13092,8 @@ const LESSONS = [
         "meaning": "통로에는 멈춰 서지 마세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11964,7 +13111,8 @@ const LESSONS = [
         "meaning": "녹음은 삼가 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -11982,7 +13130,8 @@ const LESSONS = [
         "meaning": "공연 중에는 휴대전화 전원을 꺼 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -12000,7 +13149,8 @@ const LESSONS = [
         "meaning": "비상구 위치를 확인해 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -12018,7 +13168,8 @@ const LESSONS = [
         "meaning": "오늘은 구역별 순차 퇴장을 실시합니다.",
         "section": "마지막 인사"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -12036,7 +13187,8 @@ const LESSONS = [
         "meaning": "응원봉은 가슴 높이로 들어 주세요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
   },
   {
     "section": "공연의 흐름",
@@ -12054,6 +13206,545 @@ const LESSONS = [
         "meaning": "촬영은 허용된 시간에만 가능해요.",
         "section": "다음 순서로 넘어갈 때"
       }
-    ]
+    ],
+    "level": "advanced"
+  },
+  {
+    "section": "만났을 때",
+    "title": "와 줘서 고마워요.",
+    "speaker": "artist",
+    "learningSubcategory": "greetings-thanks",
+    "examples": [
+      [
+        "<ruby>来<rt>き</rt></ruby>てくれてありがとう。",
+        "키테쿠레테 아리가토오.",
+        "와 줘서 고마워요."
+      ]
+    ],
+    "basicCue": {
+      "word": "ありがとう",
+      "heard": "ありがとう",
+      "meaning": "고마워",
+      "action": "와 준 관객에게 고마움을 전해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "만났을 때",
+    "title": "잘 부탁드려요.",
+    "speaker": "artist",
+    "learningSubcategory": "greetings-meet",
+    "examples": [
+      [
+        "よろしくお<ruby>願<rt>ねが</rt></ruby>いします。",
+        "요로시쿠 오네가이시마스.",
+        "잘 부탁드려요."
+      ]
+    ],
+    "basicCue": {
+      "word": "よろしくお願いします",
+      "heard": "よろしくお願いします",
+      "meaning": "잘 부탁드립니다",
+      "action": "첫인사를 마치며 잘 부탁한다고 해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "들어 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "<ruby>聴<rt>き</rt></ruby>いてください。",
+        "키이테쿠다사이.",
+        "들어 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "聴く",
+      "heard": "聴いて",
+      "meaning": "듣다",
+      "action": "노래가 시작되니 들어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "앉아 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "お<ruby>座<rt>すわ</rt></ruby>りください。",
+        "오스와리쿠다사이.",
+        "앉아 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "座る",
+      "heard": "座り",
+      "meaning": "앉다",
+      "action": "자리에 앉아 달라는 말이에요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "만났을 때",
+    "title": "처음 뵙겠습니다.",
+    "speaker": "artist",
+    "learningSubcategory": "greetings-meet",
+    "examples": [
+      [
+        "<ruby>初<rt>はじ</rt></ruby>めまして。",
+        "하지메마시테.",
+        "처음 뵙겠습니다."
+      ]
+    ],
+    "basicCue": {
+      "word": "初めまして",
+      "heard": "初めまして",
+      "meaning": "처음 뵙겠습니다",
+      "action": "처음 만났을 때 하는 인사예요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "앞쪽에 계신 여러분!",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>前<rt>まえ</rt></ruby>のみなさん！",
+        "마에노 미나상!",
+        "앞쪽에 계신 여러분!"
+      ]
+    ],
+    "basicCue": {
+      "word": "前",
+      "heard": "前",
+      "meaning": "앞",
+      "action": "앞쪽 관객을 부르고 있어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "뒤쪽에 계신 여러분!",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>後<rt>うし</rt></ruby>ろのみなさん！",
+        "우시로노 미나상!",
+        "뒤쪽에 계신 여러분!"
+      ]
+    ],
+    "basicCue": {
+      "word": "後ろ",
+      "heard": "後ろ",
+      "meaning": "뒤쪽",
+      "action": "뒤쪽 관객을 부르고 있어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "응원봉을 보여 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "ペンライトを<ruby>見<rt>み</rt></ruby>せてください。",
+        "펜라이토오 미세테쿠다사이.",
+        "응원봉을 보여 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "ペンライト",
+      "heard": "ペンライト",
+      "meaning": "응원봉",
+      "action": "응원봉을 보여 달라는 말이에요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "높이 들어 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>高<rt>たか</rt></ruby>く<ruby>上<rt>あ</rt></ruby>げてください。",
+        "타카쿠 아게테쿠다사이.",
+        "높이 들어 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "上げる",
+      "heard": "上げて",
+      "meaning": "위로 올리다",
+      "action": "앞 문장의 응원봉을 높이 들어 달래요. 실제 현장 규칙을 먼저 따라요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "후렴을 함께 불러 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "サビを<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>ってください。",
+        "사비오 잇쇼니 우탓테쿠다사이.",
+        "후렴을 함께 불러 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "サビ",
+      "heard": "サビ",
+      "meaning": "후렴",
+      "action": "후렴 부분을 함께 불러요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "연습했어요.",
+    "speaker": "artist",
+    "learningSubcategory": "feelings-practice",
+    "examples": [
+      [
+        "<ruby>練習<rt>れんしゅう</rt></ruby>しました。",
+        "렌슈우시마시타.",
+        "연습했어요."
+      ]
+    ],
+    "basicCue": {
+      "word": "練習",
+      "heard": "練習",
+      "meaning": "연습",
+      "action": "무대를 위해 연습했다는 말이에요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "즐거워요.",
+    "speaker": "artist",
+    "learningSubcategory": "feelings-mood",
+    "examples": [
+      [
+        "<ruby>楽<rt>たの</rt></ruby>しいです。",
+        "타노시이데스.",
+        "즐거워요."
+      ]
+    ],
+    "basicCue": {
+      "word": "楽しい",
+      "heard": "楽しい",
+      "meaning": "즐겁다",
+      "action": "지금 즐겁다는 마음을 전해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "손을 들어 주세요.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "<ruby>手<rt>て</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げてください。",
+        "테오 아게테쿠다사이.",
+        "손을 들어 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "挙げる",
+      "heard": "挙げて",
+      "meaning": "들어 올리다",
+      "action": "질문이 있으면 손을 들어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "게스트를 소개하겠습니다.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "ゲストをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "게스토오 고쇼오카이시마스.",
+        "게스트를 소개하겠습니다."
+      ]
+    ],
+    "basicCue": {
+      "word": "ゲスト",
+      "heard": "ゲスト",
+      "meaning": "초대 출연자",
+      "action": "초대 출연자를 소개해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "밴드를 소개하겠습니다.",
+    "speaker": "mc",
+    "learningSubcategory": "requests-mc",
+    "examples": [
+      [
+        "バンドをご<ruby>紹介<rt>しょうかい</rt></ruby>します。",
+        "반도오 고쇼오카이시마스.",
+        "밴드를 소개하겠습니다."
+      ]
+    ],
+    "basicCue": {
+      "word": "バンド",
+      "heard": "バンド",
+      "meaning": "밴드",
+      "action": "연주하는 밴드를 소개해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "촬영하셔도 돼요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
+    "examples": [
+      [
+        "<ruby>撮影<rt>さつえい</rt></ruby>してもいいですよ。",
+        "사츠에이시테모 이이데스요.",
+        "촬영하셔도 돼요."
+      ]
+    ],
+    "basicCue": {
+      "word": "撮影",
+      "heard": "撮影",
+      "meaning": "촬영",
+      "action": "촬영이 허용된다는 안내의 예예요. 해당 공연의 실제 허용 범위를 확인해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "다음 순서로 넘어갈 때",
+    "title": "촬영은 금지예요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-rules",
+    "examples": [
+      [
+        "<ruby>撮影<rt>さつえい</rt></ruby>は<ruby>禁止<rt>きんし</rt></ruby>です。",
+        "사츠에이와 킨시데스.",
+        "촬영은 금지예요."
+      ]
+    ],
+    "basicCue": {
+      "word": "禁止",
+      "heard": "禁止",
+      "meaning": "금지",
+      "action": "촬영하면 안 된다는 안내예요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "목소리, 들리나요?",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>声<rt>こえ</rt></ruby>、<ruby>聞<rt>き</rt></ruby>こえますか？",
+        "코에, 키코에마스카?",
+        "목소리, 들리나요?"
+      ]
+    ],
+    "basicCue": {
+      "word": "聞こえる",
+      "heard": "聞こえ",
+      "meaning": "들리다",
+      "action": "목소리가 잘 들리는지 물어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "물 마시세요.",
+    "speaker": "artist",
+    "learningSubcategory": "feelings-mood",
+    "examples": [
+      [
+        "<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んでください。",
+        "미즈오 논데쿠다사이.",
+        "물 마시세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "水",
+      "heard": "水",
+      "meaning": "물",
+      "action": "물을 마시며 쉬어 가요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "토크할 때",
+    "title": "잠깐 쉬어 가요.",
+    "speaker": "artist",
+    "learningSubcategory": "feelings-mood",
+    "examples": [
+      [
+        "<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>みましょう。",
+        "스코시 야스미마쇼오.",
+        "잠깐 쉬어 가요."
+      ]
+    ],
+    "basicCue": {
+      "word": "休む",
+      "heard": "休み",
+      "meaning": "쉬다",
+      "action": "잠깐 쉬자는 제안이에요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "함께 즐길 때",
+    "title": "괜찮으세요?",
+    "speaker": "artist",
+    "learningSubcategory": "requests-cheer",
+    "examples": [
+      [
+        "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>ですか？",
+        "다이조오부데스카?",
+        "괜찮으세요?"
+      ]
+    ],
+    "basicCue": {
+      "word": "大丈夫",
+      "heard": "大丈夫",
+      "meaning": "괜찮음",
+      "action": "몸 상태 등이 괜찮은지 물어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "타이틀곡이에요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "タイトル<ruby>曲<rt>きょく</rt></ruby>です。",
+        "타이토루쿄쿠데스.",
+        "타이틀곡이에요."
+      ]
+    ],
+    "basicCue": {
+      "word": "タイトル曲",
+      "heard": "タイトル曲",
+      "meaning": "타이틀곡",
+      "action": "앨범의 대표곡을 소개해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "곡을 소개할 때",
+    "title": "후렴에 주목해 주세요.",
+    "speaker": "artist",
+    "learningSubcategory": "requests-song",
+    "examples": [
+      [
+        "サビに<ruby>注目<rt>ちゅうもく</rt></ruby>してください。",
+        "사비니 추우모쿠시테쿠다사이.",
+        "후렴에 주목해 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "注目",
+      "heard": "注目",
+      "meaning": "주목",
+      "action": "이번에는 후렴 부분을 주의해서 들어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "마지막 인사",
+    "title": "안내드릴 소식이 있어요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-news",
+    "examples": [
+      [
+        "お<ruby>知<rt>し</rt></ruby>らせがあります。",
+        "오시라세가 아리마스.",
+        "안내드릴 소식이 있어요."
+      ]
+    ],
+    "basicCue": {
+      "word": "お知らせ",
+      "heard": "お知らせ",
+      "meaning": "안내 소식",
+      "action": "안내할 소식이 있어요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "마지막 인사",
+    "title": "공식 사이트를 봐 주세요.",
+    "speaker": "announcement",
+    "learningSubcategory": "announcements-news",
+    "examples": [
+      [
+        "<ruby>公式<rt>こうしき</rt></ruby>サイトを<ruby>見<rt>み</rt></ruby>てください。",
+        "코오시키 사이토오 미테쿠다사이.",
+        "공식 사이트를 봐 주세요."
+      ]
+    ],
+    "basicCue": {
+      "word": "公式サイト",
+      "heard": "公式サイト",
+      "meaning": "공식 사이트",
+      "action": "자세한 내용은 공식 사이트에서 확인해요."
+    },
+    "level": "basic"
+  },
+  {
+    "section": "기분과 마음",
+    "title": "긴장",
+    "examples": [
+      [
+        "<ruby>緊張<rt>きんちょう</rt></ruby>",
+        "킨초오",
+        "긴장"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "ちょっと<ruby>緊張<rt>きんちょう</rt></ruby>しています。",
+        "meaning": "조금 긴장하고 있어요.",
+        "section": "토크할 때"
+      }
+    ],
+    "level": "basic"
+  },
+  {
+    "section": "기분과 마음",
+    "title": "괜찮음",
+    "examples": [
+      [
+        "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>",
+        "다이조오부",
+        "괜찮음"
+      ]
+    ],
+    "sourceExamples": [
+      {
+        "jp": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>ですか？",
+        "meaning": "괜찮으세요?",
+        "section": "함께 즐길 때"
+      }
+    ],
+    "level": "basic"
   }
 ];

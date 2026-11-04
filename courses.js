@@ -1,4 +1,5 @@
 "use strict";
+let sentenceLevel='basic';
 const CONCERT_SCENES = ['만났을 때','함께 즐길 때','곡을 소개할 때','다음 순서로 넘어갈 때','토크할 때','앙코르에서','마지막 인사'];
 const WORD_TOPICS = ['기분과 마음','노래와 연습','공연의 흐름','함께하는 말','마음을 전하는 말'];
 const LEARNING_CATEGORIES = [
@@ -11,6 +12,7 @@ function speakerLabel(card){return card.speaker==='announcement'?'공연 공지'
 function concertLessons(){
   return CONCERT_SCENES.flatMap(section=>LESSONS.filter(card=>card.section===section));
 }
+function levelSentences(){return concertLessons().filter(card=>card.level===sentenceLevel);}
 function sentenceCategory(card){
   if(card.learningSubcategory){const category=LEARNING_CATEGORIES.find(category=>category.subcategories.some(sub=>sub.id===card.learningSubcategory));if(category)return category.id;}
   const jp=card.examples[0][0].replace(/<rt>.*?<\/rt>/g,'').replace(/<[^>]*>/g,'');
@@ -54,11 +56,11 @@ function courseInfo(value){
 }
 function courseCards(value,kind){
   const info=courseInfo(value);if(!info)return null;
-  const selected=concertLessons().filter(card=>info.sub?sentenceSubcategory(card)===info.sub.id:sentenceCategory(card)===info.category.id);
+  const selected=levelSentences().filter(card=>info.sub?sentenceSubcategory(card)===info.sub.id:sentenceCategory(card)===info.category.id);
   if(kind==='concert')return selected;
   if(kind==='words'){
     const positions=new Map(selected.map((card,index)=>[card.examples[0][0],index]));
-    const words=LESSONS.filter(card=>WORD_TOPICS.includes(card.section)&&card.sourceExamples?.some(source=>positions.has(source.jp)));
+    const words=LESSONS.filter(card=>WORD_TOPICS.includes(card.section)&&card.level===sentenceLevel&&card.sourceExamples?.some(source=>positions.has(source.jp)));
     const position=card=>Math.min(...card.sourceExamples.filter(source=>positions.has(source.jp)).map(source=>positions.get(source.jp)));
     return words.sort((a,b)=>position(a)-position(b));
   }
@@ -67,6 +69,7 @@ function courseCards(value,kind){
 function openSentence(jp){
   const sentence=concertLessons().find(card=>card.examples[0][0]===jp);
   if(!sentence)return;
+  sentenceLevel=sentence.level;
   group='concert';selectedSection=sentenceSubcategory(sentence);
   stage=letterCards(selectedSection).indexOf(sentence);renderFrame();show('viewer');
 }
@@ -86,7 +89,7 @@ function wordMatchesSentence(word,raw){
   return false;
 }
 function wordExample(word,context=[]){
-  const candidates=context.length?context:concertLessons();
+  const candidates=context.length?context:levelSentences();
   // Use the authored example order within the current learning context.
   const exact=(word.sourceExamples||[]).map(source=>candidates.find(sentence=>sentence.examples[0][0]===source.jp)).find(Boolean);
   if(exact)return exact;
@@ -104,7 +107,7 @@ function wordExamples(word,context=[],limit=2,otherContexts=false){
   const first=wordExample(word,context)||wordExample(word);
   if(!first)return [];
   const key=exampleText(word.examples[0][0]),result=[first];
-  const candidates=context.length&&!otherContexts?context:[...new Set([...context,...concertLessons()])];
+  const candidates=context.length&&!otherContexts?context:[...new Set([...context,...levelSentences()])];
   const linked=new Set((word.sourceExamples||[]).map(source=>source.jp));
   const suitable=candidates.filter(sentence=>sentence!==first&&(linked.has(sentence.examples[0][0])||wordMatchesSentence(key,exampleText(sentence.examples[0][0]))));
   suitable.sort((a,b)=>exampleSimilarity(first.examples[0][0],a.examples[0][0])-exampleSimilarity(first.examples[0][0],b.examples[0][0]));
