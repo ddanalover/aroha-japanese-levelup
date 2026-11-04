@@ -34,7 +34,6 @@ function openGroup(key){
   });
   show('list');
 }
-function openAnnouncements(){group='concert';openCategory('공연 전·현장 공지');}
 function openCategory(title){
   const category=LEARNING_CATEGORIES.find(category=>category.title===title);if(!category)return;
   $('list-title').textContent=GROUPS[group].title;
